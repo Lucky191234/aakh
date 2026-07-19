@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-19T07:18:39.579683+00:00",
+  "fetched_at": "2026-07-19T07:58:59.906450+00:00",
   "hot_topics": [
-    {
-      "type": "hn",
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "description": "Ludic.mataroa.blog blog post",
-      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
-      "stake": "high",
-      "big_question": "Impact of AI on global decision-making",
-      "head_fake": "AI Mania Impact"
-    },
     {
       "type": "repo",
       "title": "Transcribe.cpp",
-      "description": "C++ transcription project",
+      "description": "https://workshop.cjpais.com/projects/transcribe-cpp",
       "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "stake": "medium",
-      "big_question": "Speech-to-text accuracy in C++",
-      "head_fake": "Transcribe C++"
+      "stake": "6",
+      "big_question": "What's the application of Transcribe.cpp in everyday life?",
+      "head_fake": "Transcribe.cpp - A C++ project"
     },
     {
       "type": "hn",
-      "title": "AI Built Browser-based P2P File Transfer Tool",
-      "description": "AirDows.com WebRTC project",
+      "title": "I built a browser-based P2P file transfer tool using WebRTC",
+      "description": "https://airdows.com/",
       "url": "https://airdows.com/",
-      "stake": "medium",
-      "big_question": "P2P file transfer with WebRTC",
-      "head_fake": "P2P WebRTC"
+      "stake": "5",
+      "big_question": "How does the P2P file transfer tool impact file sharing security?",
+      "head_fake": "P2P File Transfer Tool Using WebRTC"
+    },
+    {
+      "type": "hn",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "description": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "stake": "9",
+      "big_question": "What are the implications of GPT-5.6 closing the convex optimization gap?",
+      "head_fake": "GPT-5.6 Breakthrough in Convex Optimization"
+    },
+    {
+      "type": "hn",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "description": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+      "stake": "8",
+      "big_question": "How is AI impacting human decision-making processes?",
+      "head_fake": "AI Mania and Global Decision-Making"
     },
     {
       "type": "repo",
-      "title": "None",
-      "description": "None",
-      "url": "https://github.com/trending",
-      "stake": "low",
-      "big_question": "None",
-      "head_fake": "None"
+      "title": "GitHub Trending Repos (today)",
+      "description": "https://github.com/",
+      "url": "https://github.com/",
+      "stake": "3",
+      "big_question": "Which GitHub trending repos have the most potential for application in student projects?",
+      "head_fake": "Trending GitHub Repos"
     },
     {
       "type": "hn",
       "title": "Goodbye, and Thanks for All the Bikesheds",
-      "description": "ACM Queue article",
+      "description": "https://queue.acm.org/detail.cfm?id=3818307",
       "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "stake": "low",
-      "big_question": "Code quality and bikeshedding",
-      "head_fake": "Bikeshedding"
-    },
-    {
-      "type": "hn",
-      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
-      "description": "PetaPixel article",
-      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
-      "stake": "low",
-      "big_question": "Ethics of AI image manipulation",
-      "head_fake": "AI Ethics"
+      "stake": "4",
+      "big_question": "What are the implications of the article Goodbye, and Thanks for All the Bikesheds?",
+      "head_fake": "Article: Goodbye, and Thanks for All the Bikesheds"
     }
   ]
 }
