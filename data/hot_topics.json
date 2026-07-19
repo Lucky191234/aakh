@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-19T07:05:53.681166+00:00",
+  "fetched_at": "2026-07-19T07:18:39.579683+00:00",
   "hot_topics": [
+    {
+      "type": "hn",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "description": "Ludic.mataroa.blog blog post",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+      "stake": "high",
+      "big_question": "Impact of AI on global decision-making",
+      "head_fake": "AI Mania Impact"
+    },
     {
       "type": "repo",
       "title": "Transcribe.cpp",
-      "description": "Project for transcribing audio",
+      "description": "C++ transcription project",
       "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "stake": 2,
-      "big_question": "How can we improve transcription accuracy?",
-      "head_fake": "A C++ project for transcribing audio files."
-    },
-    {
-      "type": "repo",
-      "title": "",
-      "description": "",
-      "url": "",
-      "stake": 0,
-      "big_question": "",
-      "head_fake": ""
-    },
-    {
-      "type": "repo",
-      "title": "",
-      "description": "",
-      "url": "",
-      "stake": 0,
-      "big_question": "",
-      "head_fake": ""
+      "stake": "medium",
+      "big_question": "Speech-to-text accuracy in C++",
+      "head_fake": "Transcribe C++"
     },
     {
       "type": "hn",
-      "title": "[HN] I built a browser-based P2P file transfer tool using WebRTC",
-      "description": "A browser-based P2P file transfer tool using WebRTC",
+      "title": "AI Built Browser-based P2P File Transfer Tool",
+      "description": "AirDows.com WebRTC project",
       "url": "https://airdows.com/",
-      "stake": 3,
-      "big_question": "Can we build secure, browser-based P2P file transfer tools?",
-      "head_fake": "WebRTC-based P2P file transfer"
+      "stake": "medium",
+      "big_question": "P2P file transfer with WebRTC",
+      "head_fake": "P2P WebRTC"
     },
     {
       "type": "repo",
-      "title": "",
-      "description": "",
-      "url": "",
-      "stake": 0,
-      "big_question": "",
-      "head_fake": ""
+      "title": "None",
+      "description": "None",
+      "url": "https://github.com/trending",
+      "stake": "low",
+      "big_question": "None",
+      "head_fake": "None"
     },
     {
       "type": "hn",
-      "title": "[HN] Show HN: Q3Edit \u2013 Edit and play Quake 3 maps in the browser",
-      "description": "Edit and play Quake 3 maps in the browser",
-      "url": "https://q3edit.com",
-      "stake": 2,
-      "big_question": "Can we build browser-based tools for editing and playing games?",
-      "head_fake": "Browser-based game editor"
+      "title": "Goodbye, and Thanks for All the Bikesheds",
+      "description": "ACM Queue article",
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "stake": "low",
+      "big_question": "Code quality and bikeshedding",
+      "head_fake": "Bikeshedding"
+    },
+    {
+      "type": "hn",
+      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "description": "PetaPixel article",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "stake": "low",
+      "big_question": "Ethics of AI image manipulation",
+      "head_fake": "AI Ethics"
     }
   ]
 }

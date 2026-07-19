@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-07-19T07:05:53.760631+00:00",
+  "generated_at": "2026-07-19T07:18:39.653433+00:00",
   "date_label": "Sunday, 19 July 2026",
-  "big_question": "How can we improve transcription accuracy?",
+  "big_question": "Impact of AI on global decision-making",
   "hot_topics": [
+    {
+      "type": "hn",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "description": "Ludic.mataroa.blog blog post",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+      "stake": "high",
+      "big_question": "Impact of AI on global decision-making",
+      "head_fake": "AI Mania Impact"
+    },
     {
       "type": "repo",
       "title": "Transcribe.cpp",
-      "description": "Project for transcribing audio",
+      "description": "C++ transcription project",
       "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "stake": 2,
-      "big_question": "How can we improve transcription accuracy?",
-      "head_fake": "A C++ project for transcribing audio files."
-    },
-    {
-      "type": "repo",
-      "title": "",
-      "description": "",
-      "url": "",
-      "stake": 0,
-      "big_question": "",
-      "head_fake": ""
-    },
-    {
-      "type": "repo",
-      "title": "",
-      "description": "",
-      "url": "",
-      "stake": 0,
-      "big_question": "",
-      "head_fake": ""
+      "stake": "medium",
+      "big_question": "Speech-to-text accuracy in C++",
+      "head_fake": "Transcribe C++"
     },
     {
       "type": "hn",
-      "title": "[HN] I built a browser-based P2P file transfer tool using WebRTC",
-      "description": "A browser-based P2P file transfer tool using WebRTC",
+      "title": "AI Built Browser-based P2P File Transfer Tool",
+      "description": "AirDows.com WebRTC project",
       "url": "https://airdows.com/",
-      "stake": 3,
-      "big_question": "Can we build secure, browser-based P2P file transfer tools?",
-      "head_fake": "WebRTC-based P2P file transfer"
+      "stake": "medium",
+      "big_question": "P2P file transfer with WebRTC",
+      "head_fake": "P2P WebRTC"
     },
     {
       "type": "repo",
-      "title": "",
-      "description": "",
-      "url": "",
-      "stake": 0,
-      "big_question": "",
-      "head_fake": ""
+      "title": "None",
+      "description": "None",
+      "url": "https://github.com/trending",
+      "stake": "low",
+      "big_question": "None",
+      "head_fake": "None"
     },
     {
       "type": "hn",
-      "title": "[HN] Show HN: Q3Edit \u2013 Edit and play Quake 3 maps in the browser",
-      "description": "Edit and play Quake 3 maps in the browser",
-      "url": "https://q3edit.com",
-      "stake": 2,
-      "big_question": "Can we build browser-based tools for editing and playing games?",
-      "head_fake": "Browser-based game editor"
+      "title": "Goodbye, and Thanks for All the Bikesheds",
+      "description": "ACM Queue article",
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "stake": "low",
+      "big_question": "Code quality and bikeshedding",
+      "head_fake": "Bikeshedding"
+    },
+    {
+      "type": "hn",
+      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "description": "PetaPixel article",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "stake": "low",
+      "big_question": "Ethics of AI image manipulation",
+      "head_fake": "AI Ethics"
     }
   ],
   "repos": [],
@@ -64,7 +64,7 @@
     {
       "title": "I built a browser-based P2P file transfer tool using WebRTC",
       "url": "https://airdows.com/",
-      "summary": "<p>Article URL: <a href=\"https://airdows.com/\">https://airdows.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48964424\">https://news.ycombinator.com/item?id=48964424</a></p>\n<p>Points: 12</p>\n<p># Comments: 10</p>",
+      "summary": "<p>Article URL: <a href=\"https://airdows.com/\">https://airdows.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48964424\">https://news.ycombinator.com/item?id=48964424</a></p>\n<p>Points: 14</p>\n<p># Comments: 10</p>",
       "published": "Sun, 19 Jul 2026 02:17:03 +0000",
       "source": "Hacker News"
     },
@@ -78,7 +78,7 @@
     {
       "title": "Transcribe.cpp",
       "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "summary": "<p>Article URL: <a href=\"https://workshop.cjpais.com/projects/transcribe-cpp\">https://workshop.cjpais.com/projects/transcribe-cpp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48963879\">https://news.ycombinator.com/item?id=48963879</a></p>\n<p>Points: 365</p>\n<p># Comments: 6",
+      "summary": "<p>Article URL: <a href=\"https://workshop.cjpais.com/projects/transcribe-cpp\">https://workshop.cjpais.com/projects/transcribe-cpp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48963879\">https://news.ycombinator.com/item?id=48963879</a></p>\n<p>Points: 380</p>\n<p># Comments: 6",
       "published": "Sun, 19 Jul 2026 00:38:26 +0000",
       "source": "Hacker News"
     },
@@ -90,17 +90,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: Q3Edit \u2013 Edit and play Quake 3 maps in the browser",
-      "url": "https://q3edit.com",
-      "summary": "<p>I've been building a level editor for Quake 3 that runs entirely in the browser: Radiant-style layout, brush and patch editing, CSG, terrain sculpting, and entity editing. It opens and saves .map file and you can play the maps you build directly in the browser using a webassembly build of ioquake",
-      "published": "Sat, 18 Jul 2026 15:12:40 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "summary": "<p>Article URL: <a href=\"https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/\">https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4895777",
-      "published": "Sat, 18 Jul 2026 13:00:52 +0000",
+      "title": "Goodbye, and Thanks for All the Bikesheds",
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "summary": "<p>Article URL: <a href=\"https://queue.acm.org/detail.cfm?id=3818307\">https://queue.acm.org/detail.cfm?id=3818307</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48960155\">https://news.ycombinator.com/item?id=48960155</a></p>\n<p>Points: 203</p>\n<p># Comments: 204</p>",
+      "published": "Sat, 18 Jul 2026 17:27:24 +0000",
       "source": "Hacker News"
     }
   ]

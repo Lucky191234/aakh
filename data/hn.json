@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-07-19T07:05:52.601677+00:00",
+  "fetched_at": "2026-07-19T07:18:38.400991+00:00",
   "stories": [
     {
       "title": "I built a browser-based P2P file transfer tool using WebRTC",
       "url": "https://airdows.com/",
-      "summary": "<p>Article URL: <a href=\"https://airdows.com/\">https://airdows.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48964424\">https://news.ycombinator.com/item?id=48964424</a></p>\n<p>Points: 12</p>\n<p># Comments: 10</p>",
+      "summary": "<p>Article URL: <a href=\"https://airdows.com/\">https://airdows.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48964424\">https://news.ycombinator.com/item?id=48964424</a></p>\n<p>Points: 14</p>\n<p># Comments: 10</p>",
       "published": "Sun, 19 Jul 2026 02:17:03 +0000",
       "source": "Hacker News"
     },
@@ -18,7 +18,7 @@
     {
       "title": "Transcribe.cpp",
       "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "summary": "<p>Article URL: <a href=\"https://workshop.cjpais.com/projects/transcribe-cpp\">https://workshop.cjpais.com/projects/transcribe-cpp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48963879\">https://news.ycombinator.com/item?id=48963879</a></p>\n<p>Points: 365</p>\n<p># Comments: 6",
+      "summary": "<p>Article URL: <a href=\"https://workshop.cjpais.com/projects/transcribe-cpp\">https://workshop.cjpais.com/projects/transcribe-cpp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48963879\">https://news.ycombinator.com/item?id=48963879</a></p>\n<p>Points: 380</p>\n<p># Comments: 6",
       "published": "Sun, 19 Jul 2026 00:38:26 +0000",
       "source": "Hacker News"
     },
@@ -30,17 +30,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: Q3Edit \u2013 Edit and play Quake 3 maps in the browser",
-      "url": "https://q3edit.com",
-      "summary": "<p>I've been building a level editor for Quake 3 that runs entirely in the browser: Radiant-style layout, brush and patch editing, CSG, terrain sculpting, and entity editing. It opens and saves .map file and you can play the maps you build directly in the browser using a webassembly build of ioquake",
-      "published": "Sat, 18 Jul 2026 15:12:40 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "summary": "<p>Article URL: <a href=\"https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/\">https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4895777",
-      "published": "Sat, 18 Jul 2026 13:00:52 +0000",
+      "title": "Goodbye, and Thanks for All the Bikesheds",
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "summary": "<p>Article URL: <a href=\"https://queue.acm.org/detail.cfm?id=3818307\">https://queue.acm.org/detail.cfm?id=3818307</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48960155\">https://news.ycombinator.com/item?id=48960155</a></p>\n<p>Points: 203</p>\n<p># Comments: 204</p>",
+      "published": "Sat, 18 Jul 2026 17:27:24 +0000",
       "source": "Hacker News"
     }
   ]
