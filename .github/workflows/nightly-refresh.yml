@@ -35,7 +35,7 @@ jobs:
 
       - name: Rank hot topics with LLM
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python scripts/rank_hot_topics.py
 
       - name: Build final dashboard data
