@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aakh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- STAKES BAR: one line, top of page, anchors you immediately -->
+  <div id="stakes-bar" class="stakes-bar">
+    <span class="stakes-label">TODAY'S STAKE</span>
+    <span id="stake-text" class="stake-text">Loading...</span>
+  </div>
+
+  <!-- BIG QUESTION: the hero, full width, the frame for the whole morning -->
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">
+        <span id="date-label">—</span>
+        <span class="dot">·</span>
+        AAKH
+      </p>
+      <h1 id="big-question" class="big-question">—</h1>
+    </div>
+  </header>
+
+  <main class="main-grid">
+
+    <!-- HOT TOPICS: the head-fake section -->
+    <section class="section section--hot" id="hot-section">
+      <div class="section-header">
+        <span class="section-tag">FOR YOU</span>
+        <h2 class="section-title">Hot for you today</h2>
+        <p class="section-sub">Ranked from your recent work. The first one will surprise you.</p>
+      </div>
+      <div id="hot-topics-list" class="hot-list"></div>
+    </section>
+
+    <!-- TWO COLUMN: repos and competitions -->
+    <div class="twin-cols">
+
+      <section class="section section--repos" id="repos-section">
+        <div class="section-header">
+          <span class="section-tag">GITHUB</span>
+          <h2 class="section-title">Rising repos</h2>
+        </div>
+        <div id="repos-list" class="repos-list"></div>
+      </section>
+
+      <section class="section section--comps" id="comps-section">
+        <div class="section-header">
+          <span class="section-tag">COMPETE</span>
+          <h2 class="section-title">Open hackathons</h2>
+        </div>
+        <div id="comps-list" class="comps-list"></div>
+      </section>
+
+    </div>
+
+    <!-- HN OVERFLOW: quieter, below the fold -->
+    <section class="section section--hn" id="hn-section">
+      <div class="section-header">
+        <span class="section-tag">HN</span>
+        <h2 class="section-title">From Hacker News</h2>
+      </div>
+      <div id="hn-list" class="hn-list"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span id="generated-at" class="footer-time"></span>
+    <span class="footer-name">AAKH — built for mornings, not scrolling</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

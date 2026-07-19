@@ -1,0 +1,50 @@
+name: Nightly Refresh
+
+on:
+  schedule:
+    # Runs at 4:30 AM IST = 23:00 UTC (previous day)
+    - cron: "0 23 * * *"
+  workflow_dispatch: # allows manual trigger from GitHub UI
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch GitHub trending repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python scripts/fetch_github_trending.py
+
+      - name: Fetch competitions
+        run: python scripts/fetch_competitions.py
+
+      - name: Fetch Hacker News RSS
+        run: python scripts/fetch_hackernews_rss.py
+
+      - name: Rank hot topics with LLM
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/rank_hot_topics.py
+
+      - name: Build final dashboard data
+        run: python scripts/build_dashboard_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "aakh-bot"
+          git config user.email "aakh-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore: nightly refresh $(date -u +'%Y-%m-%d')"
+          git push
