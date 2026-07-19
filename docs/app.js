@@ -4,10 +4,7 @@
  * No framework. No build step. Just reads JSON and builds DOM.
  */
 
-const IS_GH_PAGES = window.location.hostname.includes("github.io");
-const DATA_URL = IS_GH_PAGES
-  ? `/${window.location.pathname.split("/")[1]}/data/data.json`
-  : "../data/data.json";
+const DATA_URL = "data/data.json";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 

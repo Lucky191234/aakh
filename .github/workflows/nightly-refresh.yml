@@ -41,10 +41,15 @@ jobs:
       - name: Build final dashboard data
         run: python scripts/build_dashboard_data.py
 
+      - name: Copy data into docs for GitHub Pages
+        run: |
+          mkdir -p docs/data
+          cp data/data.json docs/data/data.json
+
       - name: Commit updated data
         run: |
           git config user.name "aakh-bot"
           git config user.email "aakh-bot@users.noreply.github.com"
-          git add data/
+          git add data/ docs/data/
           git diff --cached --quiet || git commit -m "chore: nightly refresh $(date -u +'%Y-%m-%d')"
           git push
