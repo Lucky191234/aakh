@@ -1,0 +1,59 @@
+{
+  "fetched_at": "2026-07-19T07:05:53.681166+00:00",
+  "hot_topics": [
+    {
+      "type": "repo",
+      "title": "Transcribe.cpp",
+      "description": "Project for transcribing audio",
+      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "stake": 2,
+      "big_question": "How can we improve transcription accuracy?",
+      "head_fake": "A C++ project for transcribing audio files."
+    },
+    {
+      "type": "repo",
+      "title": "",
+      "description": "",
+      "url": "",
+      "stake": 0,
+      "big_question": "",
+      "head_fake": ""
+    },
+    {
+      "type": "repo",
+      "title": "",
+      "description": "",
+      "url": "",
+      "stake": 0,
+      "big_question": "",
+      "head_fake": ""
+    },
+    {
+      "type": "hn",
+      "title": "[HN] I built a browser-based P2P file transfer tool using WebRTC",
+      "description": "A browser-based P2P file transfer tool using WebRTC",
+      "url": "https://airdows.com/",
+      "stake": 3,
+      "big_question": "Can we build secure, browser-based P2P file transfer tools?",
+      "head_fake": "WebRTC-based P2P file transfer"
+    },
+    {
+      "type": "repo",
+      "title": "",
+      "description": "",
+      "url": "",
+      "stake": 0,
+      "big_question": "",
+      "head_fake": ""
+    },
+    {
+      "type": "hn",
+      "title": "[HN] Show HN: Q3Edit \u2013 Edit and play Quake 3 maps in the browser",
+      "description": "Edit and play Quake 3 maps in the browser",
+      "url": "https://q3edit.com",
+      "stake": 2,
+      "big_question": "Can we build browser-based tools for editing and playing games?",
+      "head_fake": "Browser-based game editor"
+    }
+  ]
+}
