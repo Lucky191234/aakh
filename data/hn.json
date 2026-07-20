@@ -1,46 +1,60 @@
 {
-  "fetched_at": "2026-07-20T00:01:19.977796+00:00",
+  "fetched_at": "2026-07-20T23:59:48.617646+00:00",
   "stories": [
     {
-      "title": "How to Abandon Your Climate Commitments and Get Away with It",
-      "url": "https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html",
-      "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html\">https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971781\">https://news.",
-      "published": "Sun, 19 Jul 2026 21:24:03 +0000",
+      "title": "The creepiest 'sales demo' of all time",
+      "url": "https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f760efb.html",
+      "summary": "<p>Article URL: <a href=\"https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f760efb.html\">https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f",
+      "published": "Mon, 20 Jul 2026 20:36:37 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
-      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-      "summary": "<p>Article URL: <a href=\"https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study\">https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971738\">https://news.ycombi",
-      "published": "Sun, 19 Jul 2026 21:18:10 +0000",
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "url": "https://blaizzy.github.io/nativ/",
+      "summary": "<p>Article URL: <a href=\"https://blaizzy.github.io/nativ/\">https://blaizzy.github.io/nativ/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982681\">https://news.ycombinator.com/item?id=48982681</a></p>\n<p>Points: 152</p>\n<p># Comments: 61</p>",
+      "published": "Mon, 20 Jul 2026 18:16:08 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
-      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
-      "summary": "<p>Article URL: <a href=\"https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html\">https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971566\">https://news.ycombinator.com/item?i",
-      "published": "Sun, 19 Jul 2026 20:50:42 +0000",
+      "title": "Jelly UI: Soft-body physics for native HTML form controls",
+      "url": "https://jelly-ui.com/",
+      "summary": "<p>Article URL: <a href=\"https://jelly-ui.com/\">https://jelly-ui.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48981620\">https://news.ycombinator.com/item?id=48981620</a></p>\n<p>Points: 295</p>\n<p># Comments: 123</p>",
+      "published": "Mon, 20 Jul 2026 17:07:39 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
-      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
-      "summary": "<p>Article URL: <a href=\"https://twitter.com/kimi_moonshot/status/2078855608565207130\">https://twitter.com/kimi_moonshot/status/2078855608565207130</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969291\">https://news.ycombinator.com/item?id=48969291</a></p>\n<p>Points: 196</p",
-      "published": "Sun, 19 Jul 2026 16:02:25 +0000",
+      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
+      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "summary": "<p>Article URL: <a href=\"https://unslop.run/blog/measuring-ai-writing-on-arxiv\">https://unslop.run/blog/measuring-ai-writing-on-arxiv</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48981206\">https://news.ycombinator.com/item?id=48981206</a></p>\n<p>Points: 187</p>\n<p># Comment",
+      "published": "Mon, 20 Jul 2026 16:36:36 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-      "url": "https://news.ycombinator.com/item?id=48968606",
-      "summary": "<p>I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think.<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't many recreation options for families. You've heard of a food desert? This is ",
-      "published": "Sun, 19 Jul 2026 14:41:16 +0000",
+      "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
+      "url": "https://news.ycombinator.com/item?id=48981136",
+      "summary": "<p>Hi HN, I\u2019m Alex Southmayd, the founder of Bloomy (<a href=\"https://bloomylearning.com\">https://bloomylearning.com</a>) \u2013 an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and W",
+      "published": "Mon, 20 Jul 2026 16:32:10 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Claude Code uses Bun written in Rust now",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "summary": "<p>Article URL: <a href=\"https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/\">https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966569\">https://news.ycombinator.com/item?id=48966569</a></p>\n<p>Poin",
-      "published": "Sun, 19 Jul 2026 10:03:23 +0000",
+      "title": "Mythologizing AI makes it more likely that we\u2019ll fail to operate it well (2023)",
+      "url": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
+      "summary": "<p>Article URL: <a href=\"https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai\">https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48980238\">https://news.ycombinator.co",
+      "published": "Mon, 20 Jul 2026 15:28:32 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "China\u2019s open-weights AI strategy is winning",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "summary": "<p>Article URL: <a href=\"https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/\">https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48979269\">https://news.ycombinator.com/item?id=48979269</a></",
+      "published": "Mon, 20 Jul 2026 14:21:47 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Perfection is not over-engineering",
+      "url": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
+      "summary": "<p>Article URL: <a href=\"https://var0.xyz/posts/perfection-is-not-over-engineering.html\">https://var0.xyz/posts/perfection-is-not-over-engineering.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48979120\">https://news.ycombinator.com/item?id=48979120</a></p>\n<p>Points: 18",
+      "published": "Mon, 20 Jul 2026 14:10:30 +0000",
       "source": "Hacker News"
     }
   ]

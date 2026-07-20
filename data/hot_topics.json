@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-20T00:01:21.590915+00:00",
+  "fetched_at": "2026-07-20T23:59:49.907764+00:00",
   "hot_topics": [
     {
-      "type": "hn",
-      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-      "description": "A story of a person who successfully replaced an expensive system with affordable hardware",
-      "url": "https://news.ycombinator.com/item?id=48968606",
-      "stake": 7,
-      "big_question": "Can I replace expensive systems with affordable alternatives?",
-      "head_fake": "Affordable alternatives to expensive systems"
+      "type": "REPO",
+      "title": "Machine Genome",
+      "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts th",
+      "url": "https://github.com/paxlabs-inc/machine-genome",
+      "stake": 0.8,
+      "big_question": "How can we create a more transparent and accountable AI ecosystem?",
+      "head_fake": false
     },
     {
-      "type": "repo",
-      "title": "Itanium emulator (IA-64) that boots Windows",
-      "description": "A new emulator for Itanium architecture that allows booting Windows",
-      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
-      "stake": 5,
-      "big_question": "Is it possible to emulate Itanium architecture?",
-      "head_fake": "Emulating Itanium architecture"
+      "type": "REPO",
+      "title": "Multi-agents collaboration plugin for Claude Code ",
+      "description": "orchestrate multiple AI agents (Codex CLI, Gemini CLI, etc.) for divided tasks",
+      "url": "https://github.com/0xwilliamortiz/agents-council",
+      "stake": 0.6,
+      "big_question": "How can we improve collaboration between AI models and developers?",
+      "head_fake": false
     },
     {
-      "type": "repo",
-      "title": "Claude Code in Bun written in Rust",
-      "description": "An application that uses Bun written in Rust, a new framework for building web applications",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "stake": 6,
-      "big_question": "Is Rust a viable language for web development?",
-      "head_fake": "Rust in web development"
+      "type": "HN",
+      "title": "Jelly UI: Soft-body physics for native HTML form controls",
+      "description": "",
+      "url": "https://jelly-ui.com/",
+      "stake": 0.7,
+      "big_question": "How can we make user interfaces more immersive and engaging?",
+      "head_fake": false
     },
     {
-      "type": "hn",
-      "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
-      "description": "A study about how AI advice affects human critical thinking and accuracy",
-      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-      "stake": 6,
-      "big_question": "Does AI advice have a negative impact on critical thinking?",
-      "head_fake": "AI advice effects on critical thinking"
+      "type": "HN",
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "description": "",
+      "url": "https://blaizzy.github.io/nativ/",
+      "stake": 0.8,
+      "big_question": "How can we enable local development and testing of large AI models?",
+      "head_fake": false
     },
     {
-      "type": "hn",
-      "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
-      "description": "Moonshot AI suspends new subscriptions due to high demand for Kimi K3 technology",
-      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
-      "stake": 4,
-      "big_question": "Who is Kimi and what is the Kimi K3 technology?",
-      "head_fake": "Kimi K3 technology demand"
+      "type": "REPO",
+      "title": "Encrypted messaging with no internet, no cell tower, and no server",
+      "description": "Phones relay for each other over Bluetooth mesh, so ",
+      "url": "https://github.com/ni5arga/protestchat",
+      "stake": 0.5,
+      "big_question": "How can we create secure and private communication systems in the absence of infrastructure?",
+      "head_fake": false
     },
     {
-      "type": "hn",
-      "title": "How to Abandon Your Climate Commitments and Get Away with It \u2014",
-      "description": "An article discussing climate commitments and their abandonment by companies",
-      "url": "https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html",
-      "stake": 1,
-      "big_question": "Can companies abandon climate commitments without consequences?",
-      "head_fake": "Climate commitments"
+      "type": "HN",
+      "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
+      "description": "",
+      "url": "https://news.ycombinator.com/item?id=48981136",
+      "stake": 0.9,
+      "big_question": "How can we leverage AI to improve education and learning outcomes?",
+      "head_fake": false
     }
   ]
 }

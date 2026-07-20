@@ -1,4 +1,101 @@
 {
-  "fetched_at": "2026-07-20T00:01:16.257323+00:00",
-  "repos": []
+  "fetched_at": "2026-07-20T23:59:45.468130+00:00",
+  "repos": [
+    {
+      "name": "paxlabs-inc/machine-genome",
+      "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them.",
+      "url": "https://github.com/paxlabs-inc/machine-genome",
+      "stars": 269,
+      "language": "Go",
+      "created_at": "2026-07-20T12:41:33Z",
+      "topics": []
+    },
+    {
+      "name": "0xwilliamortiz/agents-council",
+      "description": "Multi-agents collaboration plugin for Claude Code - orchestrate multiple AI agents (Codex CLI, Gemini CLI, etc.) for diverse perspectives",
+      "url": "https://github.com/0xwilliamortiz/agents-council",
+      "stars": 71,
+      "language": "JavaScript",
+      "created_at": "2026-07-20T22:34:45Z",
+      "topics": [
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-code-skills",
+        "claude-plugin",
+        "claude-skills",
+        "codex",
+        "codex-github",
+        "codex-skill",
+        "codex-skills"
+      ]
+    },
+    {
+      "name": "ni5arga/protestchat",
+      "description": "Encrypted messaging with no internet, no cell tower, and no server. Phones relay for each other over Bluetooth mesh, so it keeps working during internet shutdowns and inside cellular jammers",
+      "url": "https://github.com/ni5arga/protestchat",
+      "stars": 66,
+      "language": "TypeScript",
+      "created_at": "2026-07-20T14:07:55Z",
+      "topics": [
+        "bluetooth-low-energy",
+        "censorship-resistance",
+        "e2ee",
+        "internet-freedom",
+        "internet-shutdowns",
+        "mesh",
+        "mesh-networking",
+        "meshtastic",
+        "offline-first",
+        "protests"
+      ]
+    },
+    {
+      "name": "stavr0s0107/Meccha-Vision-X",
+      "description": "ESP, Aimbot, Auto Paint, Fly Hack, Teleport, God Mode & more for MECCHA CHAMELEON. Dominate the hide-and-seek battlefield!",
+      "url": "https://github.com/stavr0s0107/Meccha-Vision-X",
+      "stars": 62,
+      "language": "Python",
+      "created_at": "2026-07-20T12:04:09Z",
+      "topics": [
+        "mecca-chameleon",
+        "mecca-chameleon-aimbot",
+        "mecca-chameleon-cheat",
+        "mecca-chameleon-cheats",
+        "mecca-chameleon-esp",
+        "mecca-chameleon-hack",
+        "mecca-chameleon-hacks",
+        "mecca-chameleon-mod",
+        "meccha-chameleon-tools"
+      ]
+    },
+    {
+      "name": "thor111bb2-byte/Meccha-Dark-Force",
+      "description": "Dark force enhancement tool with ESP, Aimbot, Auto Paint, Fly Hack, Teleport, God Mode & more for MECCHA CHAMELEON!",
+      "url": "https://github.com/thor111bb2-byte/Meccha-Dark-Force",
+      "stars": 60,
+      "language": "Python",
+      "created_at": "2026-07-20T12:03:58Z",
+      "topics": [
+        "mecca-chameleon",
+        "mecca-chameleon-aimbot",
+        "mecca-chameleon-cheat",
+        "mecca-chameleon-cheats",
+        "mecca-chameleon-esp",
+        "mecca-chameleon-hack",
+        "mecca-chameleon-hacks",
+        "mecca-chameleon-mod",
+        "meccha-chameleon-tools"
+      ]
+    },
+    {
+      "name": "Jacoblauritzen/Openhaze",
+      "description": "",
+      "url": "https://github.com/Jacoblauritzen/Openhaze",
+      "stars": 55,
+      "language": "Rust",
+      "created_at": "2026-07-20T01:33:53Z",
+      "topics": []
+    }
+  ]
 }
