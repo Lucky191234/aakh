@@ -1,46 +1,46 @@
 {
-  "fetched_at": "2026-07-19T07:58:58.368522+00:00",
+  "fetched_at": "2026-07-20T00:01:19.977796+00:00",
   "stories": [
     {
-      "title": "I built a browser-based P2P file transfer tool using WebRTC",
-      "url": "https://airdows.com/",
-      "summary": "<p>Article URL: <a href=\"https://airdows.com/\">https://airdows.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48964424\">https://news.ycombinator.com/item?id=48964424</a></p>\n<p>Points: 16</p>\n<p># Comments: 11</p>",
-      "published": "Sun, 19 Jul 2026 02:17:03 +0000",
+      "title": "How to Abandon Your Climate Commitments and Get Away with It",
+      "url": "https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html",
+      "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html\">https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971781\">https://news.",
+      "published": "Sun, 19 Jul 2026 21:24:03 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
-      "summary": "<p>Article URL: <a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3\">https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48964185\">https://news.yc",
-      "published": "Sun, 19 Jul 2026 01:29:19 +0000",
+      "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "summary": "<p>Article URL: <a href=\"https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study\">https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971738\">https://news.ycombi",
+      "published": "Sun, 19 Jul 2026 21:18:10 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Transcribe.cpp",
-      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "summary": "<p>Article URL: <a href=\"https://workshop.cjpais.com/projects/transcribe-cpp\">https://workshop.cjpais.com/projects/transcribe-cpp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48963879\">https://news.ycombinator.com/item?id=48963879</a></p>\n<p>Points: 421</p>\n<p># Comments: 7",
-      "published": "Sun, 19 Jul 2026 00:38:26 +0000",
+      "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
+      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+      "summary": "<p>Article URL: <a href=\"https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html\">https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971566\">https://news.ycombinator.com/item?i",
+      "published": "Sun, 19 Jul 2026 20:50:42 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
-      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
-      "summary": "<p>Article URL: <a href=\"https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/\">https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/</a></p>\n<p>Comments URL: <a href=\"https://ne",
-      "published": "Sat, 18 Jul 2026 22:13:39 +0000",
+      "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "summary": "<p>Article URL: <a href=\"https://twitter.com/kimi_moonshot/status/2078855608565207130\">https://twitter.com/kimi_moonshot/status/2078855608565207130</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969291\">https://news.ycombinator.com/item?id=48969291</a></p>\n<p>Points: 196</p",
+      "published": "Sun, 19 Jul 2026 16:02:25 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Goodbye, and Thanks for All the Bikesheds",
-      "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "summary": "<p>Article URL: <a href=\"https://queue.acm.org/detail.cfm?id=3818307\">https://queue.acm.org/detail.cfm?id=3818307</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48960155\">https://news.ycombinator.com/item?id=48960155</a></p>\n<p>Points: 206</p>\n<p># Comments: 207</p>",
-      "published": "Sat, 18 Jul 2026 17:27:24 +0000",
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "summary": "<p>I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think.<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't many recreation options for families. You've heard of a food desert? This is ",
+      "published": "Sun, 19 Jul 2026 14:41:16 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "summary": "<p>Article URL: <a href=\"https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/\">https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4895777",
-      "published": "Sat, 18 Jul 2026 13:00:52 +0000",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "summary": "<p>Article URL: <a href=\"https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/\">https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966569\">https://news.ycombinator.com/item?id=48966569</a></p>\n<p>Poin",
+      "published": "Sun, 19 Jul 2026 10:03:23 +0000",
       "source": "Hacker News"
     }
   ]

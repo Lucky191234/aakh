@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-19T07:58:59.906450+00:00",
+  "fetched_at": "2026-07-20T00:01:21.590915+00:00",
   "hot_topics": [
     {
-      "type": "repo",
-      "title": "Transcribe.cpp",
-      "description": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "stake": "6",
-      "big_question": "What's the application of Transcribe.cpp in everyday life?",
-      "head_fake": "Transcribe.cpp - A C++ project"
-    },
-    {
       "type": "hn",
-      "title": "I built a browser-based P2P file transfer tool using WebRTC",
-      "description": "https://airdows.com/",
-      "url": "https://airdows.com/",
-      "stake": "5",
-      "big_question": "How does the P2P file transfer tool impact file sharing security?",
-      "head_fake": "P2P File Transfer Tool Using WebRTC"
-    },
-    {
-      "type": "hn",
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "description": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "stake": "9",
-      "big_question": "What are the implications of GPT-5.6 closing the convex optimization gap?",
-      "head_fake": "GPT-5.6 Breakthrough in Convex Optimization"
-    },
-    {
-      "type": "hn",
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "description": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
-      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
-      "stake": "8",
-      "big_question": "How is AI impacting human decision-making processes?",
-      "head_fake": "AI Mania and Global Decision-Making"
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "description": "A story of a person who successfully replaced an expensive system with affordable hardware",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "stake": 7,
+      "big_question": "Can I replace expensive systems with affordable alternatives?",
+      "head_fake": "Affordable alternatives to expensive systems"
     },
     {
       "type": "repo",
-      "title": "GitHub Trending Repos (today)",
-      "description": "https://github.com/",
-      "url": "https://github.com/",
-      "stake": "3",
-      "big_question": "Which GitHub trending repos have the most potential for application in student projects?",
-      "head_fake": "Trending GitHub Repos"
+      "title": "Itanium emulator (IA-64) that boots Windows",
+      "description": "A new emulator for Itanium architecture that allows booting Windows",
+      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+      "stake": 5,
+      "big_question": "Is it possible to emulate Itanium architecture?",
+      "head_fake": "Emulating Itanium architecture"
+    },
+    {
+      "type": "repo",
+      "title": "Claude Code in Bun written in Rust",
+      "description": "An application that uses Bun written in Rust, a new framework for building web applications",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "stake": 6,
+      "big_question": "Is Rust a viable language for web development?",
+      "head_fake": "Rust in web development"
     },
     {
       "type": "hn",
-      "title": "Goodbye, and Thanks for All the Bikesheds",
-      "description": "https://queue.acm.org/detail.cfm?id=3818307",
-      "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "stake": "4",
-      "big_question": "What are the implications of the article Goodbye, and Thanks for All the Bikesheds?",
-      "head_fake": "Article: Goodbye, and Thanks for All the Bikesheds"
+      "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
+      "description": "A study about how AI advice affects human critical thinking and accuracy",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "stake": 6,
+      "big_question": "Does AI advice have a negative impact on critical thinking?",
+      "head_fake": "AI advice effects on critical thinking"
+    },
+    {
+      "type": "hn",
+      "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+      "description": "Moonshot AI suspends new subscriptions due to high demand for Kimi K3 technology",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "stake": 4,
+      "big_question": "Who is Kimi and what is the Kimi K3 technology?",
+      "head_fake": "Kimi K3 technology demand"
+    },
+    {
+      "type": "hn",
+      "title": "How to Abandon Your Climate Commitments and Get Away with It \u2014",
+      "description": "An article discussing climate commitments and their abandonment by companies",
+      "url": "https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html",
+      "stake": 1,
+      "big_question": "Can companies abandon climate commitments without consequences?",
+      "head_fake": "Climate commitments"
     }
   ]
 }
