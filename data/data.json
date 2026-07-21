@@ -1,217 +1,212 @@
 {
-  "generated_at": "2026-07-20T23:59:49.984741+00:00",
-  "date_label": "Monday, 20 July 2026",
-  "big_question": "How can we create a more transparent and accountable AI ecosystem?",
+  "generated_at": "2026-07-21T23:58:01.884527+00:00",
+  "date_label": "Tuesday, 21 July 2026",
+  "big_question": "Can we improve real-time trade notifications?",
   "hot_topics": [
     {
-      "type": "REPO",
-      "title": "Machine Genome",
-      "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts th",
-      "url": "https://github.com/paxlabs-inc/machine-genome",
-      "stake": 0.8,
-      "big_question": "How can we create a more transparent and accountable AI ecosystem?",
-      "head_fake": false
+      "type": "repol",
+      "title": "0xhype/hyperliquid-tracker",
+      "description": "Get notified when big trades happen on Hyperliquid.",
+      "url": "https://github.com/0xhype/hyperliquid-tracker",
+      "stake": 184,
+      "big_question": "Can we improve real-time trade notifications?",
+      "head_fake": "Trading"
     },
     {
-      "type": "REPO",
-      "title": "Multi-agents collaboration plugin for Claude Code ",
-      "description": "orchestrate multiple AI agents (Codex CLI, Gemini CLI, etc.) for divided tasks",
-      "url": "https://github.com/0xwilliamortiz/agents-council",
-      "stake": 0.6,
-      "big_question": "How can we improve collaboration between AI models and developers?",
-      "head_fake": false
+      "type": "repol",
+      "title": "Jakubantalik/thinking-orbs",
+      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
+      "url": "https://github.com/Jakubantalik/thinking-orbs",
+      "stake": 163,
+      "big_question": "Can we create interactive loading animations?",
+      "head_fake": "Design"
     },
     {
-      "type": "HN",
-      "title": "Jelly UI: Soft-body physics for native HTML form controls",
-      "description": "",
-      "url": "https://jelly-ui.com/",
-      "stake": 0.7,
-      "big_question": "How can we make user interfaces more immersive and engaging?",
-      "head_fake": false
+      "type": "repol",
+      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
+      "description": "https://github.com/MatheuZSecurity/Furtex",
+      "url": "https://github.com/MatheuZSecurity/Furtex",
+      "stake": 0,
+      "big_question": "How secure are our Linux systems?",
+      "head_fake": "Security"
     },
     {
-      "type": "HN",
-      "title": "Nativ: Run frontier open models locally on your Mac",
-      "description": "",
-      "url": "https://blaizzy.github.io/nativ/",
-      "stake": 0.8,
-      "big_question": "How can we enable local development and testing of large AI models?",
-      "head_fake": false
+      "type": "repol",
+      "title": "Crepitus \u2014 $CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade",
+      "description": "https://github.com/CrepitusAgent/Crepitus",
+      "url": "https://github.com/CrepitusAgent/Crepitus",
+      "stake": 61,
+      "big_question": "Can we build more sophisticated crypto trading tools?",
+      "head_fake": "Blockchain"
     },
     {
-      "type": "REPO",
-      "title": "Encrypted messaging with no internet, no cell tower, and no server",
-      "description": "Phones relay for each other over Bluetooth mesh, so ",
-      "url": "https://github.com/ni5arga/protestchat",
-      "stake": 0.5,
-      "big_question": "How can we create secure and private communication systems in the absence of infrastructure?",
-      "head_fake": false
+      "type": "repol",
+      "title": "yoinks \u2014 yoink any video from your terminal. no shady ads.",
+      "description": "https://github.com/0xwilliamortiz/yoinks",
+      "url": "https://github.com/0xwilliamortiz/yoinks",
+      "stake": 50,
+      "big_question": "Can we create more useful terminal commands?",
+      "head_fake": "Productivity"
     },
     {
-      "type": "HN",
-      "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
-      "description": "",
-      "url": "https://news.ycombinator.com/item?id=48981136",
-      "stake": 0.9,
-      "big_question": "How can we leverage AI to improve education and learning outcomes?",
-      "head_fake": false
+      "type": "repol",
+      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "description": "https://github.com/Kalcode/spaceprojectsim",
+      "url": "https://github.com/Kalcode/spaceprojectsim",
+      "stake": 0,
+      "big_question": "Can we create more realistic simulations?",
+      "head_fake": "Game Development"
     }
   ],
   "repos": [
     {
-      "name": "paxlabs-inc/machine-genome",
-      "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them.",
-      "url": "https://github.com/paxlabs-inc/machine-genome",
-      "stars": 269,
-      "language": "Go",
-      "created_at": "2026-07-20T12:41:33Z",
-      "topics": []
-    },
-    {
-      "name": "0xwilliamortiz/agents-council",
-      "description": "Multi-agents collaboration plugin for Claude Code - orchestrate multiple AI agents (Codex CLI, Gemini CLI, etc.) for diverse perspectives",
-      "url": "https://github.com/0xwilliamortiz/agents-council",
-      "stars": 71,
-      "language": "JavaScript",
-      "created_at": "2026-07-20T22:34:45Z",
-      "topics": [
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "claude-code-skills",
-        "claude-plugin",
-        "claude-skills",
-        "codex",
-        "codex-github",
-        "codex-skill",
-        "codex-skills"
-      ]
-    },
-    {
-      "name": "ni5arga/protestchat",
-      "description": "Encrypted messaging with no internet, no cell tower, and no server. Phones relay for each other over Bluetooth mesh, so it keeps working during internet shutdowns and inside cellular jammers",
-      "url": "https://github.com/ni5arga/protestchat",
-      "stars": 66,
+      "name": "0xhype/hyperliquid-tracker",
+      "description": "Get notified when big trades happen on Hyperliquid.",
+      "url": "https://github.com/0xhype/hyperliquid-tracker",
+      "stars": 184,
       "language": "TypeScript",
-      "created_at": "2026-07-20T14:07:55Z",
-      "topics": [
-        "bluetooth-low-energy",
-        "censorship-resistance",
-        "e2ee",
-        "internet-freedom",
-        "internet-shutdowns",
-        "mesh",
-        "mesh-networking",
-        "meshtastic",
-        "offline-first",
-        "protests"
-      ]
-    },
-    {
-      "name": "stavr0s0107/Meccha-Vision-X",
-      "description": "ESP, Aimbot, Auto Paint, Fly Hack, Teleport, God Mode & more for MECCHA CHAMELEON. Dominate the hide-and-seek battlefield!",
-      "url": "https://github.com/stavr0s0107/Meccha-Vision-X",
-      "stars": 62,
-      "language": "Python",
-      "created_at": "2026-07-20T12:04:09Z",
-      "topics": [
-        "mecca-chameleon",
-        "mecca-chameleon-aimbot",
-        "mecca-chameleon-cheat",
-        "mecca-chameleon-cheats",
-        "mecca-chameleon-esp",
-        "mecca-chameleon-hack",
-        "mecca-chameleon-hacks",
-        "mecca-chameleon-mod",
-        "meccha-chameleon-tools"
-      ]
-    },
-    {
-      "name": "thor111bb2-byte/Meccha-Dark-Force",
-      "description": "Dark force enhancement tool with ESP, Aimbot, Auto Paint, Fly Hack, Teleport, God Mode & more for MECCHA CHAMELEON!",
-      "url": "https://github.com/thor111bb2-byte/Meccha-Dark-Force",
-      "stars": 60,
-      "language": "Python",
-      "created_at": "2026-07-20T12:03:58Z",
-      "topics": [
-        "mecca-chameleon",
-        "mecca-chameleon-aimbot",
-        "mecca-chameleon-cheat",
-        "mecca-chameleon-cheats",
-        "mecca-chameleon-esp",
-        "mecca-chameleon-hack",
-        "mecca-chameleon-hacks",
-        "mecca-chameleon-mod",
-        "meccha-chameleon-tools"
-      ]
-    },
-    {
-      "name": "Jacoblauritzen/Openhaze",
-      "description": "",
-      "url": "https://github.com/Jacoblauritzen/Openhaze",
-      "stars": 55,
-      "language": "Rust",
-      "created_at": "2026-07-20T01:33:53Z",
+      "created_at": "2026-07-21T14:24:08Z",
       "topics": []
+    },
+    {
+      "name": "Jakubantalik/thinking-orbs",
+      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
+      "url": "https://github.com/Jakubantalik/thinking-orbs",
+      "stars": 163,
+      "language": "TypeScript",
+      "created_at": "2026-07-21T07:01:53Z",
+      "topics": []
+    },
+    {
+      "name": "AdelanSupport/adelan-support",
+      "description": "",
+      "url": "https://github.com/AdelanSupport/adelan-support",
+      "stars": 89,
+      "language": "Python",
+      "created_at": "2026-07-21T07:28:23Z",
+      "topics": []
+    },
+    {
+      "name": "hahhforest/pi-textbook",
+      "description": "\u300a\u52a8\u624b\u5b66 Pi\u300b\uff1a\u6cbf 15 \u4e2a\u771f\u5b9e checkpoint \u4ece\u96f6\u6784\u5efa Pi-style Agent",
+      "url": "https://github.com/hahhforest/pi-textbook",
+      "stars": 81,
+      "language": "TypeScript",
+      "created_at": "2026-07-21T04:17:35Z",
+      "topics": [
+        "agent-engineering",
+        "ai-agent",
+        "chinese",
+        "llm",
+        "textbook",
+        "typescript"
+      ]
+    },
+    {
+      "name": "innae1121-bit/gsghwp",
+      "description": "gsghwp",
+      "url": "https://github.com/innae1121-bit/gsghwp",
+      "stars": 67,
+      "language": "Python",
+      "created_at": "2026-07-21T02:15:37Z",
+      "topics": []
+    },
+    {
+      "name": "CrepitusAgent/Crepitus",
+      "description": "$CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade on-chain stock exposure with no brokerage, no custodian, and no T+2 settlement.",
+      "url": "https://github.com/CrepitusAgent/Crepitus",
+      "stars": 61,
+      "language": "TypeScript",
+      "created_at": "2026-07-21T12:17:18Z",
+      "topics": []
+    },
+    {
+      "name": "0xwilliamortiz/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "url": "https://github.com/0xwilliamortiz/yoinks",
+      "stars": 50,
+      "language": "TypeScript",
+      "created_at": "2026-07-21T16:30:59Z",
+      "topics": [
+        "downloader",
+        "downloadervideo",
+        "tiktok-downloader-app",
+        "video",
+        "xdownloader",
+        "youtube"
+      ]
     }
   ],
   "competitions": [],
   "hn_stories": [
     {
-      "title": "The creepiest 'sales demo' of all time",
-      "url": "https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f760efb.html",
-      "summary": "<p>Article URL: <a href=\"https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f760efb.html\">https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f",
-      "published": "Mon, 20 Jul 2026 20:36:37 +0000",
+      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
+      "url": "https://github.com/MatheuZSecurity/Furtex",
+      "summary": "<p>Article URL: <a href=\"https://github.com/MatheuZSecurity/Furtex\">https://github.com/MatheuZSecurity/Furtex</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999323\">https://news.ycombinator.com/item?id=48999323</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "published": "Tue, 21 Jul 2026 22:39:58 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Nativ: Run frontier open models locally on your Mac",
-      "url": "https://blaizzy.github.io/nativ/",
-      "summary": "<p>Article URL: <a href=\"https://blaizzy.github.io/nativ/\">https://blaizzy.github.io/nativ/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982681\">https://news.ycombinator.com/item?id=48982681</a></p>\n<p>Points: 152</p>\n<p># Comments: 61</p>",
-      "published": "Mon, 20 Jul 2026 18:16:08 +0000",
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "summary": "<p>Article URL: <a href=\"https://fireworks.ai/blog/kimik3-fable\">https://fireworks.ai/blog/kimik3-fable</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999291\">https://news.ycombinator.com/item?id=48999291</a></p>\n<p>Points: 142</p>\n<p># Comments: 78</p>",
+      "published": "Tue, 21 Jul 2026 22:35:24 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Jelly UI: Soft-body physics for native HTML form controls",
-      "url": "https://jelly-ui.com/",
-      "summary": "<p>Article URL: <a href=\"https://jelly-ui.com/\">https://jelly-ui.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48981620\">https://news.ycombinator.com/item?id=48981620</a></p>\n<p>Points: 295</p>\n<p># Comments: 123</p>",
-      "published": "Mon, 20 Jul 2026 17:07:39 +0000",
+      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 20</p>\n<p># Comments: 4</p",
+      "published": "Tue, 21 Jul 2026 21:27:54 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
-      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "summary": "<p>Article URL: <a href=\"https://unslop.run/blog/measuring-ai-writing-on-arxiv\">https://unslop.run/blog/measuring-ai-writing-on-arxiv</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48981206\">https://news.ycombinator.com/item?id=48981206</a></p>\n<p>Points: 187</p>\n<p># Comment",
-      "published": "Mon, 20 Jul 2026 16:36:36 +0000",
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "summary": "<p>Article URL: <a href=\"https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok\">https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998404\">https://news.ycombinator.com/item?id=4899",
+      "published": "Tue, 21 Jul 2026 21:13:20 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
-      "url": "https://news.ycombinator.com/item?id=48981136",
-      "summary": "<p>Hi HN, I\u2019m Alex Southmayd, the founder of Bloomy (<a href=\"https://bloomylearning.com\">https://bloomylearning.com</a>) \u2013 an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and W",
-      "published": "Mon, 20 Jul 2026 16:32:10 +0000",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "summary": "<p><a href=\"https://www.axios.com/2026/07/21/openai-says-hugging-face-breach-caused-by-one-its-models\" rel=\"nofollow\">https://www.axios.com/2026/07/21/openai-says-hugging-face-br...</a><p>See also <i>Security incident disclosure \u2013 July 2026</i> - <a href=\"https://news.ycombinator.com/item?id=4895624",
+      "published": "Tue, 21 Jul 2026 20:09:52 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Mythologizing AI makes it more likely that we\u2019ll fail to operate it well (2023)",
-      "url": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
-      "summary": "<p>Article URL: <a href=\"https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai\">https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48980238\">https://news.ycombinator.co",
-      "published": "Mon, 20 Jul 2026 15:28:32 +0000",
+      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+      "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+      "summary": "<p>Article URL: <a href=\"https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling\">https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling<",
+      "published": "Tue, 21 Jul 2026 19:43:59 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "China\u2019s open-weights AI strategy is winning",
-      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "summary": "<p>Article URL: <a href=\"https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/\">https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48979269\">https://news.ycombinator.com/item?id=48979269</a></",
-      "published": "Mon, 20 Jul 2026 14:21:47 +0000",
+      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "url": "https://github.com/Kalcode/spaceprojectsim",
+      "summary": "<p>I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.<p>A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a",
+      "published": "Tue, 21 Jul 2026 18:29:57 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Perfection is not over-engineering",
-      "url": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
-      "summary": "<p>Article URL: <a href=\"https://var0.xyz/posts/perfection-is-not-over-engineering.html\">https://var0.xyz/posts/perfection-is-not-over-engineering.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48979120\">https://news.ycombinator.com/item?id=48979120</a></p>\n<p>Points: 18",
-      "published": "Mon, 20 Jul 2026 14:10:30 +0000",
+      "title": "Laguna S 2.1",
+      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+      "summary": "<p>Article URL: <a href=\"https://poolside.ai/blog/introducing-laguna-s-2-1\">https://poolside.ai/blog/introducing-laguna-s-2-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995261\">https://news.ycombinator.com/item?id=48995261</a></p>\n<p>Points: 209</p>\n<p># Comments: 42</p",
+      "published": "Tue, 21 Jul 2026 17:17:06 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "summary": "<p><a href=\"https://x.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://x.com/jack/status/2079605800998146171</a>, <a href=\"https://xcancel.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://xcancel.com/jack/status/2079605800998146171</a><p><a href=\"https://buzz.xyz/\" rel=\"nofollo",
+      "published": "Tue, 21 Jul 2026 17:14:06 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "France's Anssi Will Block PQC-Free Products from Certification Starting 2027",
+      "url": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/",
+      "summary": "<p>Article URL: <a href=\"https://postquantum.com/security-pqc/anssi-pqc-certification-2027/\">https://postquantum.com/security-pqc/anssi-pqc-certification-2027/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48994116\">https://news.ycombinator.com/item?id=48994116</a></p>\n<p>Po",
+      "published": "Tue, 21 Jul 2026 16:02:04 +0000",
       "source": "Hacker News"
     }
   ]

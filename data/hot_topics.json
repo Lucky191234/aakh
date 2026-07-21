@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-20T23:59:49.907764+00:00",
+  "fetched_at": "2026-07-21T23:58:01.803018+00:00",
   "hot_topics": [
     {
-      "type": "REPO",
-      "title": "Machine Genome",
-      "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts th",
-      "url": "https://github.com/paxlabs-inc/machine-genome",
-      "stake": 0.8,
-      "big_question": "How can we create a more transparent and accountable AI ecosystem?",
-      "head_fake": false
+      "type": "repol",
+      "title": "0xhype/hyperliquid-tracker",
+      "description": "Get notified when big trades happen on Hyperliquid.",
+      "url": "https://github.com/0xhype/hyperliquid-tracker",
+      "stake": 184,
+      "big_question": "Can we improve real-time trade notifications?",
+      "head_fake": "Trading"
     },
     {
-      "type": "REPO",
-      "title": "Multi-agents collaboration plugin for Claude Code ",
-      "description": "orchestrate multiple AI agents (Codex CLI, Gemini CLI, etc.) for divided tasks",
-      "url": "https://github.com/0xwilliamortiz/agents-council",
-      "stake": 0.6,
-      "big_question": "How can we improve collaboration between AI models and developers?",
-      "head_fake": false
+      "type": "repol",
+      "title": "Jakubantalik/thinking-orbs",
+      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
+      "url": "https://github.com/Jakubantalik/thinking-orbs",
+      "stake": 163,
+      "big_question": "Can we create interactive loading animations?",
+      "head_fake": "Design"
     },
     {
-      "type": "HN",
-      "title": "Jelly UI: Soft-body physics for native HTML form controls",
-      "description": "",
-      "url": "https://jelly-ui.com/",
-      "stake": 0.7,
-      "big_question": "How can we make user interfaces more immersive and engaging?",
-      "head_fake": false
+      "type": "repol",
+      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
+      "description": "https://github.com/MatheuZSecurity/Furtex",
+      "url": "https://github.com/MatheuZSecurity/Furtex",
+      "stake": 0,
+      "big_question": "How secure are our Linux systems?",
+      "head_fake": "Security"
     },
     {
-      "type": "HN",
-      "title": "Nativ: Run frontier open models locally on your Mac",
-      "description": "",
-      "url": "https://blaizzy.github.io/nativ/",
-      "stake": 0.8,
-      "big_question": "How can we enable local development and testing of large AI models?",
-      "head_fake": false
+      "type": "repol",
+      "title": "Crepitus \u2014 $CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade",
+      "description": "https://github.com/CrepitusAgent/Crepitus",
+      "url": "https://github.com/CrepitusAgent/Crepitus",
+      "stake": 61,
+      "big_question": "Can we build more sophisticated crypto trading tools?",
+      "head_fake": "Blockchain"
     },
     {
-      "type": "REPO",
-      "title": "Encrypted messaging with no internet, no cell tower, and no server",
-      "description": "Phones relay for each other over Bluetooth mesh, so ",
-      "url": "https://github.com/ni5arga/protestchat",
-      "stake": 0.5,
-      "big_question": "How can we create secure and private communication systems in the absence of infrastructure?",
-      "head_fake": false
+      "type": "repol",
+      "title": "yoinks \u2014 yoink any video from your terminal. no shady ads.",
+      "description": "https://github.com/0xwilliamortiz/yoinks",
+      "url": "https://github.com/0xwilliamortiz/yoinks",
+      "stake": 50,
+      "big_question": "Can we create more useful terminal commands?",
+      "head_fake": "Productivity"
     },
     {
-      "type": "HN",
-      "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
-      "description": "",
-      "url": "https://news.ycombinator.com/item?id=48981136",
-      "stake": 0.9,
-      "big_question": "How can we leverage AI to improve education and learning outcomes?",
-      "head_fake": false
+      "type": "repol",
+      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "description": "https://github.com/Kalcode/spaceprojectsim",
+      "url": "https://github.com/Kalcode/spaceprojectsim",
+      "stake": 0,
+      "big_question": "Can we create more realistic simulations?",
+      "head_fake": "Game Development"
     }
   ]
 }

@@ -1,60 +1,74 @@
 {
-  "fetched_at": "2026-07-20T23:59:48.617646+00:00",
+  "fetched_at": "2026-07-21T23:58:00.122764+00:00",
   "stories": [
     {
-      "title": "The creepiest 'sales demo' of all time",
-      "url": "https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f760efb.html",
-      "summary": "<p>Article URL: <a href=\"https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f760efb.html\">https://www.appenmedia.com/opinion/letter-to-the-editor-the-creepiest-sales-demo-of-all-time/article_a8f0cc6c-29d3-41f7-8668-8a855f",
-      "published": "Mon, 20 Jul 2026 20:36:37 +0000",
+      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
+      "url": "https://github.com/MatheuZSecurity/Furtex",
+      "summary": "<p>Article URL: <a href=\"https://github.com/MatheuZSecurity/Furtex\">https://github.com/MatheuZSecurity/Furtex</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999323\">https://news.ycombinator.com/item?id=48999323</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "published": "Tue, 21 Jul 2026 22:39:58 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Nativ: Run frontier open models locally on your Mac",
-      "url": "https://blaizzy.github.io/nativ/",
-      "summary": "<p>Article URL: <a href=\"https://blaizzy.github.io/nativ/\">https://blaizzy.github.io/nativ/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982681\">https://news.ycombinator.com/item?id=48982681</a></p>\n<p>Points: 152</p>\n<p># Comments: 61</p>",
-      "published": "Mon, 20 Jul 2026 18:16:08 +0000",
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "summary": "<p>Article URL: <a href=\"https://fireworks.ai/blog/kimik3-fable\">https://fireworks.ai/blog/kimik3-fable</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999291\">https://news.ycombinator.com/item?id=48999291</a></p>\n<p>Points: 142</p>\n<p># Comments: 78</p>",
+      "published": "Tue, 21 Jul 2026 22:35:24 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Jelly UI: Soft-body physics for native HTML form controls",
-      "url": "https://jelly-ui.com/",
-      "summary": "<p>Article URL: <a href=\"https://jelly-ui.com/\">https://jelly-ui.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48981620\">https://news.ycombinator.com/item?id=48981620</a></p>\n<p>Points: 295</p>\n<p># Comments: 123</p>",
-      "published": "Mon, 20 Jul 2026 17:07:39 +0000",
+      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 20</p>\n<p># Comments: 4</p",
+      "published": "Tue, 21 Jul 2026 21:27:54 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
-      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "summary": "<p>Article URL: <a href=\"https://unslop.run/blog/measuring-ai-writing-on-arxiv\">https://unslop.run/blog/measuring-ai-writing-on-arxiv</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48981206\">https://news.ycombinator.com/item?id=48981206</a></p>\n<p>Points: 187</p>\n<p># Comment",
-      "published": "Mon, 20 Jul 2026 16:36:36 +0000",
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "summary": "<p>Article URL: <a href=\"https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok\">https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998404\">https://news.ycombinator.com/item?id=4899",
+      "published": "Tue, 21 Jul 2026 21:13:20 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
-      "url": "https://news.ycombinator.com/item?id=48981136",
-      "summary": "<p>Hi HN, I\u2019m Alex Southmayd, the founder of Bloomy (<a href=\"https://bloomylearning.com\">https://bloomylearning.com</a>) \u2013 an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and W",
-      "published": "Mon, 20 Jul 2026 16:32:10 +0000",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "summary": "<p><a href=\"https://www.axios.com/2026/07/21/openai-says-hugging-face-breach-caused-by-one-its-models\" rel=\"nofollow\">https://www.axios.com/2026/07/21/openai-says-hugging-face-br...</a><p>See also <i>Security incident disclosure \u2013 July 2026</i> - <a href=\"https://news.ycombinator.com/item?id=4895624",
+      "published": "Tue, 21 Jul 2026 20:09:52 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Mythologizing AI makes it more likely that we\u2019ll fail to operate it well (2023)",
-      "url": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
-      "summary": "<p>Article URL: <a href=\"https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai\">https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48980238\">https://news.ycombinator.co",
-      "published": "Mon, 20 Jul 2026 15:28:32 +0000",
+      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+      "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+      "summary": "<p>Article URL: <a href=\"https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling\">https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling<",
+      "published": "Tue, 21 Jul 2026 19:43:59 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "China\u2019s open-weights AI strategy is winning",
-      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "summary": "<p>Article URL: <a href=\"https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/\">https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48979269\">https://news.ycombinator.com/item?id=48979269</a></",
-      "published": "Mon, 20 Jul 2026 14:21:47 +0000",
+      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "url": "https://github.com/Kalcode/spaceprojectsim",
+      "summary": "<p>I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.<p>A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a",
+      "published": "Tue, 21 Jul 2026 18:29:57 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Perfection is not over-engineering",
-      "url": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
-      "summary": "<p>Article URL: <a href=\"https://var0.xyz/posts/perfection-is-not-over-engineering.html\">https://var0.xyz/posts/perfection-is-not-over-engineering.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48979120\">https://news.ycombinator.com/item?id=48979120</a></p>\n<p>Points: 18",
-      "published": "Mon, 20 Jul 2026 14:10:30 +0000",
+      "title": "Laguna S 2.1",
+      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+      "summary": "<p>Article URL: <a href=\"https://poolside.ai/blog/introducing-laguna-s-2-1\">https://poolside.ai/blog/introducing-laguna-s-2-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995261\">https://news.ycombinator.com/item?id=48995261</a></p>\n<p>Points: 209</p>\n<p># Comments: 42</p",
+      "published": "Tue, 21 Jul 2026 17:17:06 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "summary": "<p><a href=\"https://x.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://x.com/jack/status/2079605800998146171</a>, <a href=\"https://xcancel.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://xcancel.com/jack/status/2079605800998146171</a><p><a href=\"https://buzz.xyz/\" rel=\"nofollo",
+      "published": "Tue, 21 Jul 2026 17:14:06 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "France's Anssi Will Block PQC-Free Products from Certification Starting 2027",
+      "url": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/",
+      "summary": "<p>Article URL: <a href=\"https://postquantum.com/security-pqc/anssi-pqc-certification-2027/\">https://postquantum.com/security-pqc/anssi-pqc-certification-2027/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48994116\">https://news.ycombinator.com/item?id=48994116</a></p>\n<p>Po",
+      "published": "Tue, 21 Jul 2026 16:02:04 +0000",
       "source": "Hacker News"
     }
   ]
