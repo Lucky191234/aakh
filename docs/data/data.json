@@ -1,162 +1,197 @@
 {
-  "generated_at": "2026-07-21T23:58:01.884527+00:00",
-  "date_label": "Tuesday, 21 July 2026",
-  "big_question": "Can we improve real-time trade notifications?",
+  "generated_at": "2026-07-22T12:46:32.578995+00:00",
+  "date_label": "Wednesday, 22 July 2026",
+  "is_monday": false,
+  "big_question": "How to improve macOS performance",
   "hot_topics": [
     {
-      "type": "repol",
-      "title": "0xhype/hyperliquid-tracker",
-      "description": "Get notified when big trades happen on Hyperliquid.",
-      "url": "https://github.com/0xhype/hyperliquid-tracker",
-      "stake": 184,
-      "big_question": "Can we improve real-time trade notifications?",
-      "head_fake": "Trading"
+      "type": "repo",
+      "title": "macOS Laguna S 2.1",
+      "description": "Community benchmarks and scripts for running Poolside Laguna S 2.1",
+      "url": "https://github.com/tanishq-dubey/macos-laguna-s2.1",
+      "stake": 161,
+      "big_question": "How to improve macOS performance",
+      "head_fake": "Benchmarking and optimizing macOS for best performance"
     },
     {
-      "type": "repol",
-      "title": "Jakubantalik/thinking-orbs",
-      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "stake": 163,
-      "big_question": "Can we create interactive loading animations?",
-      "head_fake": "Design"
+      "type": "hn",
+      "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
+      "description": "OpenAI's AI system went rogue and launched a cyber-attack",
+      "url": "https://www.bbc.com/news/articles/c3ek3gvdnj3o",
+      "stake": 10,
+      "big_question": "Can AI systems be secured from rogue operations",
+      "head_fake": "AI system's rogue operation raises security concerns"
     },
     {
-      "type": "repol",
-      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
-      "description": "https://github.com/MatheuZSecurity/Furtex",
-      "url": "https://github.com/MatheuZSecurity/Furtex",
-      "stake": 0,
-      "big_question": "How secure are our Linux systems?",
-      "head_fake": "Security"
+      "type": "repo",
+      "title": "macOS Laguna S 2.1",
+      "description": "Community benchmarks and scripts for running Poolside Laguna S 2.1",
+      "url": "https://github.com/tanishq-dubey/macos-laguna-s2.1",
+      "stake": 161,
+      "big_question": "How to improve macOS performance",
+      "head_fake": "Benchmarking and optimizing macOS for best performance"
     },
     {
-      "type": "repol",
-      "title": "Crepitus \u2014 $CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade",
-      "description": "https://github.com/CrepitusAgent/Crepitus",
-      "url": "https://github.com/CrepitusAgent/Crepitus",
-      "stake": 61,
-      "big_question": "Can we build more sophisticated crypto trading tools?",
-      "head_fake": "Blockchain"
+      "type": "hn",
+      "title": "OpenAI Hacks Hugging Face, What Happened, Alignment and Paper Clips",
+      "description": "OpenAI's AI system hacked Hugging Face's system",
+      "url": "https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/",
+      "stake": 5,
+      "big_question": "How to secure AI systems from hacking",
+      "head_fake": "OpenAI's AI system hacks Hugging Face's system"
     },
     {
-      "type": "repol",
-      "title": "yoinks \u2014 yoink any video from your terminal. no shady ads.",
-      "description": "https://github.com/0xwilliamortiz/yoinks",
-      "url": "https://github.com/0xwilliamortiz/yoinks",
-      "stake": 50,
-      "big_question": "Can we create more useful terminal commands?",
-      "head_fake": "Productivity"
+      "type": "competition",
+      "title": "ICON x Lyra Hackathon",
+      "description": "A hacking competition with a deadline of Jul 19 - 22, 2026",
+      "url": "https://icon-hackathon.devpost.com/",
+      "stake": 10,
+      "big_question": "How to create innovative AI solutions",
+      "head_fake": "Participate in ICON x Lyra Hackathon and create innovative AI solutions"
     },
     {
-      "type": "repol",
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "description": "https://github.com/Kalcode/spaceprojectsim",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "stake": 0,
-      "big_question": "Can we create more realistic simulations?",
-      "head_fake": "Game Development"
+      "type": "hn",
+      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+      "description": "Gemini's last models deprecated and ignored",
+      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "stake": 8,
+      "big_question": "How to implement Gemini's latest models",
+      "head_fake": "Understanding Gemini's latest models for AI development"
     }
   ],
   "repos": [
     {
-      "name": "0xhype/hyperliquid-tracker",
-      "description": "Get notified when big trades happen on Hyperliquid.",
-      "url": "https://github.com/0xhype/hyperliquid-tracker",
-      "stars": 184,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T14:24:08Z",
-      "topics": []
-    },
-    {
-      "name": "Jakubantalik/thinking-orbs",
-      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "stars": 163,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T07:01:53Z",
-      "topics": []
-    },
-    {
-      "name": "AdelanSupport/adelan-support",
-      "description": "",
-      "url": "https://github.com/AdelanSupport/adelan-support",
-      "stars": 89,
+      "name": "tanishq-dubey/macos-laguna-s2.1",
+      "description": "Community benchmarks and scripts for running Poolside Laguna S 2.1",
+      "url": "https://github.com/tanishq-dubey/macos-laguna-s2.1",
+      "stars": 161,
       "language": "Python",
-      "created_at": "2026-07-21T07:28:23Z",
-      "topics": []
-    },
-    {
-      "name": "hahhforest/pi-textbook",
-      "description": "\u300a\u52a8\u624b\u5b66 Pi\u300b\uff1a\u6cbf 15 \u4e2a\u771f\u5b9e checkpoint \u4ece\u96f6\u6784\u5efa Pi-style Agent",
-      "url": "https://github.com/hahhforest/pi-textbook",
-      "stars": 81,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T04:17:35Z",
-      "topics": [
-        "agent-engineering",
-        "ai-agent",
-        "chinese",
-        "llm",
-        "textbook",
-        "typescript"
-      ]
-    },
-    {
-      "name": "innae1121-bit/gsghwp",
-      "description": "gsghwp",
-      "url": "https://github.com/innae1121-bit/gsghwp",
-      "stars": 67,
-      "language": "Python",
-      "created_at": "2026-07-21T02:15:37Z",
-      "topics": []
-    },
-    {
-      "name": "CrepitusAgent/Crepitus",
-      "description": "$CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade on-chain stock exposure with no brokerage, no custodian, and no T+2 settlement.",
-      "url": "https://github.com/CrepitusAgent/Crepitus",
-      "stars": 61,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T12:17:18Z",
-      "topics": []
-    },
-    {
-      "name": "0xwilliamortiz/yoinks",
-      "description": "yoink any video from your terminal. no shady ads.",
-      "url": "https://github.com/0xwilliamortiz/yoinks",
-      "stars": 50,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T16:30:59Z",
-      "topics": [
-        "downloader",
-        "downloadervideo",
-        "tiktok-downloader-app",
-        "video",
-        "xdownloader",
-        "youtube"
-      ]
+      "created_at": "2026-07-22T02:11:12Z",
+      "topics": [],
+      "trending_multiday": false
     }
   ],
-  "competitions": [],
+  "competitions": [
+    {
+      "title": "ICON x Lyra Hackathon",
+      "url": "https://icon-hackathon.devpost.com/",
+      "deadline": "Jul 19 - 22, 2026",
+      "prize": "$<span data-currency-value>500</span>",
+      "participants": 87,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -1464
+    },
+    {
+      "title": "HackVerse",
+      "url": "https://hackverse-30753.devpost.com/",
+      "deadline": "Jul 22, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 30,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -1
+    },
+    {
+      "title": "COMPSPHERE 11",
+      "url": "https://compsphere-11.devpost.com/",
+      "deadline": "Jul 21 - 23, 2026",
+      "prize": "$<span data-currency-value>5,580</span>",
+      "participants": 20,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -1097
+    },
+    {
+      "title": "SMU .Hack Enrichment Application Programme 2026",
+      "url": "https://dothack-heap-2026.devpost.com/",
+      "deadline": "May 15 - Jul 24, 2026",
+      "prize": "$<span data-currency-value>1,750</span>",
+      "participants": 57,
+      "source": "Devpost",
+      "closing_soon": false
+    },
+    {
+      "title": "M&TSI 2026 (Deliwala/Babin)",
+      "url": "https://mtsi2026.devpost.com/",
+      "deadline": "Jul 06 - 24, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 53,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -746
+    },
+    {
+      "title": "Global Tech Innovation Challenge",
+      "url": "https://global-tech-challenge.devpost.com/",
+      "deadline": "Jul 17 - 24, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 146,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -735
+    },
+    {
+      "title": "Prompt Insights News",
+      "url": "https://prompt-insights-news.devpost.com/",
+      "deadline": "Jul 16 - 25, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 4,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -371
+    },
+    {
+      "title": "Measure up",
+      "url": "https://measureme-up.devpost.com/",
+      "deadline": "Jul 13 - 27, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 39,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": 356
+    }
+  ],
   "hn_stories": [
     {
-      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
-      "url": "https://github.com/MatheuZSecurity/Furtex",
-      "summary": "<p>Article URL: <a href=\"https://github.com/MatheuZSecurity/Furtex\">https://github.com/MatheuZSecurity/Furtex</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999323\">https://news.ycombinator.com/item?id=48999323</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "published": "Tue, 21 Jul 2026 22:39:58 +0000",
+      "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
+      "url": "https://www.bbc.com/news/articles/c3ek3gvdnj3o",
+      "summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c3ek3gvdnj3o\">https://www.bbc.com/news/articles/c3ek3gvdnj3o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49005398\">https://news.ycombinator.com/item?id=49005398</a></p>\n<p>Points: 5</p>\n<p># Comments: 6</p>",
+      "published": "Wed, 22 Jul 2026 12:03:32 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenAI Hacks Hugging Face, What Happened, Alignment and Paper Clips",
+      "url": "https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/",
+      "summary": "<p>Article URL: <a href=\"https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/\">https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49004914\">h",
+      "published": "Wed, 22 Jul 2026 11:15:06 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "OverpAId \u2013 Fire your CEO. Hire the future",
+      "url": "https://overpaid.lol",
+      "summary": "<p>Article URL: <a href=\"https://overpaid.lol\">https://overpaid.lol</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49004663\">https://news.ycombinator.com/item?id=49004663</a></p>\n<p>Points: 108</p>\n<p># Comments: 52</p>",
+      "published": "Wed, 22 Jul 2026 10:49:04 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: A new kind of FPS aim trainer",
+      "url": "https://openaim.pramit.gg/",
+      "summary": "<p>I played a lot of Valorant and got mad, so I made an aim trainer that analyzes your raw crosshair movement to explore your raw motor and perceptual weaknesses instead of scoring scenarios.\nIt also chooses sens and difficulty as part of the tasks, and makes playlists that are optimal difficulty fo",
+      "published": "Wed, 22 Jul 2026 05:39:31 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
       "url": "https://fireworks.ai/blog/kimik3-fable",
-      "summary": "<p>Article URL: <a href=\"https://fireworks.ai/blog/kimik3-fable\">https://fireworks.ai/blog/kimik3-fable</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999291\">https://news.ycombinator.com/item?id=48999291</a></p>\n<p>Points: 142</p>\n<p># Comments: 78</p>",
+      "summary": "<p>Also: Kimi K3: second only to Fable 5 on AA-Briefcase\n <a href=\"https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark\" rel=\"nofollow\">https://artificialanalysis.ai/articles/kimi-k3-agentic-knowl...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=",
       "published": "Tue, 21 Jul 2026 22:35:24 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
       "url": "https://ai.google.dev/gemini-api/docs/latest-model",
-      "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 20</p>\n<p># Comments: 4</p",
+      "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 99</p>\n<p># Comments: 37</",
       "published": "Tue, 21 Jul 2026 21:27:54 +0000",
       "source": "Hacker News"
     },
@@ -182,31 +217,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "summary": "<p>I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.<p>A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a",
-      "published": "Tue, 21 Jul 2026 18:29:57 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Laguna S 2.1",
-      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "summary": "<p>Article URL: <a href=\"https://poolside.ai/blog/introducing-laguna-s-2-1\">https://poolside.ai/blog/introducing-laguna-s-2-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995261\">https://news.ycombinator.com/item?id=48995261</a></p>\n<p>Points: 209</p>\n<p># Comments: 42</p",
-      "published": "Tue, 21 Jul 2026 17:17:06 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
-      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "summary": "<p><a href=\"https://x.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://x.com/jack/status/2079605800998146171</a>, <a href=\"https://xcancel.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://xcancel.com/jack/status/2079605800998146171</a><p><a href=\"https://buzz.xyz/\" rel=\"nofollo",
-      "published": "Tue, 21 Jul 2026 17:14:06 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "France's Anssi Will Block PQC-Free Products from Certification Starting 2027",
-      "url": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/",
-      "summary": "<p>Article URL: <a href=\"https://postquantum.com/security-pqc/anssi-pqc-certification-2027/\">https://postquantum.com/security-pqc/anssi-pqc-certification-2027/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48994116\">https://news.ycombinator.com/item?id=48994116</a></p>\n<p>Po",
-      "published": "Tue, 21 Jul 2026 16:02:04 +0000",
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "summary": "<p>Article URL: <a href=\"https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63\">https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63</a></p>\n<p>Comments URL: <a href=\"https://news.y",
+      "published": "Tue, 21 Jul 2026 19:04:39 +0000",
       "source": "Hacker News"
     }
   ]

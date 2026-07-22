@@ -1,24 +1,45 @@
 {
-  "fetched_at": "2026-07-21T23:58:00.122764+00:00",
+  "fetched_at": "2026-07-22T12:46:31.018273+00:00",
   "stories": [
     {
-      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
-      "url": "https://github.com/MatheuZSecurity/Furtex",
-      "summary": "<p>Article URL: <a href=\"https://github.com/MatheuZSecurity/Furtex\">https://github.com/MatheuZSecurity/Furtex</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999323\">https://news.ycombinator.com/item?id=48999323</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "published": "Tue, 21 Jul 2026 22:39:58 +0000",
+      "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
+      "url": "https://www.bbc.com/news/articles/c3ek3gvdnj3o",
+      "summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c3ek3gvdnj3o\">https://www.bbc.com/news/articles/c3ek3gvdnj3o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49005398\">https://news.ycombinator.com/item?id=49005398</a></p>\n<p>Points: 5</p>\n<p># Comments: 6</p>",
+      "published": "Wed, 22 Jul 2026 12:03:32 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenAI Hacks Hugging Face, What Happened, Alignment and Paper Clips",
+      "url": "https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/",
+      "summary": "<p>Article URL: <a href=\"https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/\">https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49004914\">h",
+      "published": "Wed, 22 Jul 2026 11:15:06 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "OverpAId \u2013 Fire your CEO. Hire the future",
+      "url": "https://overpaid.lol",
+      "summary": "<p>Article URL: <a href=\"https://overpaid.lol\">https://overpaid.lol</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49004663\">https://news.ycombinator.com/item?id=49004663</a></p>\n<p>Points: 108</p>\n<p># Comments: 52</p>",
+      "published": "Wed, 22 Jul 2026 10:49:04 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: A new kind of FPS aim trainer",
+      "url": "https://openaim.pramit.gg/",
+      "summary": "<p>I played a lot of Valorant and got mad, so I made an aim trainer that analyzes your raw crosshair movement to explore your raw motor and perceptual weaknesses instead of scoring scenarios.\nIt also chooses sens and difficulty as part of the tasks, and makes playlists that are optimal difficulty fo",
+      "published": "Wed, 22 Jul 2026 05:39:31 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
       "url": "https://fireworks.ai/blog/kimik3-fable",
-      "summary": "<p>Article URL: <a href=\"https://fireworks.ai/blog/kimik3-fable\">https://fireworks.ai/blog/kimik3-fable</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999291\">https://news.ycombinator.com/item?id=48999291</a></p>\n<p>Points: 142</p>\n<p># Comments: 78</p>",
+      "summary": "<p>Also: Kimi K3: second only to Fable 5 on AA-Briefcase\n <a href=\"https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark\" rel=\"nofollow\">https://artificialanalysis.ai/articles/kimi-k3-agentic-knowl...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=",
       "published": "Tue, 21 Jul 2026 22:35:24 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
       "url": "https://ai.google.dev/gemini-api/docs/latest-model",
-      "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 20</p>\n<p># Comments: 4</p",
+      "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 99</p>\n<p># Comments: 37</",
       "published": "Tue, 21 Jul 2026 21:27:54 +0000",
       "source": "Hacker News"
     },
@@ -44,16 +65,23 @@
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "summary": "<p>I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.<p>A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a",
-      "published": "Tue, 21 Jul 2026 18:29:57 +0000",
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "summary": "<p>Article URL: <a href=\"https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63\">https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63</a></p>\n<p>Comments URL: <a href=\"https://news.y",
+      "published": "Tue, 21 Jul 2026 19:04:39 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Advertise in ChatGPT",
+      "url": "https://ads.openai.com/",
+      "summary": "<p>Article URL: <a href=\"https://ads.openai.com/\">https://ads.openai.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48996571\">https://news.ycombinator.com/item?id=48996571</a></p>\n<p>Points: 873</p>\n<p># Comments: 676</p>",
+      "published": "Tue, 21 Jul 2026 18:58:44 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Laguna S 2.1",
       "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "summary": "<p>Article URL: <a href=\"https://poolside.ai/blog/introducing-laguna-s-2-1\">https://poolside.ai/blog/introducing-laguna-s-2-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995261\">https://news.ycombinator.com/item?id=48995261</a></p>\n<p>Points: 209</p>\n<p># Comments: 42</p",
+      "summary": "<p>Article URL: <a href=\"https://poolside.ai/blog/introducing-laguna-s-2-1\">https://poolside.ai/blog/introducing-laguna-s-2-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995261\">https://news.ycombinator.com/item?id=48995261</a></p>\n<p>Points: 347</p>\n<p># Comments: 67</p",
       "published": "Tue, 21 Jul 2026 17:17:06 +0000",
       "source": "Hacker News"
     },
@@ -62,13 +90,6 @@
       "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
       "summary": "<p><a href=\"https://x.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://x.com/jack/status/2079605800998146171</a>, <a href=\"https://xcancel.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://xcancel.com/jack/status/2079605800998146171</a><p><a href=\"https://buzz.xyz/\" rel=\"nofollo",
       "published": "Tue, 21 Jul 2026 17:14:06 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "France's Anssi Will Block PQC-Free Products from Certification Starting 2027",
-      "url": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/",
-      "summary": "<p>Article URL: <a href=\"https://postquantum.com/security-pqc/anssi-pqc-certification-2027/\">https://postquantum.com/security-pqc/anssi-pqc-certification-2027/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48994116\">https://news.ycombinator.com/item?id=48994116</a></p>\n<p>Po",
-      "published": "Tue, 21 Jul 2026 16:02:04 +0000",
       "source": "Hacker News"
     }
   ]

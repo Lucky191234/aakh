@@ -1,82 +1,14 @@
 {
-  "fetched_at": "2026-07-21T23:57:53.482939+00:00",
+  "fetched_at": "2026-07-22T12:46:13.142467+00:00",
   "repos": [
     {
-      "name": "0xhype/hyperliquid-tracker",
-      "description": "Get notified when big trades happen on Hyperliquid.",
-      "url": "https://github.com/0xhype/hyperliquid-tracker",
-      "stars": 184,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T14:24:08Z",
-      "topics": []
-    },
-    {
-      "name": "Jakubantalik/thinking-orbs",
-      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "stars": 163,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T07:01:53Z",
-      "topics": []
-    },
-    {
-      "name": "AdelanSupport/adelan-support",
-      "description": "",
-      "url": "https://github.com/AdelanSupport/adelan-support",
-      "stars": 89,
+      "name": "tanishq-dubey/macos-laguna-s2.1",
+      "description": "Community benchmarks and scripts for running Poolside Laguna S 2.1",
+      "url": "https://github.com/tanishq-dubey/macos-laguna-s2.1",
+      "stars": 161,
       "language": "Python",
-      "created_at": "2026-07-21T07:28:23Z",
+      "created_at": "2026-07-22T02:11:12Z",
       "topics": []
-    },
-    {
-      "name": "hahhforest/pi-textbook",
-      "description": "\u300a\u52a8\u624b\u5b66 Pi\u300b\uff1a\u6cbf 15 \u4e2a\u771f\u5b9e checkpoint \u4ece\u96f6\u6784\u5efa Pi-style Agent",
-      "url": "https://github.com/hahhforest/pi-textbook",
-      "stars": 81,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T04:17:35Z",
-      "topics": [
-        "agent-engineering",
-        "ai-agent",
-        "chinese",
-        "llm",
-        "textbook",
-        "typescript"
-      ]
-    },
-    {
-      "name": "innae1121-bit/gsghwp",
-      "description": "gsghwp",
-      "url": "https://github.com/innae1121-bit/gsghwp",
-      "stars": 67,
-      "language": "Python",
-      "created_at": "2026-07-21T02:15:37Z",
-      "topics": []
-    },
-    {
-      "name": "CrepitusAgent/Crepitus",
-      "description": "$CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade on-chain stock exposure with no brokerage, no custodian, and no T+2 settlement.",
-      "url": "https://github.com/CrepitusAgent/Crepitus",
-      "stars": 61,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T12:17:18Z",
-      "topics": []
-    },
-    {
-      "name": "0xwilliamortiz/yoinks",
-      "description": "yoink any video from your terminal. no shady ads.",
-      "url": "https://github.com/0xwilliamortiz/yoinks",
-      "stars": 50,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T16:30:59Z",
-      "topics": [
-        "downloader",
-        "downloadervideo",
-        "tiktok-downloader-app",
-        "video",
-        "xdownloader",
-        "youtube"
-      ]
     }
   ]
 }

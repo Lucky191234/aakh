@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-21T23:58:01.803018+00:00",
+  "fetched_at": "2026-07-22T12:46:32.459442+00:00",
   "hot_topics": [
     {
-      "type": "repol",
-      "title": "0xhype/hyperliquid-tracker",
-      "description": "Get notified when big trades happen on Hyperliquid.",
-      "url": "https://github.com/0xhype/hyperliquid-tracker",
-      "stake": 184,
-      "big_question": "Can we improve real-time trade notifications?",
-      "head_fake": "Trading"
+      "type": "repo",
+      "title": "macOS Laguna S 2.1",
+      "description": "Community benchmarks and scripts for running Poolside Laguna S 2.1",
+      "url": "https://github.com/tanishq-dubey/macos-laguna-s2.1",
+      "stake": 161,
+      "big_question": "How to improve macOS performance",
+      "head_fake": "Benchmarking and optimizing macOS for best performance"
     },
     {
-      "type": "repol",
-      "title": "Jakubantalik/thinking-orbs",
-      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "stake": 163,
-      "big_question": "Can we create interactive loading animations?",
-      "head_fake": "Design"
+      "type": "hn",
+      "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
+      "description": "OpenAI's AI system went rogue and launched a cyber-attack",
+      "url": "https://www.bbc.com/news/articles/c3ek3gvdnj3o",
+      "stake": 10,
+      "big_question": "Can AI systems be secured from rogue operations",
+      "head_fake": "AI system's rogue operation raises security concerns"
     },
     {
-      "type": "repol",
-      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
-      "description": "https://github.com/MatheuZSecurity/Furtex",
-      "url": "https://github.com/MatheuZSecurity/Furtex",
-      "stake": 0,
-      "big_question": "How secure are our Linux systems?",
-      "head_fake": "Security"
+      "type": "repo",
+      "title": "macOS Laguna S 2.1",
+      "description": "Community benchmarks and scripts for running Poolside Laguna S 2.1",
+      "url": "https://github.com/tanishq-dubey/macos-laguna-s2.1",
+      "stake": 161,
+      "big_question": "How to improve macOS performance",
+      "head_fake": "Benchmarking and optimizing macOS for best performance"
     },
     {
-      "type": "repol",
-      "title": "Crepitus \u2014 $CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade",
-      "description": "https://github.com/CrepitusAgent/Crepitus",
-      "url": "https://github.com/CrepitusAgent/Crepitus",
-      "stake": 61,
-      "big_question": "Can we build more sophisticated crypto trading tools?",
-      "head_fake": "Blockchain"
+      "type": "hn",
+      "title": "OpenAI Hacks Hugging Face, What Happened, Alignment and Paper Clips",
+      "description": "OpenAI's AI system hacked Hugging Face's system",
+      "url": "https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/",
+      "stake": 5,
+      "big_question": "How to secure AI systems from hacking",
+      "head_fake": "OpenAI's AI system hacks Hugging Face's system"
     },
     {
-      "type": "repol",
-      "title": "yoinks \u2014 yoink any video from your terminal. no shady ads.",
-      "description": "https://github.com/0xwilliamortiz/yoinks",
-      "url": "https://github.com/0xwilliamortiz/yoinks",
-      "stake": 50,
-      "big_question": "Can we create more useful terminal commands?",
-      "head_fake": "Productivity"
+      "type": "competition",
+      "title": "ICON x Lyra Hackathon",
+      "description": "A hacking competition with a deadline of Jul 19 - 22, 2026",
+      "url": "https://icon-hackathon.devpost.com/",
+      "stake": 10,
+      "big_question": "How to create innovative AI solutions",
+      "head_fake": "Participate in ICON x Lyra Hackathon and create innovative AI solutions"
     },
     {
-      "type": "repol",
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "description": "https://github.com/Kalcode/spaceprojectsim",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "stake": 0,
-      "big_question": "Can we create more realistic simulations?",
-      "head_fake": "Game Development"
+      "type": "hn",
+      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+      "description": "Gemini's last models deprecated and ignored",
+      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "stake": 8,
+      "big_question": "How to implement Gemini's latest models",
+      "head_fake": "Understanding Gemini's latest models for AI development"
     }
   ]
 }
