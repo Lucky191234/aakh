@@ -2,9 +2,9 @@ name: Nightly Refresh
 
 on:
   schedule:
-    # Runs at 4:30 AM IST = 23:00 UTC (previous day)
+    # 4:30 AM IST = 23:00 UTC
     - cron: "0 23 * * *"
-  workflow_dispatch: # allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   refresh:
@@ -41,15 +41,27 @@ jobs:
       - name: Build final dashboard data
         run: python scripts/build_dashboard_data.py
 
-      - name: Copy data into docs for GitHub Pages
+      - name: Generate morning audio
+        run: python scripts/generate_audio.py
+
+      - name: Copy data and audio into docs for GitHub Pages
         run: |
-          mkdir -p docs/data
+          mkdir -p docs/data docs/audio
           cp data/data.json docs/data/data.json
+          [ -f docs/audio/morning.mp3 ] && echo "audio ready" || echo "no audio generated"
 
       - name: Commit updated data
         run: |
           git config user.name "aakh-bot"
           git config user.email "aakh-bot@users.noreply.github.com"
-          git add data/ docs/data/
+          git add data/ docs/data/ docs/audio/ data/data_history.json || true
           git diff --cached --quiet || git commit -m "chore: nightly refresh $(date -u +'%Y-%m-%d')"
           git push
+
+      # Only runs when something above fails
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error::Aakh nightly refresh failed on $(date -u +'%Y-%m-%d')"
+          echo "::error::Check the steps above for which script failed."
+          echo "Go to: https://github.com/${{ github.repository }}/actions"

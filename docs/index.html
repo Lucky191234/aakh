@@ -11,14 +11,30 @@
 </head>
 <body>
 
-  <!-- STAKES BAR: one line, top of page, anchors you immediately -->
+  <!-- HEALTH BANNER: only visible when data is stale -->
+  <div id="health-banner" class="health-banner" hidden>
+    ⚠ Data is <span id="stale-hours"></span> hours old — last night's refresh may have failed.
+  </div>
+
+  <!-- STAKES BAR -->
   <div id="stakes-bar" class="stakes-bar">
     <span class="stakes-label">TODAY'S STAKE</span>
     <span id="stake-text" class="stake-text">Loading...</span>
+    <button id="audio-btn" class="audio-btn" hidden title="Listen on your commute">
+      🎧 Listen
+    </button>
   </div>
 
-  <!-- BIG QUESTION: the hero, full width, the frame for the whole morning -->
-  <header class="hero">
+  <!-- PINNED ROW: shown only when cards are pinned -->
+  <div id="pinned-section" class="pinned-section" hidden>
+    <div class="pinned-header">
+      <span class="section-tag">📌 PINNED</span>
+    </div>
+    <div id="pinned-list" class="pinned-list"></div>
+  </div>
+
+  <!-- HERO: big question -->
+  <header class="hero" id="hero">
     <div class="hero-inner">
       <p class="hero-eyebrow">
         <span id="date-label">—</span>
@@ -31,8 +47,14 @@
 
   <main class="main-grid">
 
-    <!-- HOT TOPICS: the head-fake section -->
-    <section class="section section--hot" id="hot-section">
+    <!-- MONDAY WEEKLY DIGEST BANNER -->
+    <div id="monday-banner" class="monday-banner" hidden>
+      <span class="section-tag">WEEK AHEAD</span>
+      <p>Monday mode — showing what trended across multiple days and what's closing soon.</p>
+    </div>
+
+    <!-- HOT TOPICS -->
+    <section class="section section--hot">
       <div class="section-header">
         <span class="section-tag">FOR YOU</span>
         <h2 class="section-title">Hot for you today</h2>
@@ -41,29 +63,27 @@
       <div id="hot-topics-list" class="hot-list"></div>
     </section>
 
-    <!-- TWO COLUMN: repos and competitions -->
+    <!-- REPOS + COMPETITIONS -->
     <div class="twin-cols">
-
-      <section class="section section--repos" id="repos-section">
+      <section class="section section--repos">
         <div class="section-header">
           <span class="section-tag">GITHUB</span>
-          <h2 class="section-title">Rising repos</h2>
+          <h2 class="section-title" id="repos-title">Rising repos</h2>
         </div>
         <div id="repos-list" class="repos-list"></div>
       </section>
 
-      <section class="section section--comps" id="comps-section">
+      <section class="section section--comps">
         <div class="section-header">
           <span class="section-tag">COMPETE</span>
           <h2 class="section-title">Open hackathons</h2>
         </div>
         <div id="comps-list" class="comps-list"></div>
       </section>
-
     </div>
 
-    <!-- HN OVERFLOW: quieter, below the fold -->
-    <section class="section section--hn" id="hn-section">
+    <!-- HN -->
+    <section class="section section--hn">
       <div class="section-header">
         <span class="section-tag">HN</span>
         <h2 class="section-title">From Hacker News</h2>
