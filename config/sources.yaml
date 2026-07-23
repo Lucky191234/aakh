@@ -3,19 +3,22 @@
 # No code changes needed.
 
 github:
-  # Repos created/starred in the last N days to consider
-  since_days: 1
-  # Languages you care about — repos outside these are deprioritised
+  # Repos created in the last N days to consider
+  since_days: 7
+  # Languages you care about
   languages:
     - python
     - javascript
     - typescript
     - rust
     - go
+    - c
+    - cpp
+    - java
   # Minimum stars to include a repo
-  min_stars: 50
+  min_stars: 20
   # How many repos to fetch per language
-  per_language: 5
+  per_language: 8
 
 competitions:
   sources:
@@ -23,15 +26,11 @@ competitions:
       url: https://devpost.com/hackathons?open_to=public&order_by=deadline
     - name: MLH
       url: https://mlh.io/seasons/2025/events
-  # Only include competitions with deadlines more than N days away
   min_days_remaining: 3
 
 hackernews:
   rss_url: https://hnrss.org/frontpage
-  # How many top stories to pull
   limit: 20
-  # Filter — only include stories whose titles contain at least one of these terms
-  # Leave empty [] to include all top stories
   keywords:
     - python
     - javascript
@@ -49,9 +48,7 @@ hackernews:
     - startup
 
 activity:
-  # Path to the editable digest file (local machine only, never committed)
   digest_path: "activity_today.md"
-  # Fallback prompt if digest is empty or missing
   fallback_prompt: >
     No activity digest found for today. Rank based on general
     student interest in software development and CS research.

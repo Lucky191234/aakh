@@ -113,7 +113,7 @@ def main():
         "is_monday": monday,
         "big_question": derive_big_question(hot_topics),
         "hot_topics": hot_topics,
-        "repos": repos[:12],
+        "repos": repos[:20],
         "competitions": competitions[:8],
         "hn_stories": stories[:10],
     }
@@ -122,7 +122,7 @@ def main():
         json.dump(dashboard_data, f, indent=2)
 
     print(f"✓ Dashboard data built → {OUTPUT_PATH}")
-    print(f"  repos: {len(repos[:12])} ({len(trending_multiday)} trending multiday)")
+    print(f"  repos: {len(repos[:20])} ({len(trending_multiday)} trending multiday)")
     print(f"  competitions: {len(competitions[:8])}")
     print(f"  hn stories: {len(stories[:10])}")
     print(f"  hot topics: {len(hot_topics)}")
