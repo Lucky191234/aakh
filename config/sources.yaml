@@ -1,11 +1,5 @@
-# Aakh — sources config
-# Edit this file to control what gets pulled each night.
-# No code changes needed.
-
 github:
-  # Repos created in the last N days to consider
   since_days: 7
-  # Languages you care about
   languages:
     - python
     - javascript
@@ -15,10 +9,11 @@ github:
     - c
     - cpp
     - java
-  # Minimum stars to include a repo
+    - shell
+    - kotlin
+    - swift
   min_stars: 20
-  # How many repos to fetch per language
-  per_language: 8
+  per_language: 10
 
 competitions:
   sources:
