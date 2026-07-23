@@ -1,212 +1,213 @@
 {
-  "generated_at": "2026-07-21T23:58:01.884527+00:00",
-  "date_label": "Tuesday, 21 July 2026",
-  "big_question": "Can we improve real-time trade notifications?",
+  "generated_at": "2026-07-23T00:03:38.277066+00:00",
+  "date_label": "Thursday, 23 July 2026",
+  "is_monday": false,
+  "big_question": "How can we design LLM chatbots to be more effective with children?",
   "hot_topics": [
     {
-      "type": "repol",
-      "title": "0xhype/hyperliquid-tracker",
-      "description": "Get notified when big trades happen on Hyperliquid.",
-      "url": "https://github.com/0xhype/hyperliquid-tracker",
-      "stake": 184,
-      "big_question": "Can we improve real-time trade notifications?",
-      "head_fake": "Trading"
+      "type": "hn",
+      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
+      "description": "https://arxiv.org/abs/2607.18250",
+      "url": "https://arxiv.org/abs/2607.18250",
+      "stake": 9,
+      "big_question": "How can we design LLM chatbots to be more effective with children?",
+      "head_fake": "Anthropomorphism in Children's Interactions with LLM Chatbots"
     },
     {
-      "type": "repol",
-      "title": "Jakubantalik/thinking-orbs",
-      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "stake": 163,
-      "big_question": "Can we create interactive loading animations?",
-      "head_fake": "Design"
+      "type": "repo",
+      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "description": "https://github.com/cactus-compute/cactus-hybrid",
+      "url": "https://github.com/cactus-compute/cactus-hybrid",
+      "stake": 8,
+      "big_question": "Can we create machines that understand and admit ignorance or incorrectness?",
+      "head_fake": "Cactus Hybrid"
     },
     {
-      "type": "repol",
-      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
-      "description": "https://github.com/MatheuZSecurity/Furtex",
-      "url": "https://github.com/MatheuZSecurity/Furtex",
-      "stake": 0,
-      "big_question": "How secure are our Linux systems?",
-      "head_fake": "Security"
+      "type": "hn",
+      "title": "Malleable Computing, Emacs, and You",
+      "description": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+      "stake": 7,
+      "big_question": "How can we personalize software development to fit our needs and workflows?",
+      "head_fake": "Malleable Computing"
     },
     {
-      "type": "repol",
-      "title": "Crepitus \u2014 $CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade",
-      "description": "https://github.com/CrepitusAgent/Crepitus",
-      "url": "https://github.com/CrepitusAgent/Crepitus",
-      "stake": 61,
-      "big_question": "Can we build more sophisticated crypto trading tools?",
-      "head_fake": "Blockchain"
+      "type": "competition",
+      "title": "COMPSPHERE 11",
+      "description": "https://compsphere-11.devpost.com/",
+      "url": "https://compsphere-11.devpost.com/",
+      "stake": 6,
+      "big_question": "What innovative solutions can we come up with to improve software development and related fields?",
+      "head_fake": "COMPSPHERE 11"
     },
     {
-      "type": "repol",
-      "title": "yoinks \u2014 yoink any video from your terminal. no shady ads.",
-      "description": "https://github.com/0xwilliamortiz/yoinks",
-      "url": "https://github.com/0xwilliamortiz/yoinks",
-      "stake": 50,
-      "big_question": "Can we create more useful terminal commands?",
-      "head_fake": "Productivity"
+      "type": "hn",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "description": "https://bento.page/slides/",
+      "url": "https://bento.page/slides/",
+      "stake": 5,
+      "big_question": "Can we create collaborative tools that streamline and enhance presentations?",
+      "head_fake": "Bento"
     },
     {
-      "type": "repol",
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "description": "https://github.com/Kalcode/spaceprojectsim",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "stake": 0,
-      "big_question": "Can we create more realistic simulations?",
-      "head_fake": "Game Development"
+      "type": "competition",
+      "title": "Launch HN: Unlayer (YC W22) \u2013 Add email and document builders to your app",
+      "description": "https://unlayer.com",
+      "url": "https://unlayer.com",
+      "stake": 4,
+      "big_question": "How can we integrate tools and services to create more efficient workflows?",
+      "head_fake": "Unlayer"
     }
   ],
-  "repos": [
+  "repos": [],
+  "competitions": [
     {
-      "name": "0xhype/hyperliquid-tracker",
-      "description": "Get notified when big trades happen on Hyperliquid.",
-      "url": "https://github.com/0xhype/hyperliquid-tracker",
-      "stars": 184,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T14:24:08Z",
-      "topics": []
+      "title": "COMPSPHERE 11",
+      "url": "https://compsphere-11.devpost.com/",
+      "deadline": "Jul 21 - 23, 2026",
+      "prize": "$<span data-currency-value>5,580</span>",
+      "participants": 34,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -1098
     },
     {
-      "name": "Jakubantalik/thinking-orbs",
-      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "stars": 163,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T07:01:53Z",
-      "topics": []
+      "title": "SMU .Hack Enrichment Application Programme 2026",
+      "url": "https://dothack-heap-2026.devpost.com/",
+      "deadline": "May 15 - Jul 24, 2026",
+      "prize": "$<span data-currency-value>1,750</span>",
+      "participants": 69,
+      "source": "Devpost",
+      "closing_soon": false
     },
     {
-      "name": "AdelanSupport/adelan-support",
-      "description": "",
-      "url": "https://github.com/AdelanSupport/adelan-support",
-      "stars": 89,
-      "language": "Python",
-      "created_at": "2026-07-21T07:28:23Z",
-      "topics": []
+      "title": "M&TSI 2026 (Deliwala/Babin)",
+      "url": "https://mtsi2026.devpost.com/",
+      "deadline": "Jul 06 - 24, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 53,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -747
     },
     {
-      "name": "hahhforest/pi-textbook",
-      "description": "\u300a\u52a8\u624b\u5b66 Pi\u300b\uff1a\u6cbf 15 \u4e2a\u771f\u5b9e checkpoint \u4ece\u96f6\u6784\u5efa Pi-style Agent",
-      "url": "https://github.com/hahhforest/pi-textbook",
-      "stars": 81,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T04:17:35Z",
-      "topics": [
-        "agent-engineering",
-        "ai-agent",
-        "chinese",
-        "llm",
-        "textbook",
-        "typescript"
-      ]
+      "title": "Global Tech Innovation Challenge",
+      "url": "https://global-tech-challenge.devpost.com/",
+      "deadline": "Jul 17 - 24, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 156,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -736
     },
     {
-      "name": "innae1121-bit/gsghwp",
-      "description": "gsghwp",
-      "url": "https://github.com/innae1121-bit/gsghwp",
-      "stars": 67,
-      "language": "Python",
-      "created_at": "2026-07-21T02:15:37Z",
-      "topics": []
+      "title": "Prompt Insights News",
+      "url": "https://prompt-insights-news.devpost.com/",
+      "deadline": "Jul 16 - 25, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 6,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": -372
     },
     {
-      "name": "CrepitusAgent/Crepitus",
-      "description": "$CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade on-chain stock exposure with no brokerage, no custodian, and no T+2 settlement.",
-      "url": "https://github.com/CrepitusAgent/Crepitus",
-      "stars": 61,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T12:17:18Z",
-      "topics": []
+      "title": "Measure up",
+      "url": "https://measureme-up.devpost.com/",
+      "deadline": "Jul 13 - 27, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 41,
+      "source": "Devpost",
+      "closing_soon": false,
+      "days_left": 355
     },
     {
-      "name": "0xwilliamortiz/yoinks",
-      "description": "yoink any video from your terminal. no shady ads.",
-      "url": "https://github.com/0xwilliamortiz/yoinks",
-      "stars": 50,
-      "language": "TypeScript",
-      "created_at": "2026-07-21T16:30:59Z",
-      "topics": [
-        "downloader",
-        "downloadervideo",
-        "tiktok-downloader-app",
-        "video",
-        "xdownloader",
-        "youtube"
-      ]
+      "title": "HTCJ Aviation Futures Innovation Challenge",
+      "url": "https://htcj-aviation-futures.devpost.com/",
+      "deadline": "Jun 25 - Jul 27, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 23,
+      "source": "Devpost",
+      "closing_soon": false
+    },
+    {
+      "title": "Impact Creation",
+      "url": "https://impact-creation.devpost.com/",
+      "deadline": "Jun 13 - Jul 28, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 59,
+      "source": "Devpost",
+      "closing_soon": false
     }
   ],
-  "competitions": [],
   "hn_stories": [
     {
-      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
-      "url": "https://github.com/MatheuZSecurity/Furtex",
-      "summary": "<p>Article URL: <a href=\"https://github.com/MatheuZSecurity/Furtex\">https://github.com/MatheuZSecurity/Furtex</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999323\">https://news.ycombinator.com/item?id=48999323</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "published": "Tue, 21 Jul 2026 22:39:58 +0000",
+      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
+      "url": "https://arxiv.org/abs/2607.18250",
+      "summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2607.18250\">https://arxiv.org/abs/2607.18250</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49014537\">https://news.ycombinator.com/item?id=49014537</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "published": "Wed, 22 Jul 2026 22:49:58 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
-      "url": "https://fireworks.ai/blog/kimik3-fable",
-      "summary": "<p>Article URL: <a href=\"https://fireworks.ai/blog/kimik3-fable\">https://fireworks.ai/blog/kimik3-fable</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999291\">https://news.ycombinator.com/item?id=48999291</a></p>\n<p>Points: 142</p>\n<p># Comments: 78</p>",
-      "published": "Tue, 21 Jul 2026 22:35:24 +0000",
+      "title": "Malleable Computing, Emacs, and You",
+      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+      "summary": "<p>Article URL: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\">http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49013538\">https://news.ycombinator.com/item?id=49013538</a></p>\n<",
+      "published": "Wed, 22 Jul 2026 21:15:26 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
-      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
-      "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 20</p>\n<p># Comments: 4</p",
-      "published": "Tue, 21 Jul 2026 21:27:54 +0000",
+      "title": "Fairphone 6 wide camera experimental Linux support",
+      "url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
+      "summary": "<p>Article URL: <a href=\"https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/\">https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49012777\">https://news.ycombinator.com/item?id=49012777</a></",
+      "published": "Wed, 22 Jul 2026 20:16:01 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
-      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
-      "summary": "<p>Article URL: <a href=\"https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok\">https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998404\">https://news.ycombinator.com/item?id=4899",
-      "published": "Tue, 21 Jul 2026 21:13:20 +0000",
+      "title": "Clarity didn't work, trying mysterianism",
+      "url": "https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html",
+      "summary": "<p>Article URL: <a href=\"https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html\">https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49011687\">https://news.yc",
+      "published": "Wed, 22 Jul 2026 18:55:42 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "OpenAI and Hugging Face address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "summary": "<p><a href=\"https://www.axios.com/2026/07/21/openai-says-hugging-face-breach-caused-by-one-its-models\" rel=\"nofollow\">https://www.axios.com/2026/07/21/openai-says-hugging-face-br...</a><p>See also <i>Security incident disclosure \u2013 July 2026</i> - <a href=\"https://news.ycombinator.com/item?id=4895624",
-      "published": "Tue, 21 Jul 2026 20:09:52 +0000",
+      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "url": "https://github.com/cactus-compute/cactus-hybrid",
+      "summary": "<p>Hey HN, Henry & Roman here from Cactus.<p>A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. D",
+      "published": "Wed, 22 Jul 2026 17:56:29 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
-      "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
-      "summary": "<p>Article URL: <a href=\"https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling\">https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling<",
-      "published": "Tue, 21 Jul 2026 19:43:59 +0000",
+      "title": "Are AI Labs Pelicanmaxxing?",
+      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+      "summary": "<p>Article URL: <a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\">https://dylancastillo.co/posts/pelicanmaxxing.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49010129\">https://news.ycombinator.com/item?id=49010129</a></p>\n<p>Points: 350</p>\n<p># Comments: 138",
+      "published": "Wed, 22 Jul 2026 17:17:54 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "summary": "<p>I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.<p>A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a",
-      "published": "Tue, 21 Jul 2026 18:29:57 +0000",
+      "title": "Launch HN: Unlayer (YC W22) \u2013 Add email and document builders to your app",
+      "url": "https://unlayer.com",
+      "summary": "<p>Hi HN, We\u2019re Adeel and Umair, co-founders of Unlayer (<a href=\"https://unlayer.com/\">https://unlayer.com/</a>). We let you add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself. Unlayer lets you create emails, web pages, ",
+      "published": "Wed, 22 Jul 2026 16:02:03 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Laguna S 2.1",
-      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "summary": "<p>Article URL: <a href=\"https://poolside.ai/blog/introducing-laguna-s-2-1\">https://poolside.ai/blog/introducing-laguna-s-2-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995261\">https://news.ycombinator.com/item?id=48995261</a></p>\n<p>Points: 209</p>\n<p># Comments: 42</p",
-      "published": "Tue, 21 Jul 2026 17:17:06 +0000",
+      "title": "Making",
+      "url": "https://beej.us/blog/data/ai-making/",
+      "summary": "<p>Article URL: <a href=\"https://beej.us/blog/data/ai-making/\">https://beej.us/blog/data/ai-making/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49008440\">https://news.ycombinator.com/item?id=49008440</a></p>\n<p>Points: 258</p>\n<p># Comments: 103</p>",
+      "published": "Wed, 22 Jul 2026 15:33:48 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
-      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "summary": "<p><a href=\"https://x.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://x.com/jack/status/2079605800998146171</a>, <a href=\"https://xcancel.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://xcancel.com/jack/status/2079605800998146171</a><p><a href=\"https://buzz.xyz/\" rel=\"nofollo",
-      "published": "Tue, 21 Jul 2026 17:14:06 +0000",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "url": "https://bento.page/slides/",
+      "summary": "<p>Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness.<p>To avoid this loop, I ended up cr",
+      "published": "Wed, 22 Jul 2026 15:19:23 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "France's Anssi Will Block PQC-Free Products from Certification Starting 2027",
-      "url": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/",
-      "summary": "<p>Article URL: <a href=\"https://postquantum.com/security-pqc/anssi-pqc-certification-2027/\">https://postquantum.com/security-pqc/anssi-pqc-certification-2027/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48994116\">https://news.ycombinator.com/item?id=48994116</a></p>\n<p>Po",
-      "published": "Tue, 21 Jul 2026 16:02:04 +0000",
+      "title": "Quality non-fiction books are the antithesis of AI slop",
+      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
+      "summary": "<p><a href=\"https://book-prize-index.vercel.app/\" rel=\"nofollow\">https://book-prize-index.vercel.app/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49007247\">https://news.ycombinator.com/item?id=49007247</a></p>\n<p>Points: 76</p>\n<p># Comments: 46</p>",
+      "published": "Wed, 22 Jul 2026 14:18:05 +0000",
       "source": "Hacker News"
     }
   ]

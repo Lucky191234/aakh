@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-21T23:58:01.803018+00:00",
+  "fetched_at": "2026-07-23T00:03:38.169496+00:00",
   "hot_topics": [
     {
-      "type": "repol",
-      "title": "0xhype/hyperliquid-tracker",
-      "description": "Get notified when big trades happen on Hyperliquid.",
-      "url": "https://github.com/0xhype/hyperliquid-tracker",
-      "stake": 184,
-      "big_question": "Can we improve real-time trade notifications?",
-      "head_fake": "Trading"
+      "type": "hn",
+      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
+      "description": "https://arxiv.org/abs/2607.18250",
+      "url": "https://arxiv.org/abs/2607.18250",
+      "stake": 9,
+      "big_question": "How can we design LLM chatbots to be more effective with children?",
+      "head_fake": "Anthropomorphism in Children's Interactions with LLM Chatbots"
     },
     {
-      "type": "repol",
-      "title": "Jakubantalik/thinking-orbs",
-      "description": "Dotted thought-orb loading indicators for AI & agent UIs \u2014 six tuned states, two sizes, auto dark/light",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "stake": 163,
-      "big_question": "Can we create interactive loading animations?",
-      "head_fake": "Design"
+      "type": "repo",
+      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "description": "https://github.com/cactus-compute/cactus-hybrid",
+      "url": "https://github.com/cactus-compute/cactus-hybrid",
+      "stake": 8,
+      "big_question": "Can we create machines that understand and admit ignorance or incorrectness?",
+      "head_fake": "Cactus Hybrid"
     },
     {
-      "type": "repol",
-      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
-      "description": "https://github.com/MatheuZSecurity/Furtex",
-      "url": "https://github.com/MatheuZSecurity/Furtex",
-      "stake": 0,
-      "big_question": "How secure are our Linux systems?",
-      "head_fake": "Security"
+      "type": "hn",
+      "title": "Malleable Computing, Emacs, and You",
+      "description": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+      "stake": 7,
+      "big_question": "How can we personalize software development to fit our needs and workflows?",
+      "head_fake": "Malleable Computing"
     },
     {
-      "type": "repol",
-      "title": "Crepitus \u2014 $CREP is collateral. Lock it into route reserves, mint synthetic equity positions backed by live oracle feeds, and trade",
-      "description": "https://github.com/CrepitusAgent/Crepitus",
-      "url": "https://github.com/CrepitusAgent/Crepitus",
-      "stake": 61,
-      "big_question": "Can we build more sophisticated crypto trading tools?",
-      "head_fake": "Blockchain"
+      "type": "competition",
+      "title": "COMPSPHERE 11",
+      "description": "https://compsphere-11.devpost.com/",
+      "url": "https://compsphere-11.devpost.com/",
+      "stake": 6,
+      "big_question": "What innovative solutions can we come up with to improve software development and related fields?",
+      "head_fake": "COMPSPHERE 11"
     },
     {
-      "type": "repol",
-      "title": "yoinks \u2014 yoink any video from your terminal. no shady ads.",
-      "description": "https://github.com/0xwilliamortiz/yoinks",
-      "url": "https://github.com/0xwilliamortiz/yoinks",
-      "stake": 50,
-      "big_question": "Can we create more useful terminal commands?",
-      "head_fake": "Productivity"
+      "type": "hn",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "description": "https://bento.page/slides/",
+      "url": "https://bento.page/slides/",
+      "stake": 5,
+      "big_question": "Can we create collaborative tools that streamline and enhance presentations?",
+      "head_fake": "Bento"
     },
     {
-      "type": "repol",
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "description": "https://github.com/Kalcode/spaceprojectsim",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "stake": 0,
-      "big_question": "Can we create more realistic simulations?",
-      "head_fake": "Game Development"
+      "type": "competition",
+      "title": "Launch HN: Unlayer (YC W22) \u2013 Add email and document builders to your app",
+      "description": "https://unlayer.com",
+      "url": "https://unlayer.com",
+      "stake": 4,
+      "big_question": "How can we integrate tools and services to create more efficient workflows?",
+      "head_fake": "Unlayer"
     }
   ]
 }
