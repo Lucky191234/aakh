@@ -1,28 +1,12 @@
 {
-  "fetched_at": "2026-07-22T12:46:30.393993+00:00",
+  "fetched_at": "2026-07-23T00:03:36.137376+00:00",
   "competitions": [
-    {
-      "title": "ICON x Lyra Hackathon",
-      "url": "https://icon-hackathon.devpost.com/",
-      "deadline": "Jul 19 - 22, 2026",
-      "prize": "$<span data-currency-value>500</span>",
-      "participants": 87,
-      "source": "Devpost"
-    },
-    {
-      "title": "HackVerse",
-      "url": "https://hackverse-30753.devpost.com/",
-      "deadline": "Jul 22, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 30,
-      "source": "Devpost"
-    },
     {
       "title": "COMPSPHERE 11",
       "url": "https://compsphere-11.devpost.com/",
       "deadline": "Jul 21 - 23, 2026",
       "prize": "$<span data-currency-value>5,580</span>",
-      "participants": 20,
+      "participants": 34,
       "source": "Devpost"
     },
     {
@@ -30,7 +14,7 @@
       "url": "https://dothack-heap-2026.devpost.com/",
       "deadline": "May 15 - Jul 24, 2026",
       "prize": "$<span data-currency-value>1,750</span>",
-      "participants": 57,
+      "participants": 69,
       "source": "Devpost"
     },
     {
@@ -46,7 +30,7 @@
       "url": "https://global-tech-challenge.devpost.com/",
       "deadline": "Jul 17 - 24, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 146,
+      "participants": 156,
       "source": "Devpost"
     },
     {
@@ -54,7 +38,7 @@
       "url": "https://prompt-insights-news.devpost.com/",
       "deadline": "Jul 16 - 25, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 4,
+      "participants": 6,
       "source": "Devpost"
     },
     {
@@ -62,7 +46,7 @@
       "url": "https://measureme-up.devpost.com/",
       "deadline": "Jul 13 - 27, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 39,
+      "participants": 41,
       "source": "Devpost"
     },
     {
@@ -78,7 +62,23 @@
       "url": "https://impact-creation.devpost.com/",
       "deadline": "Jun 13 - Jul 28, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 55,
+      "participants": 59,
+      "source": "Devpost"
+    },
+    {
+      "title": "Ventura Challenge",
+      "url": "https://ventura-challenge.devpost.com/",
+      "deadline": "Jun 01 - Jul 29, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 115,
+      "source": "Devpost"
+    },
+    {
+      "title": "Zero to Query: LingoQL Hackathon",
+      "url": "https://ztq.devpost.com/",
+      "deadline": "Jul 08 - 29, 2026",
+      "prize": "$<span data-currency-value>500</span>",
+      "participants": 256,
       "source": "Devpost"
     }
   ]

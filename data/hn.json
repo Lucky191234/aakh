@@ -1,95 +1,74 @@
 {
-  "fetched_at": "2026-07-22T12:46:31.018273+00:00",
+  "fetched_at": "2026-07-23T00:03:36.576259+00:00",
   "stories": [
     {
-      "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
-      "url": "https://www.bbc.com/news/articles/c3ek3gvdnj3o",
-      "summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c3ek3gvdnj3o\">https://www.bbc.com/news/articles/c3ek3gvdnj3o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49005398\">https://news.ycombinator.com/item?id=49005398</a></p>\n<p>Points: 5</p>\n<p># Comments: 6</p>",
-      "published": "Wed, 22 Jul 2026 12:03:32 +0000",
+      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
+      "url": "https://arxiv.org/abs/2607.18250",
+      "summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2607.18250\">https://arxiv.org/abs/2607.18250</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49014537\">https://news.ycombinator.com/item?id=49014537</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "published": "Wed, 22 Jul 2026 22:49:58 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "OpenAI Hacks Hugging Face, What Happened, Alignment and Paper Clips",
-      "url": "https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/",
-      "summary": "<p>Article URL: <a href=\"https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/\">https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49004914\">h",
-      "published": "Wed, 22 Jul 2026 11:15:06 +0000",
+      "title": "Malleable Computing, Emacs, and You",
+      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+      "summary": "<p>Article URL: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\">http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49013538\">https://news.ycombinator.com/item?id=49013538</a></p>\n<",
+      "published": "Wed, 22 Jul 2026 21:15:26 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "OverpAId \u2013 Fire your CEO. Hire the future",
-      "url": "https://overpaid.lol",
-      "summary": "<p>Article URL: <a href=\"https://overpaid.lol\">https://overpaid.lol</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49004663\">https://news.ycombinator.com/item?id=49004663</a></p>\n<p>Points: 108</p>\n<p># Comments: 52</p>",
-      "published": "Wed, 22 Jul 2026 10:49:04 +0000",
+      "title": "Fairphone 6 wide camera experimental Linux support",
+      "url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
+      "summary": "<p>Article URL: <a href=\"https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/\">https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49012777\">https://news.ycombinator.com/item?id=49012777</a></",
+      "published": "Wed, 22 Jul 2026 20:16:01 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: A new kind of FPS aim trainer",
-      "url": "https://openaim.pramit.gg/",
-      "summary": "<p>I played a lot of Valorant and got mad, so I made an aim trainer that analyzes your raw crosshair movement to explore your raw motor and perceptual weaknesses instead of scoring scenarios.\nIt also chooses sens and difficulty as part of the tasks, and makes playlists that are optimal difficulty fo",
-      "published": "Wed, 22 Jul 2026 05:39:31 +0000",
+      "title": "Clarity didn't work, trying mysterianism",
+      "url": "https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html",
+      "summary": "<p>Article URL: <a href=\"https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html\">https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49011687\">https://news.yc",
+      "published": "Wed, 22 Jul 2026 18:55:42 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
-      "url": "https://fireworks.ai/blog/kimik3-fable",
-      "summary": "<p>Also: Kimi K3: second only to Fable 5 on AA-Briefcase\n <a href=\"https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark\" rel=\"nofollow\">https://artificialanalysis.ai/articles/kimi-k3-agentic-knowl...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=",
-      "published": "Tue, 21 Jul 2026 22:35:24 +0000",
+      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "url": "https://github.com/cactus-compute/cactus-hybrid",
+      "summary": "<p>Hey HN, Henry & Roman here from Cactus.<p>A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. D",
+      "published": "Wed, 22 Jul 2026 17:56:29 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
-      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
-      "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 99</p>\n<p># Comments: 37</",
-      "published": "Tue, 21 Jul 2026 21:27:54 +0000",
+      "title": "Are AI Labs Pelicanmaxxing?",
+      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+      "summary": "<p>Article URL: <a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\">https://dylancastillo.co/posts/pelicanmaxxing.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49010129\">https://news.ycombinator.com/item?id=49010129</a></p>\n<p>Points: 350</p>\n<p># Comments: 138",
+      "published": "Wed, 22 Jul 2026 17:17:54 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
-      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
-      "summary": "<p>Article URL: <a href=\"https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok\">https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998404\">https://news.ycombinator.com/item?id=4899",
-      "published": "Tue, 21 Jul 2026 21:13:20 +0000",
+      "title": "Launch HN: Unlayer (YC W22) \u2013 Add email and document builders to your app",
+      "url": "https://unlayer.com",
+      "summary": "<p>Hi HN, We\u2019re Adeel and Umair, co-founders of Unlayer (<a href=\"https://unlayer.com/\">https://unlayer.com/</a>). We let you add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself. Unlayer lets you create emails, web pages, ",
+      "published": "Wed, 22 Jul 2026 16:02:03 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "OpenAI and Hugging Face address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "summary": "<p><a href=\"https://www.axios.com/2026/07/21/openai-says-hugging-face-breach-caused-by-one-its-models\" rel=\"nofollow\">https://www.axios.com/2026/07/21/openai-says-hugging-face-br...</a><p>See also <i>Security incident disclosure \u2013 July 2026</i> - <a href=\"https://news.ycombinator.com/item?id=4895624",
-      "published": "Tue, 21 Jul 2026 20:09:52 +0000",
+      "title": "Making",
+      "url": "https://beej.us/blog/data/ai-making/",
+      "summary": "<p>Article URL: <a href=\"https://beej.us/blog/data/ai-making/\">https://beej.us/blog/data/ai-making/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49008440\">https://news.ycombinator.com/item?id=49008440</a></p>\n<p>Points: 258</p>\n<p># Comments: 103</p>",
+      "published": "Wed, 22 Jul 2026 15:33:48 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
-      "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
-      "summary": "<p>Article URL: <a href=\"https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling\">https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling<",
-      "published": "Tue, 21 Jul 2026 19:43:59 +0000",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "url": "https://bento.page/slides/",
+      "summary": "<p>Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness.<p>To avoid this loop, I ended up cr",
+      "published": "Wed, 22 Jul 2026 15:19:23 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
-      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
-      "summary": "<p>Article URL: <a href=\"https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63\">https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63</a></p>\n<p>Comments URL: <a href=\"https://news.y",
-      "published": "Tue, 21 Jul 2026 19:04:39 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Advertise in ChatGPT",
-      "url": "https://ads.openai.com/",
-      "summary": "<p>Article URL: <a href=\"https://ads.openai.com/\">https://ads.openai.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48996571\">https://news.ycombinator.com/item?id=48996571</a></p>\n<p>Points: 873</p>\n<p># Comments: 676</p>",
-      "published": "Tue, 21 Jul 2026 18:58:44 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Laguna S 2.1",
-      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "summary": "<p>Article URL: <a href=\"https://poolside.ai/blog/introducing-laguna-s-2-1\">https://poolside.ai/blog/introducing-laguna-s-2-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995261\">https://news.ycombinator.com/item?id=48995261</a></p>\n<p>Points: 347</p>\n<p># Comments: 67</p",
-      "published": "Tue, 21 Jul 2026 17:17:06 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
-      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "summary": "<p><a href=\"https://x.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://x.com/jack/status/2079605800998146171</a>, <a href=\"https://xcancel.com/jack/status/2079605800998146171\" rel=\"nofollow\">https://xcancel.com/jack/status/2079605800998146171</a><p><a href=\"https://buzz.xyz/\" rel=\"nofollo",
-      "published": "Tue, 21 Jul 2026 17:14:06 +0000",
+      "title": "Quality non-fiction books are the antithesis of AI slop",
+      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
+      "summary": "<p><a href=\"https://book-prize-index.vercel.app/\" rel=\"nofollow\">https://book-prize-index.vercel.app/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49007247\">https://news.ycombinator.com/item?id=49007247</a></p>\n<p>Points: 76</p>\n<p># Comments: 46</p>",
+      "published": "Wed, 22 Jul 2026 14:18:05 +0000",
       "source": "Hacker News"
     }
   ]
