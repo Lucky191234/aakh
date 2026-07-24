@@ -2,8 +2,7 @@ name: Nightly Refresh
 
 on:
   schedule:
-    # 4:30 AM IST = 23:00 UTC
-    - cron: "0 23 * * *"
+    - cron: "0 23 * * *"   # 4:30 AM IST
   workflow_dispatch:
 
 jobs:
@@ -33,6 +32,9 @@ jobs:
       - name: Fetch Hacker News RSS
         run: python scripts/fetch_hackernews_rss.py
 
+      - name: Fetch word of the day
+        run: python scripts/fetch_word_of_day.py
+
       - name: Rank hot topics with LLM
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -48,20 +50,18 @@ jobs:
         run: |
           mkdir -p docs/data docs/audio
           cp data/data.json docs/data/data.json
-          [ -f docs/audio/morning.mp3 ] && echo "audio ready" || echo "no audio generated"
+          [ -f docs/audio/morning.mp3 ] && echo "audio ready" || echo "no audio"
 
       - name: Commit updated data
         run: |
           git config user.name "aakh-bot"
           git config user.email "aakh-bot@users.noreply.github.com"
-          git add data/ docs/data/ docs/audio/ data/data_history.json || true
+          git add data/ docs/data/ docs/audio/ || true
           git diff --cached --quiet || git commit -m "chore: nightly refresh $(date -u +'%Y-%m-%d')"
           git push
 
-      # Only runs when something above fails
       - name: Notify on failure
         if: failure()
         run: |
-          echo "::error::Aakh nightly refresh failed on $(date -u +'%Y-%m-%d')"
-          echo "::error::Check the steps above for which script failed."
-          echo "Go to: https://github.com/${{ github.repository }}/actions"
+          echo "::error::Aakh nightly refresh FAILED — $(date -u +'%Y-%m-%d')"
+          echo "::error::Visit https://github.com/${{ github.repository }}/actions"
