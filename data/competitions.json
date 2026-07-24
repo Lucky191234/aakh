@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T08:56:47.504088+00:00",
+  "fetched_at": "2026-07-24T09:25:46.865914+00:00",
   "competitions": [
     {
       "title": "DSOC : Summer Edition",
@@ -18,19 +18,19 @@
       "source": "Devpost"
     },
     {
-      "title": "Global Tech Innovation Challenge",
-      "url": "https://global-tech-challenge.devpost.com/",
-      "deadline": "Jul 17 - 24, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 202,
-      "source": "Devpost"
-    },
-    {
       "title": "M&TSI 2026 (Deliwala/Babin)",
       "url": "https://mtsi2026.devpost.com/",
       "deadline": "Jul 06 - 24, 2026",
       "prize": "$<span data-currency-value>0</span>",
       "participants": 61,
+      "source": "Devpost"
+    },
+    {
+      "title": "Global Tech Innovation Challenge",
+      "url": "https://global-tech-challenge.devpost.com/",
+      "deadline": "Jul 17 - 24, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 202,
       "source": "Devpost"
     },
     {
