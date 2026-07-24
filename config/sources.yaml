@@ -17,10 +17,12 @@ github:
 
 competitions:
   sources:
+    - name: Unstop
+      url: https://unstop.com/hackathons
     - name: Devpost
       url: https://devpost.com/hackathons?open_to=public&order_by=deadline
     - name: MLH
-      url: https://mlh.io/seasons/2025/events
+      url: https://mlh.io/seasons/2026/events
   min_days_remaining: 3
 
 hackernews:
@@ -41,6 +43,10 @@ hackernews:
     - security
     - LLM
     - startup
+
+word_of_day:
+  # Merriam-Webster WOTD RSS — free, no auth
+  rss_url: https://www.merriam-webster.com/wotd/feed/rss2
 
 activity:
   digest_path: "activity_today.md"
