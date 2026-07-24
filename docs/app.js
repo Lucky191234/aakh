@@ -1,12 +1,11 @@
 /**
  * Aakh — app.js
- * Renders the morning dashboard from data/data.json
- * Features: health check, pinning, audio, weekly digest mode
+ * Word of day hero, audio popup with speed/voice/seek, pinning, health check.
  */
 
-const DATA_URL = "data/data.json";
+const DATA_URL  = "data/data.json";
 const AUDIO_URL = "audio/morning.mp3";
-const PINS_KEY = "aakh_pins"; // localStorage key
+const PINS_KEY  = "aakh_pins";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -17,85 +16,58 @@ function el(tag, cls, html) {
   return e;
 }
 
-function link(href, cls, html) {
+function lnk(href, cls, html) {
   const a = el("a", cls, html);
-  a.href = href;
+  a.href = href || "#";
   a.target = "_blank";
   a.rel = "noopener noreferrer";
   return a;
 }
 
-function formatStars(n) {
-  return n >= 1000 ? `⭐ ${(n / 1000).toFixed(1)}k` : `⭐ ${n}`;
+function fmt(secs) {
+  const m = Math.floor(secs / 60);
+  const s = Math.floor(secs % 60).toString().padStart(2, "0");
+  return `${m}:${s}`;
 }
 
-function formatDate(iso) {
-  try {
-    return new Date(iso).toLocaleTimeString("en-IN", {
-      hour: "2-digit", minute: "2-digit", hour12: true,
-      timeZone: "Asia/Kolkata",
-    }) + " IST";
-  } catch { return iso; }
-}
+// ── Pins ──────────────────────────────────────────────────────────────────────
 
-function accentLastWord(text) {
-  const words = text.trim().split(" ");
-  const last = words.pop();
-  return words.join(" ") + ` <span class="accent-word">${last}</span>`;
-}
-
-// ── Pins (localStorage) ───────────────────────────────────────────────────────
-
-function getPins() {
-  try { return JSON.parse(localStorage.getItem(PINS_KEY) || "{}"); }
-  catch { return {}; }
-}
-
-function setPins(pins) {
-  localStorage.setItem(PINS_KEY, JSON.stringify(pins));
-}
+function getPins() { try { return JSON.parse(localStorage.getItem(PINS_KEY) || "{}"); } catch { return {}; } }
+function setPins(p) { localStorage.setItem(PINS_KEY, JSON.stringify(p)); }
 
 function togglePin(url, title) {
   const pins = getPins();
-  if (pins[url]) { delete pins[url]; }
-  else { pins[url] = { title, pinned_at: Date.now() }; }
+  if (pins[url]) delete pins[url]; else pins[url] = { title, ts: Date.now() };
   setPins(pins);
   renderPinned();
-  // Update all pin buttons for this URL
-  document.querySelectorAll(`.pin-btn[data-url="${CSS.escape(url)}"]`).forEach(btn => {
-    btn.classList.toggle("pinned", !!getPins()[url]);
-    btn.title = getPins()[url] ? "Unpin" : "Pin for tomorrow";
+  document.querySelectorAll(`.pin-btn[data-url]`).forEach(btn => {
+    if (btn.dataset.url === url) btn.classList.toggle("pinned", !!getPins()[url]);
   });
 }
 
 function renderPinned() {
   const pins = getPins();
   const section = document.getElementById("pinned-section");
-  const list = document.getElementById("pinned-list");
+  const list    = document.getElementById("pinned-list");
   const entries = Object.entries(pins);
-
   if (!entries.length) { section.hidden = true; return; }
   section.hidden = false;
   list.innerHTML = "";
-
-  entries.sort((a, b) => b[1].pinned_at - a[1].pinned_at).forEach(([url, { title }]) => {
+  entries.sort((a, b) => b[1].ts - a[1].ts).forEach(([url, { title }]) => {
     const chip = el("div", "pinned-chip");
-    const a = link(url, "pinned-chip-title", title);
-    const unpinBtn = el("button", "pinned-unpin", "✕");
-    unpinBtn.title = "Unpin";
-    unpinBtn.onclick = (e) => { e.preventDefault(); togglePin(url, title); };
-    chip.appendChild(a);
-    chip.appendChild(unpinBtn);
+    chip.appendChild(lnk(url, "pinned-chip-title", title));
+    const x = el("button", "pinned-unpin", "✕");
+    x.onclick = e => { e.preventDefault(); togglePin(url, title); };
+    chip.appendChild(x);
     list.appendChild(chip);
   });
 }
 
 function makePinBtn(url, title) {
-  const pins = getPins();
-  const btn = el("button", `pin-btn${pins[url] ? " pinned" : ""}`, "📌");
+  const btn = el("button", `pin-btn${getPins()[url] ? " pinned" : ""}`, "📌");
   btn.dataset.url = url;
-  btn.title = pins[url] ? "Unpin" : "Pin for tomorrow";
-  btn.onclick = (e) => { e.preventDefault(); e.stopPropagation(); togglePin(url, title); };
+  btn.title = "Pin for tomorrow";
+  btn.onclick = e => { e.preventDefault(); e.stopPropagation(); togglePin(url, title); };
   return btn;
 }
 
@@ -103,165 +75,283 @@ function makePinBtn(url, title) {
 
 function checkHealth(generatedAt) {
   if (!generatedAt) return;
-  const ageHours = (Date.now() - new Date(generatedAt).getTime()) / 3_600_000;
-  if (ageHours > 25) {
-    const banner = document.getElementById("health-banner");
-    document.getElementById("stale-hours").textContent = Math.floor(ageHours);
-    banner.hidden = false;
+  const hours = (Date.now() - new Date(generatedAt).getTime()) / 3_600_000;
+  if (hours > 25) {
+    document.getElementById("stale-hours").textContent = Math.floor(hours);
+    document.getElementById("health-banner").hidden = false;
   }
 }
 
-// ── Audio ─────────────────────────────────────────────────────────────────────
+// ── Word of the Day ───────────────────────────────────────────────────────────
 
-function setupAudio() {
-  const btn = document.getElementById("audio-btn");
-  // Check if audio file exists
+function renderWotd(wotd) {
+  if (!wotd || !wotd.word) return;
+  document.getElementById("wotd-word").textContent = wotd.word;
+  document.getElementById("wotd-pos").textContent  = wotd.part_of_speech || "";
+  document.getElementById("wotd-def").textContent  = wotd.definition || "";
+  const exEl = document.getElementById("wotd-example");
+  if (wotd.example) { exEl.textContent = wotd.example; }
+  else { exEl.hidden = true; }
+}
+
+// ── Audio Popup ───────────────────────────────────────────────────────────────
+
+function setupAudioPopup() {
+  const trigger  = document.getElementById("audio-trigger");
+  const overlay  = document.getElementById("audio-overlay");
+  const popup    = document.getElementById("audio-popup");
+  const closeBtn = document.getElementById("audio-close");
+  const playBtn  = document.getElementById("audio-playpause");
+  const restart  = document.getElementById("audio-restart");
+  const skipBtn  = document.getElementById("audio-skip");
+  const seek     = document.getElementById("audio-seek");
+  const curEl    = document.getElementById("audio-current");
+  const durEl    = document.getElementById("audio-duration");
+  const voiceSel = document.getElementById("voice-select");
+  const npText   = document.getElementById("audio-np-text");
+
+  let audio    = null;
+  let synth    = null;  // Web Speech API instance
+  let useFile  = true;  // true = MP3 file, false = Web Speech
+  let utterance = null;
+
+  // Check if MP3 exists
   fetch(AUDIO_URL, { method: "HEAD" })
-    .then(r => { if (r.ok) btn.hidden = false; })
-    .catch(() => {});
+    .then(r => { if (r.ok) trigger.hidden = false; })
+    .catch(() => { trigger.hidden = false; }); // show anyway for speech fallback
 
-  let audio = null;
-  btn.onclick = () => {
-    if (!audio) {
-      audio = new Audio(AUDIO_URL);
-      audio.onended = () => { btn.classList.remove("playing"); btn.textContent = "🎧 Listen"; };
-      audio.onerror = () => { btn.textContent = "🎧 No audio yet"; btn.disabled = true; };
-    }
-    if (audio.paused) {
-      audio.play();
-      btn.classList.add("playing");
-      btn.textContent = "⏸ Pause";
+  // Populate Web Speech voices
+  function loadVoices() {
+    const voices = window.speechSynthesis?.getVoices() || [];
+    // Keep the first option (generated file), then add speech voices
+    const existing = voiceSel.options[0];
+    voiceSel.innerHTML = "";
+    voiceSel.appendChild(existing);
+    voices.filter(v => v.lang.startsWith("en")).forEach(v => {
+      const opt = document.createElement("option");
+      opt.value = v.name;
+      opt.textContent = `🗣 ${v.name.split(" ").slice(0,3).join(" ")}`;
+      voiceSel.appendChild(opt);
+    });
+  }
+
+  if (window.speechSynthesis) {
+    loadVoices();
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+  }
+
+  function openPopup() {
+    popup.hidden   = false;
+    overlay.hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  function closePopup() {
+    popup.hidden   = true;
+    overlay.hidden = true;
+    document.body.style.overflow = "";
+    if (audio) { audio.pause(); }
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    setPlayIcon();
+  }
+
+  trigger.onclick  = openPopup;
+  overlay.onclick  = closePopup;
+  closeBtn.onclick = closePopup;
+
+  // Speed buttons
+  document.querySelectorAll(".speed-btn").forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll(".speed-btn").forEach(b => b.classList.remove("speed-btn--active"));
+      btn.classList.add("speed-btn--active");
+      const rate = parseFloat(btn.dataset.speed);
+      if (audio) audio.playbackRate = rate;
+      if (utterance) utterance.rate = rate;
+    };
+  });
+
+  // Voice selection
+  voiceSel.onchange = () => {
+    useFile = voiceSel.value === "file";
+    if (audio) { audio.pause(); setPlayIcon(); }
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    setPlayIcon();
+  };
+
+  // Seek bar
+  seek.oninput = () => { if (audio && useFile) audio.currentTime = parseFloat(seek.value); };
+
+  // Restart
+  restart.onclick = () => {
+    if (useFile && audio) { audio.currentTime = 0; audio.play(); setPlayIcon(true); }
+    else if (!useFile) { window.speechSynthesis.cancel(); startSpeech(); }
+  };
+
+  // Skip 15s
+  skipBtn.onclick = () => { if (audio && useFile) audio.currentTime = Math.min(audio.duration, audio.currentTime + 15); };
+
+  function setPlayIcon(playing) {
+    playBtn.textContent = playing ? "⏸" : "▶";
+  }
+
+  function startSpeech() {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const text = npText.textContent;
+    utterance = new SpeechSynthesisUtterance(text);
+    const voices = window.speechSynthesis.getVoices();
+    const chosen = voices.find(v => v.name === voiceSel.value);
+    if (chosen) utterance.voice = chosen;
+    const rate = parseFloat(document.querySelector(".speed-btn--active")?.dataset.speed || "1");
+    utterance.rate = rate;
+    utterance.onend  = () => setPlayIcon(false);
+    utterance.onerror = () => setPlayIcon(false);
+    window.speechSynthesis.speak(utterance);
+    setPlayIcon(true);
+  }
+
+  // Play / Pause
+  playBtn.onclick = () => {
+    if (useFile) {
+      // File-based playback
+      if (!audio) {
+        audio = new Audio(AUDIO_URL);
+        audio.ontimeupdate = () => {
+          seek.max = audio.duration || 0;
+          seek.value = audio.currentTime;
+          curEl.textContent = fmt(audio.currentTime);
+        };
+        audio.onloadedmetadata = () => {
+          durEl.textContent = fmt(audio.duration);
+          seek.max = audio.duration;
+        };
+        audio.onended = () => setPlayIcon(false);
+        audio.onerror = () => {
+          // MP3 missing — fall back to speech
+          useFile = false;
+          voiceSel.value = voiceSel.options[1]?.value || "file";
+          startSpeech();
+        };
+      }
+      if (audio.paused) { audio.play(); setPlayIcon(true); }
+      else              { audio.pause(); setPlayIcon(false); }
     } else {
-      audio.pause();
-      btn.classList.remove("playing");
-      btn.textContent = "🎧 Resume";
+      // Web Speech
+      if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+        window.speechSynthesis.pause(); setPlayIcon(false);
+      } else if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume(); setPlayIcon(true);
+      } else {
+        startSpeech();
+      }
     }
   };
 }
 
-// ── Render functions ──────────────────────────────────────────────────────────
+// ── Render ────────────────────────────────────────────────────────────────────
 
-function renderHero(data) {
+function renderMeta(data) {
   document.getElementById("date-label").textContent = data.date_label || "—";
-  const q = data.big_question || "What did the dev world quietly ship?";
-  document.getElementById("big-question").innerHTML = accentLastWord(q);
-
+  const ts = document.getElementById("generated-at");
+  if (data.generated_at) {
+    const t = new Date(data.generated_at).toLocaleTimeString("en-IN", {
+      hour: "2-digit", minute: "2-digit", hour12: true, timeZone: "Asia/Kolkata"
+    });
+    ts.textContent = `last updated ${t} IST`;
+  }
   if (data.is_monday) {
     document.getElementById("monday-banner").hidden = false;
     document.getElementById("repos-title").textContent = "Trending this week";
   }
 }
 
-function renderStakesBar(hotTopics) {
-  const stakeText = document.getElementById("stake-text");
-  const first = hotTopics?.[0];
-  stakeText.textContent = first?.stake || "No activity signal today — showing global trending.";
+function renderStakes(hotTopics) {
+  document.getElementById("stake-text").textContent =
+    hotTopics?.[0]?.stake || "No activity signal — showing global trending.";
 }
 
 function renderHotTopics(hotTopics) {
-  const container = document.getElementById("hot-topics-list");
-  container.innerHTML = "";
-  if (!hotTopics?.length) {
-    container.appendChild(el("p", "empty", "No hot topics today — check back tomorrow.")); return;
-  }
-
-  const typeLabel = { repo: "GITHUB REPO", hn: "HACKER NEWS", competition: "HACKATHON" };
-
-  hotTopics.forEach((topic, i) => {
+  const c = document.getElementById("hot-topics-list");
+  c.innerHTML = "";
+  if (!hotTopics?.length) { c.appendChild(el("p", "empty", "No hot topics today.")); return; }
+  const label = { repo: "GITHUB REPO", hn: "HACKER NEWS", competition: "HACKATHON" };
+  hotTopics.forEach((t, i) => {
     const card = el("div", `hot-card${i === 0 ? " hot-card--first" : ""}`);
-    const cardLink = link(topic.url, "hot-card-link");
-
-    cardLink.appendChild(el("span", "hot-type", typeLabel[topic.type] || topic.type?.toUpperCase() || ""));
-    cardLink.appendChild(el("p", "hot-title", topic.title));
-    if (topic.big_question) cardLink.appendChild(el("p", "hot-big-q", `"${topic.big_question}"`));
-    if (topic.description)  cardLink.appendChild(el("p", "hot-description", topic.description));
-    if (topic.head_fake)    cardLink.appendChild(el("p", "hot-headfake", topic.head_fake));
-
-    card.appendChild(cardLink);
-    card.appendChild(makePinBtn(topic.url, topic.title));
-    container.appendChild(card);
+    const a    = lnk(t.url, "hot-card-link");
+    a.appendChild(el("span", "hot-type",        label[t.type] || t.type?.toUpperCase() || ""));
+    a.appendChild(el("p",    "hot-title",        t.title));
+    if (t.big_question)  a.appendChild(el("p", "hot-big-q",      `"${t.big_question}"`));
+    if (t.description)   a.appendChild(el("p", "hot-description", t.description));
+    if (t.head_fake)     a.appendChild(el("p", "hot-headfake",    t.head_fake));
+    card.appendChild(a);
+    card.appendChild(makePinBtn(t.url, t.title));
+    c.appendChild(card);
   });
 }
 
 function renderRepos(repos, isMonday) {
-  const container = document.getElementById("repos-list");
-  container.innerHTML = "";
-  if (!repos?.length) {
-    container.appendChild(el("p", "empty", "No repos fetched yet.")); return;
-  }
-
-  // On Monday, show multiday-trending repos first
+  const c = document.getElementById("repos-list");
+  c.innerHTML = "";
+  if (!repos?.length) { c.appendChild(el("p", "empty", "No repos fetched.")); return; }
   const sorted = isMonday
     ? [...repos].sort((a, b) => (b.trending_multiday ? 1 : 0) - (a.trending_multiday ? 1 : 0))
     : repos;
-
-  sorted.forEach(repo => {
-    const row = link(repo.url, "repo-row");
+  sorted.forEach(r => {
+    const row  = lnk(r.url, "repo-row");
     const info = el("div", "repo-info");
-    info.appendChild(el("p", "repo-name", repo.name));
-    if (repo.description) info.appendChild(el("p", "repo-desc", repo.description));
-
-    if (repo.trending_multiday || repo.closing_soon) {
-      const badges = el("div", "repo-badges");
-      if (repo.trending_multiday) badges.appendChild(el("span", "badge badge--multiday", "TRENDING MULTIDAY"));
-      badges && info.appendChild(badges);
+    info.appendChild(el("p", "repo-name", r.name));
+    if (r.description) info.appendChild(el("p", "repo-desc", r.description));
+    if (r.trending_multiday) {
+      const b = el("div", "repo-badges");
+      b.appendChild(el("span", "badge badge--multiday", "TRENDING MULTIDAY"));
+      info.appendChild(b);
     }
-
     const meta = el("div", "repo-meta");
-    meta.appendChild(el("span", "repo-stars", formatStars(repo.stars)));
-    if (repo.language) meta.appendChild(el("span", "repo-lang", repo.language));
-
+    meta.appendChild(el("span", "repo-stars", r.stars >= 1000 ? `⭐ ${(r.stars/1000).toFixed(1)}k` : `⭐ ${r.stars}`));
+    if (r.language) meta.appendChild(el("span", "repo-lang", r.language));
     row.appendChild(info);
     row.appendChild(meta);
-    container.appendChild(row);
+    c.appendChild(row);
   });
 }
 
-function renderCompetitions(competitions) {
-  const container = document.getElementById("comps-list");
-  container.innerHTML = "";
-  if (!competitions?.length) {
-    container.appendChild(el("p", "empty", "No competitions found.")); return;
-  }
-
-  competitions.forEach(comp => {
-    const row = link(comp.url, "comp-row");
+function renderCompetitions(comps) {
+  const c = document.getElementById("comps-list");
+  c.innerHTML = "";
+  if (!comps?.length) { c.appendChild(el("p", "empty", "No competitions found — Unstop, Devpost, MLH checked.")); return; }
+  comps.forEach(comp => {
+    if (!comp.title) return;
+    const row = lnk(comp.url && comp.url.startsWith("http") ? comp.url : "#", "comp-row");
     row.appendChild(el("p", "comp-title", comp.title));
-
     const meta = el("div", "comp-meta");
-    if (comp.deadline) meta.appendChild(el("span", "comp-deadline", `Deadline: ${comp.deadline}`));
-    if (comp.closing_soon) meta.appendChild(el("span", "comp-closing", `${comp.days_left}d left`));
-    if (comp.source)   meta.appendChild(el("span", "comp-source", comp.source));
-    if (comp.prize)    meta.appendChild(el("span", "comp-prize", comp.prize));
-
+    if (comp.source)      meta.appendChild(el("span", "comp-source",   comp.source));
+    if (comp.deadline)    meta.appendChild(el("span", "comp-deadline",  comp.deadline));
+    if (comp.closing_soon && comp.days_left != null)
+                          meta.appendChild(el("span", "comp-closing",   `${comp.days_left}d left`));
+    if (comp.prize)       meta.appendChild(el("span", "comp-prize",     comp.prize));
+    if (comp.organiser)   meta.appendChild(el("span", "comp-source",    comp.organiser));
+    if (comp.location)    meta.appendChild(el("span", "comp-source",    comp.location));
     row.appendChild(meta);
-    container.appendChild(row);
+    c.appendChild(row);
   });
 }
 
 function renderHN(stories) {
-  const container = document.getElementById("hn-list");
-  container.innerHTML = "";
-  if (!stories?.length) {
-    container.appendChild(el("p", "empty", "No HN stories today.")); return;
-  }
-  stories.forEach(story => {
-    const row = link(story.url, "hn-row");
-    row.appendChild(el("p", "hn-title", story.title));
-    container.appendChild(row);
+  const c = document.getElementById("hn-list");
+  c.innerHTML = "";
+  if (!stories?.length) { c.appendChild(el("p", "empty", "No HN stories.")); return; }
+  stories.forEach(s => {
+    const row = lnk(s.url, "hn-row");
+    row.appendChild(el("p", "hn-title", s.title));
+    c.appendChild(row);
   });
 }
 
-function renderFooter(data) {
-  const ts = document.getElementById("generated-at");
-  if (data.generated_at) ts.textContent = `last updated ${formatDate(data.generated_at)}`;
-}
-
-// ── Bootstrap ─────────────────────────────────────────────────────────────────
+// ── Init ──────────────────────────────────────────────────────────────────────
 
 async function init() {
   renderPinned();
-  setupAudio();
+  setupAudioPopup();
 
   try {
     const resp = await fetch(DATA_URL);
@@ -269,20 +359,25 @@ async function init() {
     const data = await resp.json();
 
     checkHealth(data.generated_at);
-    renderHero(data);
-    renderStakesBar(data.hot_topics);
+    renderMeta(data);
+    renderWotd(data.word_of_day);
+    renderStakes(data.hot_topics);
     renderHotTopics(data.hot_topics);
     renderRepos(data.repos, data.is_monday);
     renderCompetitions(data.competitions);
     renderHN(data.hn_stories);
-    renderFooter(data);
+
+    // Update audio popup "now playing" text with today's word
+    if (data.word_of_day?.word) {
+      document.getElementById("audio-np-text").textContent =
+        `Aakh briefing · Word: ${data.word_of_day.word} · ${data.date_label || ""}`;
+    }
 
   } catch (err) {
-    console.error("Aakh: failed to load data.json", err);
-    document.getElementById("big-question").textContent =
-      "Dashboard data not found. Run the nightly pipeline first.";
-    document.getElementById("stake-text").textContent =
-      "data/data.json missing — trigger the workflow from the Actions tab.";
+    console.error("Aakh:", err);
+    document.getElementById("wotd-word").textContent = "Data not found";
+    document.getElementById("wotd-def").textContent  = "Run the nightly pipeline first, or trigger the workflow from the Actions tab.";
+    document.getElementById("stake-text").textContent = "data/data.json missing";
   }
 }
 
