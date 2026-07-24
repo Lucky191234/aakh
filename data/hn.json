@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-07-24T00:04:57.489757+00:00",
+  "fetched_at": "2026-07-24T08:56:48.176694+00:00",
   "stories": [
     {
-      "title": "Tell HN: Namecheap gave my account to an unverified third party",
-      "url": "https://news.ycombinator.com/item?id=49028037",
-      "summary": "<p>I\u2019ve been a NameCheap customer for 13 years. I\u2019ve also helped out an old college club paying for a .com they use (that is registered to me under my name, address, and phone number). During a recent leadership transition, the incoming club lead wanted to make changes to the DNS and didn\u2019t know to ",
-      "published": "Thu, 23 Jul 2026 21:05:29 +0000",
+      "title": "Flux 3",
+      "url": "https://bfl.ai/blog/flux-3",
+      "summary": "<p>Article URL: <a href=\"https://bfl.ai/blog/flux-3\">https://bfl.ai/blog/flux-3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49031796\">https://news.ycombinator.com/item?id=49031796</a></p>\n<p>Points: 193</p>\n<p># Comments: 48</p>",
+      "published": "Fri, 24 Jul 2026 06:17:08 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Visual 6502",
+      "url": "http://visual6502.org/JSSim/index.html",
+      "summary": "<p>Article URL: <a href=\"http://visual6502.org/JSSim/index.html\">http://visual6502.org/JSSim/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49029538\">https://news.ycombinator.com/item?id=49029538</a></p>\n<p>Points: 91</p>\n<p># Comments: 22</p>",
+      "published": "Thu, 23 Jul 2026 23:36:42 +0000",
       "source": "Hacker News"
     },
     {
@@ -27,13 +34,6 @@
       "url": "https://news.ycombinator.com/item?id=49024620",
       "summary": "<p>Hi Hacker News, I'm Louis. I built Screenpipe (<a href=\"https://screenpipe.com\">https://screenpipe.com</a>), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you've seen, said, and heard. This makes it easier to automate your repetitive ta",
       "published": "Thu, 23 Jul 2026 16:48:38 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: OneCLI \u2013 OSS credential gateway that keeps secrets out of AI agents",
-      "url": "https://github.com/onecli/onecli",
-      "summary": "<p>hey HN, Jonathan and Guy here, creators of OneCLI (<a href=\"https://onecli.sh/\">https://onecli.sh/</a>). OneCLI is an open source vault for AI Agents.<p>Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe",
-      "published": "Thu, 23 Jul 2026 15:42:40 +0000",
       "source": "Hacker News"
     },
     {

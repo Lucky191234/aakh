@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-24T00:04:58.879382+00:00",
+  "fetched_at": "2026-07-24T08:56:49.390464+00:00",
   "hot_topics": [
     {
       "type": "repo",
       "title": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stake": "high",
-      "big_question": "How to learn programming for free?",
-      "head_fake": "AI-powered learning platform"
+      "stake": 452607,
+      "big_question": "How can I learn programming and computer science for free?",
+      "head_fake": "freeCodeCamp"
     },
     {
       "type": "repo",
       "title": "EbookFoundation/free-programming-books",
       "description": "Freely available programming books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
-      "stake": "high",
-      "big_question": "Best programming books to learn from?",
-      "head_fake": "Huge collection of free programming books"
+      "stake": 392889,
+      "big_question": "What are some freely available resources for learning programming?",
+      "head_fake": "free-programming-books"
     },
     {
       "type": "repo",
-      "title": "tensorflow/tensorflow",
-      "description": "An Open Source Machine Learning Framework for Everyone",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "stake": "high",
-      "big_question": "How to build AI models with TensorFlow?",
-      "head_fake": "AI model development platform"
+      "title": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. ",
+      "url": "https://github.com/openclaw/openclaw",
+      "stake": 383979,
+      "big_question": "How can I build my own AI assistant?",
+      "head_fake": "openclaw"
     },
     {
       "type": "repo",
-      "title": "affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
-      "url": "https://github.com/affaan-m/ECC",
-      "stake": "high",
-      "big_question": "How to optimize agent performance?",
-      "head_fake": "AI agent performance optimization system"
+      "title": "nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stake": 362495,
+      "big_question": "How can I improve my career as a developer?",
+      "head_fake": "developer-roadmap"
     },
     {
-      "type": "hn",
-      "title": "Tell HN: Namecheap gave my account to an unverified third party",
-      "description": "Security concern on Namecheap",
-      "url": "https://news.ycombinator.com/item?id=49028037",
-      "stake": "medium",
-      "big_question": "What to do when your online account is compromised?",
-      "head_fake": "Security alert on Namecheap"
+      "type": "repo",
+      "title": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "url": "https://github.com/vinta/awesome-python",
+      "stake": 310005,
+      "big_question": "What are some good resources for learning Python?",
+      "head_fake": "awesome-python"
     },
     {
-      "type": "hn",
-      "title": "Show HN: OneCLI \u2013 OSS credential gateway that keeps secrets out of AI agents",
-      "description": "Secure credential gateway for AI agents",
-      "url": "https://github.com/onecli/onecli",
-      "stake": "medium",
-      "big_question": "How to secure credentials for AI agents?",
-      "head_fake": "Secure credential gateway for AI"
+      "type": "repo",
+      "title": "react/react",
+      "description": "The library for web and native user interfaces.",
+      "url": "https://github.com/react/react",
+      "stake": 246692,
+      "big_question": "How can I use React for web and native user interfaces?",
+      "head_fake": "React"
     }
   ]
 }
