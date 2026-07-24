@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-23T00:03:38.169496+00:00",
+  "fetched_at": "2026-07-24T00:04:58.879382+00:00",
   "hot_topics": [
     {
-      "type": "hn",
-      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
-      "description": "https://arxiv.org/abs/2607.18250",
-      "url": "https://arxiv.org/abs/2607.18250",
-      "stake": 9,
-      "big_question": "How can we design LLM chatbots to be more effective with children?",
-      "head_fake": "Anthropomorphism in Children's Interactions with LLM Chatbots"
+      "type": "repo",
+      "title": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stake": "high",
+      "big_question": "How to learn programming for free?",
+      "head_fake": "AI-powered learning platform"
     },
     {
       "type": "repo",
-      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
-      "description": "https://github.com/cactus-compute/cactus-hybrid",
-      "url": "https://github.com/cactus-compute/cactus-hybrid",
-      "stake": 8,
-      "big_question": "Can we create machines that understand and admit ignorance or incorrectness?",
-      "head_fake": "Cactus Hybrid"
+      "title": "EbookFoundation/free-programming-books",
+      "description": "Freely available programming books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stake": "high",
+      "big_question": "Best programming books to learn from?",
+      "head_fake": "Huge collection of free programming books"
+    },
+    {
+      "type": "repo",
+      "title": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stake": "high",
+      "big_question": "How to build AI models with TensorFlow?",
+      "head_fake": "AI model development platform"
+    },
+    {
+      "type": "repo",
+      "title": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
+      "url": "https://github.com/affaan-m/ECC",
+      "stake": "high",
+      "big_question": "How to optimize agent performance?",
+      "head_fake": "AI agent performance optimization system"
     },
     {
       "type": "hn",
-      "title": "Malleable Computing, Emacs, and You",
-      "description": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
-      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
-      "stake": 7,
-      "big_question": "How can we personalize software development to fit our needs and workflows?",
-      "head_fake": "Malleable Computing"
-    },
-    {
-      "type": "competition",
-      "title": "COMPSPHERE 11",
-      "description": "https://compsphere-11.devpost.com/",
-      "url": "https://compsphere-11.devpost.com/",
-      "stake": 6,
-      "big_question": "What innovative solutions can we come up with to improve software development and related fields?",
-      "head_fake": "COMPSPHERE 11"
+      "title": "Tell HN: Namecheap gave my account to an unverified third party",
+      "description": "Security concern on Namecheap",
+      "url": "https://news.ycombinator.com/item?id=49028037",
+      "stake": "medium",
+      "big_question": "What to do when your online account is compromised?",
+      "head_fake": "Security alert on Namecheap"
     },
     {
       "type": "hn",
-      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
-      "description": "https://bento.page/slides/",
-      "url": "https://bento.page/slides/",
-      "stake": 5,
-      "big_question": "Can we create collaborative tools that streamline and enhance presentations?",
-      "head_fake": "Bento"
-    },
-    {
-      "type": "competition",
-      "title": "Launch HN: Unlayer (YC W22) \u2013 Add email and document builders to your app",
-      "description": "https://unlayer.com",
-      "url": "https://unlayer.com",
-      "stake": 4,
-      "big_question": "How can we integrate tools and services to create more efficient workflows?",
-      "head_fake": "Unlayer"
+      "title": "Show HN: OneCLI \u2013 OSS credential gateway that keeps secrets out of AI agents",
+      "description": "Secure credential gateway for AI agents",
+      "url": "https://github.com/onecli/onecli",
+      "stake": "medium",
+      "big_question": "How to secure credentials for AI agents?",
+      "head_fake": "Secure credential gateway for AI"
     }
   ]
 }

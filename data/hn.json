@@ -1,74 +1,67 @@
 {
-  "fetched_at": "2026-07-23T00:03:36.576259+00:00",
+  "fetched_at": "2026-07-24T00:04:57.489757+00:00",
   "stories": [
     {
-      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
-      "url": "https://arxiv.org/abs/2607.18250",
-      "summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2607.18250\">https://arxiv.org/abs/2607.18250</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49014537\">https://news.ycombinator.com/item?id=49014537</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "published": "Wed, 22 Jul 2026 22:49:58 +0000",
+      "title": "Tell HN: Namecheap gave my account to an unverified third party",
+      "url": "https://news.ycombinator.com/item?id=49028037",
+      "summary": "<p>I\u2019ve been a NameCheap customer for 13 years. I\u2019ve also helped out an old college club paying for a .com they use (that is registered to me under my name, address, and phone number). During a recent leadership transition, the incoming club lead wanted to make changes to the DNS and didn\u2019t know to ",
+      "published": "Thu, 23 Jul 2026 21:05:29 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Malleable Computing, Emacs, and You",
-      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
-      "summary": "<p>Article URL: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\">http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49013538\">https://news.ycombinator.com/item?id=49013538</a></p>\n<",
-      "published": "Wed, 22 Jul 2026 21:15:26 +0000",
+      "title": "Show HN: Echo \u2013 Fable-level results at 1/3 the cost using open-weight models",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "summary": "<p>I\u2019ve been building Echo (<a href=\"https://echo.tracerml.ai/\" rel=\"nofollow\">https://echo.tracerml.ai/</a>), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.<p>It started with a simple experiment. I took a gr",
+      "published": "Thu, 23 Jul 2026 19:26:01 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Fairphone 6 wide camera experimental Linux support",
-      "url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
-      "summary": "<p>Article URL: <a href=\"https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/\">https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49012777\">https://news.ycombinator.com/item?id=49012777</a></",
-      "published": "Wed, 22 Jul 2026 20:16:01 +0000",
+      "title": "The arguments against open source AI are bad",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "summary": "<p>Article URL: <a href=\"https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/\">https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49024643\">https://news.ycombinator.com/item?id=49024643</a></p>\n<p>",
+      "published": "Thu, 23 Jul 2026 16:49:57 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Clarity didn't work, trying mysterianism",
-      "url": "https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html",
-      "summary": "<p>Article URL: <a href=\"https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html\">https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49011687\">https://news.yc",
-      "published": "Wed, 22 Jul 2026 18:55:42 +0000",
+      "title": "Launch HN: Screenpipe (YC S26) \u2013 Record how you work and turn that into agents",
+      "url": "https://news.ycombinator.com/item?id=49024620",
+      "summary": "<p>Hi Hacker News, I'm Louis. I built Screenpipe (<a href=\"https://screenpipe.com\">https://screenpipe.com</a>), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you've seen, said, and heard. This makes it easier to automate your repetitive ta",
+      "published": "Thu, 23 Jul 2026 16:48:38 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
-      "url": "https://github.com/cactus-compute/cactus-hybrid",
-      "summary": "<p>Hey HN, Henry & Roman here from Cactus.<p>A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. D",
-      "published": "Wed, 22 Jul 2026 17:56:29 +0000",
+      "title": "Show HN: OneCLI \u2013 OSS credential gateway that keeps secrets out of AI agents",
+      "url": "https://github.com/onecli/onecli",
+      "summary": "<p>hey HN, Jonathan and Guy here, creators of OneCLI (<a href=\"https://onecli.sh/\">https://onecli.sh/</a>). OneCLI is an open source vault for AI Agents.<p>Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe",
+      "published": "Thu, 23 Jul 2026 15:42:40 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Are AI Labs Pelicanmaxxing?",
-      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
-      "summary": "<p>Article URL: <a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\">https://dylancastillo.co/posts/pelicanmaxxing.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49010129\">https://news.ycombinator.com/item?id=49010129</a></p>\n<p>Points: 350</p>\n<p># Comments: 138",
-      "published": "Wed, 22 Jul 2026 17:17:54 +0000",
+      "title": "Why Software Factories Fail (or: harness engineering is not enough)",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+      "summary": "<p>Article URL: <a href=\"https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md\">https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49023019\">htt",
+      "published": "Thu, 23 Jul 2026 15:18:48 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Launch HN: Unlayer (YC W22) \u2013 Add email and document builders to your app",
-      "url": "https://unlayer.com",
-      "summary": "<p>Hi HN, We\u2019re Adeel and Umair, co-founders of Unlayer (<a href=\"https://unlayer.com/\">https://unlayer.com/</a>). We let you add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself. Unlayer lets you create emails, web pages, ",
-      "published": "Wed, 22 Jul 2026 16:02:03 +0000",
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "summary": "<p><a href=\"https://littletech.org/\" rel=\"nofollow\">https://littletech.org/</a><p><a href=\"https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0e5/lta-open-weight-ai-letter-7-22-26.pdf\" rel=\"nofollow\">https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0...</a></p>\n<hr />\n<p>Comments U",
+      "published": "Thu, 23 Jul 2026 15:18:40 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Making",
-      "url": "https://beej.us/blog/data/ai-making/",
-      "summary": "<p>Article URL: <a href=\"https://beej.us/blog/data/ai-making/\">https://beej.us/blog/data/ai-making/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49008440\">https://news.ycombinator.com/item?id=49008440</a></p>\n<p>Points: 258</p>\n<p># Comments: 103</p>",
-      "published": "Wed, 22 Jul 2026 15:33:48 +0000",
+      "title": "Show HN: Palmier Pro \u2013 Open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "summary": "<p>Hi HN, we are Marcos and Harrison, cofounders of Palmier (<a href=\"https://palmier.io\">https://palmier.io</a>). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:<p>- Making some AI ",
+      "published": "Thu, 23 Jul 2026 15:11:37 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
-      "url": "https://bento.page/slides/",
-      "summary": "<p>Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness.<p>To avoid this loop, I ended up cr",
-      "published": "Wed, 22 Jul 2026 15:19:23 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Quality non-fiction books are the antithesis of AI slop",
-      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
-      "summary": "<p><a href=\"https://book-prize-index.vercel.app/\" rel=\"nofollow\">https://book-prize-index.vercel.app/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49007247\">https://news.ycombinator.com/item?id=49007247</a></p>\n<p>Points: 76</p>\n<p># Comments: 46</p>",
-      "published": "Wed, 22 Jul 2026 14:18:05 +0000",
+      "title": "Writing by hand is good for your brain",
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "summary": "<p>Article URL: <a href=\"https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your\">https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49022152\">https://news.ycombinator.com/item?id=49022152</a></",
+      "published": "Thu, 23 Jul 2026 14:24:43 +0000",
       "source": "Hacker News"
     }
   ]

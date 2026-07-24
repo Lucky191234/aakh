@@ -1,20 +1,12 @@
 {
-  "fetched_at": "2026-07-23T00:03:36.137376+00:00",
+  "fetched_at": "2026-07-24T00:04:57.267121+00:00",
   "competitions": [
-    {
-      "title": "COMPSPHERE 11",
-      "url": "https://compsphere-11.devpost.com/",
-      "deadline": "Jul 21 - 23, 2026",
-      "prize": "$<span data-currency-value>5,580</span>",
-      "participants": 34,
-      "source": "Devpost"
-    },
     {
       "title": "SMU .Hack Enrichment Application Programme 2026",
       "url": "https://dothack-heap-2026.devpost.com/",
       "deadline": "May 15 - Jul 24, 2026",
       "prize": "$<span data-currency-value>1,750</span>",
-      "participants": 69,
+      "participants": 101,
       "source": "Devpost"
     },
     {
@@ -22,7 +14,7 @@
       "url": "https://mtsi2026.devpost.com/",
       "deadline": "Jul 06 - 24, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 53,
+      "participants": 58,
       "source": "Devpost"
     },
     {
@@ -30,7 +22,23 @@
       "url": "https://global-tech-challenge.devpost.com/",
       "deadline": "Jul 17 - 24, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 156,
+      "participants": 192,
+      "source": "Devpost"
+    },
+    {
+      "title": "HackNomics",
+      "url": "https://hacknomicshack.devpost.com/",
+      "deadline": "May 24 - Jul 24, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 101,
+      "source": "Devpost"
+    },
+    {
+      "title": "DSOC : Summer Edition",
+      "url": "https://dsoc-summer-edition.devpost.com/",
+      "deadline": "Jun 03 - Jul 24, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 171,
       "source": "Devpost"
     },
     {
@@ -38,7 +46,7 @@
       "url": "https://prompt-insights-news.devpost.com/",
       "deadline": "Jul 16 - 25, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 6,
+      "participants": 7,
       "source": "Devpost"
     },
     {
@@ -46,7 +54,7 @@
       "url": "https://measureme-up.devpost.com/",
       "deadline": "Jul 13 - 27, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 41,
+      "participants": 52,
       "source": "Devpost"
     },
     {
@@ -54,7 +62,7 @@
       "url": "https://htcj-aviation-futures.devpost.com/",
       "deadline": "Jun 25 - Jul 27, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 23,
+      "participants": 25,
       "source": "Devpost"
     },
     {
@@ -62,7 +70,7 @@
       "url": "https://impact-creation.devpost.com/",
       "deadline": "Jun 13 - Jul 28, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 59,
+      "participants": 64,
       "source": "Devpost"
     },
     {
@@ -70,15 +78,7 @@
       "url": "https://ventura-challenge.devpost.com/",
       "deadline": "Jun 01 - Jul 29, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 115,
-      "source": "Devpost"
-    },
-    {
-      "title": "Zero to Query: LingoQL Hackathon",
-      "url": "https://ztq.devpost.com/",
-      "deadline": "Jul 08 - 29, 2026",
-      "prize": "$<span data-currency-value>500</span>",
-      "participants": 256,
+      "participants": 123,
       "source": "Devpost"
     }
   ]
