@@ -11,50 +11,52 @@
 </head>
 <body>
 
-  <!-- HEALTH BANNER: only visible when data is stale -->
+  <!-- HEALTH BANNER -->
   <div id="health-banner" class="health-banner" hidden>
     ⚠ Data is <span id="stale-hours"></span> hours old — last night's refresh may have failed.
   </div>
 
   <!-- STAKES BAR -->
-  <div id="stakes-bar" class="stakes-bar">
+  <div class="stakes-bar">
     <span class="stakes-label">TODAY'S STAKE</span>
     <span id="stake-text" class="stake-text">Loading...</span>
-    <button id="audio-btn" class="audio-btn" hidden title="Listen on your commute">
-      🎧 Listen
-    </button>
+    <button id="audio-trigger" class="audio-trigger-btn" hidden>🎧 Listen</button>
   </div>
 
-  <!-- PINNED ROW: shown only when cards are pinned -->
+  <!-- PINNED ROW -->
   <div id="pinned-section" class="pinned-section" hidden>
-    <div class="pinned-header">
-      <span class="section-tag">📌 PINNED</span>
-    </div>
+    <span class="section-tag">📌 PINNED</span>
     <div id="pinned-list" class="pinned-list"></div>
   </div>
 
-  <!-- HERO: big question -->
-  <header class="hero" id="hero">
+  <!-- HERO: word of the day -->
+  <header class="hero">
     <div class="hero-inner">
       <p class="hero-eyebrow">
         <span id="date-label">—</span>
         <span class="dot">·</span>
         AAKH
       </p>
-      <h1 id="big-question" class="big-question">—</h1>
+      <div class="wotd-block">
+        <p class="wotd-label">WORD OF THE DAY</p>
+        <h1 id="wotd-word" class="wotd-word">—</h1>
+        <p id="wotd-pos" class="wotd-pos"></p>
+        <p id="wotd-def" class="wotd-def"></p>
+        <p id="wotd-example" class="wotd-example"></p>
+      </div>
     </div>
   </header>
 
   <main class="main-grid">
 
-    <!-- MONDAY WEEKLY DIGEST BANNER -->
+    <!-- MONDAY BANNER -->
     <div id="monday-banner" class="monday-banner" hidden>
       <span class="section-tag">WEEK AHEAD</span>
-      <p>Monday mode — showing what trended across multiple days and what's closing soon.</p>
+      <p>Monday mode — repos trending across multiple days, competitions closing this week.</p>
     </div>
 
     <!-- HOT TOPICS -->
-    <section class="section section--hot">
+    <section class="section">
       <div class="section-header">
         <span class="section-tag">FOR YOU</span>
         <h2 class="section-title">Hot for you today</h2>
@@ -65,7 +67,7 @@
 
     <!-- REPOS + COMPETITIONS -->
     <div class="twin-cols">
-      <section class="section section--repos">
+      <section class="section">
         <div class="section-header">
           <span class="section-tag">GITHUB</span>
           <h2 class="section-title" id="repos-title">Rising repos</h2>
@@ -73,7 +75,7 @@
         <div id="repos-list" class="repos-list"></div>
       </section>
 
-      <section class="section section--comps">
+      <section class="section">
         <div class="section-header">
           <span class="section-tag">COMPETE</span>
           <h2 class="section-title">Open hackathons</h2>
@@ -83,7 +85,7 @@
     </div>
 
     <!-- HN -->
-    <section class="section section--hn">
+    <section class="section">
       <div class="section-header">
         <span class="section-tag">HN</span>
         <h2 class="section-title">From Hacker News</h2>
@@ -94,9 +96,61 @@
   </main>
 
   <footer class="footer">
-    <span id="generated-at" class="footer-time"></span>
-    <span class="footer-name">AAKH — built for mornings, not scrolling</span>
+    <span id="generated-at"></span>
+    <span>AAKH — built for mornings, not scrolling</span>
   </footer>
+
+  <!-- AUDIO POPUP -->
+  <div id="audio-overlay" class="audio-overlay" hidden></div>
+  <div id="audio-popup" class="audio-popup" hidden>
+    <div class="audio-popup-header">
+      <span class="audio-popup-title">🎧 Morning Briefing</span>
+      <button id="audio-close" class="audio-close">✕</button>
+    </div>
+
+    <div class="audio-now-playing">
+      <p class="audio-np-label">NOW PLAYING</p>
+      <p id="audio-np-text" class="audio-np-text">Aakh morning briefing</p>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="audio-progress-wrap">
+      <input type="range" id="audio-seek" class="audio-seek" value="0" min="0" step="0.1" />
+      <div class="audio-times">
+        <span id="audio-current">0:00</span>
+        <span id="audio-duration">—</span>
+      </div>
+    </div>
+
+    <!-- Main controls -->
+    <div class="audio-controls">
+      <button id="audio-restart" class="audio-ctrl-btn" title="Restart">↺</button>
+      <button id="audio-playpause" class="audio-ctrl-btn audio-ctrl-btn--primary" title="Play / Pause">▶</button>
+      <button id="audio-skip" class="audio-ctrl-btn" title="Skip 15s">+15s</button>
+    </div>
+
+    <!-- Speed -->
+    <div class="audio-row">
+      <span class="audio-row-label">Speed</span>
+      <div class="audio-speed-btns">
+        <button class="speed-btn" data-speed="0.75">0.75×</button>
+        <button class="speed-btn speed-btn--active" data-speed="1">1×</button>
+        <button class="speed-btn" data-speed="1.25">1.25×</button>
+        <button class="speed-btn" data-speed="1.5">1.5×</button>
+        <button class="speed-btn" data-speed="2">2×</button>
+      </div>
+    </div>
+
+    <!-- Voice -->
+    <div class="audio-row">
+      <span class="audio-row-label">Voice</span>
+      <select id="voice-select" class="voice-select">
+        <option value="file">🎙 Generated (default)</option>
+      </select>
+    </div>
+
+    <p class="audio-hint">Tap play, pocket your phone, ride.</p>
+  </div>
 
   <script src="app.js"></script>
 </body>
