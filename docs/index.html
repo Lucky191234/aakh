@@ -7,8 +7,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <!-- Lucide icons -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.383.0/umd/lucide.min.js"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,26 +19,21 @@
     </div>
     <div class="top-bar-right">
       <span id="generated-at" class="top-bar-time"></span>
-      <button id="audio-trigger" class="icon-btn" hidden title="Listen">
-        <i data-lucide="headphones"></i>
-      </button>
-      <button id="theme-toggle" class="icon-btn" title="Toggle theme">
-        <i data-lucide="sun" id="icon-sun"></i>
-        <i data-lucide="moon" id="icon-moon" hidden></i>
-      </button>
+      <button id="audio-trigger" class="icon-btn" hidden title="Listen to briefing"></button>
+      <button id="theme-toggle" class="icon-btn" title="Toggle theme"></button>
     </div>
   </div>
 
-  <!-- HEALTH BANNER -->
+  <!-- HEALTH BANNER — only shows when data > 24h old -->
   <div id="health-banner" class="health-banner" hidden>
-    <i data-lucide="alert-triangle"></i>
+    <span id="health-icon"></span>
     Data is <span id="stale-hours"></span> hours old — last night's refresh may have failed.
   </div>
 
-  <!-- PINNED ROW -->
+  <!-- PINNED ROW — hidden until user pins something -->
   <div id="pinned-section" class="pinned-section" hidden>
     <span class="pinned-label">
-      <i data-lucide="bookmark"></i>
+      <span id="pin-label-icon"></span>
       Pinned
     </span>
     <div id="pinned-list" class="pinned-list"></div>
@@ -59,8 +52,8 @@
 
     <!-- MONDAY BANNER -->
     <div id="monday-banner" class="monday-banner" hidden>
-      <i data-lucide="calendar"></i>
-      <span>Monday — showing repos that trended all week and competitions closing soon.</span>
+      <span id="monday-icon"></span>
+      <span>Monday — repos that trended all week, competitions closing soon.</span>
     </div>
 
     <!-- HOT TOPICS -->
@@ -68,14 +61,13 @@
       <div class="section-header">
         <span class="section-tag">For you</span>
         <h2 class="section-title">Hot picks today</h2>
-        <p class="section-sub">2 repos, 2 stories, 2 competitions, 2 wildcards.</p>
+        <p class="section-sub">2 repos · 2 stories · 2 competitions · 2 wildcards</p>
       </div>
       <div id="hot-topics-list" class="hot-list"></div>
     </section>
 
-    <!-- REPOS + COMPETITIONS side by side -->
+    <!-- REPOS + COMPETITIONS -->
     <div class="twin-cols">
-
       <section class="section">
         <div class="section-header">
           <span class="section-tag">GitHub</span>
@@ -91,7 +83,6 @@
         </div>
         <div id="comps-list" class="scroll-list"></div>
       </section>
-
     </div>
 
     <!-- HN -->
@@ -114,9 +105,7 @@
   <div id="audio-popup" class="audio-popup" hidden>
     <div class="audio-popup-header">
       <span class="audio-popup-title">Morning Briefing</span>
-      <button id="audio-close" class="icon-btn" title="Close">
-        <i data-lucide="x"></i>
-      </button>
+      <button id="audio-close" class="icon-btn" title="Close"></button>
     </div>
 
     <p id="audio-np-text" class="audio-np-text">Aakh morning briefing</p>
@@ -130,16 +119,9 @@
     </div>
 
     <div class="audio-controls">
-      <button id="audio-restart" class="icon-btn audio-ctrl" title="Restart">
-        <i data-lucide="rotate-ccw"></i>
-      </button>
-      <button id="audio-playpause" class="audio-play-btn" title="Play / Pause">
-        <i data-lucide="play" id="icon-play"></i>
-        <i data-lucide="pause" id="icon-pause" hidden></i>
-      </button>
-      <button id="audio-skip" class="icon-btn audio-ctrl" title="Skip 15s">
-        <i data-lucide="skip-forward"></i>
-      </button>
+      <button id="audio-restart" class="icon-btn audio-ctrl" title="Restart"></button>
+      <button id="audio-playpause" class="audio-play-btn" title="Play / Pause"></button>
+      <button id="audio-skip" class="icon-btn audio-ctrl" title="Skip 15s"></button>
     </div>
 
     <div class="audio-row">
