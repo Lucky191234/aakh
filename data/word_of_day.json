@@ -1,11 +1,12 @@
 {
-  "fetched_at": "2026-07-25T00:08:10.891798+00:00",
+  "fetched_at": "2026-07-25T03:16:44.422280+00:00",
   "word_of_day": {
-    "word": "itinerant",
-    "part_of_speech": "",
-    "definition": "Merriam-Webster's Word of the Day for July 24, 2026 is:",
-    "example": "itinerant &#x2022; \\eye-TIN-uh-runt\\&nbsp; &#x2022; adjective",
+    "word": "eloquent",
+    "phonetic": "/\u02c8\u025bl.\u0259\u02cckw\u0259nt/",
+    "part_of_speech": "adjective",
+    "definition": "Fluently persuasive and articulate",
+    "example": "",
     "date": "July 25, 2026",
-    "source_url": "https://www.merriam-webster.com/word-of-the-day/itinerant-2026-07-24"
+    "source_url": "https://www.merriam-webster.com/dictionary/eloquent"
   }
 }

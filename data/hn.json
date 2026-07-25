@@ -1,24 +1,17 @@
 {
-  "fetched_at": "2026-07-25T00:08:10.557502+00:00",
+  "fetched_at": "2026-07-25T03:16:44.189362+00:00",
   "stories": [
-    {
-      "title": "AIs don't do what you want. This is bad",
-      "url": "https://rewardhacking.org",
-      "summary": "<p>Article URL: <a href=\"https://rewardhacking.org\">https://rewardhacking.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49042354\">https://news.ycombinator.com/item?id=49042354</a></p>\n<p>Points: 15</p>\n<p># Comments: 2</p>",
-      "published": "Fri, 24 Jul 2026 22:24:08 +0000",
-      "source": "Hacker News"
-    },
     {
       "title": "Show HN: Max Studio Tools \u2013 C++ DSP Modules for Max and Ableton Live",
       "url": "https://github.com/apresta/max-studio-tools",
-      "summary": "<p>Article URL: <a href=\"https://github.com/apresta/max-studio-tools\">https://github.com/apresta/max-studio-tools</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49041546\">https://news.ycombinator.com/item?id=49041546</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "summary": "<p>Article URL: <a href=\"https://github.com/apresta/max-studio-tools\">https://github.com/apresta/max-studio-tools</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49041546\">https://news.ycombinator.com/item?id=49041546</a></p>\n<p>Points: 26</p>\n<p># Comments: 0</p>",
       "published": "Fri, 24 Jul 2026 21:03:10 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
       "url": "https://artificialanalysis.ai/models",
-      "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/models\">https://artificialanalysis.ai/models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49040741\">https://news.ycombinator.com/item?id=49040741</a></p>\n<p>Points: 82</p>\n<p># Comments: 35</p>",
+      "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/models\">https://artificialanalysis.ai/models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49040741\">https://news.ycombinator.com/item?id=49040741</a></p>\n<p>Points: 166</p>\n<p># Comments: 109</p>",
       "published": "Fri, 24 Jul 2026 19:45:10 +0000",
       "source": "Hacker News"
     },
@@ -53,7 +46,7 @@
     {
       "title": "My security camera shipped a GitHub admin token in its login page",
       "url": "https://hhh.hn/hanwha-github-token/",
-      "summary": "<p>Article URL: <a href=\"https://hhh.hn/hanwha-github-token/\">https://hhh.hn/hanwha-github-token/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034292\">https://news.ycombinator.com/item?id=49034292</a></p>\n<p>Points: 487</p>\n<p># Comments: 168</p>",
+      "summary": "<p>Article URL: <a href=\"https://hhh.hn/hanwha-github-token/\">https://hhh.hn/hanwha-github-token/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034292\">https://news.ycombinator.com/item?id=49034292</a></p>\n<p>Points: 524</p>\n<p># Comments: 182</p>",
       "published": "Fri, 24 Jul 2026 11:54:41 +0000",
       "source": "Hacker News"
     },
@@ -62,13 +55,6 @@
       "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
       "summary": "<p>Article URL: <a href=\"https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/\">https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49033240\">https://news.ycombinator.com/item?id=49033240",
       "published": "Fri, 24 Jul 2026 09:52:58 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
-      "url": "https://bfl.ai/blog/flux-3-mimic",
-      "summary": "<p>Article URL: <a href=\"https://bfl.ai/blog/flux-3-mimic\">https://bfl.ai/blog/flux-3-mimic</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49033127\">https://news.ycombinator.com/item?id=49033127</a></p>\n<p>Points: 308</p>\n<p># Comments: 48</p>",
-      "published": "Fri, 24 Jul 2026 09:31:48 +0000",
       "source": "Hacker News"
     },
     {

@@ -1,69 +1,80 @@
 {
-  "generated_at": "2026-07-25T00:08:12.976162+00:00",
+  "generated_at": "2026-07-25T03:16:47.090662+00:00",
   "date_label": "Saturday, 25 July 2026",
   "is_monday": false,
   "word_of_day": {
-    "word": "itinerant",
-    "part_of_speech": "",
-    "definition": "Merriam-Webster's Word of the Day for July 24, 2026 is:",
-    "example": "itinerant &#x2022; \\eye-TIN-uh-runt\\&nbsp; &#x2022; adjective",
+    "word": "eloquent",
+    "phonetic": "/\u02c8\u025bl.\u0259\u02cckw\u0259nt/",
+    "part_of_speech": "adjective",
+    "definition": "Fluently persuasive and articulate",
+    "example": "",
     "date": "July 25, 2026",
-    "source_url": "https://www.merriam-webster.com/word-of-the-day/itinerant-2026-07-24"
+    "source_url": "https://www.merriam-webster.com/dictionary/eloquent"
   },
   "hot_topics": [
     {
       "type": "repo",
-      "title": "freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stake": 452700,
-      "big_question": "How can we make freeCodeCamp's curriculum more comprehensive and appealing to a wider audience?",
-      "head_fake": "452700+ stars, open-source codebase, and free curriculum"
+      "title": "Open Source Coding Agent",
+      "description": "A tool for developers to automate their coding workflow and improve productivity.",
+      "url": "https://github.com/anomalyco/opencode",
+      "big_question": "Can a coding agent truly augment a developer's productivity without sacrificing creativity?",
+      "head_fake": "A personal assistant for developers, but can it be trusted?"
     },
     {
       "type": "repo",
-      "title": "public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "url": "https://github.com/public-apis/public-apis",
-      "stake": 452384,
-      "big_question": "How can we ensure the accuracy and relevancy of the free APIs listed on this repository?",
-      "head_fake": "452384+ stars, collective list of free APIs"
+      "title": "Personal AI Assistant",
+      "description": "A conversational AI assistant that learns your habits and preferences to provide personalized recommendations.",
+      "url": "https://github.com/openclaw/openclaw",
+      "big_question": "Will AI assistants make humans redundant in the workforce?",
+      "head_fake": "A virtual assistant, but what's beneath the surface?"
+    },
+    {
+      "type": "hn",
+      "title": "Half-Life 2 running natively on HaikuOS",
+      "description": "A groundbreaking feat in gaming technology, but what does it mean for the future of game development?",
+      "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
+      "big_question": "Can open-source gaming technologies surpass proprietary solutions?",
+      "head_fake": "Gaming on the edge of innovation, but what's the true impact?"
+    },
+    {
+      "type": "hn",
+      "title": "Show HN: Max Studio Tools",
+      "description": "A C++ DSP Modules framework designed for artists and producers, expanding creative possibilities.",
+      "url": "https://github.com/apresta/max-studio-tools",
+      "big_question": "Can C++ outperform Python or JavaScript for specific tasks?",
+      "head_fake": "Max Studio Tools: A hidden gem in the world of C++ programming?"
+    },
+    {
+      "type": "competition",
+      "title": "Develop an AI-Powered Chatbot for Mental Health",
+      "description": "A competition to develop AI-powered chatbots for mental health care, improving access to vital services.",
+      "url": "https://www.competition.com/mentalhealth",
+      "big_question": "Can AI chatbots provide personalized mental health support?",
+      "head_fake": "Revolutionizing mental health care with AI"
+    },
+    {
+      "type": "floater",
+      "title": "The Rise of Open-Weight AI Models",
+      "description": "As Nvidia, Microsoft, and Meta sound the alarm on overregulation, the future of AI development hangs in the balance.",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "big_question": "What are the implications of the impending open-weight model revolution?",
+      "head_fake": "Big tech vs. regulation: The future of AI at stake"
     },
     {
       "type": "repo",
-      "title": "vinta/awesome-python",
-      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "url": "https://github.com/vinta/awesome-python",
-      "stake": 310140,
-      "big_question": "How can we make this list more comprehensive and up-to-date in the rapidly evolving world of Python development?",
-      "head_fake": "310140+ stars, opinionated list of Python resources"
+      "title": "OpenCLAW: Your Personal AI Assistant",
+      "description": "A cutting-edge AI assistant that integrates seamlessly with your workflow, freeing you to focus on high-level tasks.",
+      "url": "https://github.com/openclaw/openclaw",
+      "big_question": "Will AI-driven assistants revolutionize the way we work?",
+      "head_fake": "Your personal AI butler, but what's the cost?"
     },
     {
       "type": "repo",
-      "title": "react/react",
-      "description": "The library for web and native user interfaces",
-      "url": "https://github.com/react/react",
-      "stake": 246706,
-      "big_question": "How can we improve the performance and reliability of React in large-scale web applications?",
-      "head_fake": "246706+ stars, library for web and native user interfaces"
-    },
-    {
-      "type": "repo",
-      "title": "tensorflow/tensorflow",
-      "description": "An Open Source Machine Learning Framework for Everyone",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "stake": 196498,
-      "big_question": "How can we make TensorFlow more accessible and user-friendly for developers with varying levels of machine learning expertise?",
-      "head_fake": "196498+ stars, open-source machine learning framework"
-    },
-    {
-      "type": "repo",
-      "title": "EbookFoundation/free-programming-books",
-      "description": "Freely available programming books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "stake": 392934,
-      "big_question": "How can we ensure the quality and relevance of the freely available programming books on this repository?",
-      "head.fake": "392934+ stars, freely available programming books"
+      "title": "AutoGPT: A Tool for Accessible AI",
+      "description": "Empowering developers with accessible AI, AutoGPT aims to democratize AI technologies for all.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "Can accessible AI bridge the gap between developers and non-developers?",
+      "head_fake": "Democratizing AI for everyone, but is it too good to be true?"
     }
   ],
   "repos": [
@@ -71,7 +82,7 @@
       "name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stars": 452700,
+      "stars": 452723,
       "language": "TypeScript",
       "created_at": "2014-12-24T17:49:19Z",
       "pushed_at": "2026-07-24T17:39:22Z",
@@ -98,7 +109,7 @@
       "name": "public-apis/public-apis",
       "description": "A collective list of free APIs",
       "url": "https://github.com/public-apis/public-apis",
-      "stars": 452384,
+      "stars": 452401,
       "language": "Python",
       "created_at": "2016-03-20T23:49:42Z",
       "pushed_at": "2026-07-24T21:33:38Z",
@@ -123,7 +134,7 @@
       "name": "EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
-      "stars": 392934,
+      "stars": 392943,
       "language": "Python",
       "created_at": "2013-10-11T06:50:37Z",
       "pushed_at": "2026-07-23T15:28:53Z",
@@ -140,10 +151,10 @@
       "name": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": 384042,
+      "stars": 384052,
       "language": "TypeScript",
       "created_at": "2025-11-24T10:16:47Z",
-      "pushed_at": "2026-07-25T00:06:11Z",
+      "pushed_at": "2026-07-25T03:15:51Z",
       "topics": [
         "ai",
         "assistant",
@@ -159,7 +170,7 @@
       "name": "nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "url": "https://github.com/nilbuild/developer-roadmap",
-      "stars": 362581,
+      "stars": 362589,
       "language": "TypeScript",
       "created_at": "2017-03-15T13:45:52Z",
       "pushed_at": "2026-07-24T11:19:17Z",
@@ -189,7 +200,7 @@
       "name": "vinta/awesome-python",
       "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
       "url": "https://github.com/vinta/awesome-python",
-      "stars": 310140,
+      "stars": 310159,
       "language": "Python",
       "created_at": "2014-06-27T21:00:06Z",
       "pushed_at": "2026-07-23T05:04:46Z",
@@ -207,7 +218,7 @@
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 260595,
+      "stars": 260643,
       "language": "Shell",
       "created_at": "2025-10-09T19:45:18Z",
       "pushed_at": "2026-07-24T21:21:36Z",
@@ -227,7 +238,7 @@
       "name": "react/react",
       "description": "The library for web and native user interfaces.",
       "url": "https://github.com/react/react",
-      "stars": 246706,
+      "stars": 246709,
       "language": "JavaScript",
       "created_at": "2013-05-24T16:15:54Z",
       "pushed_at": "2026-07-24T21:44:39Z",
@@ -245,10 +256,10 @@
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 240334,
+      "stars": 240342,
       "language": "C",
       "created_at": "2011-09-04T22:48:12Z",
-      "pushed_at": "2026-07-24T21:22:49Z",
+      "pushed_at": "2026-07-25T03:11:34Z",
       "topics": [],
       "trending_multiday": true
     },
@@ -256,10 +267,10 @@
       "name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 232902,
+      "stars": 232937,
       "language": "JavaScript",
       "created_at": "2026-01-18T00:51:51Z",
-      "pushed_at": "2026-07-24T20:40:53Z",
+      "pushed_at": "2026-07-25T00:58:36Z",
       "topics": [
         "ai-agents",
         "anthropic",
@@ -276,10 +287,10 @@
       "name": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": 220015,
+      "stars": 220066,
       "language": "Python",
       "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-07-25T00:05:44Z",
+      "pushed_at": "2026-07-25T03:09:55Z",
       "topics": [
         "ai",
         "ai-agent",
@@ -304,10 +315,10 @@
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 197838,
+      "stars": 197855,
       "language": "TypeScript",
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-07-24T23:16:05Z",
+      "pushed_at": "2026-07-25T00:43:22Z",
       "topics": [
         "ai",
         "apis",
@@ -336,10 +347,10 @@
       "name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "url": "https://github.com/tensorflow/tensorflow",
-      "stars": 196498,
+      "stars": 196499,
       "language": "C++",
       "created_at": "2015-11-07T01:19:20Z",
-      "pushed_at": "2026-07-25T00:06:40Z",
+      "pushed_at": "2026-07-25T03:11:55Z",
       "topics": [
         "deep-learning",
         "deep-neural-networks",
@@ -356,10 +367,10 @@
       "name": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
-      "stars": 189395,
+      "stars": 189426,
       "language": "TypeScript",
       "created_at": "2025-04-30T20:08:00Z",
-      "pushed_at": "2026-07-24T22:18:14Z",
+      "pushed_at": "2026-07-25T03:15:02Z",
       "topics": [],
       "trending_multiday": true
     },
@@ -367,7 +378,7 @@
       "name": "ohmyzsh/ohmyzsh",
       "description": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
-      "stars": 188784,
+      "stars": 188786,
       "language": "Shell",
       "created_at": "2009-08-28T18:15:37Z",
       "pushed_at": "2026-07-23T17:38:43Z",
@@ -394,10 +405,10 @@
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 187866,
+      "stars": 187869,
       "language": "TypeScript",
       "created_at": "2015-09-03T20:23:38Z",
-      "pushed_at": "2026-07-25T00:05:03Z",
+      "pushed_at": "2026-07-25T02:40:37Z",
       "topics": [
         "editor",
         "electron",
@@ -411,7 +422,7 @@
       "name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 186685,
+      "stars": 186936,
       "language": "Shell",
       "created_at": "2026-02-03T11:15:53Z",
       "pushed_at": "2026-07-23T14:29:59Z",
@@ -422,10 +433,10 @@
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": 185679,
+      "stars": 185681,
       "language": "Python",
       "created_at": "2023-03-16T09:21:07Z",
-      "pushed_at": "2026-07-24T22:50:05Z",
+      "pushed_at": "2026-07-25T03:00:51Z",
       "topics": [
         "agentic-ai",
         "agents",
@@ -445,7 +456,7 @@
       "name": "yt-dlp/yt-dlp",
       "description": "A feature-rich command-line audio/video downloader",
       "url": "https://github.com/yt-dlp/yt-dlp",
-      "stars": 179902,
+      "stars": 179917,
       "language": "Python",
       "created_at": "2020-10-26T04:22:55Z",
       "pushed_at": "2026-07-23T16:54:49Z",
@@ -464,10 +475,10 @@
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "url": "https://github.com/ollama/ollama",
-      "stars": 176807,
+      "stars": 176815,
       "language": "Go",
       "created_at": "2023-06-26T19:39:32Z",
-      "pushed_at": "2026-07-24T23:48:10Z",
+      "pushed_at": "2026-07-25T01:26:22Z",
       "topics": [
         "deepseek",
         "gemma",
@@ -488,103 +499,19 @@
       "trending_multiday": true
     }
   ],
-  "competitions": [
-    {
-      "title": "MIT BWSI Cyber Operations Cohort Hackathon 2026",
-      "url": "https://mit-bwsi-cyber-hackathon-2026.devpost.com/",
-      "deadline": "Jul 24, 2026",
-      "prize": "\u00a3<span data-currency-value>0</span>",
-      "participants": 33,
-      "source": "Devpost",
-      "closing_soon": false,
-      "days_left": -2
-    },
-    {
-      "title": "Prompt Insights News",
-      "url": "https://prompt-insights-news.devpost.com/",
-      "deadline": "Jul 16 - 25, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 7,
-      "source": "Devpost",
-      "closing_soon": false,
-      "days_left": -374
-    },
-    {
-      "title": "Technoviz Summer of Code",
-      "url": "https://technoviz-summer-of-code.devpost.com/",
-      "deadline": "Jun 28 - Jul 25, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 194,
-      "source": "Devpost",
-      "closing_soon": false
-    },
-    {
-      "title": "HackNomics",
-      "url": "https://hacknomicshack.devpost.com/",
-      "deadline": "May 24 - Jul 25, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 114,
-      "source": "Devpost",
-      "closing_soon": false
-    },
-    {
-      "title": "Esri's Weekend of Innovation 2026",
-      "url": "https://esri-woi-2026.devpost.com/",
-      "deadline": "Jul 24 - 26, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 40,
-      "source": "Devpost",
-      "closing_soon": false,
-      "days_left": -1
-    },
-    {
-      "title": "Measure up",
-      "url": "https://measureme-up.devpost.com/",
-      "deadline": "Jul 13 - 27, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 57,
-      "source": "Devpost",
-      "closing_soon": false,
-      "days_left": 353
-    },
-    {
-      "title": "HTCJ Aviation Futures Innovation Challenge",
-      "url": "https://htcj-aviation-futures.devpost.com/",
-      "deadline": "Jun 25 - Jul 27, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 25,
-      "source": "Devpost",
-      "closing_soon": false
-    },
-    {
-      "title": "Impact Creation",
-      "url": "https://impact-creation.devpost.com/",
-      "deadline": "Jun 13 - Jul 28, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 68,
-      "source": "Devpost",
-      "closing_soon": false
-    }
-  ],
+  "competitions": [],
   "hn_stories": [
-    {
-      "title": "AIs don't do what you want. This is bad",
-      "url": "https://rewardhacking.org",
-      "summary": "<p>Article URL: <a href=\"https://rewardhacking.org\">https://rewardhacking.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49042354\">https://news.ycombinator.com/item?id=49042354</a></p>\n<p>Points: 15</p>\n<p># Comments: 2</p>",
-      "published": "Fri, 24 Jul 2026 22:24:08 +0000",
-      "source": "Hacker News"
-    },
     {
       "title": "Show HN: Max Studio Tools \u2013 C++ DSP Modules for Max and Ableton Live",
       "url": "https://github.com/apresta/max-studio-tools",
-      "summary": "<p>Article URL: <a href=\"https://github.com/apresta/max-studio-tools\">https://github.com/apresta/max-studio-tools</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49041546\">https://news.ycombinator.com/item?id=49041546</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "summary": "<p>Article URL: <a href=\"https://github.com/apresta/max-studio-tools\">https://github.com/apresta/max-studio-tools</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49041546\">https://news.ycombinator.com/item?id=49041546</a></p>\n<p>Points: 26</p>\n<p># Comments: 0</p>",
       "published": "Fri, 24 Jul 2026 21:03:10 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
       "url": "https://artificialanalysis.ai/models",
-      "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/models\">https://artificialanalysis.ai/models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49040741\">https://news.ycombinator.com/item?id=49040741</a></p>\n<p>Points: 82</p>\n<p># Comments: 35</p>",
+      "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/models\">https://artificialanalysis.ai/models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49040741\">https://news.ycombinator.com/item?id=49040741</a></p>\n<p>Points: 166</p>\n<p># Comments: 109</p>",
       "published": "Fri, 24 Jul 2026 19:45:10 +0000",
       "source": "Hacker News"
     },
@@ -619,7 +546,7 @@
     {
       "title": "My security camera shipped a GitHub admin token in its login page",
       "url": "https://hhh.hn/hanwha-github-token/",
-      "summary": "<p>Article URL: <a href=\"https://hhh.hn/hanwha-github-token/\">https://hhh.hn/hanwha-github-token/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034292\">https://news.ycombinator.com/item?id=49034292</a></p>\n<p>Points: 487</p>\n<p># Comments: 168</p>",
+      "summary": "<p>Article URL: <a href=\"https://hhh.hn/hanwha-github-token/\">https://hhh.hn/hanwha-github-token/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034292\">https://news.ycombinator.com/item?id=49034292</a></p>\n<p>Points: 524</p>\n<p># Comments: 182</p>",
       "published": "Fri, 24 Jul 2026 11:54:41 +0000",
       "source": "Hacker News"
     },
@@ -631,10 +558,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
-      "url": "https://bfl.ai/blog/flux-3-mimic",
-      "summary": "<p>Article URL: <a href=\"https://bfl.ai/blog/flux-3-mimic\">https://bfl.ai/blog/flux-3-mimic</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49033127\">https://news.ycombinator.com/item?id=49033127</a></p>\n<p>Points: 308</p>\n<p># Comments: 48</p>",
-      "published": "Fri, 24 Jul 2026 09:31:48 +0000",
+      "title": "Future euro banknote design proposals",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/all-design-proposals.en.html",
+      "summary": "<p><a href=\"https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html\" rel=\"nofollow\">https://www.ecb.europa.eu/euro/banknotes/future_banknotes/ht...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49033110\">https://news.ycombinator.com/ite",
+      "published": "Fri, 24 Jul 2026 09:29:44 +0000",
       "source": "Hacker News"
     }
   ]
