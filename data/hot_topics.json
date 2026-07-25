@@ -1,59 +1,59 @@
 {
-  "fetched_at": "2026-07-24T09:25:52.197609+00:00",
+  "fetched_at": "2026-07-25T00:08:12.882406+00:00",
   "hot_topics": [
     {
       "type": "repo",
       "title": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stake": "4",
-      "big_question": "How to learn programming and computer science for free.",
-      "head_fake": "452617"
+      "stake": 452700,
+      "big_question": "How can we make freeCodeCamp's curriculum more comprehensive and appealing to a wider audience?",
+      "head_fake": "452700+ stars, open-source codebase, and free curriculum"
     },
     {
       "type": "repo",
-      "title": "openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. ",
-      "url": "https://github.com/openclaw/openclaw",
-      "stake": "3",
-      "big_question": "How to build a personal AI assistant.",
-      "head_fake": "383983"
+      "title": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "url": "https://github.com/public-apis/public-apis",
+      "stake": 452384,
+      "big_question": "How can we ensure the accuracy and relevancy of the free APIs listed on this repository?",
+      "head_fake": "452384+ stars, collective list of free APIs"
     },
     {
       "type": "repo",
-      "title": "nilbuild/developer-roadmap",
-      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "stake": "3",
-      "big_question": "How to grow in my career as a developer.",
-      "head_fake": "362499"
+      "title": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "url": "https://github.com/vinta/awesome-python",
+      "stake": 310140,
+      "big_question": "How can we make this list more comprehensive and up-to-date in the rapidly evolving world of Python development?",
+      "head_fake": "310140+ stars, opinionated list of Python resources"
+    },
+    {
+      "type": "repo",
+      "title": "react/react",
+      "description": "The library for web and native user interfaces",
+      "url": "https://github.com/react/react",
+      "stake": 246706,
+      "big_question": "How can we improve the performance and reliability of React in large-scale web applications?",
+      "head_fake": "246706+ stars, library for web and native user interfaces"
+    },
+    {
+      "type": "repo",
+      "title": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stake": 196498,
+      "big_question": "How can we make TensorFlow more accessible and user-friendly for developers with varying levels of machine learning expertise?",
+      "head_fake": "196498+ stars, open-source machine learning framework"
     },
     {
       "type": "repo",
       "title": "EbookFoundation/free-programming-books",
       "description": "Freely available programming books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
-      "stake": "3",
-      "big_question": "Where to find free programming books.",
-      "head_fake": "392892"
-    },
-    {
-      "type": "repo",
-      "title": "anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "url": "https://github.com/anomalyco/opencode",
-      "stake": "1",
-      "big_question": "What is the open source coding agent.",
-      "head_fake": "189184"
-    },
-    {
-      "type": "hn",
-      "title": "Show HN: Echo \u2013 Fable-level results at 1/3 the cost using open-weight models",
-      "description": "Show HN: Echo \u2013 Fable-level results at 1/3 the cost using open-weight models",
-      "url": "https://news.ycombinator.com/item?id=49026810",
-      "stake": "1",
-      "big_question": "What is open-weight models.",
-      "head_fake": ""
+      "stake": 392934,
+      "big_question": "How can we ensure the quality and relevance of the freely available programming books on this repository?",
+      "head.fake": "392934+ stars, freely available programming books"
     }
   ]
 }

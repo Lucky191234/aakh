@@ -1,36 +1,12 @@
 {
-  "fetched_at": "2026-07-24T09:25:46.865914+00:00",
+  "fetched_at": "2026-07-25T00:08:10.099665+00:00",
   "competitions": [
     {
-      "title": "DSOC : Summer Edition",
-      "url": "https://dsoc-summer-edition.devpost.com/",
-      "deadline": "Jun 03 - Jul 24, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 187,
-      "source": "Devpost"
-    },
-    {
-      "title": "HackNomics",
-      "url": "https://hacknomicshack.devpost.com/",
-      "deadline": "May 24 - Jul 24, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 108,
-      "source": "Devpost"
-    },
-    {
-      "title": "M&TSI 2026 (Deliwala/Babin)",
-      "url": "https://mtsi2026.devpost.com/",
-      "deadline": "Jul 06 - 24, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 61,
-      "source": "Devpost"
-    },
-    {
-      "title": "Global Tech Innovation Challenge",
-      "url": "https://global-tech-challenge.devpost.com/",
-      "deadline": "Jul 17 - 24, 2026",
-      "prize": "$<span data-currency-value>0</span>",
-      "participants": 202,
+      "title": "MIT BWSI Cyber Operations Cohort Hackathon 2026",
+      "url": "https://mit-bwsi-cyber-hackathon-2026.devpost.com/",
+      "deadline": "Jul 24, 2026",
+      "prize": "\u00a3<span data-currency-value>0</span>",
+      "participants": 33,
       "source": "Devpost"
     },
     {
@@ -42,11 +18,35 @@
       "source": "Devpost"
     },
     {
+      "title": "Technoviz Summer of Code",
+      "url": "https://technoviz-summer-of-code.devpost.com/",
+      "deadline": "Jun 28 - Jul 25, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 194,
+      "source": "Devpost"
+    },
+    {
+      "title": "HackNomics",
+      "url": "https://hacknomicshack.devpost.com/",
+      "deadline": "May 24 - Jul 25, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 114,
+      "source": "Devpost"
+    },
+    {
+      "title": "Esri's Weekend of Innovation 2026",
+      "url": "https://esri-woi-2026.devpost.com/",
+      "deadline": "Jul 24 - 26, 2026",
+      "prize": "$<span data-currency-value>0</span>",
+      "participants": 40,
+      "source": "Devpost"
+    },
+    {
       "title": "Measure up",
       "url": "https://measureme-up.devpost.com/",
       "deadline": "Jul 13 - 27, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 52,
+      "participants": 57,
       "source": "Devpost"
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://impact-creation.devpost.com/",
       "deadline": "Jun 13 - Jul 28, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 64,
+      "participants": 68,
       "source": "Devpost"
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://ventura-challenge.devpost.com/",
       "deadline": "Jun 01 - Jul 29, 2026",
       "prize": "$<span data-currency-value>0</span>",
-      "participants": 125,
+      "participants": 126,
       "source": "Devpost"
     },
     {
@@ -78,7 +78,7 @@
       "url": "https://ztq.devpost.com/",
       "deadline": "Jul 08 - 29, 2026",
       "prize": "$<span data-currency-value>500</span>",
-      "participants": 273,
+      "participants": 281,
       "source": "Devpost"
     }
   ]
