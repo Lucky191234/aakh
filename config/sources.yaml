@@ -1,3 +1,6 @@
+# Aakh v1.1.0 — sources config
+# Edit this file to control what gets pulled each night.
+
 github:
   since_days: 7
   languages:
@@ -22,7 +25,8 @@ competitions:
     - name: Devpost
       url: https://devpost.com/hackathons?open_to=public&order_by=deadline
     - name: MLH
-      url: https://mlh.io/seasons/2026/events
+      # Update this year every January
+      mlh_year: 2026
   min_days_remaining: 3
 
 hackernews:
@@ -45,8 +49,24 @@ hackernews:
     - startup
 
 word_of_day:
-  # Merriam-Webster WOTD RSS — free, no auth
-  rss_url: https://www.merriam-webster.com/wotd/feed/rss2
+  # Free Dictionary API — no key needed
+  api_url: https://api.dictionaryapi.dev/api/v2/entries/en
+
+audio:
+  # edge-tts voices (max 4)
+  voices:
+    - name: "Neerja (Indian English)"
+      voice: "en-IN-NeerjaNeural"
+      file: "morning_neerja.mp3"
+    - name: "Prabhat (Indian English)"
+      voice: "en-IN-PrabhatNeural"
+      file: "morning_prabhat.mp3"
+    - name: "Guy (US English)"
+      voice: "en-US-GuyNeural"
+      file: "morning_guy.mp3"
+    - name: "Ryan (British English)"
+      voice: "en-GB-RyanNeural"
+      file: "morning_ryan.mp3"
 
 activity:
   digest_path: "activity_today.md"

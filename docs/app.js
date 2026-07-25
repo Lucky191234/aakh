@@ -1,27 +1,42 @@
 /**
- * Aakh — app.js
- * Word of day hero, audio popup with speed/voice/seek, pinning, health check.
+ * Aakh v1.1.0 — app.js
+ * Theme toggle, word of day, hot topics (2+2+2+2),
+ * fixed pinning, scrollable sections, audio popup (4 voices).
  */
 
 const DATA_URL  = "data/data.json";
-const AUDIO_URL = "audio/morning.mp3";
+const AUDIO_DIR = "audio/";
 const PINS_KEY  = "aakh_pins";
+const THEME_KEY = "aakh_theme";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-function el(tag, cls, html) {
+function el(tag, cls) {
   const e = document.createElement(tag);
   if (cls) e.className = cls;
-  if (html !== undefined) e.innerHTML = html;
   return e;
 }
 
-function lnk(href, cls, html) {
-  const a = el("a", cls, html);
-  a.href = href || "#";
+function lnk(href, cls) {
+  const a = el("a", cls);
+  a.href = href && href.startsWith("http") ? href : "#";
   a.target = "_blank";
   a.rel = "noopener noreferrer";
   return a;
+}
+
+function txt(parent, tag, cls, content) {
+  const e = el(tag, cls);
+  e.textContent = content;
+  parent.appendChild(e);
+  return e;
+}
+
+function icon(name, size = 14) {
+  const i = document.createElement("i");
+  i.setAttribute("data-lucide", name);
+  i.style.cssText = `width:${size}px;height:${size}px;display:inline-block;vertical-align:middle`;
+  return i;
 }
 
 function fmt(secs) {
@@ -30,55 +45,131 @@ function fmt(secs) {
   return `${m}:${s}`;
 }
 
+function refreshIcons() {
+  if (window.lucide) window.lucide.createIcons();
+}
+
+// ── Theme ─────────────────────────────────────────────────────────────────────
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  const sunEl  = document.getElementById("icon-sun");
+  const moonEl = document.getElementById("icon-moon");
+  if (sunEl && moonEl) {
+    sunEl.hidden  = theme === "dark";
+    moonEl.hidden = theme === "light";
+  }
+  localStorage.setItem(THEME_KEY, theme);
+}
+
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY) || "dark";
+  applyTheme(saved);
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const current = document.documentElement.getAttribute("data-theme");
+    applyTheme(current === "dark" ? "light" : "dark");
+  });
+}
+
 // ── Pins ──────────────────────────────────────────────────────────────────────
 
-function getPins() { try { return JSON.parse(localStorage.getItem(PINS_KEY) || "{}"); } catch { return {}; } }
-function setPins(p) { localStorage.setItem(PINS_KEY, JSON.stringify(p)); }
+function getPins() {
+  try { return JSON.parse(localStorage.getItem(PINS_KEY) || "{}"); }
+  catch { return {}; }
+}
+
+function setPins(p) {
+  try { localStorage.setItem(PINS_KEY, JSON.stringify(p)); }
+  catch (e) { console.warn("Pins save failed:", e); }
+}
 
 function togglePin(url, title) {
+  if (!url || url === "#") return;
   const pins = getPins();
-  if (pins[url]) delete pins[url]; else pins[url] = { title, ts: Date.now() };
+  if (pins[url]) delete pins[url];
+  else pins[url] = { title, ts: Date.now() };
   setPins(pins);
   renderPinned();
-  document.querySelectorAll(`.pin-btn[data-url]`).forEach(btn => {
-    if (btn.dataset.url === url) btn.classList.toggle("pinned", !!getPins()[url]);
+  // Sync all pin buttons for this url
+  document.querySelectorAll(".pin-btn").forEach(btn => {
+    if (btn.dataset.url === url) {
+      btn.classList.toggle("pinned", !!getPins()[url]);
+    }
   });
 }
 
 function renderPinned() {
-  const pins = getPins();
+  const pins    = getPins();
   const section = document.getElementById("pinned-section");
   const list    = document.getElementById("pinned-list");
+  if (!section || !list) return;
+
   const entries = Object.entries(pins);
   if (!entries.length) { section.hidden = true; return; }
   section.hidden = false;
   list.innerHTML = "";
-  entries.sort((a, b) => b[1].ts - a[1].ts).forEach(([url, { title }]) => {
-    const chip = el("div", "pinned-chip");
-    chip.appendChild(lnk(url, "pinned-chip-title", title));
-    const x = el("button", "pinned-unpin", "✕");
-    x.onclick = e => { e.preventDefault(); togglePin(url, title); };
-    chip.appendChild(x);
-    list.appendChild(chip);
-  });
+
+  entries
+    .sort((a, b) => b[1].ts - a[1].ts)
+    .forEach(([url, { title }]) => {
+      const chip  = el("div", "pinned-chip");
+      const a     = lnk(url, "pinned-chip-title");
+      a.textContent = title;
+
+      // Remove button — using a plain button, no emoji, Lucide icon
+      const removeBtn = el("button", "pinned-chip-remove");
+      removeBtn.title = "Unpin";
+      removeBtn.type  = "button";
+      removeBtn.appendChild(icon("x", 12));
+
+      // Attach listener directly — no delegation, no shared state
+      removeBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const currentPins = getPins();
+        delete currentPins[url];
+        setPins(currentPins);
+        chip.remove();
+        // Sync card pin button
+        document.querySelectorAll(".pin-btn").forEach(btn => {
+          if (btn.dataset.url === url) btn.classList.remove("pinned");
+        });
+        // Hide section if no pins left
+        if (!list.children.length) section.hidden = true;
+        refreshIcons();
+      });
+
+      chip.appendChild(a);
+      chip.appendChild(removeBtn);
+      list.appendChild(chip);
+    });
+
+  refreshIcons();
 }
 
 function makePinBtn(url, title) {
-  const btn = el("button", `pin-btn${getPins()[url] ? " pinned" : ""}`, "📌");
-  btn.dataset.url = url;
-  btn.title = "Pin for tomorrow";
-  btn.onclick = e => { e.preventDefault(); e.stopPropagation(); togglePin(url, title); };
+  const btn = el("button", `pin-btn${getPins()[url] ? " pinned" : ""}`);
+  btn.dataset.url = url || "";
+  btn.title = "Pin";
+  btn.type  = "button";
+  btn.appendChild(icon("bookmark", 13));
+  btn.addEventListener("click", e => {
+    e.preventDefault();
+    e.stopPropagation();
+    togglePin(url, title);
+  });
   return btn;
 }
 
-// ── Health check ──────────────────────────────────────────────────────────────
+// ── Health ────────────────────────────────────────────────────────────────────
 
 function checkHealth(generatedAt) {
   if (!generatedAt) return;
   const hours = (Date.now() - new Date(generatedAt).getTime()) / 3_600_000;
   if (hours > 25) {
+    const banner = document.getElementById("health-banner");
     document.getElementById("stale-hours").textContent = Math.floor(hours);
-    document.getElementById("health-banner").hidden = false;
+    if (banner) banner.hidden = false;
   }
 }
 
@@ -86,17 +177,197 @@ function checkHealth(generatedAt) {
 
 function renderWotd(wotd) {
   if (!wotd || !wotd.word) return;
-  document.getElementById("wotd-word").textContent = wotd.word;
-  document.getElementById("wotd-pos").textContent  = wotd.part_of_speech || "";
-  document.getElementById("wotd-def").textContent  = wotd.definition || "";
-  const exEl = document.getElementById("wotd-example");
-  if (wotd.example) { exEl.textContent = wotd.example; }
-  else { exEl.hidden = true; }
+  const wordEl    = document.getElementById("wotd-word");
+  const posEl     = document.getElementById("wotd-pos");
+  const defEl     = document.getElementById("wotd-def");
+  const exEl      = document.getElementById("wotd-example");
+
+  if (wordEl) wordEl.textContent = wotd.word;
+  if (posEl)  posEl.textContent  = wotd.part_of_speech
+    ? `${wotd.part_of_speech}${wotd.phonetic ? "  ·  " + wotd.phonetic : ""}`
+    : "";
+  if (defEl)  defEl.textContent  = wotd.definition || "";
+  if (exEl) {
+    if (wotd.example) { exEl.textContent = wotd.example; exEl.hidden = false; }
+    else { exEl.hidden = true; }
+  }
+}
+
+// ── Hot Topics ────────────────────────────────────────────────────────────────
+
+const TYPE_ICONS = {
+  repo:        "github",
+  hn:          "newspaper",
+  competition: "trophy",
+  floater:     "sparkles",
+};
+
+const TYPE_LABELS = {
+  repo:        "GitHub",
+  hn:          "Hacker News",
+  competition: "Hackathon",
+  floater:     "Pick",
+};
+
+function renderHotTopics(hotTopics) {
+  const c = document.getElementById("hot-topics-list");
+  if (!c) return;
+  c.innerHTML = "";
+
+  if (!hotTopics?.length) {
+    const e = el("p", "empty");
+    e.appendChild(icon("inbox", 14));
+    e.append(" No hot topics today — check back tomorrow.");
+    c.appendChild(e);
+    return;
+  }
+
+  hotTopics.forEach((t, i) => {
+    const card = el("div", `hot-card${i === 0 ? " hot-card--first" : ""}`);
+    const a    = lnk(t.url, "hot-card-link");
+
+    // Type row
+    const typeRow = el("span", "hot-type");
+    typeRow.appendChild(icon(TYPE_ICONS[t.type] || "star", 11));
+    typeRow.append(" " + (TYPE_LABELS[t.type] || t.type || ""));
+    a.appendChild(typeRow);
+
+    txt(a, "p", "hot-title",       t.title || "");
+    if (t.big_question) txt(a, "p", "hot-big-q",      t.big_question);
+    if (t.description)  txt(a, "p", "hot-description", t.description);
+
+    if (t.head_fake) {
+      const hf = el("p", "hot-headfake");
+      hf.appendChild(icon("corner-down-left", 11));
+      hf.append(" " + t.head_fake);
+      a.appendChild(hf);
+    }
+
+    card.appendChild(a);
+    if (t.url && t.url !== "#") card.appendChild(makePinBtn(t.url, t.title));
+    c.appendChild(card);
+  });
+
+  refreshIcons();
+}
+
+// ── Repos ─────────────────────────────────────────────────────────────────────
+
+function renderRepos(repos, isMonday) {
+  const c = document.getElementById("repos-list");
+  if (!c) return;
+  c.innerHTML = "";
+
+  if (!repos?.length) {
+    const e = el("p", "empty"); e.append("No repos fetched."); c.appendChild(e); return;
+  }
+
+  const sorted = isMonday
+    ? [...repos].sort((a, b) => (b.trending_multiday ? 1 : 0) - (a.trending_multiday ? 1 : 0))
+    : repos;
+
+  sorted.forEach(r => {
+    const row  = lnk(r.url, "repo-row");
+    const info = el("div", "repo-info");
+
+    txt(info, "p", "repo-name", r.name);
+    if (r.description) txt(info, "p", "repo-desc", r.description);
+
+    if (r.trending_multiday) {
+      const badges = el("div", "repo-badges");
+      txt(badges, "span", "badge badge--multiday", "trending this week");
+      info.appendChild(badges);
+    }
+
+    const meta  = el("div", "repo-meta");
+    const stars = el("span", "repo-stars");
+    stars.appendChild(icon("star", 11));
+    stars.append(" " + (r.stars >= 1000 ? `${(r.stars/1000).toFixed(1)}k` : r.stars));
+    meta.appendChild(stars);
+
+    if (r.language) txt(meta, "span", "repo-lang", r.language);
+
+    row.appendChild(info);
+    row.appendChild(meta);
+    c.appendChild(row);
+  });
+
+  refreshIcons();
+}
+
+// ── Competitions ──────────────────────────────────────────────────────────────
+
+function renderCompetitions(comps) {
+  const c = document.getElementById("comps-list");
+  if (!c) return;
+  c.innerHTML = "";
+
+  if (!comps?.length) {
+    const e = el("p", "empty"); e.append("No competitions found."); c.appendChild(e); return;
+  }
+
+  comps.forEach(comp => {
+    if (!comp.title) return;
+    const row = lnk(comp.url, "comp-row");
+
+    txt(row, "p", "comp-title", comp.title);
+
+    const meta = el("div", "comp-meta");
+    if (comp.source)   txt(meta, "span", "comp-source",   comp.source);
+    if (comp.deadline) txt(meta, "span", "comp-deadline",  comp.deadline);
+    if (comp.closing_soon && comp.days_left != null)
+                       txt(meta, "span", "comp-closing",  `${comp.days_left}d left`);
+    if (comp.prize)    txt(meta, "span", "comp-source",   comp.prize);
+    if (comp.location) txt(meta, "span", "comp-source",   comp.location);
+
+    row.appendChild(meta);
+    c.appendChild(row);
+  });
+}
+
+// ── HN ────────────────────────────────────────────────────────────────────────
+
+function renderHN(stories) {
+  const c = document.getElementById("hn-list");
+  if (!c) return;
+  c.innerHTML = "";
+
+  if (!stories?.length) {
+    const e = el("p", "empty"); e.append("No HN stories."); c.appendChild(e); return;
+  }
+
+  stories.forEach(s => {
+    const row = lnk(s.url, "hn-row");
+    txt(row, "p", "hn-title", s.title);
+    c.appendChild(row);
+  });
+}
+
+// ── Meta ──────────────────────────────────────────────────────────────────────
+
+function renderMeta(data) {
+  const dateEl = document.getElementById("date-label");
+  const tsEl   = document.getElementById("generated-at");
+
+  if (dateEl) dateEl.textContent = data.date_label || "";
+  if (tsEl && data.generated_at) {
+    const t = new Date(data.generated_at).toLocaleTimeString("en-IN", {
+      hour: "2-digit", minute: "2-digit", hour12: true, timeZone: "Asia/Kolkata",
+    });
+    tsEl.textContent = `updated ${t} IST`;
+  }
+
+  if (data.is_monday) {
+    const banner = document.getElementById("monday-banner");
+    const title  = document.getElementById("repos-title");
+    if (banner) banner.hidden = false;
+    if (title)  title.textContent = "Trending this week";
+  }
 }
 
 // ── Audio Popup ───────────────────────────────────────────────────────────────
 
-function setupAudioPopup() {
+function setupAudio(data) {
   const trigger  = document.getElementById("audio-trigger");
   const overlay  = document.getElementById("audio-overlay");
   const popup    = document.getElementById("audio-popup");
@@ -108,250 +379,125 @@ function setupAudioPopup() {
   const curEl    = document.getElementById("audio-current");
   const durEl    = document.getElementById("audio-duration");
   const voiceSel = document.getElementById("voice-select");
-  const npText   = document.getElementById("audio-np-text");
+  const playIcon  = document.getElementById("icon-play");
+  const pauseIcon = document.getElementById("icon-pause");
 
-  let audio    = null;
-  let synth    = null;  // Web Speech API instance
-  let useFile  = true;  // true = MP3 file, false = Web Speech
-  let utterance = null;
+  if (!trigger) return;
+  trigger.hidden = false;
 
-  // Check if MP3 exists
-  fetch(AUDIO_URL, { method: "HEAD" })
-    .then(r => { if (r.ok) trigger.hidden = false; })
-    .catch(() => { trigger.hidden = false; }); // show anyway for speech fallback
+  let audio     = null;
+  let currentFile = voiceSel?.value || "morning_neerja.mp3";
 
-  // Populate Web Speech voices
-  function loadVoices() {
-    const voices = window.speechSynthesis?.getVoices() || [];
-    // Keep the first option (generated file), then add speech voices
-    const existing = voiceSel.options[0];
-    voiceSel.innerHTML = "";
-    voiceSel.appendChild(existing);
-    voices.filter(v => v.lang.startsWith("en")).forEach(v => {
-      const opt = document.createElement("option");
-      opt.value = v.name;
-      opt.textContent = `🗣 ${v.name.split(" ").slice(0,3).join(" ")}`;
-      voiceSel.appendChild(opt);
-    });
+  function setPlaying(playing) {
+    if (playIcon)  playIcon.hidden  = playing;
+    if (pauseIcon) pauseIcon.hidden = !playing;
   }
 
-  if (window.speechSynthesis) {
-    loadVoices();
-    window.speechSynthesis.onvoiceschanged = loadVoices;
+  function loadAudio(file) {
+    if (audio) { audio.pause(); audio.src = ""; }
+    audio = new Audio(AUDIO_DIR + file);
+    audio.ontimeupdate = () => {
+      if (!audio.duration) return;
+      seek.max   = audio.duration;
+      seek.value = audio.currentTime;
+      if (curEl) curEl.textContent = fmt(audio.currentTime);
+    };
+    audio.onloadedmetadata = () => {
+      if (durEl) durEl.textContent = fmt(audio.duration);
+      if (seek)  seek.max = audio.duration;
+    };
+    audio.onended = () => setPlaying(false);
+    audio.onerror = () => {
+      setPlaying(false);
+      const np = document.getElementById("audio-np-text");
+      if (np) np.textContent = "Audio not generated yet — trigger the workflow first.";
+    };
   }
 
   function openPopup() {
-    popup.hidden   = false;
-    overlay.hidden = false;
+    if (!audio) loadAudio(currentFile);
+    if (popup)   popup.hidden   = false;
+    if (overlay) overlay.hidden = false;
     document.body.style.overflow = "hidden";
+    refreshIcons();
   }
 
   function closePopup() {
-    popup.hidden   = true;
-    overlay.hidden = true;
+    if (popup)   popup.hidden   = true;
+    if (overlay) overlay.hidden = true;
     document.body.style.overflow = "";
-    if (audio) { audio.pause(); }
-    if (window.speechSynthesis) window.speechSynthesis.cancel();
-    setPlayIcon();
+    if (audio) audio.pause();
+    setPlaying(false);
   }
 
-  trigger.onclick  = openPopup;
-  overlay.onclick  = closePopup;
-  closeBtn.onclick = closePopup;
+  trigger.addEventListener("click", openPopup);
+  if (overlay) overlay.addEventListener("click", closePopup);
+  if (closeBtn) closeBtn.addEventListener("click", closePopup);
 
-  // Speed buttons
-  document.querySelectorAll(".speed-btn").forEach(btn => {
-    btn.onclick = () => {
-      document.querySelectorAll(".speed-btn").forEach(b => b.classList.remove("speed-btn--active"));
-      btn.classList.add("speed-btn--active");
-      const rate = parseFloat(btn.dataset.speed);
-      if (audio) audio.playbackRate = rate;
-      if (utterance) utterance.rate = rate;
-    };
-  });
-
-  // Voice selection
-  voiceSel.onchange = () => {
-    useFile = voiceSel.value === "file";
-    if (audio) { audio.pause(); setPlayIcon(); }
-    if (window.speechSynthesis) window.speechSynthesis.cancel();
-    setPlayIcon();
-  };
-
-  // Seek bar
-  seek.oninput = () => { if (audio && useFile) audio.currentTime = parseFloat(seek.value); };
+  // Play / pause
+  if (playBtn) {
+    playBtn.addEventListener("click", () => {
+      if (!audio) loadAudio(currentFile);
+      if (audio.paused) { audio.play(); setPlaying(true); }
+      else              { audio.pause(); setPlaying(false); }
+    });
+  }
 
   // Restart
-  restart.onclick = () => {
-    if (useFile && audio) { audio.currentTime = 0; audio.play(); setPlayIcon(true); }
-    else if (!useFile) { window.speechSynthesis.cancel(); startSpeech(); }
-  };
+  if (restart) {
+    restart.addEventListener("click", () => {
+      if (!audio) loadAudio(currentFile);
+      audio.currentTime = 0;
+      audio.play();
+      setPlaying(true);
+    });
+  }
 
   // Skip 15s
-  skipBtn.onclick = () => { if (audio && useFile) audio.currentTime = Math.min(audio.duration, audio.currentTime + 15); };
-
-  function setPlayIcon(playing) {
-    playBtn.textContent = playing ? "⏸" : "▶";
-  }
-
-  function startSpeech() {
-    if (!window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
-    const text = npText.textContent;
-    utterance = new SpeechSynthesisUtterance(text);
-    const voices = window.speechSynthesis.getVoices();
-    const chosen = voices.find(v => v.name === voiceSel.value);
-    if (chosen) utterance.voice = chosen;
-    const rate = parseFloat(document.querySelector(".speed-btn--active")?.dataset.speed || "1");
-    utterance.rate = rate;
-    utterance.onend  = () => setPlayIcon(false);
-    utterance.onerror = () => setPlayIcon(false);
-    window.speechSynthesis.speak(utterance);
-    setPlayIcon(true);
-  }
-
-  // Play / Pause
-  playBtn.onclick = () => {
-    if (useFile) {
-      // File-based playback
-      if (!audio) {
-        audio = new Audio(AUDIO_URL);
-        audio.ontimeupdate = () => {
-          seek.max = audio.duration || 0;
-          seek.value = audio.currentTime;
-          curEl.textContent = fmt(audio.currentTime);
-        };
-        audio.onloadedmetadata = () => {
-          durEl.textContent = fmt(audio.duration);
-          seek.max = audio.duration;
-        };
-        audio.onended = () => setPlayIcon(false);
-        audio.onerror = () => {
-          // MP3 missing — fall back to speech
-          useFile = false;
-          voiceSel.value = voiceSel.options[1]?.value || "file";
-          startSpeech();
-        };
-      }
-      if (audio.paused) { audio.play(); setPlayIcon(true); }
-      else              { audio.pause(); setPlayIcon(false); }
-    } else {
-      // Web Speech
-      if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
-        window.speechSynthesis.pause(); setPlayIcon(false);
-      } else if (window.speechSynthesis.paused) {
-        window.speechSynthesis.resume(); setPlayIcon(true);
-      } else {
-        startSpeech();
-      }
-    }
-  };
-}
-
-// ── Render ────────────────────────────────────────────────────────────────────
-
-function renderMeta(data) {
-  document.getElementById("date-label").textContent = data.date_label || "—";
-  const ts = document.getElementById("generated-at");
-  if (data.generated_at) {
-    const t = new Date(data.generated_at).toLocaleTimeString("en-IN", {
-      hour: "2-digit", minute: "2-digit", hour12: true, timeZone: "Asia/Kolkata"
+  if (skipBtn) {
+    skipBtn.addEventListener("click", () => {
+      if (audio) audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 15);
     });
-    ts.textContent = `last updated ${t} IST`;
   }
-  if (data.is_monday) {
-    document.getElementById("monday-banner").hidden = false;
-    document.getElementById("repos-title").textContent = "Trending this week";
+
+  // Seek
+  if (seek) {
+    seek.addEventListener("input", () => {
+      if (audio) audio.currentTime = parseFloat(seek.value);
+    });
   }
-}
 
-function renderStakes(hotTopics) {
-  document.getElementById("stake-text").textContent =
-    hotTopics?.[0]?.stake || "No activity signal — showing global trending.";
-}
-
-function renderHotTopics(hotTopics) {
-  const c = document.getElementById("hot-topics-list");
-  c.innerHTML = "";
-  if (!hotTopics?.length) { c.appendChild(el("p", "empty", "No hot topics today.")); return; }
-  const label = { repo: "GITHUB REPO", hn: "HACKER NEWS", competition: "HACKATHON" };
-  hotTopics.forEach((t, i) => {
-    const card = el("div", `hot-card${i === 0 ? " hot-card--first" : ""}`);
-    const a    = lnk(t.url, "hot-card-link");
-    a.appendChild(el("span", "hot-type",        label[t.type] || t.type?.toUpperCase() || ""));
-    a.appendChild(el("p",    "hot-title",        t.title));
-    if (t.big_question)  a.appendChild(el("p", "hot-big-q",      `"${t.big_question}"`));
-    if (t.description)   a.appendChild(el("p", "hot-description", t.description));
-    if (t.head_fake)     a.appendChild(el("p", "hot-headfake",    t.head_fake));
-    card.appendChild(a);
-    card.appendChild(makePinBtn(t.url, t.title));
-    c.appendChild(card);
+  // Speed
+  document.querySelectorAll(".speed-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".speed-btn").forEach(b => b.classList.remove("speed-active"));
+      btn.classList.add("speed-active");
+      if (audio) audio.playbackRate = parseFloat(btn.dataset.speed);
+    });
   });
-}
 
-function renderRepos(repos, isMonday) {
-  const c = document.getElementById("repos-list");
-  c.innerHTML = "";
-  if (!repos?.length) { c.appendChild(el("p", "empty", "No repos fetched.")); return; }
-  const sorted = isMonday
-    ? [...repos].sort((a, b) => (b.trending_multiday ? 1 : 0) - (a.trending_multiday ? 1 : 0))
-    : repos;
-  sorted.forEach(r => {
-    const row  = lnk(r.url, "repo-row");
-    const info = el("div", "repo-info");
-    info.appendChild(el("p", "repo-name", r.name));
-    if (r.description) info.appendChild(el("p", "repo-desc", r.description));
-    if (r.trending_multiday) {
-      const b = el("div", "repo-badges");
-      b.appendChild(el("span", "badge badge--multiday", "TRENDING MULTIDAY"));
-      info.appendChild(b);
-    }
-    const meta = el("div", "repo-meta");
-    meta.appendChild(el("span", "repo-stars", r.stars >= 1000 ? `⭐ ${(r.stars/1000).toFixed(1)}k` : `⭐ ${r.stars}`));
-    if (r.language) meta.appendChild(el("span", "repo-lang", r.language));
-    row.appendChild(info);
-    row.appendChild(meta);
-    c.appendChild(row);
-  });
-}
+  // Voice / file switch
+  if (voiceSel) {
+    voiceSel.addEventListener("change", () => {
+      currentFile = voiceSel.value;
+      const wasPlaying = audio && !audio.paused;
+      loadAudio(currentFile);
+      if (wasPlaying) { audio.play(); setPlaying(true); }
+    });
+  }
 
-function renderCompetitions(comps) {
-  const c = document.getElementById("comps-list");
-  c.innerHTML = "";
-  if (!comps?.length) { c.appendChild(el("p", "empty", "No competitions found — Unstop, Devpost, MLH checked.")); return; }
-  comps.forEach(comp => {
-    if (!comp.title) return;
-    const row = lnk(comp.url && comp.url.startsWith("http") ? comp.url : "#", "comp-row");
-    row.appendChild(el("p", "comp-title", comp.title));
-    const meta = el("div", "comp-meta");
-    if (comp.source)      meta.appendChild(el("span", "comp-source",   comp.source));
-    if (comp.deadline)    meta.appendChild(el("span", "comp-deadline",  comp.deadline));
-    if (comp.closing_soon && comp.days_left != null)
-                          meta.appendChild(el("span", "comp-closing",   `${comp.days_left}d left`));
-    if (comp.prize)       meta.appendChild(el("span", "comp-prize",     comp.prize));
-    if (comp.organiser)   meta.appendChild(el("span", "comp-source",    comp.organiser));
-    if (comp.location)    meta.appendChild(el("span", "comp-source",    comp.location));
-    row.appendChild(meta);
-    c.appendChild(row);
-  });
-}
-
-function renderHN(stories) {
-  const c = document.getElementById("hn-list");
-  c.innerHTML = "";
-  if (!stories?.length) { c.appendChild(el("p", "empty", "No HN stories.")); return; }
-  stories.forEach(s => {
-    const row = lnk(s.url, "hn-row");
-    row.appendChild(el("p", "hn-title", s.title));
-    c.appendChild(row);
-  });
+  // Update now-playing text
+  if (data?.word_of_day?.word) {
+    const np = document.getElementById("audio-np-text");
+    if (np) np.textContent = `Aakh briefing  ·  Word today: ${data.word_of_day.word}  ·  ${data.date_label || ""}`;
+  }
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 
 async function init() {
+  initTheme();
   renderPinned();
-  setupAudioPopup();
 
   try {
     const resp = await fetch(DATA_URL);
@@ -361,24 +507,21 @@ async function init() {
     checkHealth(data.generated_at);
     renderMeta(data);
     renderWotd(data.word_of_day);
-    renderStakes(data.hot_topics);
     renderHotTopics(data.hot_topics);
     renderRepos(data.repos, data.is_monday);
     renderCompetitions(data.competitions);
     renderHN(data.hn_stories);
-
-    // Update audio popup "now playing" text with today's word
-    if (data.word_of_day?.word) {
-      document.getElementById("audio-np-text").textContent =
-        `Aakh briefing · Word: ${data.word_of_day.word} · ${data.date_label || ""}`;
-    }
+    setupAudio(data);
 
   } catch (err) {
     console.error("Aakh:", err);
-    document.getElementById("wotd-word").textContent = "Data not found";
-    document.getElementById("wotd-def").textContent  = "Run the nightly pipeline first, or trigger the workflow from the Actions tab.";
-    document.getElementById("stake-text").textContent = "data/data.json missing";
+    const wordEl = document.getElementById("wotd-word");
+    const defEl  = document.getElementById("wotd-def");
+    if (wordEl) wordEl.textContent = "Not ready";
+    if (defEl)  defEl.textContent  = "Run the nightly workflow from the Actions tab to generate data.";
   }
+
+  refreshIcons();
 }
 
 document.addEventListener("DOMContentLoaded", init);

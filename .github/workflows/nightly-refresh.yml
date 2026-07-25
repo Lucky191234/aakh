@@ -1,8 +1,8 @@
-name: Nightly Refresh
+name: Nightly Refresh  # Aakh v1.1.0
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # 4:30 AM IST
+    - cron: "30 22 * * *"   # 4:00 AM IST (buffer for scheduler delays -> ~4:30 AM)
   workflow_dispatch:
 
 jobs:
@@ -43,14 +43,13 @@ jobs:
       - name: Build final dashboard data
         run: python scripts/build_dashboard_data.py
 
-      - name: Generate morning audio
+      - name: Generate morning audio (4 voices)
         run: python scripts/generate_audio.py
 
       - name: Copy data and audio into docs for GitHub Pages
         run: |
           mkdir -p docs/data docs/audio
           cp data/data.json docs/data/data.json
-          [ -f docs/audio/morning.mp3 ] && echo "audio ready" || echo "no audio"
 
       - name: Commit updated data
         run: |
@@ -63,5 +62,5 @@ jobs:
       - name: Notify on failure
         if: failure()
         run: |
-          echo "::error::Aakh nightly refresh FAILED — $(date -u +'%Y-%m-%d')"
+          echo "::error::Aakh nightly refresh FAILED -- $(date -u +'%Y-%m-%d')"
           echo "::error::Visit https://github.com/${{ github.repository }}/actions"
