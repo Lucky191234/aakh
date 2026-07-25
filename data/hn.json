@@ -1,67 +1,60 @@
 {
-  "fetched_at": "2026-07-25T03:16:44.189362+00:00",
+  "fetched_at": "2026-07-25T23:29:48.849279+00:00",
   "stories": [
     {
-      "title": "Show HN: Max Studio Tools \u2013 C++ DSP Modules for Max and Ableton Live",
-      "url": "https://github.com/apresta/max-studio-tools",
-      "summary": "<p>Article URL: <a href=\"https://github.com/apresta/max-studio-tools\">https://github.com/apresta/max-studio-tools</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49041546\">https://news.ycombinator.com/item?id=49041546</a></p>\n<p>Points: 26</p>\n<p># Comments: 0</p>",
-      "published": "Fri, 24 Jul 2026 21:03:10 +0000",
+      "title": "Clinical Failure Rates over the Decades: Yikes",
+      "url": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
+      "summary": "<p>Article URL: <a href=\"https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes\">https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49052628\">https://news.ycombinator.",
+      "published": "Sat, 25 Jul 2026 22:57:17 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
-      "url": "https://artificialanalysis.ai/models",
-      "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/models\">https://artificialanalysis.ai/models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49040741\">https://news.ycombinator.com/item?id=49040741</a></p>\n<p>Points: 166</p>\n<p># Comments: 109</p>",
-      "published": "Fri, 24 Jul 2026 19:45:10 +0000",
+      "title": "Show HN: Writemark, a dependency free web component for inline Markdown editing",
+      "url": "https://news.ycombinator.com/item?id=49051130",
+      "summary": "<p>I like writing Markdown, but do not like writing it inside a plain textarea.<p>I wanted something I could use anywhere by dropping in a single web component:<p>```<p><p>```<p>That became Writemark.<p>It renders Markdown while you write, but Markdown remains the value you read, store, and submit. ",
+      "published": "Sat, 25 Jul 2026 20:18:54 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Be skeptical of OpenAI's rogue hacker agent story",
-      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "summary": "<p>Article URL: <a href=\"https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker\">https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49038060\">https://news.ycombinator.com/item?id=49038060</a></",
-      "published": "Fri, 24 Jul 2026 16:33:31 +0000",
+      "title": "General Resolution: LLM Usage in Debian",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "summary": "<p>Article URL: <a href=\"https://www.debian.org/vote/2026/vote_002\">https://www.debian.org/vote/2026/vote_002</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49050859\">https://news.ycombinator.com/item?id=49050859</a></p>\n<p>Points: 24</p>\n<p># Comments: 9</p>",
+      "published": "Sat, 25 Jul 2026 19:44:39 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
-      "url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
-      "summary": "<p>Article URL: <a href=\"https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece\">https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-",
-      "published": "Fri, 24 Jul 2026 14:41:59 +0000",
+      "title": "Show HN: Minesweeper Raycasted",
+      "url": "https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f",
+      "summary": "<p>Article URL: <a href=\"https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f\">https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49050803\">https://news.ycombinator.com/item?id=49050803</a>",
+      "published": "Sat, 25 Jul 2026 19:39:12 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "summary": "<p>Letter: <a href=\"https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf\" rel=\"nofollow\">https://images.nvidia.com/pdf/Open-Weights-and-American-AI-L...</a> [pdf]<p><a href=\"https://x.com/JensenHuang/status/2080643682408321103\" rel=\"nofollow\">https://x.com/JensenHuang/status/208",
-      "published": "Fri, 24 Jul 2026 13:32:30 +0000",
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "summary": "<p>Article URL: <a href=\"https://github.com/slvDev/esp32-ai\">https://github.com/slvDev/esp32-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49050512\">https://news.ycombinator.com/item?id=49050512</a></p>\n<p>Points: 17</p>\n<p># Comments: 0</p>",
+      "published": "Sat, 25 Jul 2026 18:59:50 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Half-Life 2 running natively on HaikuOS",
-      "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
-      "summary": "<p>Article URL: <a href=\"https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18\">https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034868\">h",
-      "published": "Fri, 24 Jul 2026 12:53:59 +0000",
+      "title": "Show HN: Brolly, a plain-text weather forecast site",
+      "url": "https://brolly.sh/forecast/RWFP2qW8",
+      "summary": "<p>The UK MET office recently redesigned their site, adding a lot of additional whitespace, scrolling, and animations. This significantly reduced its usability for me, and left me wanting an \u2018at a glance\u2019 weather site.<p>I made <a href=\"https://brolly.sh\" rel=\"nofollow\">https://brolly.sh</a>, a mini",
+      "published": "Sat, 25 Jul 2026 17:34:34 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "My security camera shipped a GitHub admin token in its login page",
-      "url": "https://hhh.hn/hanwha-github-token/",
-      "summary": "<p>Article URL: <a href=\"https://hhh.hn/hanwha-github-token/\">https://hhh.hn/hanwha-github-token/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034292\">https://news.ycombinator.com/item?id=49034292</a></p>\n<p>Points: 524</p>\n<p># Comments: 182</p>",
-      "published": "Fri, 24 Jul 2026 11:54:41 +0000",
+      "title": "Bringing PyTorch Monarch to AMD GPUs",
+      "url": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/",
+      "summary": "<p>Article URL: <a href=\"https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/\">https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombin",
+      "published": "Sat, 25 Jul 2026 15:55:27 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "IRGC claims it destroyed Amazon's Bahrain data center",
-      "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
-      "summary": "<p>Article URL: <a href=\"https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/\">https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49033240\">https://news.ycombinator.com/item?id=49033240",
-      "published": "Fri, 24 Jul 2026 09:52:58 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Future euro banknote design proposals",
-      "url": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/all-design-proposals.en.html",
-      "summary": "<p><a href=\"https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html\" rel=\"nofollow\">https://www.ecb.europa.eu/euro/banknotes/future_banknotes/ht...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49033110\">https://news.ycombinator.com/ite",
-      "published": "Fri, 24 Jul 2026 09:29:44 +0000",
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "summary": "<p>Article URL: <a href=\"https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/\">https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49048034\">https://news.ycombinator.com/it",
+      "published": "Sat, 25 Jul 2026 14:49:49 +0000",
       "source": "Hacker News"
     }
   ]

@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-07-25T03:16:47.014027+00:00",
+  "fetched_at": "2026-07-25T23:29:51.649804+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "Open Source Coding Agent",
-      "description": "A tool for developers to automate their coding workflow and improve productivity.",
-      "url": "https://github.com/anomalyco/opencode",
-      "big_question": "Can a coding agent truly augment a developer's productivity without sacrificing creativity?",
-      "head_fake": "A personal assistant for developers, but can it be trusted?"
+      "title": "freeCodeCamp's Open-Source Codebase",
+      "description": "An open-source codebase and curriculum for free learning in math, programming, and computer science.",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "big_question": "Can you build a curriculum for a complete beginner in programming and computer science?",
+      "head_fake": "A codebase for learning to code, with a twist"
     },
     {
       "type": "repo",
-      "title": "Personal AI Assistant",
-      "description": "A conversational AI assistant that learns your habits and preferences to provide personalized recommendations.",
+      "title": "AI Assistant for Any OS",
+      "description": "A personal AI assistant for any operating system, built with open-source code and flexibility in mind.",
       "url": "https://github.com/openclaw/openclaw",
-      "big_question": "Will AI assistants make humans redundant in the workforce?",
-      "head_fake": "A virtual assistant, but what's beneath the surface?"
+      "big_question": "How does an AI assistant like openclaw manage to keep up with user needs and adapt to new situations?",
+      "head_fake": "An AI assistant that's 'lobster-slow' but infinitely adaptable"
     },
     {
       "type": "hn",
-      "title": "Half-Life 2 running natively on HaikuOS",
-      "description": "A groundbreaking feat in gaming technology, but what does it mean for the future of game development?",
-      "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
-      "big_question": "Can open-source gaming technologies surpass proprietary solutions?",
-      "head_fake": "Gaming on the edge of innovation, but what's the true impact?"
-    },
-    {
-      "type": "hn",
-      "title": "Show HN: Max Studio Tools",
-      "description": "A C++ DSP Modules framework designed for artists and producers, expanding creative possibilities.",
-      "url": "https://github.com/apresta/max-studio-tools",
-      "big_question": "Can C++ outperform Python or JavaScript for specific tasks?",
-      "head_fake": "Max Studio Tools: A hidden gem in the world of C++ programming?"
+      "title": "Running LLM on an $8 Microcontroller",
+      "description": "A showcase of a highly optimized LLM model running on an ultra-low-resource device like the ESP32, opening up new possibilities in embedded AI.",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "big_question": "Can low-latency AI models like LLMs be made to run efficiently on tiny, low-cost devices like the ESP32?",
+      "head_fake": "Ultra-lightweight AI on a microcontroller"
     },
     {
       "type": "competition",
-      "title": "Develop an AI-Powered Chatbot for Mental Health",
-      "description": "A competition to develop AI-powered chatbots for mental health care, improving access to vital services.",
-      "url": "https://www.competition.com/mentalhealth",
-      "big_question": "Can AI chatbots provide personalized mental health support?",
-      "head_fake": "Revolutionizing mental health care with AI"
+      "title": "AutoGPT Competition",
+      "description": "A competition to develop and deploy AI tools and models to automate various tasks, with a focus on accessibility.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "How can AI models be made more inclusive and user-friendly for people of all skill levels?",
+      "head_fake": "A global AI hack where anyone can participate, create, and innovate"
+    },
+    {
+      "type": "competition",
+      "title": "Esp32-AI Challenge",
+      "description": "A challenge to develop a highly optimized LLM model that can run on an $8 microcontroller, pushing the limits of embedded AI.",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "big_question": "Can a 28.9M parameter LLM model be successfully deployed on an ultra-low-resource device like the ESP32?",
+      "head_fake": "AI in the microcontroller: a dream or reality?"
     },
     {
       "type": "floater",
-      "title": "The Rise of Open-Weight AI Models",
-      "description": "As Nvidia, Microsoft, and Meta sound the alarm on overregulation, the future of AI development hangs in the balance.",
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "big_question": "What are the implications of the impending open-weight model revolution?",
-      "head_fake": "Big tech vs. regulation: The future of AI at stake"
+      "title": "The Open-Source Coding Agent",
+      "description": "A coding agent that can assist users in various coding tasks and provide real-time feedback.",
+      "url": "https://github.com/anomalyco/opencode",
+      "big_question": "Can a coding agent be created to provide both human-like insights and AI-driven code optimisations?",
+      "head_fake": "Code generation meets personal coding assistant"
+    },
+    {
+      "type": "floater",
+      "title": "An Agentic Skills Framework",
+      "description": "A skills framework that focuses on real-engineering skills, as opposed to just theoretical knowledge, to prepare developers for real-world challenges.",
+      "url": "https://github.com/obra/superpowers",
+      "big_question": "Can an agentic AI framework be created to optimize real-world engineering tasks more efficiently?",
+      "head_fake": "Empower engineers to build the skills to create skills"
     },
     {
       "type": "repo",
-      "title": "OpenCLAW: Your Personal AI Assistant",
-      "description": "A cutting-edge AI assistant that integrates seamlessly with your workflow, freeing you to focus on high-level tasks.",
-      "url": "https://github.com/openclaw/openclaw",
-      "big_question": "Will AI-driven assistants revolutionize the way we work?",
-      "head_fake": "Your personal AI butler, but what's the cost?"
-    },
-    {
-      "type": "repo",
-      "title": "AutoGPT: A Tool for Accessible AI",
-      "description": "Empowering developers with accessible AI, AutoGPT aims to democratize AI technologies for all.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "Can accessible AI bridge the gap between developers and non-developers?",
-      "head_fake": "Democratizing AI for everyone, but is it too good to be true?"
+      "title": "Awesome Python Frameworks",
+      "description": "An opinionated list of Python frameworks, libraries, and tools for developers, emphasizing ease of use and flexibility.",
+      "url": "https://github.com/vinta/awesome-python",
+      "big_question": "Can a curated list of Python frameworks and libraries like Awesome Python help beginners build complex projects more easily?",
+      "head_fake": "Python libraries: where quantity meets quality"
     }
   ]
 }
