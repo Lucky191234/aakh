@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-07-25T23:29:51.649804+00:00",
+  "fetched_at": "2026-07-26T08:17:29.594912+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "freeCodeCamp's Open-Source Codebase",
-      "description": "An open-source codebase and curriculum for free learning in math, programming, and computer science.",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "big_question": "Can you build a curriculum for a complete beginner in programming and computer science?",
-      "head_fake": "A codebase for learning to code, with a twist"
+      "title": "AutoGPT Is The Vision Of Accessible AI For Everyone",
+      "description": "Explore the tools and mission of AutoGPT, an open-source coding agent that aims to make AI accessible to everyone.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "How can AutoGPT help bridge the gap between AI research and everyday users?",
+      "head_fake": "Just another GPT model, but this time for open-source"
     },
     {
       "type": "repo",
-      "title": "AI Assistant for Any OS",
-      "description": "A personal AI assistant for any operating system, built with open-source code and flexibility in mind.",
-      "url": "https://github.com/openclaw/openclaw",
-      "big_question": "How does an AI assistant like openclaw manage to keep up with user needs and adapt to new situations?",
-      "head_fake": "An AI assistant that's 'lobster-slow' but infinitely adaptable"
+      "title": "Transformers: The Model-Definition Framework For State-Of-The-Art ML Models",
+      "description": "Discover the Hugging Face Transformers library, which supports a wide range of machine learning models in text, vision, audio, and more.",
+      "url": "https://github.com/huggingface/transformers",
+      "big_question": "How can the Transformers framework help researchers and developers push the boundaries of AI research?",
+      "head_fake": "Just a simple model library, but with so much more"
     },
     {
       "type": "hn",
-      "title": "Running LLM on an $8 Microcontroller",
-      "description": "A showcase of a highly optimized LLM model running on an ultra-low-resource device like the ESP32, opening up new possibilities in embedded AI.",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "big_question": "Can low-latency AI models like LLMs be made to run efficiently on tiny, low-cost devices like the ESP32?",
-      "head_fake": "Ultra-lightweight AI on a microcontroller"
-    },
-    {
-      "type": "competition",
-      "title": "AutoGPT Competition",
-      "description": "A competition to develop and deploy AI tools and models to automate various tasks, with a focus on accessibility.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "How can AI models be made more inclusive and user-friendly for people of all skill levels?",
-      "head_fake": "A global AI hack where anyone can participate, create, and innovate"
-    },
-    {
-      "type": "competition",
-      "title": "Esp32-AI Challenge",
-      "description": "A challenge to develop a highly optimized LLM model that can run on an $8 microcontroller, pushing the limits of embedded AI.",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "big_question": "Can a 28.9M parameter LLM model be successfully deployed on an ultra-low-resource device like the ESP32?",
-      "head_fake": "AI in the microcontroller: a dream or reality?"
+      "title": "GrapheneOS Protections Against Data Extraction From Locked Devices",
+      "description": "Read about the security features of GrapheneOS that protect users from data extraction even when their devices are locked.",
+      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "big_question": "What other security measures are being taken to protect users from data extraction attacks?",
+      "head_fake": "Another company trying to cash in on Android security"
     },
     {
       "type": "floater",
-      "title": "The Open-Source Coding Agent",
-      "description": "A coding agent that can assist users in various coding tasks and provide real-time feedback.",
-      "url": "https://github.com/anomalyco/opencode",
-      "big_question": "Can a coding agent be created to provide both human-like insights and AI-driven code optimisations?",
-      "head_fake": "Code generation meets personal coding assistant"
+      "title": "GrapheneOS Protections Against Data Extraction From Locked Devices",
+      "description": "Learn about the innovative security features of GrapheneOS that protect users from data extraction even when their devices are locked.",
+      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "big_question": "What other security measures are being taken to protect users from data extraction attacks?",
+      "head_fake": "A crucial security feature that you may not have thought about"
     },
     {
       "type": "floater",
-      "title": "An Agentic Skills Framework",
-      "description": "A skills framework that focuses on real-engineering skills, as opposed to just theoretical knowledge, to prepare developers for real-world challenges.",
-      "url": "https://github.com/obra/superpowers",
-      "big_question": "Can an agentic AI framework be created to optimize real-world engineering tasks more efficiently?",
-      "head_fake": "Empower engineers to build the skills to create skills"
+      "title": "Running A 28.9M Parameter LLM On An $8 Microcontroller",
+      "description": "Read about the innovation of running a large language model on a low-cost microcontroller, breaking barriers in AI accessibility.",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "big_question": "What are the broader implications of this development for AI research and accessibility?",
+      "head_fake": "A significant breakthrough in AI hardware and software"
     },
     {
       "type": "repo",
-      "title": "Awesome Python Frameworks",
-      "description": "An opinionated list of Python frameworks, libraries, and tools for developers, emphasizing ease of use and flexibility.",
-      "url": "https://github.com/vinta/awesome-python",
-      "big_question": "Can a curated list of Python frameworks and libraries like Awesome Python help beginners build complex projects more easily?",
-      "head_fake": "Python libraries: where quantity meets quality"
+      "title": "React: The Library For Web And Native User Interfaces",
+      "description": "Explore the React library, which is ideal for building fast, scalable, and maintainable user interfaces.",
+      "url": "https://github.com/react/react",
+      "big_question": "How has React contributed to the evolution of user interface development in software engineering?",
+      "head_fake": "Just a simple JavaScript library, but so much more"
+    },
+    {
+      "type": "repo",
+      "title": "TensorFlow: An Open Source Machine Learning Framework",
+      "description": "Discover the open-source TensorFlow machine learning framework, which supports a wide range of AI research and applications.",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "big_question": "How has TensorFlow impacted the field of machine learning and AI research?",
+      "head_fake": "Just a simple ML library, but with so much more"
+    },
+    {
+      "type": "rep",
+      "title": "freeCodeCamp: Open-Source Codebase And Curriculum",
+      "description": "Explore the freeCodeCamp project, which provides an open-source codebase and curriculum for learning programming, math, and computer science.",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "big_question": "How can freeCodeCamp help bridge the gap between education and industry needs?",
+      "head_fake": "Just another coding resource, but with so much more"
     }
   ]
 }

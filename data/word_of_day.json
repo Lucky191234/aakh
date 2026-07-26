@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-07-25T23:29:49.071176+00:00",
+  "fetched_at": "2026-07-26T08:17:27.424063+00:00",
   "word_of_day": {
-    "word": "eloquent",
-    "phonetic": "/\u02c8\u025bl.\u0259\u02cckw\u0259nt/",
+    "word": "resilient",
+    "phonetic": "",
     "part_of_speech": "adjective",
-    "definition": "Fluently persuasive and articulate",
+    "definition": "(of objects or substances) Returning quickly to original shape after force is applied; elastic.",
     "example": "",
-    "date": "July 25, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/eloquent"
+    "date": "July 26, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/resilient"
   }
 }

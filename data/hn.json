@@ -1,60 +1,74 @@
 {
-  "fetched_at": "2026-07-25T23:29:48.849279+00:00",
+  "fetched_at": "2026-07-26T08:17:27.184657+00:00",
   "stories": [
     {
-      "title": "Clinical Failure Rates over the Decades: Yikes",
+      "title": "GrapheneOS protections against data extraction from locked devices",
+      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "summary": "<p>Article URL: <a href=\"https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices\">https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com",
+      "published": "Sun, 26 Jul 2026 05:57:22 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Humans haven't stopped evolving",
+      "url": "https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure",
+      "summary": "<p>Article URL: <a href=\"https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure\">https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49054307\">https://news.",
+      "published": "Sun, 26 Jul 2026 03:09:46 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: I mapped every US golf course",
+      "url": "https://golfcoursebrowser.com/",
+      "summary": "<p>I got tired of Googling basic course info, so I made a free directory of every US course<p>Google filters for golf course results are terrible so I built a better way to browse courses using OSM as the backbone.... <a href=\"https://golfcoursebrowser.com/\" rel=\"nofollow\">https://golfcoursebrowser.",
+      "published": "Sun, 26 Jul 2026 02:22:26 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Systems and Delays",
+      "url": "https://martin.janiczek.cz/2026/07/24/systems-and-delays.html",
+      "summary": "<p>Article URL: <a href=\"https://martin.janiczek.cz/2026/07/24/systems-and-delays.html\">https://martin.janiczek.cz/2026/07/24/systems-and-delays.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49053382\">https://news.ycombinator.com/item?id=49053382</a></p>\n<p>Points: 59</",
+      "published": "Sun, 26 Jul 2026 00:37:30 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "summary": "<p>Article URL: <a href=\"https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf\">https://github.com/demo-zexuan/liang-wenfeng-i",
+      "published": "Sat, 25 Jul 2026 23:32:50 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Clinical failure rates over the decades: yikes",
       "url": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
       "summary": "<p>Article URL: <a href=\"https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes\">https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49052628\">https://news.ycombinator.",
       "published": "Sat, 25 Jul 2026 22:57:17 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: Writemark, a dependency free web component for inline Markdown editing",
-      "url": "https://news.ycombinator.com/item?id=49051130",
-      "summary": "<p>I like writing Markdown, but do not like writing it inside a plain textarea.<p>I wanted something I could use anywhere by dropping in a single web component:<p>```<p><p>```<p>That became Writemark.<p>It renders Markdown while you write, but Markdown remains the value you read, store, and submit. ",
-      "published": "Sat, 25 Jul 2026 20:18:54 +0000",
+      "title": "What is happening to jobs? Separating AI hype from reality",
+      "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "summary": "<p>Article URL: <a href=\"https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality\">https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.c",
+      "published": "Sat, 25 Jul 2026 22:51:10 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "General Resolution: LLM Usage in Debian",
+      "title": "Cloudflare's new AI traffic options for customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/content-independence-day-ai-options/\">https://blog.cloudflare.com/content-independence-day-ai-options/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49052564\">https://news.ycombinator.com/item?id=49052564</a></p>\n<p>Points",
+      "published": "Sat, 25 Jul 2026 22:50:49 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "LLM Usage in Debian: Three Proposals",
       "url": "https://www.debian.org/vote/2026/vote_002",
-      "summary": "<p>Article URL: <a href=\"https://www.debian.org/vote/2026/vote_002\">https://www.debian.org/vote/2026/vote_002</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49050859\">https://news.ycombinator.com/item?id=49050859</a></p>\n<p>Points: 24</p>\n<p># Comments: 9</p>",
+      "summary": "<p>Article URL: <a href=\"https://www.debian.org/vote/2026/vote_002\">https://www.debian.org/vote/2026/vote_002</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49050859\">https://news.ycombinator.com/item?id=49050859</a></p>\n<p>Points: 140</p>\n<p># Comments: 119</p>",
       "published": "Sat, 25 Jul 2026 19:44:39 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: Minesweeper Raycasted",
-      "url": "https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f",
-      "summary": "<p>Article URL: <a href=\"https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f\">https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49050803\">https://news.ycombinator.com/item?id=49050803</a>",
-      "published": "Sat, 25 Jul 2026 19:39:12 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
       "url": "https://github.com/slvDev/esp32-ai",
-      "summary": "<p>Article URL: <a href=\"https://github.com/slvDev/esp32-ai\">https://github.com/slvDev/esp32-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49050512\">https://news.ycombinator.com/item?id=49050512</a></p>\n<p>Points: 17</p>\n<p># Comments: 0</p>",
+      "summary": "<p>Article URL: <a href=\"https://github.com/slvDev/esp32-ai\">https://github.com/slvDev/esp32-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49050512\">https://news.ycombinator.com/item?id=49050512</a></p>\n<p>Points: 165</p>\n<p># Comments: 37</p>",
       "published": "Sat, 25 Jul 2026 18:59:50 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: Brolly, a plain-text weather forecast site",
-      "url": "https://brolly.sh/forecast/RWFP2qW8",
-      "summary": "<p>The UK MET office recently redesigned their site, adding a lot of additional whitespace, scrolling, and animations. This significantly reduced its usability for me, and left me wanting an \u2018at a glance\u2019 weather site.<p>I made <a href=\"https://brolly.sh\" rel=\"nofollow\">https://brolly.sh</a>, a mini",
-      "published": "Sat, 25 Jul 2026 17:34:34 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Bringing PyTorch Monarch to AMD GPUs",
-      "url": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/",
-      "summary": "<p>Article URL: <a href=\"https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/\">https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombin",
-      "published": "Sat, 25 Jul 2026 15:55:27 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "summary": "<p>Article URL: <a href=\"https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/\">https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49048034\">https://news.ycombinator.com/it",
-      "published": "Sat, 25 Jul 2026 14:49:49 +0000",
       "source": "Hacker News"
     }
   ]
