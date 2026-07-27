@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-07-26T08:17:29.594912+00:00",
+  "fetched_at": "2026-07-27T01:37:02.494836+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "AutoGPT Is The Vision Of Accessible AI For Everyone",
-      "description": "Explore the tools and mission of AutoGPT, an open-source coding agent that aims to make AI accessible to everyone.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "How can AutoGPT help bridge the gap between AI research and everyday users?",
-      "head_fake": "Just another GPT model, but this time for open-source"
-    },
-    {
-      "type": "repo",
-      "title": "Transformers: The Model-Definition Framework For State-Of-The-Art ML Models",
-      "description": "Discover the Hugging Face Transformers library, which supports a wide range of machine learning models in text, vision, audio, and more.",
-      "url": "https://github.com/huggingface/transformers",
-      "big_question": "How can the Transformers framework help researchers and developers push the boundaries of AI research?",
-      "head_fake": "Just a simple model library, but with so much more"
-    },
-    {
-      "type": "hn",
-      "title": "GrapheneOS Protections Against Data Extraction From Locked Devices",
-      "description": "Read about the security features of GrapheneOS that protect users from data extraction even when their devices are locked.",
-      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
-      "big_question": "What other security measures are being taken to protect users from data extraction attacks?",
-      "head_fake": "Another company trying to cash in on Android security"
-    },
-    {
-      "type": "floater",
-      "title": "GrapheneOS Protections Against Data Extraction From Locked Devices",
-      "description": "Learn about the innovative security features of GrapheneOS that protect users from data extraction even when their devices are locked.",
-      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
-      "big_question": "What other security measures are being taken to protect users from data extraction attacks?",
-      "head_fake": "A crucial security feature that you may not have thought about"
-    },
-    {
-      "type": "floater",
-      "title": "Running A 28.9M Parameter LLM On An $8 Microcontroller",
-      "description": "Read about the innovation of running a large language model on a low-cost microcontroller, breaking barriers in AI accessibility.",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "big_question": "What are the broader implications of this development for AI research and accessibility?",
-      "head_fake": "A significant breakthrough in AI hardware and software"
-    },
-    {
-      "type": "repo",
-      "title": "React: The Library For Web And Native User Interfaces",
-      "description": "Explore the React library, which is ideal for building fast, scalable, and maintainable user interfaces.",
-      "url": "https://github.com/react/react",
-      "big_question": "How has React contributed to the evolution of user interface development in software engineering?",
-      "head_fake": "Just a simple JavaScript library, but so much more"
-    },
-    {
-      "type": "repo",
-      "title": "TensorFlow: An Open Source Machine Learning Framework",
-      "description": "Discover the open-source TensorFlow machine learning framework, which supports a wide range of AI research and applications.",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "big_question": "How has TensorFlow impacted the field of machine learning and AI research?",
-      "head_fake": "Just a simple ML library, but with so much more"
-    },
-    {
-      "type": "rep",
-      "title": "freeCodeCamp: Open-Source Codebase And Curriculum",
-      "description": "Explore the freeCodeCamp project, which provides an open-source codebase and curriculum for learning programming, math, and computer science.",
+      "title": "freeCodeCamp's Open-Source Codebase",
+      "description": "A comprehensive open-source codebase and curriculum for learning programming and computer science.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "big_question": "How can freeCodeCamp help bridge the gap between education and industry needs?",
-      "head_fake": "Just another coding resource, but with so much more"
+      "big_question": "How does an open-source platform like freeCodeCamp's maintain its quality and relevance in the face of rapidly changing tech landscapes?",
+      "head_fake": "A free online platform for learning to code, but what about its business model?"
+    },
+    {
+      "type": "repo",
+      "title": "Open-Source AI Assistant",
+      "description": "A personal AI assistant that can be run on any OS and platform.",
+      "url": "https://github.com/openclaw/openclaw",
+      "big_question": "What are the implications of having a personal AI assistant that can be controlled by anyone with the right knowledge?",
+      "head_fake": "A tool for managing tasks and workflow, but what about its AI capabilities?"
+    },
+    {
+      "type": "floater",
+      "title": "AutoGPT: Accessible AI for Everyone",
+      "description": "A platform that aims to provide accessible AI tools for everyone, but with significant implications for security and responsibility.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "What are the potential consequences of making AI tools more accessible to the general public?",
+      "head_fake": "A platform for automating tasks, but what about its potential for malicious use?"
+    },
+    {
+      "type": "floater",
+      "title": "Langflow: AI-Powered Agents and Workflows",
+      "description": "A powerful tool for building and deploying AI-powered agents and workflows.",
+      "url": "https://github.com/langflow-ai/langflow",
+      "big_question": "What are the potential implications of using AI-powered workflows for high-stakes decision-making?",
+      "head_fake": "A tool for automating workflows, but what about its potential for job displacement?"
+    },
+    {
+      "type": "repo",
+      "title": "Transformers Model-Definition Framework",
+      "description": "A framework for state-of-the-art machine learning models in text, vision, audio, and more.",
+      "url": "https://github.com/huggingface/transformers",
+      "big_question": "What are the potential applications of this framework for advancing artificial intelligence?",
+      "head_fake": "A framework for building machine learning models, but what about its potential for bias?"
+    },
+    {
+      "type": "repo",
+      "title": "Port Zero: How I Learned to Stop Worrying and Love PORT=0",
+      "description": "A showcase of how to port applications to a new environment using the command-line flag PORT=0.",
+      "url": "https://portzero.net/",
+      "big_question": "What are the implications of using command-line flags to customize application behavior?",
+      "head_fake": "A guide for porting applications, but what about its potential for security vulnerabilities?"
+    },
+    {
+      "type": "floater",
+      "title": "Wattage: Token-Spend Profiler and Cost-Regression Gate",
+      "description": "A tool for profiling token spend and cost-regression for AI agents.",
+      "url": "https://github.com/faizannraza/wattage",
+      "big_question": "What are the potential implications of using AI agents that can optimize their own spend and cost?",
+      "head_fake": "A tool for optimizing AI performance, but what about its potential for bias?"
+    },
+    {
+      "type": "repo",
+      "title": "AST-Grep: A Tool for Rewriting Tree-Sitter in Rust",
+      "description": "A tool for rewriting the Tree-sitter compiler in Rust and making it 30% faster.",
+      "url": "https://astgrep.com/blog/tree-sitter-rust-rewrite",
+      "big_question": "What are the implications of rewriting a high-performance compiler in a new language?",
+      "head_fake": "A tool for optimizing compiler performance, but what about its potential for compatibility issues?"
     }
   ]
 }
