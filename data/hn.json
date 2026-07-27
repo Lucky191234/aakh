@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T01:36:59.811448+00:00",
+  "fetched_at": "2026-07-27T03:58:09.641722+00:00",
   "stories": [
     {
       "title": "Show HN: Port Zero \u2013 how I learned to stop worrying and love PORT=0",
@@ -9,10 +9,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "Wattage: A token-spend profiler and cost-regression gate for AI agents",
-      "url": "https://github.com/faizannraza/wattage",
-      "summary": "<p>Article URL: <a href=\"https://github.com/faizannraza/wattage\">https://github.com/faizannraza/wattage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063397\">https://news.ycombinator.com/item?id=49063397</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "published": "Sun, 26 Jul 2026 23:27:35 +0000",
+      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "summary": "<p>Article URL: <a href=\"https://github.com/vercel-labs/scriptc\">https://github.com/vercel-labs/scriptc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063175\">https://news.ycombinator.com/item?id=49063175</a></p>\n<p>Points: 51</p>\n<p># Comments: 24</p>",
+      "published": "Sun, 26 Jul 2026 22:46:10 +0000",
       "source": "Hacker News"
     },
     {
@@ -25,29 +25,29 @@
     {
       "title": "We have proof automation now",
       "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
-      "summary": "<p>Article URL: <a href=\"https://www.imperialviolet.org/2026/07/26/zstd-lean.html\">https://www.imperialviolet.org/2026/07/26/zstd-lean.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49062291\">https://news.ycombinator.com/item?id=49062291</a></p>\n<p>Points: 63</p>\n<p># Co",
+      "summary": "<p>Article URL: <a href=\"https://www.imperialviolet.org/2026/07/26/zstd-lean.html\">https://www.imperialviolet.org/2026/07/26/zstd-lean.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49062291\">https://news.ycombinator.com/item?id=49062291</a></p>\n<p>Points: 107</p>\n<p># C",
       "published": "Sun, 26 Jul 2026 20:53:26 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Multiway Turing Machines (2021 pre-ai)",
-      "url": "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/",
-      "summary": "<p>Article URL: <a href=\"https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/\">https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49062259\">https://news.ycombinator.com/item?id=49062259</a></",
-      "published": "Sun, 26 Jul 2026 20:49:43 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "How AST-grep Rewrote Tree-sitter in Rust and Made It 30% Faster",
-      "url": "https://astgrep.com/blog/tree-sitter-rust-rewrite",
-      "summary": "<p>Article URL: <a href=\"https://astgrep.com/blog/tree-sitter-rust-rewrite\">https://astgrep.com/blog/tree-sitter-rust-rewrite</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49060509\">https://news.ycombinator.com/item?id=49060509</a></p>\n<p>Points: 65</p>\n<p># Comments: 10</p>",
-      "published": "Sun, 26 Jul 2026 17:51:03 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Show HN: CheapSecurity \u2013 Lightweight, Self-Hosted CCTV for Linux SBCs",
       "url": "https://github.com/gmrandazzo/CheapSecurity",
-      "summary": "<p>Article URL: <a href=\"https://github.com/gmrandazzo/CheapSecurity\">https://github.com/gmrandazzo/CheapSecurity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49059398\">https://news.ycombinator.com/item?id=49059398</a></p>\n<p>Points: 100</p>\n<p># Comments: 22</p>",
+      "summary": "<p>Article URL: <a href=\"https://github.com/gmrandazzo/CheapSecurity\">https://github.com/gmrandazzo/CheapSecurity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49059398\">https://news.ycombinator.com/item?id=49059398</a></p>\n<p>Points: 117</p>\n<p># Comments: 22</p>",
       "published": "Sun, 26 Jul 2026 15:53:55 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The New AI Superpowers: Focus and Followthrough",
+      "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+      "summary": "<p>Article URL: <a href=\"https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and\">https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49057877\">https://news.ycombinator.com/item?id=49057877</a></p>\n<p>Points: ",
+      "published": "Sun, 26 Jul 2026 13:13:03 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Go Analysis Framework: modular static analysis by go team",
+      "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
+      "summary": "<p>Article URL: <a href=\"https://pkg.go.dev/golang.org/x/tools/go/analysis\">https://pkg.go.dev/golang.org/x/tools/go/analysis</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49057398\">https://news.ycombinator.com/item?id=49057398</a></p>\n<p>Points: 187</p>\n<p># Comments: 44</p",
+      "published": "Sun, 26 Jul 2026 12:21:26 +0000",
       "source": "Hacker News"
     }
   ]

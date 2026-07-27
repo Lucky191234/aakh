@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T01:37:02.573139+00:00",
+  "generated_at": "2026-07-27T03:58:11.839950+00:00",
   "date_label": "Monday, 27 July 2026",
   "is_monday": true,
   "word_of_day": {
@@ -14,67 +14,67 @@
   "hot_topics": [
     {
       "type": "repo",
-      "title": "freeCodeCamp's Open-Source Codebase",
-      "description": "A comprehensive open-source codebase and curriculum for learning programming and computer science.",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "big_question": "How does an open-source platform like freeCodeCamp's maintain its quality and relevance in the face of rapidly changing tech landscapes?",
-      "head_fake": "A free online platform for learning to code, but what about its business model?"
+      "title": "Free Programming Books",
+      "description": "Access a curated list of free programming books covering various topics and languages.",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "big_question": "Can we learn programming concepts and skills for free?",
+      "head_fake": "A bookshelf of free programming literature"
     },
     {
       "type": "repo",
-      "title": "Open-Source AI Assistant",
-      "description": "A personal AI assistant that can be run on any OS and platform.",
-      "url": "https://github.com/openclaw/openclaw",
-      "big_question": "What are the implications of having a personal AI assistant that can be controlled by anyone with the right knowledge?",
-      "head_fake": "A tool for managing tasks and workflow, but what about its AI capabilities?"
+      "title": "JavaScript Algorithms",
+      "description": "Implement algorithms and data structures in JavaScript with explanations and links to further readings.",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "big_question": "Can we improve our coding skills by implementing algorithms?",
+      "head_fake": "A library of algorithms in JavaScript"
     },
     {
-      "type": "floater",
-      "title": "AutoGPT: Accessible AI for Everyone",
-      "description": "A platform that aims to provide accessible AI tools for everyone, but with significant implications for security and responsibility.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "What are the potential consequences of making AI tools more accessible to the general public?",
-      "head_fake": "A platform for automating tasks, but what about its potential for malicious use?"
-    },
-    {
-      "type": "floater",
-      "title": "Langflow: AI-Powered Agents and Workflows",
-      "description": "A powerful tool for building and deploying AI-powered agents and workflows.",
-      "url": "https://github.com/langflow-ai/langflow",
-      "big_question": "What are the potential implications of using AI-powered workflows for high-stakes decision-making?",
-      "head_fake": "A tool for automating workflows, but what about its potential for job displacement?"
-    },
-    {
-      "type": "repo",
-      "title": "Transformers Model-Definition Framework",
-      "description": "A framework for state-of-the-art machine learning models in text, vision, audio, and more.",
-      "url": "https://github.com/huggingface/transformers",
-      "big_question": "What are the potential applications of this framework for advancing artificial intelligence?",
-      "head_fake": "A framework for building machine learning models, but what about its potential for bias?"
-    },
-    {
-      "type": "repo",
-      "title": "Port Zero: How I Learned to Stop Worrying and Love PORT=0",
-      "description": "A showcase of how to port applications to a new environment using the command-line flag PORT=0.",
+      "type": "hn",
+      "title": "Port Zero",
+      "description": "Learn how to use PORT=0 to simplify development and deployment of web applications.",
       "url": "https://portzero.net/",
-      "big_question": "What are the implications of using command-line flags to customize application behavior?",
-      "head_fake": "A guide for porting applications, but what about its potential for security vulnerabilities?"
+      "big_question": "Can we simplify the development process with PORT=0?",
+      "head_fake": "Simplifying development with PORT=0"
+    },
+    {
+      "type": "hn",
+      "title": "Scriptc by Vercel",
+      "description": "Discover a TypeScript-to-Native compiler and learn how to create binaries without JavaScript engines.",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "big_question": "Can we create binaries without JavaScript engines?",
+      "head_fake": "A compiler from TypeScript to native"
+    },
+    {
+      "type": "competition",
+      "title": "Go Analysis Framework",
+      "description": "Explore a modular static analysis framework for the Go programming language.",
+      "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
+      "big_question": "Can we improve code quality and safety with static analysis?",
+      "head_fake": "A framework for analyzing Go code"
+    },
+    {
+      "type": "competition",
+      "title": "AutoGPT",
+      "description": "Learn about AutoGPT, a project aiming to provide accessible AI for everyone, with a focus on development and building tools.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "Can we create more accessible and user-friendly AI tools?",
+      "head_fake": "A project for accessible AI"
     },
     {
       "type": "floater",
-      "title": "Wattage: Token-Spend Profiler and Cost-Regression Gate",
-      "description": "A tool for profiling token spend and cost-regression for AI agents.",
-      "url": "https://github.com/faizannraza/wattage",
-      "big_question": "What are the potential implications of using AI agents that can optimize their own spend and cost?",
-      "head_fake": "A tool for optimizing AI performance, but what about its potential for bias?"
+      "title": "Automating AI Assistant",
+      "description": "Learn how to create an AI assistant that can perform various tasks with openclaw, a personal AI project.",
+      "url": "https://github.com/openclaw/openclaw",
+      "big_question": "Can we make AI assistants more accessible and user-friendly for developers?",
+      "head_fake": "An AI assistant for coding tasks"
     },
     {
-      "type": "repo",
-      "title": "AST-Grep: A Tool for Rewriting Tree-Sitter in Rust",
-      "description": "A tool for rewriting the Tree-sitter compiler in Rust and making it 30% faster.",
-      "url": "https://astgrep.com/blog/tree-sitter-rust-rewrite",
-      "big_question": "What are the implications of rewriting a high-performance compiler in a new language?",
-      "head_fake": "A tool for optimizing compiler performance, but what about its potential for compatibility issues?"
+      "type": "floater",
+      "title": "Transformers for Text and Vision",
+      "description": "Explore state-of-the-art machine learning models for text, vision, audio, and other applications with the Hugging Face Transformers library.",
+      "url": "https://github.com/huggingface/transformers",
+      "big_question": "Can we create more robust and efficient AI models for various tasks?",
+      "head_fake": "A model-definition framework for machine learning"
     }
   ],
   "repos": [
@@ -82,10 +82,10 @@
       "name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stars": 452889,
+      "stars": 452898,
       "language": "TypeScript",
       "created_at": "2014-12-24T17:49:19Z",
-      "pushed_at": "2026-07-26T23:59:45Z",
+      "pushed_at": "2026-07-27T03:51:30Z",
       "topics": [
         "careers",
         "certification",
@@ -109,7 +109,7 @@
       "name": "public-apis/public-apis",
       "description": "A collective list of free APIs",
       "url": "https://github.com/public-apis/public-apis",
-      "stars": 452656,
+      "stars": 452669,
       "language": "Python",
       "created_at": "2016-03-20T23:49:42Z",
       "pushed_at": "2026-07-25T21:34:33Z",
@@ -134,7 +134,7 @@
       "name": "EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
-      "stars": 393081,
+      "stars": 393091,
       "language": "Python",
       "created_at": "2013-10-11T06:50:37Z",
       "pushed_at": "2026-07-25T10:02:14Z",
@@ -151,10 +151,10 @@
       "name": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": 384238,
+      "stars": 384251,
       "language": "TypeScript",
       "created_at": "2025-11-24T10:16:47Z",
-      "pushed_at": "2026-07-27T01:36:24Z",
+      "pushed_at": "2026-07-27T03:55:16Z",
       "topics": [
         "ai",
         "assistant",
@@ -170,10 +170,10 @@
       "name": "react/react",
       "description": "The library for web and native user interfaces.",
       "url": "https://github.com/react/react",
-      "stars": 246732,
+      "stars": 246735,
       "language": "JavaScript",
       "created_at": "2013-05-24T16:15:54Z",
-      "pushed_at": "2026-07-27T01:36:05Z",
+      "pushed_at": "2026-07-27T03:33:53Z",
       "topics": [
         "declarative",
         "frontend",
@@ -188,7 +188,7 @@
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 240655,
+      "stars": 240672,
       "language": "C",
       "created_at": "2011-09-04T22:48:12Z",
       "pushed_at": "2026-07-26T21:50:29Z",
@@ -199,7 +199,7 @@
       "name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 233683,
+      "stars": 233719,
       "language": "JavaScript",
       "created_at": "2026-01-18T00:51:51Z",
       "pushed_at": "2026-07-26T10:26:33Z",
@@ -219,10 +219,10 @@
       "name": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": 220944,
+      "stars": 221007,
       "language": "Python",
       "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-07-27T01:34:25Z",
+      "pushed_at": "2026-07-27T03:39:58Z",
       "topics": [
         "ai",
         "ai-agent",
@@ -247,10 +247,10 @@
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 198123,
+      "stars": 198138,
       "language": "TypeScript",
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-07-27T00:58:57Z",
+      "pushed_at": "2026-07-27T03:56:02Z",
       "topics": [
         "ai",
         "apis",
@@ -279,10 +279,10 @@
       "name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "url": "https://github.com/tensorflow/tensorflow",
-      "stars": 196554,
+      "stars": 196557,
       "language": "C++",
       "created_at": "2015-11-07T01:19:20Z",
-      "pushed_at": "2026-07-27T01:33:40Z",
+      "pushed_at": "2026-07-27T03:53:42Z",
       "topics": [
         "deep-learning",
         "deep-neural-networks",
@@ -299,7 +299,7 @@
       "name": "trekhleb/javascript-algorithms",
       "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
       "url": "https://github.com/trekhleb/javascript-algorithms",
-      "stars": 196336,
+      "stars": 196338,
       "language": "JavaScript",
       "created_at": "2018-03-24T07:47:04Z",
       "pushed_at": "2026-07-26T02:43:08Z",
@@ -319,10 +319,10 @@
       "name": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
-      "stars": 189942,
+      "stars": 189993,
       "language": "TypeScript",
       "created_at": "2025-04-30T20:08:00Z",
-      "pushed_at": "2026-07-27T00:17:38Z",
+      "pushed_at": "2026-07-27T03:54:55Z",
       "topics": [],
       "trending_multiday": true
     },
@@ -330,7 +330,7 @@
       "name": "ohmyzsh/ohmyzsh",
       "description": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
-      "stars": 188850,
+      "stars": 188852,
       "language": "Shell",
       "created_at": "2009-08-28T18:15:37Z",
       "pushed_at": "2026-07-26T12:52:32Z",
@@ -357,10 +357,10 @@
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 187945,
+      "stars": 187947,
       "language": "TypeScript",
       "created_at": "2015-09-03T20:23:38Z",
-      "pushed_at": "2026-07-27T01:26:41Z",
+      "pushed_at": "2026-07-27T03:50:23Z",
       "topics": [
         "editor",
         "electron",
@@ -374,7 +374,7 @@
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": 185700,
+      "stars": 185703,
       "language": "Python",
       "created_at": "2023-03-16T09:21:07Z",
       "pushed_at": "2026-07-26T17:49:58Z",
@@ -397,10 +397,10 @@
       "name": "avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
       "url": "https://github.com/avelino/awesome-go",
-      "stars": 179321,
+      "stars": 179329,
       "language": "Go",
       "created_at": "2014-07-06T13:42:15Z",
-      "pushed_at": "2026-07-26T14:05:37Z",
+      "pushed_at": "2026-07-27T03:48:38Z",
       "topics": [
         "awesome",
         "awesome-list",
@@ -415,7 +415,7 @@
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "url": "https://github.com/ollama/ollama",
-      "stars": 176942,
+      "stars": 176953,
       "language": "Go",
       "created_at": "2023-06-26T19:39:32Z",
       "pushed_at": "2026-07-27T00:02:27Z",
@@ -442,10 +442,10 @@
       "name": "huggingface/transformers",
       "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "url": "https://github.com/huggingface/transformers",
-      "stars": 163008,
+      "stars": 163015,
       "language": "Python",
       "created_at": "2018-10-29T13:56:00Z",
-      "pushed_at": "2026-07-27T00:48:44Z",
+      "pushed_at": "2026-07-27T03:19:03Z",
       "topics": [
         "audio",
         "deep-learning",
@@ -470,10 +470,35 @@
       "trending_multiday": true
     },
     {
+      "name": "Snailclimb/JavaGuide",
+      "description": "Java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u3001\u7cfb\u7edf\u8bbe\u8ba1\u4e0e AI \u5e94\u7528\u5f00\u53d1",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "stars": 157322,
+      "language": "JavaScript",
+      "created_at": "2018-05-07T13:27:00Z",
+      "pushed_at": "2026-07-27T02:04:47Z",
+      "topics": [
+        "agent",
+        "ai",
+        "context-engineering",
+        "deepseek",
+        "interview",
+        "java",
+        "mcp",
+        "mysql",
+        "redis",
+        "redisson",
+        "skills",
+        "springai",
+        "system-design"
+      ],
+      "trending_multiday": false
+    },
+    {
       "name": "firecrawl/firecrawl",
       "description": "The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": 156481,
+      "stars": 156532,
       "language": "TypeScript",
       "created_at": "2024-04-15T21:02:29Z",
       "pushed_at": "2026-07-26T18:36:29Z",
@@ -499,24 +524,6 @@
         "webscraping"
       ],
       "trending_multiday": true
-    },
-    {
-      "name": "langflow-ai/langflow",
-      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "url": "https://github.com/langflow-ai/langflow",
-      "stars": 152449,
-      "language": "Python",
-      "created_at": "2023-02-08T22:28:03Z",
-      "pushed_at": "2026-07-27T00:45:31Z",
-      "topics": [
-        "agents",
-        "chatgpt",
-        "generative-ai",
-        "large-language-models",
-        "multiagent",
-        "react-flow"
-      ],
-      "trending_multiday": true
     }
   ],
   "competitions": [],
@@ -529,10 +536,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "Wattage: A token-spend profiler and cost-regression gate for AI agents",
-      "url": "https://github.com/faizannraza/wattage",
-      "summary": "<p>Article URL: <a href=\"https://github.com/faizannraza/wattage\">https://github.com/faizannraza/wattage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063397\">https://news.ycombinator.com/item?id=49063397</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "published": "Sun, 26 Jul 2026 23:27:35 +0000",
+      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "summary": "<p>Article URL: <a href=\"https://github.com/vercel-labs/scriptc\">https://github.com/vercel-labs/scriptc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063175\">https://news.ycombinator.com/item?id=49063175</a></p>\n<p>Points: 51</p>\n<p># Comments: 24</p>",
+      "published": "Sun, 26 Jul 2026 22:46:10 +0000",
       "source": "Hacker News"
     },
     {
@@ -545,29 +552,29 @@
     {
       "title": "We have proof automation now",
       "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
-      "summary": "<p>Article URL: <a href=\"https://www.imperialviolet.org/2026/07/26/zstd-lean.html\">https://www.imperialviolet.org/2026/07/26/zstd-lean.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49062291\">https://news.ycombinator.com/item?id=49062291</a></p>\n<p>Points: 63</p>\n<p># Co",
+      "summary": "<p>Article URL: <a href=\"https://www.imperialviolet.org/2026/07/26/zstd-lean.html\">https://www.imperialviolet.org/2026/07/26/zstd-lean.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49062291\">https://news.ycombinator.com/item?id=49062291</a></p>\n<p>Points: 107</p>\n<p># C",
       "published": "Sun, 26 Jul 2026 20:53:26 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Multiway Turing Machines (2021 pre-ai)",
-      "url": "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/",
-      "summary": "<p>Article URL: <a href=\"https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/\">https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49062259\">https://news.ycombinator.com/item?id=49062259</a></",
-      "published": "Sun, 26 Jul 2026 20:49:43 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "How AST-grep Rewrote Tree-sitter in Rust and Made It 30% Faster",
-      "url": "https://astgrep.com/blog/tree-sitter-rust-rewrite",
-      "summary": "<p>Article URL: <a href=\"https://astgrep.com/blog/tree-sitter-rust-rewrite\">https://astgrep.com/blog/tree-sitter-rust-rewrite</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49060509\">https://news.ycombinator.com/item?id=49060509</a></p>\n<p>Points: 65</p>\n<p># Comments: 10</p>",
-      "published": "Sun, 26 Jul 2026 17:51:03 +0000",
       "source": "Hacker News"
     },
     {
       "title": "Show HN: CheapSecurity \u2013 Lightweight, Self-Hosted CCTV for Linux SBCs",
       "url": "https://github.com/gmrandazzo/CheapSecurity",
-      "summary": "<p>Article URL: <a href=\"https://github.com/gmrandazzo/CheapSecurity\">https://github.com/gmrandazzo/CheapSecurity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49059398\">https://news.ycombinator.com/item?id=49059398</a></p>\n<p>Points: 100</p>\n<p># Comments: 22</p>",
+      "summary": "<p>Article URL: <a href=\"https://github.com/gmrandazzo/CheapSecurity\">https://github.com/gmrandazzo/CheapSecurity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49059398\">https://news.ycombinator.com/item?id=49059398</a></p>\n<p>Points: 117</p>\n<p># Comments: 22</p>",
       "published": "Sun, 26 Jul 2026 15:53:55 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The New AI Superpowers: Focus and Followthrough",
+      "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+      "summary": "<p>Article URL: <a href=\"https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and\">https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49057877\">https://news.ycombinator.com/item?id=49057877</a></p>\n<p>Points: ",
+      "published": "Sun, 26 Jul 2026 13:13:03 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Go Analysis Framework: modular static analysis by go team",
+      "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
+      "summary": "<p>Article URL: <a href=\"https://pkg.go.dev/golang.org/x/tools/go/analysis\">https://pkg.go.dev/golang.org/x/tools/go/analysis</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49057398\">https://news.ycombinator.com/item?id=49057398</a></p>\n<p>Points: 187</p>\n<p># Comments: 44</p",
+      "published": "Sun, 26 Jul 2026 12:21:26 +0000",
       "source": "Hacker News"
     }
   ]
