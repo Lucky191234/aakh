@@ -1,53 +1,81 @@
 {
-  "fetched_at": "2026-07-27T03:58:09.641722+00:00",
+  "fetched_at": "2026-07-28T03:30:12.581208+00:00",
   "stories": [
     {
-      "title": "Show HN: Port Zero \u2013 how I learned to stop worrying and love PORT=0",
-      "url": "https://portzero.net/",
-      "summary": "<p>Hi HN,<p>Recently I wasted several hours wrangling my dev environment only to find out that the browser frontend was talking to the wrong version of the backend. This got me thinking--why on earth are we still using simple <i>numbers</i> to describe which process to connect to? Why not use <i>nam",
-      "published": "Mon, 27 Jul 2026 00:03:48 +0000",
+      "title": "EYG: A Programming Language for Humans",
+      "url": "https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/",
+      "summary": "<p>Article URL: <a href=\"https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/\">https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49078463\">https://news.ycombinator.com/item?id=49078463</a></p>\n<",
+      "published": "Tue, 28 Jul 2026 02:21:37 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
-      "url": "https://github.com/vercel-labs/scriptc",
-      "summary": "<p>Article URL: <a href=\"https://github.com/vercel-labs/scriptc\">https://github.com/vercel-labs/scriptc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063175\">https://news.ycombinator.com/item?id=49063175</a></p>\n<p>Points: 51</p>\n<p># Comments: 24</p>",
-      "published": "Sun, 26 Jul 2026 22:46:10 +0000",
+      "title": "Residential Proxies Are a National Security Threat",
+      "url": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/",
+      "summary": "<p>Article URL: <a href=\"https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/\">https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49078266\">https://news.ycombinator.com/item?id=49",
+      "published": "Tue, 28 Jul 2026 01:51:18 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
-      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "summary": "<p>Article URL: <a href=\"https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html\">https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063",
-      "published": "Sun, 26 Jul 2026 22:21:41 +0000",
+      "title": "The Burau representation of the braid group is faithful for n = 4",
+      "url": "https://arxiv.org/abs/2607.05283",
+      "summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2607.05283\">https://arxiv.org/abs/2607.05283</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49077209\">https://news.ycombinator.com/item?id=49077209</a></p>\n<p>Points: 25</p>\n<p># Comments: 8</p>",
+      "published": "Mon, 27 Jul 2026 23:46:15 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "We have proof automation now",
-      "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
-      "summary": "<p>Article URL: <a href=\"https://www.imperialviolet.org/2026/07/26/zstd-lean.html\">https://www.imperialviolet.org/2026/07/26/zstd-lean.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49062291\">https://news.ycombinator.com/item?id=49062291</a></p>\n<p>Points: 107</p>\n<p># C",
-      "published": "Sun, 26 Jul 2026 20:53:26 +0000",
+      "title": "Netflix employee fired for sharing personal details in retreat trust exercise",
+      "url": "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/",
+      "summary": "<p><a href=\"https://www.inc.com/amaya-nichole/netflix-company-retreat-sparked-lawsuit-experts-say-real-damage-may-be-just-beginning/91380349\" rel=\"nofollow\">https://www.inc.com/amaya-nichole/netflix-company-retreat-sp...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4",
+      "published": "Mon, 27 Jul 2026 23:21:37 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: CheapSecurity \u2013 Lightweight, Self-Hosted CCTV for Linux SBCs",
-      "url": "https://github.com/gmrandazzo/CheapSecurity",
-      "summary": "<p>Article URL: <a href=\"https://github.com/gmrandazzo/CheapSecurity\">https://github.com/gmrandazzo/CheapSecurity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49059398\">https://news.ycombinator.com/item?id=49059398</a></p>\n<p>Points: 117</p>\n<p># Comments: 22</p>",
-      "published": "Sun, 26 Jul 2026 15:53:55 +0000",
+      "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
+      "url": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
+      "summary": "<p>Article URL: <a href=\"https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/\">https://spacedaily.com/sd-v-astronauts-returning-from-six-month-mi",
+      "published": "Mon, 27 Jul 2026 23:19:19 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "The New AI Superpowers: Focus and Followthrough",
-      "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-      "summary": "<p>Article URL: <a href=\"https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and\">https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49057877\">https://news.ycombinator.com/item?id=49057877</a></p>\n<p>Points: ",
-      "published": "Sun, 26 Jul 2026 13:13:03 +0000",
+      "title": "DConf 2026 in London",
+      "url": "https://dconf.org/2026/index.html",
+      "summary": "<p>Article URL: <a href=\"https://dconf.org/2026/index.html\">https://dconf.org/2026/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49076840\">https://news.ycombinator.com/item?id=49076840</a></p>\n<p>Points: 56</p>\n<p># Comments: 25</p>",
+      "published": "Mon, 27 Jul 2026 23:14:19 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Go Analysis Framework: modular static analysis by go team",
-      "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
-      "summary": "<p>Article URL: <a href=\"https://pkg.go.dev/golang.org/x/tools/go/analysis\">https://pkg.go.dev/golang.org/x/tools/go/analysis</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49057398\">https://news.ycombinator.com/item?id=49057398</a></p>\n<p>Points: 187</p>\n<p># Comments: 44</p",
-      "published": "Sun, 26 Jul 2026 12:21:26 +0000",
+      "title": "Benchmarking Opus 5 on SlopCodeBench",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
+      "summary": "<p>Article URL: <a href=\"https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md\">https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md</a></p>\n<p>Comme",
+      "published": "Mon, 27 Jul 2026 22:37:52 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+      "url": "https://www.rise-reforming.com",
+      "summary": "<p>Hi HN! This is George, Lucas, and Jona from Rise Reforming\n(<a href=\"https://www.rise-reforming.com/\">https://www.rise-reforming.com/</a>). We\u2019re developing a process to convert gas produced at landfills, farms, and wastewater plants (\u201cbiogas\u201d) into higher value chemicals. Our technology is modul",
+      "published": "Mon, 27 Jul 2026 19:58:22 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Self-contained highly-portable Python distributions",
+      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
+      "summary": "<p>Article URL: <a href=\"https://gregoryszorc.com/docs/python-build-standalone/main/\">https://gregoryszorc.com/docs/python-build-standalone/main/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49073942\">https://news.ycombinator.com/item?id=49073942</a></p>\n<p>Points: 123</p>\n",
+      "published": "Mon, 27 Jul 2026 18:43:31 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Yap \u2013 OSS on-device voice dictation for macOS with no model to download",
+      "url": "https://github.com/FrigadeHQ/yap",
+      "summary": "<p>Hey HN! I wanted to share this OSS project I've been working on.<p>It's called Yap and its a small menu-bar app for macOS that does voice to text for any input. You'll set a hotkey, press it, talk, press it again, and the text gets pasted into whatever field you were in. Everything runs locally a",
+      "published": "Mon, 27 Jul 2026 18:36:02 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: FeyNoBg \u2013 Automatic background removal model and training library",
+      "url": "https://usefeyn.com/blog/feynobg/",
+      "summary": "<p>Hey HN, I\u2019m Shreyash from Feyn. We help companies build custom models from their data.<p>Today, we\u2019re releasing FeyNoBg, an automatic background removal model. Alongside it, we're open-sourcing NoBg, the Python library we built to train and run it.<p>Try the model here: <a href=\"https://huggingfa",
+      "published": "Mon, 27 Jul 2026 16:59:08 +0000",
       "source": "Hacker News"
     }
   ]

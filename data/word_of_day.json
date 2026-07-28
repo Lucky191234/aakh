@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-07-27T03:58:10.149514+00:00",
+  "fetched_at": "2026-07-28T03:30:12.831272+00:00",
   "word_of_day": {
-    "word": "pragmatic",
-    "phonetic": "/p\u0279\u00e6\u0261\u02c8m\u00e6t\u026ak/",
-    "part_of_speech": "noun",
-    "definition": "A man of business.",
-    "example": "",
-    "date": "July 27, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/pragmatic"
+    "word": "altruistic",
+    "phonetic": "/\u02cc\u0251l.t\u0279u\u02c8\u026as.t\u026ak/",
+    "part_of_speech": "adjective",
+    "definition": "Regardful of others; beneficent; unselfish",
+    "example": "His helping the old woman with her shopping was deemed highly altruistic by everyone, especially since her home was a mile away.",
+    "date": "July 28, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/altruistic"
   }
 }

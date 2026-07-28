@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-07-27T03:58:11.764213+00:00",
+  "fetched_at": "2026-07-28T03:30:15.224210+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "Free Programming Books",
-      "description": "Access a curated list of free programming books covering various topics and languages.",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "big_question": "Can we learn programming concepts and skills for free?",
-      "head_fake": "A bookshelf of free programming literature"
+      "title": "freeCodeCamp's Open-Source Codebase",
+      "description": "Learn math, programming, and computer science for free with freeCodeCamp's open-source codebase and curriculum.",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "big_question": "Can a comprehensive online learning platform effectively replace traditional classroom instruction?",
+      "head_fake": "A free resource for learning to code, with a vast library of curriculum and projects."
     },
     {
       "type": "repo",
-      "title": "JavaScript Algorithms",
-      "description": "Implement algorithms and data structures in JavaScript with explanations and links to further readings.",
-      "url": "https://github.com/trekhleb/javascript-algorithms",
-      "big_question": "Can we improve our coding skills by implementing algorithms?",
-      "head_fake": "A library of algorithms in JavaScript"
+      "title": "The Open-Source Coding Agent",
+      "description": "Anomalyco's opencode is an open-source coding agent that offers users a powerful development experience with native AI capabilities.",
+      "url": "https://github.com/anomalyco/opencode",
+      "big_question": "Can an open-source coding agent effectively bridge the gap between AI and human expertise?",
+      "head_fake": "A tool that enables developers to create and customize coding agents with ease."
     },
     {
       "type": "hn",
-      "title": "Port Zero",
-      "description": "Learn how to use PORT=0 to simplify development and deployment of web applications.",
-      "url": "https://portzero.net/",
-      "big_question": "Can we simplify the development process with PORT=0?",
-      "head_fake": "Simplifying development with PORT=0"
+      "title": "EYG: A Programming Language for Humans",
+      "description": "A new programming language, EYG, aims to make coding more accessible and user-friendly, focusing on simplicity and intuitive design.",
+      "url": "https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/",
+      "big_question": "Will EYG's human-centric approach to programming revolutionize the way we write code, making it more accessible to non-experts and professionals alike?",
+      "head_fake": "A new programming language that prioritizes simplicity and user experience, aiming to make coding more accessible to everyone."
     },
     {
-      "type": "hn",
-      "title": "Scriptc by Vercel",
-      "description": "Discover a TypeScript-to-Native compiler and learn how to create binaries without JavaScript engines.",
-      "url": "https://github.com/vercel-labs/scriptc",
-      "big_question": "Can we create binaries without JavaScript engines?",
-      "head_fake": "A compiler from TypeScript to native"
-    },
-    {
-      "type": "competition",
-      "title": "Go Analysis Framework",
-      "description": "Explore a modular static analysis framework for the Go programming language.",
-      "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
-      "big_question": "Can we improve code quality and safety with static analysis?",
-      "head_fake": "A framework for analyzing Go code"
-    },
-    {
-      "type": "competition",
-      "title": "AutoGPT",
-      "description": "Learn about AutoGPT, a project aiming to provide accessible AI for everyone, with a focus on development and building tools.",
+      "type": "floater",
+      "title": "AutoGPT Is Changing the Landscape of AI",
+      "description": "AutoGPT is a powerful tool that brings accessible AI to everyone, allowing users to use and build on the technology.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "Can we create more accessible and user-friendly AI tools?",
-      "head_fake": "A project for accessible AI"
+      "big_question": "Will AutoGPT's vision of accessible AI reshape the boundaries between AI development and general use?",
+      "head_fake": "A tool that enables users to access and build AI models with ease, without needing extensive technical expertise."
     },
     {
       "type": "floater",
-      "title": "Automating AI Assistant",
-      "description": "Learn how to create an AI assistant that can perform various tasks with openclaw, a personal AI project.",
-      "url": "https://github.com/openclaw/openclaw",
-      "big_question": "Can we make AI assistants more accessible and user-friendly for developers?",
-      "head_fake": "An AI assistant for coding tasks"
+      "title": "Breakthroughs in Braid Group Representation",
+      "description": "A recent paper reveals that the Burau representation of the braid group is faithful for n = 4, a significant advancement in abstract algebra.",
+      "url": "https://arxiv.org/abs/2607.05283",
+      "big_question": "What implications will this breakthrough have for our understanding of the braid group and its applications in mathematics and computer science?",
+      "head_fake": "A groundbreaking discovery that sheds new light on the braid group and its role in mathematics and computer science."
     },
     {
-      "type": "floater",
-      "title": "Transformers for Text and Vision",
-      "description": "Explore state-of-the-art machine learning models for text, vision, audio, and other applications with the Hugging Face Transformers library.",
-      "url": "https://github.com/huggingface/transformers",
-      "big_question": "Can we create more robust and efficient AI models for various tasks?",
-      "head_fake": "A model-definition framework for machine learning"
+      "type": "comp",
+      "title": "AI Model Competition",
+      "description": "This year's AI model competition focuses on developing highly accurate models for various real-world applications.",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSd8gjyJQ7u6Q4xgV4g7uKZqy5y6/viewform?usp=pp_url",
+      "big_question": "Can participants develop AI models that outperform existing solutions in key areas?",
+      "head_fake": "A competition that brings together top AI researchers and developers to push the boundaries of AI model development."
+    },
+    {
+      "type": "repo",
+      "title": "Practical Tutorials for Project-Based Learning",
+      "description": "A curated list of project-based tutorials that cover a wide range of topics, from programming fundamentals to advanced AI and data science.",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "big_question": "Can practical tutorials effectively complement traditional classroom instruction in software development and AI?",
+      "head_fake": "A valuable resource for developers and learners, featuring a range of hands-on tutorials and projects."
+    },
+    {
+      "type": "repo",
+      "title": "The Linux Kernel Source Code",
+      "description": "The Linux kernel source code is a highly influential and widely used open-source project that powers many modern operating systems.",
+      "url": "https://github.com/torvalds/linux",
+      "big_question": "Can the open-source model effectively support large-scale software development and maintenance, especially for critical infrastructure like the Linux kernel?",
+      "head_fake": "A highly influential and widely used open-source project that has shaped the landscape of operating systems and software development."
     }
   ]
 }
