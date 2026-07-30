@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-07-29T03:32:23.724921+00:00",
+  "fetched_at": "2026-07-30T03:20:33.965814+00:00",
   "word_of_day": {
-    "word": "ubiquitous",
-    "phonetic": "",
-    "part_of_speech": "adjective",
-    "definition": "Being everywhere at once: omnipresent.",
-    "example": "To Hindus, Jews, Christians, and Muslims, God is ubiquitous.",
-    "date": "July 29, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/ubiquitous"
+    "word": "paradox",
+    "phonetic": "/\u02c8pa\u0279\u0259d\u0252ks/",
+    "part_of_speech": "noun",
+    "definition": "An apparently self-contradictory statement, which can only be true if it is false, and vice versa.",
+    "example": "\"This sentence is false\" is a paradox.",
+    "date": "July 30, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/paradox"
   }
 }

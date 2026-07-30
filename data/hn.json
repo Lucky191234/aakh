@@ -1,74 +1,81 @@
 {
-  "fetched_at": "2026-07-29T03:32:23.489934+00:00",
+  "fetched_at": "2026-07-30T03:20:33.689722+00:00",
   "stories": [
     {
-      "title": "Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects",
-      "url": "https://github.com/jagg-ix/zil-lean",
-      "summary": "<p>Google Zanzibar datalog lang lets you describe concepts and express how they are related. I generalize it to DSL you can use on Lean4 (and other languages) this lets you represent a knowledge base you can construct, store and evaluate, have it under git and improve without big engines or relaying",
-      "published": "Wed, 29 Jul 2026 02:22:04 +0000",
+      "title": "NSF pilots 4-year PhDs with industry research placements",
+      "url": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
+      "summary": "<p>Article URL: <a href=\"https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four\">https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49105642\">https://news.ycombinator.com/",
+      "published": "Thu, 30 Jul 2026 02:55:21 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Chip stocks slide in US and Asia as AI jitters rattle investors",
-      "url": "https://www.bbc.com/news/articles/cly8zng43npo",
-      "summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cly8zng43npo\">https://www.bbc.com/news/articles/cly8zng43npo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49092549\">https://news.ycombinator.com/item?id=49092549</a></p>\n<p>Points: 16</p>\n<p># Comments: 3</p>",
-      "published": "Wed, 29 Jul 2026 01:56:00 +0000",
+      "title": "A pharmacy chain in Vermont implemented AI for efficiency",
+      "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/",
+      "summary": "<p>Article URL: <a href=\"https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/\">https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-info",
+      "published": "Thu, 30 Jul 2026 01:35:10 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "LearnVector \u2013 Andrew Ng's AI company building one\u2011to\u2011one learning experiences",
-      "url": "https://learnvector.ai/",
-      "summary": "<p>Article URL: <a href=\"https://learnvector.ai/\">https://learnvector.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49092499\">https://news.ycombinator.com/item?id=49092499</a></p>\n<p>Points: 41</p>\n<p># Comments: 27</p>",
-      "published": "Wed, 29 Jul 2026 01:49:19 +0000",
+      "title": "Show HN: A local merge queue for parallel Claude Code agents",
+      "url": "https://github.com/funador/claude-code-merge-queue",
+      "summary": "<p>I have been pushing up to 90 commits a day on a MacBook Air via 4-5 parallel agents. As you can imagine when all the agents try to build, test and run dev servers on an 8GB machine it is the fast lane to a force quit and restart. I also did not want to pay the CI minutes on 90 pushes a day.<p>So ",
+      "published": "Thu, 30 Jul 2026 00:20:16 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
-      "url": "https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html",
-      "summary": "<p>Article URL: <a href=\"https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html\">https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49091895\">https://news.ycombinator.com/item?id=49091895</a></p>\n<",
-      "published": "Wed, 29 Jul 2026 00:32:08 +0000",
+      "title": "Man and the Computer by John G. Kemeny (1972 book by the co-creator of BASIC)",
+      "url": "https://archive.org/details/mancomputerbyjoh0000john",
+      "summary": "<p>Article URL: <a href=\"https://archive.org/details/mancomputerbyjoh0000john\">https://archive.org/details/mancomputerbyjoh0000john</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49104140\">https://news.ycombinator.com/item?id=49104140</a></p>\n<p>Points: 23</p>\n<p># Comments: ",
+      "published": "Wed, 29 Jul 2026 22:53:44 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: Manim (3Blue1Brown's animation engine) in the browser via WebGPU",
-      "url": "https://studio.academa.ai/",
-      "summary": "<p>Grant Sanderson (3Blue1Brown) created Manim, the Python library he uses to make the math animations in his videos.<p>We reimplemented Manim with the same Python API, but the implementation underneath is Rust, connected to Python through PyO3. The Rust code uses wgpu, so rendering happens on the G",
-      "published": "Wed, 29 Jul 2026 00:07:43 +0000",
+      "title": "LLM Honeypot",
+      "url": "https://llm2human.pages.dev/",
+      "summary": "<p>Article URL: <a href=\"https://llm2human.pages.dev/\">https://llm2human.pages.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49104117\">https://news.ycombinator.com/item?id=49104117</a></p>\n<p>Points: 89</p>\n<p># Comments: 37</p>",
+      "published": "Wed, 29 Jul 2026 22:51:03 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
-      "url": "https://github.com/twalichiewicz/HNewhere",
-      "summary": "<p>HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth.<p>I figured there was probably a simpler way, so I thre",
-      "published": "Tue, 28 Jul 2026 22:09:06 +0000",
+      "title": "AI's top startups are barely publishing their research",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "summary": "<p>Article URL: <a href=\"https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research\">https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49103285\">htt",
+      "published": "Wed, 29 Jul 2026 21:25:40 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Codex Security",
-      "url": "https://github.com/openai/codex-security",
-      "summary": "<p>Article URL: <a href=\"https://github.com/openai/codex-security\">https://github.com/openai/codex-security</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49089755\">https://news.ycombinator.com/item?id=49089755</a></p>\n<p>Points: 381</p>\n<p># Comments: 115</p>",
-      "published": "Tue, 28 Jul 2026 20:52:55 +0000",
+      "title": "The Cold Email",
+      "url": "https://zachholman.com/posts/cold-email",
+      "summary": "<p>Article URL: <a href=\"https://zachholman.com/posts/cold-email\">https://zachholman.com/posts/cold-email</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49103089\">https://news.ycombinator.com/item?id=49103089</a></p>\n<p>Points: 107</p>\n<p># Comments: 44</p>",
+      "published": "Wed, 29 Jul 2026 21:06:42 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Discovering Cryptographic Weaknesses with Claude",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "summary": "<p>Article URL: <a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49087091\">https://news.ycombinator.com/item?id=49087091</a>",
-      "published": "Tue, 28 Jul 2026 17:22:16 +0000",
+      "title": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals",
+      "url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/",
+      "summary": "<p>Article URL: <a href=\"https://www.emergingtrajectories.com/lh/commodification-and-circularity/\">https://www.emergingtrajectories.com/lh/commodification-and-circularity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49101529\">https://news.ycombinator.com/item?id=49101529</",
+      "published": "Wed, 29 Jul 2026 18:57:10 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Steel Bank Common Lisp version 2.6.7",
-      "url": "https://sbcl.org/all-news.html?2.6.7",
-      "summary": "<p>Article URL: <a href=\"https://sbcl.org/all-news.html?2.6.7\">https://sbcl.org/all-news.html?2.6.7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49086971\">https://news.ycombinator.com/item?id=49086971</a></p>\n<p>Points: 206</p>\n<p># Comments: 85</p>",
-      "published": "Tue, 28 Jul 2026 17:11:54 +0000",
+      "title": "Turning a dumb AC unit smart (without losing my security deposit)",
+      "url": "https://prilik.com/blog/post/automating-ac-nyc/",
+      "summary": "<p>Article URL: <a href=\"https://prilik.com/blog/post/automating-ac-nyc/\">https://prilik.com/blog/post/automating-ac-nyc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49101198\">https://news.ycombinator.com/item?id=49101198</a></p>\n<p>Points: 117</p>\n<p># Comments: 94</p>",
+      "published": "Wed, 29 Jul 2026 18:28:51 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Substack writers, you need a website",
-      "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
-      "summary": "<p>Article URL: <a href=\"https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/\">https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49086788\">https://news.ycombinator.com/item?id=49086788</",
-      "published": "Tue, 28 Jul 2026 16:58:31 +0000",
+      "title": "Show HN: CheapFoodMap \u2013 A map of good meals under $10",
+      "url": "https://cheapfoodmap.com/",
+      "summary": "<p>I was recently laid off after 18 years, and gave myself 100 days to build soething useful in public. CheapFoodMap is a crowdsourced map of meal under $10, excluding franchises, local good eats only.<p>It's inspried by \uac70\uc9c0\ub9f5 (Begger's Map) a Korean crowdsourced map students use to find cheap eats.<p",
+      "published": "Wed, 29 Jul 2026 16:59:52 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Tokenless (YC S26) \u2013 Automatic model switching to save money",
+      "url": "https://usetokenless.com/",
+      "summary": "<p>Hi HN, Rohit here from Tokenless (<a href=\"https://usetokenless.com/\" rel=\"nofollow\">https://usetokenless.com/</a>), which I\u2019m building alongside co-founders Andrew and Kev. We\u2019re building an API gateway which routes agent traffic dynamically turn-by-turn between different models to save on AI sp",
+      "published": "Wed, 29 Jul 2026 15:55:27 +0000",
       "source": "Hacker News"
     }
   ]
