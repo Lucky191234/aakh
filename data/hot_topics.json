@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-07-30T03:20:37.312311+00:00",
+  "fetched_at": "2026-07-31T03:46:38.464578+00:00",
   "hot_topics": [
     {
       "type": "repo",
       "title": "freeCodeCamp/freeCodeCamp",
-      "description": "A comprehensive open-source codebase and curriculum for learning programming, math, and computer science, with a focus on hands-on exercises and projects.",
+      "description": "An open-source codebase and curriculum for learning programming and computer science.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "big_question": "Can a free online platform and community-based learning approach replace traditional education and provide equal opportunities for skill development?",
-      "head_fake": "A free coding community, but it's actually a massive open-source resource for developers of all levels to learn and grow"
+      "big_question": "How can a single platform simultaneously educate beginners and satisfy the needs of advanced developers?",
+      "head_fake": "Just another coding course"
+    },
+    {
+      "type": "repo",
+      "title": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone.",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "big_question": "Can machine learning models be more explainable without sacrificing their performance?",
+      "head_fake": "Just another framework for deep learning"
+    },
+    {
+      "type": "competition",
+      "title": "The AlgoChallenge",
+      "description": "Create a novel algorithm that can outperform the current state-of-the-art in a specific domain",
+      "url": "https://www.algochallenge.com",
+      "big_question": "What is the next breakthrough in algorithm design?",
+      "head_fake": "Just another machine learning competition"
+    },
+    {
+      "type": "competition",
+      "title": "Codeforces",
+      "description": "Compete in programming contests and improve your coding skills",
+      "url": "https://codeforces.com",
+      "big_question": "Can a team of amateur programmers outperform seasoned professionals in a high-pressure coding competition?",
+      "head_fake": "Just another online coding platform"
+    },
+    {
+      "type": "floater",
+      "title": "The AI Aesthetic",
+      "description": "Exploring the intersection of artificial intelligence and human creativity",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "big_question": "Can AI-generated art be indistinguishable from human creation?",
+      "head_fake": "Just another blog post about AI"
+    },
+    {
+      "type": "repo",
+      "title": "huggingface/transformers",
+      "description": "The model-definition framework for state-of-the-art machine learning models in text, vision, audio, and more",
+      "url": "https://github.com/huggingface/transformers",
+      "big_question": "Can transformer-based models be used for tasks beyond natural language processing?",
+      "head_fake": "Just another deep learning library"
     },
     {
       "type": "repo",
       "title": "anomalyco/opencode",
-      "description": "An open-source coding agent that allows developers to build intelligent assistants for automating tasks and streamlining workflows.",
+      "description": "The open source coding agent",
       "url": "https://github.com/anomalyco/opencode",
-      "big_question": "What are the limits and potential applications of AI-powered coding tools, and how can they be integrated into existing development workflows?",
-      "head_fake": "An open-source coding tool with AI capabilities, but it's actually a proof-of-concept for developing personalized coding assistants"
-    },
-    {
-      "type": "hn",
-      "title": "A pharmacy chain in Vermont implemented AI for efficiency",
-      "description": "A case study on the challenges and limitations of implementing AI technology in a pharmacy setting, including concerns about accuracy, privacy, and employee buy-in.",
-      "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/",
-      "big_question": "What are the essential considerations and potential pitfalls when deploying AI solutions in complex, high-stakes environments like healthcare?",
-      "head_fake": "A story about a pharmacy struggling with AI implementation, but it's actually a commentary on the broader issues of AI adoption in sensitive industries"
-    },
-    {
-      "type": "competition",
-      "title": "LLM Honeypot",
-      "description": "An interactive website that showcases the limitations and pitfalls of current AI models, helping users identify when AI-generated content is too good to be true.",
-      "url": "https://llm2human.pages.dev/",
-      "big_question": "How can we create more nuanced and contextual AI-generated content to avoid deceptive or manipulative applications?",
-      "head_fake": "A site that exposes flaws in AI models, but it's actually a platform for developers to improve and fine-tune their LLMs"
-    },
-    {
-      "type": "floater",
-      "title": "LLM Honeypot",
-      "description": "An interactive website showcasing limitations and pitfalls of current AI models, helping users identify when AI-generated content is too good to be true.",
-      "url": "https://llm2human.pages.dev/",
-      "big_question": "How can we create more nuanced and contextual AI-generated content to avoid deceptive or manipulative applications?",
-      "head_fake": "A site that exposes flaws in AI models, but it seems to actually be a platform for developers to improve and fine-tune their LLMs"
-    },
-    {
-      "type": "floater",
-      "title": "Turning a dumb AC unit smart",
-      "description": "A creative solution for automating an air conditioner unit without sacrificing security deposit, using a Raspberry Pi and a custom-built automation script.",
-      "url": "https://prilik.com/blog/post/automating-ac-nyc/",
-      "big_question": "Can we repurpose and automate household devices to reduce energy consumption and increase user convenience without compromising security?",
-      "head_fake": "A DIY project that adds smart features to an old AC unit, but it's actually a showcase for integrating IoT devices and machine learning in a residential setting"
-    },
-    {
-      "type": "repository",
-      "title": "obra/superpowers",
-      "description": "An agentic skills framework and software development methodology that emphasizes adaptability, creativity, and continuous learning.",
-      "url": "https://github.com/obra/superpowers",
-      "big_question": "How can developers and teams cultivate a growth mindset and adapt to the fast-paced, ever-changing landscape of software development?",
-      "head_fake": "A methodology that focuses on agentive skills, but it's actually a response to the need for more adaptable and innovative approaches in software development"
+      "big_question": "Can a machine learning model be used to generate human-readable code?",
+      "head_fake": "Just another coding tool"
     },
     {
       "type": "repo",
-      "title": "n8n-io/n8n",
-      "description": "A workflow automation platform that combines visual building with custom code, enabling users to create complex workflows and integrate various data sources.",
-      "url": "https://github.com/n8n-io/n8n",
-      "big_question": "What are the trade-offs and limitations of visual workflow automation versus traditional coding approaches, and how do these approaches impact user productivity?",
-      "head_fake": "A no-code workflow automation tool, but it's actually a showcase for the possibilities and challenges of hybrid coding approaches"
+      "title": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "big_question": "Can a single repository contain all possible algorithms written in Python?",
+      "head_fake": "Just another collection of Python algorithms"
     }
   ]
 }

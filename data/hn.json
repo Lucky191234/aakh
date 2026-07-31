@@ -1,81 +1,60 @@
 {
-  "fetched_at": "2026-07-30T03:20:33.689722+00:00",
+  "fetched_at": "2026-07-31T03:46:36.547629+00:00",
   "stories": [
     {
-      "title": "NSF pilots 4-year PhDs with industry research placements",
-      "url": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
-      "summary": "<p>Article URL: <a href=\"https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four\">https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49105642\">https://news.ycombinator.com/",
-      "published": "Thu, 30 Jul 2026 02:55:21 +0000",
+      "title": "The AI Aesthetic",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "summary": "<p>Article URL: <a href=\"https://blog.jim-nielsen.com/2026/ai-aesthetic/\">https://blog.jim-nielsen.com/2026/ai-aesthetic/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49117099\">https://news.ycombinator.com/item?id=49117099</a></p>\n<p>Points: 165</p>\n<p># Comments: 87</p>",
+      "published": "Thu, 30 Jul 2026 23:22:16 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "A pharmacy chain in Vermont implemented AI for efficiency",
-      "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/",
-      "summary": "<p>Article URL: <a href=\"https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/\">https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-info",
-      "published": "Thu, 30 Jul 2026 01:35:10 +0000",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "summary": "<p>Article URL: <a href=\"https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals\">https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49116922\">https://news.ycombinator.com/item?id=491169",
+      "published": "Thu, 30 Jul 2026 23:00:51 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: A local merge queue for parallel Claude Code agents",
-      "url": "https://github.com/funador/claude-code-merge-queue",
-      "summary": "<p>I have been pushing up to 90 commits a day on a MacBook Air via 4-5 parallel agents. As you can imagine when all the agents try to build, test and run dev servers on an 8GB machine it is the fast lane to a force quit and restart. I also did not want to pay the CI minutes on 90 pushes a day.<p>So ",
-      "published": "Thu, 30 Jul 2026 00:20:16 +0000",
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "summary": "<p>Article URL: <a href=\"https://geospatialml.com/posts/reviewing-ai-slop/\">https://geospatialml.com/posts/reviewing-ai-slop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49116721\">https://news.ycombinator.com/item?id=49116721</a></p>\n<p>Points: 118</p>\n<p># Comments: 48</p",
+      "published": "Thu, 30 Jul 2026 22:33:11 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Man and the Computer by John G. Kemeny (1972 book by the co-creator of BASIC)",
-      "url": "https://archive.org/details/mancomputerbyjoh0000john",
-      "summary": "<p>Article URL: <a href=\"https://archive.org/details/mancomputerbyjoh0000john\">https://archive.org/details/mancomputerbyjoh0000john</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49104140\">https://news.ycombinator.com/item?id=49104140</a></p>\n<p>Points: 23</p>\n<p># Comments: ",
-      "published": "Wed, 29 Jul 2026 22:53:44 +0000",
+      "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
+      "url": "https://rune.build/blog/rune-1-1-release",
+      "summary": "<p>Article URL: <a href=\"https://rune.build/blog/rune-1-1-release\">https://rune.build/blog/rune-1-1-release</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49116272\">https://news.ycombinator.com/item?id=49116272</a></p>\n<p>Points: 54</p>\n<p># Comments: 18</p>",
+      "published": "Thu, 30 Jul 2026 21:47:31 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "LLM Honeypot",
-      "url": "https://llm2human.pages.dev/",
-      "summary": "<p>Article URL: <a href=\"https://llm2human.pages.dev/\">https://llm2human.pages.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49104117\">https://news.ycombinator.com/item?id=49104117</a></p>\n<p>Points: 89</p>\n<p># Comments: 37</p>",
-      "published": "Wed, 29 Jul 2026 22:51:03 +0000",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "summary": "<p>We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights.",
+      "published": "Thu, 30 Jul 2026 18:13:06 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "AI's top startups are barely publishing their research",
-      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-      "summary": "<p>Article URL: <a href=\"https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research\">https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49103285\">htt",
-      "published": "Wed, 29 Jul 2026 21:25:40 +0000",
+      "title": "Advancing the price-performance frontier with GPT\u20115.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "summary": "<p>Article URL: <a href=\"https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/\">https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49112867\">https://news.ycombinator.com/item",
+      "published": "Thu, 30 Jul 2026 17:15:51 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "The Cold Email",
-      "url": "https://zachholman.com/posts/cold-email",
-      "summary": "<p>Article URL: <a href=\"https://zachholman.com/posts/cold-email\">https://zachholman.com/posts/cold-email</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49103089\">https://news.ycombinator.com/item?id=49103089</a></p>\n<p>Points: 107</p>\n<p># Comments: 44</p>",
-      "published": "Wed, 29 Jul 2026 21:06:42 +0000",
+      "title": "Read this before you buy that TV streaming stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "<p>Article URL: <a href=\"https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/\">https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49112744\">https://news.ycombina",
+      "published": "Thu, 30 Jul 2026 17:04:53 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals",
-      "url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/",
-      "summary": "<p>Article URL: <a href=\"https://www.emergingtrajectories.com/lh/commodification-and-circularity/\">https://www.emergingtrajectories.com/lh/commodification-and-circularity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49101529\">https://news.ycombinator.com/item?id=49101529</",
-      "published": "Wed, 29 Jul 2026 18:57:10 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Turning a dumb AC unit smart (without losing my security deposit)",
-      "url": "https://prilik.com/blog/post/automating-ac-nyc/",
-      "summary": "<p>Article URL: <a href=\"https://prilik.com/blog/post/automating-ac-nyc/\">https://prilik.com/blog/post/automating-ac-nyc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49101198\">https://news.ycombinator.com/item?id=49101198</a></p>\n<p>Points: 117</p>\n<p># Comments: 94</p>",
-      "published": "Wed, 29 Jul 2026 18:28:51 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: CheapFoodMap \u2013 A map of good meals under $10",
-      "url": "https://cheapfoodmap.com/",
-      "summary": "<p>I was recently laid off after 18 years, and gave myself 100 days to build soething useful in public. CheapFoodMap is a crowdsourced map of meal under $10, excluding franchises, local good eats only.<p>It's inspried by \uac70\uc9c0\ub9f5 (Begger's Map) a Korean crowdsourced map students use to find cheap eats.<p",
-      "published": "Wed, 29 Jul 2026 16:59:52 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Launch HN: Tokenless (YC S26) \u2013 Automatic model switching to save money",
-      "url": "https://usetokenless.com/",
-      "summary": "<p>Hi HN, Rohit here from Tokenless (<a href=\"https://usetokenless.com/\" rel=\"nofollow\">https://usetokenless.com/</a>), which I\u2019m building alongside co-founders Andrew and Kev. We\u2019re building an API gateway which routes agent traffic dynamically turn-by-turn between different models to save on AI sp",
-      "published": "Wed, 29 Jul 2026 15:55:27 +0000",
+      "title": "The Economic Benefit of Refactoring",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+      "summary": "<p>Article URL: <a href=\"https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html\">https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49111176\">https://news.ycombinato",
+      "published": "Thu, 30 Jul 2026 15:10:27 +0000",
       "source": "Hacker News"
     }
   ]

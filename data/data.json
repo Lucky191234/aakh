@@ -1,80 +1,80 @@
 {
-  "generated_at": "2026-07-30T03:20:37.389416+00:00",
-  "date_label": "Thursday, 30 July 2026",
+  "generated_at": "2026-07-31T03:46:38.542442+00:00",
+  "date_label": "Friday, 31 July 2026",
   "is_monday": false,
   "word_of_day": {
-    "word": "paradox",
-    "phonetic": "/\u02c8pa\u0279\u0259d\u0252ks/",
-    "part_of_speech": "noun",
-    "definition": "An apparently self-contradictory statement, which can only be true if it is false, and vice versa.",
-    "example": "\"This sentence is false\" is a paradox.",
-    "date": "July 30, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/paradox"
+    "word": "tenacious",
+    "phonetic": "/t\u0259\u02c8ne\u026a\u0283\u0259s/",
+    "part_of_speech": "adjective",
+    "definition": "Clinging to an object or surface; adhesive.",
+    "example": "",
+    "date": "July 31, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/tenacious"
   },
   "hot_topics": [
     {
       "type": "repo",
       "title": "freeCodeCamp/freeCodeCamp",
-      "description": "A comprehensive open-source codebase and curriculum for learning programming, math, and computer science, with a focus on hands-on exercises and projects.",
+      "description": "An open-source codebase and curriculum for learning programming and computer science.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "big_question": "Can a free online platform and community-based learning approach replace traditional education and provide equal opportunities for skill development?",
-      "head_fake": "A free coding community, but it's actually a massive open-source resource for developers of all levels to learn and grow"
+      "big_question": "How can a single platform simultaneously educate beginners and satisfy the needs of advanced developers?",
+      "head_fake": "Just another coding course"
+    },
+    {
+      "type": "repo",
+      "title": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone.",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "big_question": "Can machine learning models be more explainable without sacrificing their performance?",
+      "head_fake": "Just another framework for deep learning"
+    },
+    {
+      "type": "competition",
+      "title": "The AlgoChallenge",
+      "description": "Create a novel algorithm that can outperform the current state-of-the-art in a specific domain",
+      "url": "https://www.algochallenge.com",
+      "big_question": "What is the next breakthrough in algorithm design?",
+      "head_fake": "Just another machine learning competition"
+    },
+    {
+      "type": "competition",
+      "title": "Codeforces",
+      "description": "Compete in programming contests and improve your coding skills",
+      "url": "https://codeforces.com",
+      "big_question": "Can a team of amateur programmers outperform seasoned professionals in a high-pressure coding competition?",
+      "head_fake": "Just another online coding platform"
+    },
+    {
+      "type": "floater",
+      "title": "The AI Aesthetic",
+      "description": "Exploring the intersection of artificial intelligence and human creativity",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "big_question": "Can AI-generated art be indistinguishable from human creation?",
+      "head_fake": "Just another blog post about AI"
+    },
+    {
+      "type": "repo",
+      "title": "huggingface/transformers",
+      "description": "The model-definition framework for state-of-the-art machine learning models in text, vision, audio, and more",
+      "url": "https://github.com/huggingface/transformers",
+      "big_question": "Can transformer-based models be used for tasks beyond natural language processing?",
+      "head_fake": "Just another deep learning library"
     },
     {
       "type": "repo",
       "title": "anomalyco/opencode",
-      "description": "An open-source coding agent that allows developers to build intelligent assistants for automating tasks and streamlining workflows.",
+      "description": "The open source coding agent",
       "url": "https://github.com/anomalyco/opencode",
-      "big_question": "What are the limits and potential applications of AI-powered coding tools, and how can they be integrated into existing development workflows?",
-      "head_fake": "An open-source coding tool with AI capabilities, but it's actually a proof-of-concept for developing personalized coding assistants"
-    },
-    {
-      "type": "hn",
-      "title": "A pharmacy chain in Vermont implemented AI for efficiency",
-      "description": "A case study on the challenges and limitations of implementing AI technology in a pharmacy setting, including concerns about accuracy, privacy, and employee buy-in.",
-      "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/",
-      "big_question": "What are the essential considerations and potential pitfalls when deploying AI solutions in complex, high-stakes environments like healthcare?",
-      "head_fake": "A story about a pharmacy struggling with AI implementation, but it's actually a commentary on the broader issues of AI adoption in sensitive industries"
-    },
-    {
-      "type": "competition",
-      "title": "LLM Honeypot",
-      "description": "An interactive website that showcases the limitations and pitfalls of current AI models, helping users identify when AI-generated content is too good to be true.",
-      "url": "https://llm2human.pages.dev/",
-      "big_question": "How can we create more nuanced and contextual AI-generated content to avoid deceptive or manipulative applications?",
-      "head_fake": "A site that exposes flaws in AI models, but it's actually a platform for developers to improve and fine-tune their LLMs"
-    },
-    {
-      "type": "floater",
-      "title": "LLM Honeypot",
-      "description": "An interactive website showcasing limitations and pitfalls of current AI models, helping users identify when AI-generated content is too good to be true.",
-      "url": "https://llm2human.pages.dev/",
-      "big_question": "How can we create more nuanced and contextual AI-generated content to avoid deceptive or manipulative applications?",
-      "head_fake": "A site that exposes flaws in AI models, but it seems to actually be a platform for developers to improve and fine-tune their LLMs"
-    },
-    {
-      "type": "floater",
-      "title": "Turning a dumb AC unit smart",
-      "description": "A creative solution for automating an air conditioner unit without sacrificing security deposit, using a Raspberry Pi and a custom-built automation script.",
-      "url": "https://prilik.com/blog/post/automating-ac-nyc/",
-      "big_question": "Can we repurpose and automate household devices to reduce energy consumption and increase user convenience without compromising security?",
-      "head_fake": "A DIY project that adds smart features to an old AC unit, but it's actually a showcase for integrating IoT devices and machine learning in a residential setting"
-    },
-    {
-      "type": "repository",
-      "title": "obra/superpowers",
-      "description": "An agentic skills framework and software development methodology that emphasizes adaptability, creativity, and continuous learning.",
-      "url": "https://github.com/obra/superpowers",
-      "big_question": "How can developers and teams cultivate a growth mindset and adapt to the fast-paced, ever-changing landscape of software development?",
-      "head_fake": "A methodology that focuses on agentive skills, but it's actually a response to the need for more adaptable and innovative approaches in software development"
+      "big_question": "Can a machine learning model be used to generate human-readable code?",
+      "head_fake": "Just another coding tool"
     },
     {
       "type": "repo",
-      "title": "n8n-io/n8n",
-      "description": "A workflow automation platform that combines visual building with custom code, enabling users to create complex workflows and integrate various data sources.",
-      "url": "https://github.com/n8n-io/n8n",
-      "big_question": "What are the trade-offs and limitations of visual workflow automation versus traditional coding approaches, and how do these approaches impact user productivity?",
-      "head_fake": "A no-code workflow automation tool, but it's actually a showcase for the possibilities and challenges of hybrid coding approaches"
+      "title": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "big_question": "Can a single repository contain all possible algorithms written in Python?",
+      "head_fake": "Just another collection of Python algorithms"
     }
   ],
   "repos": [
@@ -82,10 +82,10 @@
       "name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stars": 453139,
+      "stars": 453261,
       "language": "TypeScript",
       "created_at": "2014-12-24T17:49:19Z",
-      "pushed_at": "2026-07-29T17:17:26Z",
+      "pushed_at": "2026-07-30T17:47:39Z",
       "topics": [
         "careers",
         "certification",
@@ -109,10 +109,10 @@
       "name": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": 384510,
+      "stars": 384629,
       "language": "TypeScript",
       "created_at": "2025-11-24T10:16:47Z",
-      "pushed_at": "2026-07-30T03:19:27Z",
+      "pushed_at": "2026-07-31T03:45:27Z",
       "topics": [
         "ai",
         "assistant",
@@ -128,10 +128,10 @@
       "name": "nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "url": "https://github.com/nilbuild/developer-roadmap",
-      "stars": 363104,
+      "stars": 363206,
       "language": "TypeScript",
       "created_at": "2017-03-15T13:45:52Z",
-      "pushed_at": "2026-07-29T15:00:12Z",
+      "pushed_at": "2026-07-30T10:44:07Z",
       "topics": [
         "angular-roadmap",
         "backend-roadmap",
@@ -158,7 +158,7 @@
       "name": "vinta/awesome-python",
       "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
       "url": "https://github.com/vinta/awesome-python",
-      "stars": 311087,
+      "stars": 311278,
       "language": "Python",
       "created_at": "2014-06-27T21:00:06Z",
       "pushed_at": "2026-07-29T04:17:23Z",
@@ -173,33 +173,13 @@
       "trending_multiday": true
     },
     {
-      "name": "obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "url": "https://github.com/obra/superpowers",
-      "stars": 263374,
-      "language": "Shell",
-      "created_at": "2025-10-09T19:45:18Z",
-      "pushed_at": "2026-07-28T19:25:36Z",
-      "topics": [
-        "ai",
-        "brainstorming",
-        "coding",
-        "obra",
-        "sdlc",
-        "skills",
-        "subagent-driven-development",
-        "superpowers"
-      ],
-      "trending_multiday": true
-    },
-    {
       "name": "react/react",
       "description": "The library for web and native user interfaces.",
       "url": "https://github.com/react/react",
-      "stars": 246767,
+      "stars": 246791,
       "language": "JavaScript",
       "created_at": "2013-05-24T16:15:54Z",
-      "pushed_at": "2026-07-30T02:43:12Z",
+      "pushed_at": "2026-07-30T20:54:59Z",
       "topics": [
         "declarative",
         "frontend",
@@ -214,10 +194,10 @@
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 241011,
+      "stars": 241176,
       "language": "C",
       "created_at": "2011-09-04T22:48:12Z",
-      "pushed_at": "2026-07-30T00:16:18Z",
+      "pushed_at": "2026-07-31T00:44:30Z",
       "topics": [],
       "trending_multiday": true
     },
@@ -225,7 +205,7 @@
       "name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 235674,
+      "stars": 236297,
       "language": "JavaScript",
       "created_at": "2026-01-18T00:51:51Z",
       "pushed_at": "2026-07-29T18:11:01Z",
@@ -242,13 +222,39 @@
       "trending_multiday": true
     },
     {
+      "name": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 223329,
+      "language": "Python",
+      "created_at": "2016-07-16T09:44:01Z",
+      "pushed_at": "2026-07-31T00:29:25Z",
+      "topics": [
+        "algorithm",
+        "algorithm-competitions",
+        "algorithms-implemented",
+        "algos",
+        "community-driven",
+        "education",
+        "hacktoberfest",
+        "interview",
+        "learn",
+        "practice",
+        "python",
+        "searches",
+        "sorting-algorithms",
+        "sorts"
+      ],
+      "trending_multiday": false
+    },
+    {
       "name": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": 222410,
+      "stars": 222961,
       "language": "Python",
       "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-07-30T03:09:15Z",
+      "pushed_at": "2026-07-31T03:33:33Z",
       "topics": [
         "ai",
         "ai-agent",
@@ -273,10 +279,10 @@
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 198606,
+      "stars": 198780,
       "language": "TypeScript",
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-07-30T01:48:19Z",
+      "pushed_at": "2026-07-31T03:45:53Z",
       "topics": [
         "ai",
         "apis",
@@ -305,10 +311,10 @@
       "name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "url": "https://github.com/tensorflow/tensorflow",
-      "stars": 196597,
+      "stars": 196618,
       "language": "C++",
       "created_at": "2015-11-07T01:19:20Z",
-      "pushed_at": "2026-07-30T03:19:39Z",
+      "pushed_at": "2026-07-31T03:44:03Z",
       "topics": [
         "deep-learning",
         "deep-neural-networks",
@@ -325,7 +331,7 @@
       "name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 194799,
+      "stars": 196548,
       "language": "Shell",
       "created_at": "2026-02-03T11:15:53Z",
       "pushed_at": "2026-07-29T11:37:10Z",
@@ -336,21 +342,48 @@
       "name": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
-      "stars": 190956,
+      "stars": 191297,
       "language": "TypeScript",
       "created_at": "2025-04-30T20:08:00Z",
-      "pushed_at": "2026-07-30T03:13:48Z",
+      "pushed_at": "2026-07-31T03:17:31Z",
       "topics": [],
+      "trending_multiday": true
+    },
+    {
+      "name": "ohmyzsh/ohmyzsh",
+      "description": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "stars": 188904,
+      "language": "Shell",
+      "created_at": "2009-08-28T18:15:37Z",
+      "pushed_at": "2026-07-30T15:41:24Z",
+      "topics": [
+        "cli",
+        "cli-app",
+        "oh-my-zsh",
+        "oh-my-zsh-plugin",
+        "oh-my-zsh-theme",
+        "ohmyzsh",
+        "plugin-framework",
+        "plugins",
+        "productivity",
+        "shell",
+        "terminal",
+        "theme",
+        "themes",
+        "zsh",
+        "zsh-configuration"
+      ],
       "trending_multiday": true
     },
     {
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 188000,
+      "stars": 188033,
       "language": "TypeScript",
       "created_at": "2015-09-03T20:23:38Z",
-      "pushed_at": "2026-07-30T03:00:08Z",
+      "pushed_at": "2026-07-31T03:08:37Z",
       "topics": [
         "editor",
         "electron",
@@ -364,10 +397,10 @@
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": 185743,
+      "stars": 185753,
       "language": "Python",
       "created_at": "2023-03-16T09:21:07Z",
-      "pushed_at": "2026-07-29T23:24:10Z",
+      "pushed_at": "2026-07-31T02:56:30Z",
       "topics": [
         "agentic-ai",
         "agents",
@@ -387,7 +420,7 @@
       "name": "avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
       "url": "https://github.com/avelino/awesome-go",
-      "stars": 179600,
+      "stars": 179683,
       "language": "Go",
       "created_at": "2014-07-06T13:42:15Z",
       "pushed_at": "2026-07-29T18:16:09Z",
@@ -405,10 +438,10 @@
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "url": "https://github.com/ollama/ollama",
-      "stars": 177250,
+      "stars": 177360,
       "language": "Go",
       "created_at": "2023-06-26T19:39:32Z",
-      "pushed_at": "2026-07-29T23:25:38Z",
+      "pushed_at": "2026-07-31T00:23:30Z",
       "topics": [
         "deepseek",
         "gemma",
@@ -432,7 +465,7 @@
       "name": "microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "url": "https://github.com/microsoft/markitdown",
-      "stars": 170084,
+      "stars": 170378,
       "language": "Python",
       "created_at": "2024-11-13T19:56:40Z",
       "pushed_at": "2026-07-29T18:18:09Z",
@@ -448,29 +481,13 @@
       "trending_multiday": true
     },
     {
-      "name": "521xueweihan/HelloGitHub",
-      "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
-      "url": "https://github.com/521xueweihan/HelloGitHub",
-      "stars": 168053,
-      "language": "Python",
-      "created_at": "2016-05-04T06:24:11Z",
-      "pushed_at": "2026-07-28T00:08:52Z",
-      "topics": [
-        "awesome",
-        "github",
-        "hellogithub",
-        "python"
-      ],
-      "trending_multiday": true
-    },
-    {
       "name": "huggingface/transformers",
       "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "url": "https://github.com/huggingface/transformers",
-      "stars": 163134,
+      "stars": 163187,
       "language": "Python",
       "created_at": "2018-10-29T13:56:00Z",
-      "pushed_at": "2026-07-30T02:41:58Z",
+      "pushed_at": "2026-07-30T18:50:54Z",
       "topics": [
         "audio",
         "deep-learning",
@@ -498,73 +515,59 @@
   "competitions": [],
   "hn_stories": [
     {
-      "title": "NSF pilots 4-year PhDs with industry research placements",
-      "url": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
-      "summary": "<p>Article URL: <a href=\"https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four\">https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49105642\">https://news.ycombinator.com/",
-      "published": "Thu, 30 Jul 2026 02:55:21 +0000",
+      "title": "The AI Aesthetic",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "summary": "<p>Article URL: <a href=\"https://blog.jim-nielsen.com/2026/ai-aesthetic/\">https://blog.jim-nielsen.com/2026/ai-aesthetic/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49117099\">https://news.ycombinator.com/item?id=49117099</a></p>\n<p>Points: 165</p>\n<p># Comments: 87</p>",
+      "published": "Thu, 30 Jul 2026 23:22:16 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "A pharmacy chain in Vermont implemented AI for efficiency",
-      "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/",
-      "summary": "<p>Article URL: <a href=\"https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/\">https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-info",
-      "published": "Thu, 30 Jul 2026 01:35:10 +0000",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "summary": "<p>Article URL: <a href=\"https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals\">https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49116922\">https://news.ycombinator.com/item?id=491169",
+      "published": "Thu, 30 Jul 2026 23:00:51 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: A local merge queue for parallel Claude Code agents",
-      "url": "https://github.com/funador/claude-code-merge-queue",
-      "summary": "<p>I have been pushing up to 90 commits a day on a MacBook Air via 4-5 parallel agents. As you can imagine when all the agents try to build, test and run dev servers on an 8GB machine it is the fast lane to a force quit and restart. I also did not want to pay the CI minutes on 90 pushes a day.<p>So ",
-      "published": "Thu, 30 Jul 2026 00:20:16 +0000",
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "summary": "<p>Article URL: <a href=\"https://geospatialml.com/posts/reviewing-ai-slop/\">https://geospatialml.com/posts/reviewing-ai-slop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49116721\">https://news.ycombinator.com/item?id=49116721</a></p>\n<p>Points: 118</p>\n<p># Comments: 48</p",
+      "published": "Thu, 30 Jul 2026 22:33:11 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Man and the Computer by John G. Kemeny (1972 book by the co-creator of BASIC)",
-      "url": "https://archive.org/details/mancomputerbyjoh0000john",
-      "summary": "<p>Article URL: <a href=\"https://archive.org/details/mancomputerbyjoh0000john\">https://archive.org/details/mancomputerbyjoh0000john</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49104140\">https://news.ycombinator.com/item?id=49104140</a></p>\n<p>Points: 23</p>\n<p># Comments: ",
-      "published": "Wed, 29 Jul 2026 22:53:44 +0000",
+      "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
+      "url": "https://rune.build/blog/rune-1-1-release",
+      "summary": "<p>Article URL: <a href=\"https://rune.build/blog/rune-1-1-release\">https://rune.build/blog/rune-1-1-release</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49116272\">https://news.ycombinator.com/item?id=49116272</a></p>\n<p>Points: 54</p>\n<p># Comments: 18</p>",
+      "published": "Thu, 30 Jul 2026 21:47:31 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "LLM Honeypot",
-      "url": "https://llm2human.pages.dev/",
-      "summary": "<p>Article URL: <a href=\"https://llm2human.pages.dev/\">https://llm2human.pages.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49104117\">https://news.ycombinator.com/item?id=49104117</a></p>\n<p>Points: 89</p>\n<p># Comments: 37</p>",
-      "published": "Wed, 29 Jul 2026 22:51:03 +0000",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "summary": "<p>We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights.",
+      "published": "Thu, 30 Jul 2026 18:13:06 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "AI's top startups are barely publishing their research",
-      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-      "summary": "<p>Article URL: <a href=\"https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research\">https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49103285\">htt",
-      "published": "Wed, 29 Jul 2026 21:25:40 +0000",
+      "title": "Advancing the price-performance frontier with GPT\u20115.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "summary": "<p>Article URL: <a href=\"https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/\">https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49112867\">https://news.ycombinator.com/item",
+      "published": "Thu, 30 Jul 2026 17:15:51 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "The Cold Email",
-      "url": "https://zachholman.com/posts/cold-email",
-      "summary": "<p>Article URL: <a href=\"https://zachholman.com/posts/cold-email\">https://zachholman.com/posts/cold-email</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49103089\">https://news.ycombinator.com/item?id=49103089</a></p>\n<p>Points: 107</p>\n<p># Comments: 44</p>",
-      "published": "Wed, 29 Jul 2026 21:06:42 +0000",
+      "title": "Read this before you buy that TV streaming stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "<p>Article URL: <a href=\"https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/\">https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49112744\">https://news.ycombina",
+      "published": "Thu, 30 Jul 2026 17:04:53 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals",
-      "url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/",
-      "summary": "<p>Article URL: <a href=\"https://www.emergingtrajectories.com/lh/commodification-and-circularity/\">https://www.emergingtrajectories.com/lh/commodification-and-circularity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49101529\">https://news.ycombinator.com/item?id=49101529</",
-      "published": "Wed, 29 Jul 2026 18:57:10 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Turning a dumb AC unit smart (without losing my security deposit)",
-      "url": "https://prilik.com/blog/post/automating-ac-nyc/",
-      "summary": "<p>Article URL: <a href=\"https://prilik.com/blog/post/automating-ac-nyc/\">https://prilik.com/blog/post/automating-ac-nyc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49101198\">https://news.ycombinator.com/item?id=49101198</a></p>\n<p>Points: 117</p>\n<p># Comments: 94</p>",
-      "published": "Wed, 29 Jul 2026 18:28:51 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: CheapFoodMap \u2013 A map of good meals under $10",
-      "url": "https://cheapfoodmap.com/",
-      "summary": "<p>I was recently laid off after 18 years, and gave myself 100 days to build soething useful in public. CheapFoodMap is a crowdsourced map of meal under $10, excluding franchises, local good eats only.<p>It's inspried by \uac70\uc9c0\ub9f5 (Begger's Map) a Korean crowdsourced map students use to find cheap eats.<p",
-      "published": "Wed, 29 Jul 2026 16:59:52 +0000",
+      "title": "The Economic Benefit of Refactoring",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+      "summary": "<p>Article URL: <a href=\"https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html\">https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49111176\">https://news.ycombinato",
+      "published": "Thu, 30 Jul 2026 15:10:27 +0000",
       "source": "Hacker News"
     }
   ]
