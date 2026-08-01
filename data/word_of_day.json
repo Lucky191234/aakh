@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-07-31T03:46:36.791623+00:00",
+  "fetched_at": "2026-08-01T03:46:01.468662+00:00",
   "word_of_day": {
-    "word": "tenacious",
-    "phonetic": "/t\u0259\u02c8ne\u026a\u0283\u0259s/",
-    "part_of_speech": "adjective",
-    "definition": "Clinging to an object or surface; adhesive.",
-    "example": "",
-    "date": "July 31, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/tenacious"
+    "word": "candid",
+    "phonetic": "/\u02c8k\u00e6n.d\u026ad/",
+    "part_of_speech": "noun",
+    "definition": "A spontaneous or unposed photograph.",
+    "example": "His portraits looked stiff and formal but his candids showed life being lived.",
+    "date": "August 01, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/candid"
   }
 }
