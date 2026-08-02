@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-08-01T03:46:04.511518+00:00",
+  "fetched_at": "2026-08-02T03:47:31.093703+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "AI assistant with TypeScript",
-      "description": "A personal AI assistant available for any OS and platform, raising questions about the potential of decentralized AI development.",
-      "url": "https://github.com/openclaw/openclaw",
-      "big_question": "Can a decentralized AI assistant like OpenClaw revolutionize the way we interact with technology?",
-      "head_fake": "A new era for AI assistants, now with lobster-themed interface options"
+      "title": "freeCodeCamp/freeCodeCamp",
+      "description": "A free, open-source coding curriculum for web development, computer science, and math.",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "big_question": "Can a single open-source platform effectively teach the full spectrum of software development skills?",
+      "head_fake": "Free coding lessons for web development"
     },
     {
       "type": "repo",
-      "title": "Transformer models for NLP",
-      "description": "A popular library for natural language processing, transformer models, and state-of-the-art machine learning models, sparking curiosity about the future of NLP.",
-      "url": "https://github.com/huggingface/transformers",
-      "big_question": "Can transformer models like those in the Hugging Face library help solve the world's most pressing NLP challenges?",
-      "head_fake": "A library for building and fine-tuning AI models, not just NLP"
+      "title": "AnomalyCo/opencode",
+      "description": "An open-source project for building agents that can code on their own.",
+      "url": "https://github.com/anomalyco/opencode",
+      "big_question": "Can a community-driven AI coding agent surpass human capabilities in certain tasks?",
+      "head_fake": "AI Coding Agent"
     },
     {
       "type": "competition",
-      "title": "Using the railway network as a flatbed scanner",
-      "description": "A video showcasing the use of a railway network as a flatbed scanner, raising questions about the potential for unexpected uses of technology.",
-      "url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
-      "big_question": "Can creative thinking and experimentation help us find new and innovative uses for technology?",
-      "head_fake": "The railway network, a place of both innovation and industrial decay"
+      "title": "Compete in the LangGenius AI Development Challenge",
+      "description": "Develop and deploy agentic workflows and AI-powered agents for the benefit of society.",
+      "url": "https://www.langgenius.com/challenge",
+      "big_question": "Can AI-agented workflows revolutionize software development and human collaboration?",
+      "head_fake": "Develop AI-powered agents"
     },
     {
       "type": "competition",
-      "title": "Predictive Speculative KV Replication for Bursty LLM Inference",
-      "description": "A research paper on predictive speculative KV replication for bursty LLM inference, raising questions about the complexities and challenges of implementing large language models.",
-      "url": "https://jwlabs.vercel.app/post/biting-the-bullet",
-      "big_question": "Can innovative approaches to scaling and optimizing large language models help us build more efficient and effective AI systems?",
-      "head_fake": "The challenges of large language models: a case study in KV replication"
+      "title": "Build the Next-Gen Chatbot with the AutoGPT Competition",
+      "description": "Compete to showcase the best AI-powered chatbot that can assist users with real-world tasks.",
+      "url": "https://discord.com/autopg",
+      "big_question": "Can AutoGPT's next-gen AI technology create conversational agents capable of human-like understanding?",
+      "head_fake": "AutoGPT chatbots"
     },
     {
       "type": "floater",
-      "title": "Golang proposal: generic collection types",
-      "description": "A proposal for adding generic collection types to the Go language, raising questions about the future of programming languages and their role in software development.",
-      "url": "https://github.com/golang/go/issues/80590",
-      "big_question": "Can a language like Go, with its focus on simplicity and performance, help us build more efficient and scalable software systems?",
-      "head_fake": "Adding generics to Go: the next step in language evolution?"
+      "title": "Hermes Agent",
+      "description": "The agent that grows with you.",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "big_question": "Can personalized AI agents like Hermes improve productivity and accelerate career growth?",
+      "head_fake": "AI Career Assistant"
     },
     {
       "type": "floater",
-      "title": "AI Reasoning and Wrong Reasons",
-      "description": "A report on whether AI reasoning is right for the wrong reasons, sparking curiosity about the potential for misuse and unintended consequences of AI technology.",
-      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
-      "big_question": "Can we ensure that AI technologies are developed and used in ways that align with human values and goals?",
-      "head_fake": "Is AI doing what it's programmed to do, or is it being used for unintended purposes?"
+      "title": "N8n - Fair-Code Workflow Automation",
+      "description": "A platform that combines workflow automation with native AI capabilities.",
+      "url": "https://n8n.io/",
+      "big_question": "Can workflow automation platforms like N8n improve collaboration and efficiency in software development?",
+      "head_fake": "Automated Workflow Platform"
     },
     {
       "type": "repo",
-      "title": "Visual Studio Code",
-      "description": "A popular code editor and development platform built with TypeScript and Electron, raising questions about the future of code development and collaboration.",
-      "url": "https://github.com/microsoft/vscode",
-      "big_question": "Can code editors like VS Code help bridge the gap between developers, designers, and researchers?",
-      "head_fake": "More than just a code editor, a platform for developer collaboration"
+      "title": "TensorFlow/tensorflow",
+      "description": "A widely used open-source machine learning framework for AI research.",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "big_question": "Can deep learning frameworks like TensorFlow bridge the gap between AI and software development?",
+      "head_fake": "Artificial Intelligence Framework"
     },
     {
-      "type": "Repo Floater",
-      "title": "Interactive roadmaps for developers",
-      "description": "A set of interactive roadmaps, guides, and educational content to help developers grow in their careers, raising questions about the importance of continuous learning.",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "big_question": "Can interactive roadmaps like developer-roadmap help developers stay ahead of the curve and adapt to changing industry needs?",
-      "head_fake": "Your personal roadmap for growing a successful career in software development"
+      "type": "repo",
+      "title": "EbookFoundation/free-programming-books",
+      "description": "A comprehensive collection of free programming books and resources.",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "big_question": "Can a single platform effectively centralize and organize open-source programming knowledge?",
+      "head_fake": "Free Programming Books"
     }
   ]
 }
