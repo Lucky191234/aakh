@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-08-02T03:47:31.093703+00:00",
+  "fetched_at": "2026-08-03T03:49:21.103694+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "freeCodeCamp/freeCodeCamp",
-      "description": "A free, open-source coding curriculum for web development, computer science, and math.",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "big_question": "Can a single open-source platform effectively teach the full spectrum of software development skills?",
-      "head_fake": "Free coding lessons for web development"
+      "title": "openclaw/openclaw",
+      "description": "A personal AI assistant with potential to revolutionize user experience.",
+      "url": "https://github.com/openclaw/openclaw",
+      "big_question": "How does openclaw's AI assistant handle complex tasks and user interactions?",
+      "head_fake": "A 'lobster way' to build AI assistants, but might it lead to unforeseen consequences?"
     },
     {
       "type": "repo",
-      "title": "AnomalyCo/opencode",
-      "description": "An open-source project for building agents that can code on their own.",
-      "url": "https://github.com/anomalyco/opencode",
-      "big_question": "Can a community-driven AI coding agent surpass human capabilities in certain tasks?",
-      "head_fake": "AI Coding Agent"
-    },
-    {
-      "type": "competition",
-      "title": "Compete in the LangGenius AI Development Challenge",
-      "description": "Develop and deploy agentic workflows and AI-powered agents for the benefit of society.",
-      "url": "https://www.langgenius.com/challenge",
-      "big_question": "Can AI-agented workflows revolutionize software development and human collaboration?",
-      "head_fake": "Develop AI-powered agents"
-    },
-    {
-      "type": "competition",
-      "title": "Build the Next-Gen Chatbot with the AutoGPT Competition",
-      "description": "Compete to showcase the best AI-powered chatbot that can assist users with real-world tasks.",
-      "url": "https://discord.com/autopg",
-      "big_question": "Can AutoGPT's next-gen AI technology create conversational agents capable of human-like understanding?",
-      "head_fake": "AutoGPT chatbots"
-    },
-    {
-      "type": "floater",
-      "title": "Hermes Agent",
-      "description": "The agent that grows with you.",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "big_question": "Can personalized AI agents like Hermes improve productivity and accelerate career growth?",
-      "head_fake": "AI Career Assistant"
-    },
-    {
-      "type": "floater",
-      "title": "N8n - Fair-Code Workflow Automation",
-      "description": "A platform that combines workflow automation with native AI capabilities.",
-      "url": "https://n8n.io/",
-      "big_question": "Can workflow automation platforms like N8n improve collaboration and efficiency in software development?",
-      "head_fake": "Automated Workflow Platform"
-    },
-    {
-      "type": "repo",
-      "title": "TensorFlow/tensorflow",
-      "description": "A widely used open-source machine learning framework for AI research.",
+      "title": "tensorflow/tensorflow",
+      "description": "An open-source machine learning framework for developers and researchers.",
       "url": "https://github.com/tensorflow/tensorflow",
-      "big_question": "Can deep learning frameworks like TensorFlow bridge the gap between AI and software development?",
-      "head_fake": "Artificial Intelligence Framework"
+      "big_question": "What innovations does the latest TensorFlow update bring to the machine learning landscape?",
+      "head_fake": "An open-source ML framework, but how does it compare to other popular options, and what are the challenges in implementing it?"
     },
     {
-      "type": "repo",
-      "title": "EbookFoundation/free-programming-books",
-      "description": "A comprehensive collection of free programming books and resources.",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "big_question": "Can a single platform effectively centralize and organize open-source programming knowledge?",
-      "head_fake": "Free Programming Books"
+      "type": "hn",
+      "title": "Show HN: Mu \u2013 Tools for Agents",
+      "description": "A collection of tools and resources for building and deploying agents, sparking interest among developers and engineers.",
+      "url": "https://github.com/micro/mu",
+      "big_question": "Can Mu become a standard toolset for agent development, and what does it say about the growing demand for agent-focused projects?",
+      "head_fake": "Tools for agents, but what's the actual purpose and potential impact on the industry?"
+    },
+    {
+      "type": "hn",
+      "title": "My personal AI benchmark: \u201cGenerate an SVG of a frog with a Habsburg jaw\u201d",
+      "description": "A personal AI benchmark, showcasing the current capabilities and limitations of AI models.",
+      "url": "https://frogs.vaguespac.es/",
+      "big_question": "What insights does this benchmark offer about the current state of AI model development, and what are the implications for AI research and applications?",
+      "head_fake": "An unusual AI benchmark, but what does it say about the growing demand for real-world, practical AI applications?"
+    },
+    {
+      "type": "competition",
+      "title": "AI-Powered Workflow Creation",
+      "description": "A competition focused on developing AI-powered workflow creation tools, showcasing innovative solutions and approaches.",
+      "url": "https://www.example.com/ai-workflow-creation-competition",
+      "big_question": "Can these competitions accelerate the development of AI-powered workflows and impact industries worldwide?",
+      "head_fake": "AI-powered workflows, but who are the winners, and what do they mean for the future of work?"
+    },
+    {
+      "type": "competition",
+      "title": "AI-Driven Innovation Challenge",
+      "description": "A competition encouraging developers to create innovative AI-driven solutions, highlighting the potential of AI in real-world applications.",
+      "url": "https://www.example.com/ai-driven-innovation-challenge",
+      "big_question": "Can this competition drive meaningful innovation in AI and lead to tangible impact on society?",
+      "head_fake": "An AI-driven innovation challenge, but who are the winners, and what do they say about the current state of AI development?"
+    },
+    {
+      "type": "floater",
+      "title": "AutoGPT is the vision of accessible AI for everyone",
+      "description": "AutoGPT aims to provide tools for accessible AI development, and its recent project has sparked curiosity among developers.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "Can AutoGPT become a game-changer in accessible AI development?",
+      "head_fake": "A project to make AI more accessible, but what does it really reveal about the current state of AI development?"
+    },
+    {
+      "type": "floater",
+      "title": "The Agent Harness Performance Optimization System",
+      "description": "A system for optimizing agent performance, sparking curiosity among developers interested in agent development.",
+      "url": "https://github.com/affaan-m/ECC",
+      "big_question": "Can the agent harness performance optimization system lead to significant improvements in agent efficiency and accuracy?",
+      "head_fake": "A system to optimize agent performance, but what does it reveal about the current state of agent development and its challenges?"
     }
   ]
 }

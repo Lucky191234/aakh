@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-08-02T03:47:29.142826+00:00",
+  "fetched_at": "2026-08-03T03:49:18.855167+00:00",
   "word_of_day": {
-    "word": "astute",
-    "phonetic": "/\u0259s\u02c8tju\u02d0t/",
-    "part_of_speech": "adjective",
-    "definition": "Quickly and critically discerning.",
+    "word": "brevity",
+    "phonetic": "/\u02c8b\u0279\u025bv\u0259ti/",
+    "part_of_speech": "noun",
+    "definition": "The quality of being brief in duration.",
     "example": "",
-    "date": "August 02, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/astute"
+    "date": "August 03, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/brevity"
   }
 }
