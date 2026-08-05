@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-08-04T03:32:27.047313+00:00",
+  "fetched_at": "2026-08-05T03:27:37.692346+00:00",
   "word_of_day": {
-    "word": "catalyst",
-    "phonetic": "/\u02c8k\u00e6t.\u0259l.\u026ast/",
-    "part_of_speech": "noun",
-    "definition": "A substance that increases the rate of a chemical reaction without being consumed in the process.",
-    "example": "",
-    "date": "August 04, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/catalyst"
+    "word": "diligent",
+    "phonetic": "/\u02c8d\u026al\u026ad\u0292\u0259nt/",
+    "part_of_speech": "adjective",
+    "definition": "Performing with industrious concentration; hard-working and focused.",
+    "example": "Scientists are very diligent in their work.",
+    "date": "August 05, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/diligent"
   }
 }

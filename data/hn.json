@@ -1,74 +1,88 @@
 {
-  "fetched_at": "2026-08-04T03:32:26.792727+00:00",
+  "fetched_at": "2026-08-05T03:27:37.439157+00:00",
   "stories": [
     {
-      "title": "There Will Come Soft Rains (1950) [pdf]",
-      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
-      "summary": "<p>Article URL: <a href=\"https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf\">https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49162653\">https://news.ycombinator.com/item?id=49162653</a></p>\n<p>Points: 49</p>\n<",
-      "published": "Mon, 03 Aug 2026 23:24:53 +0000",
+      "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+      "url": "https://www.asiae.co.kr/en/article/2026080416131786841",
+      "summary": "<p>Article URL: <a href=\"https://www.asiae.co.kr/en/article/2026080416131786841\">https://www.asiae.co.kr/en/article/2026080416131786841</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49177554\">https://news.ycombinator.com/item?id=49177554</a></p>\n<p>Points: 13</p>\n<p># Commen",
+      "published": "Wed, 05 Aug 2026 01:34:26 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "LLMs reward expertise",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "summary": "<p>Article URL: <a href=\"https://www.seangoedecke.com/llms-reward-expertise/\">https://www.seangoedecke.com/llms-reward-expertise/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49161518\">https://news.ycombinator.com/item?id=49161518</a></p>\n<p>Points: 534</p>\n<p># Comments: 2",
-      "published": "Mon, 03 Aug 2026 21:13:53 +0000",
+      "title": "Bugtraq Is Back",
+      "url": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/",
+      "summary": "<p>Article URL: <a href=\"https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/\">https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/</a></p>\n<p>Comments URL: <a href=\"https://ne",
+      "published": "Wed, 05 Aug 2026 00:05:49 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Launch HN: Hoplite (YC S26) \u2013 Effortlessly deploy cloud coding agents",
-      "url": "https://hoplite.sh",
-      "summary": "<p>Hi HN, we\u2019re Bence and Ryan, founders of Hoplite (<a href=\"https://hoplite.sh\">https://hoplite.sh</a>). Hoplite lets you deploy coding agents in the cloud, with a suite of tools that makes it incredibly easy to QA features. During onboarding, we port over your local setup - sessions, memories, MC",
-      "published": "Mon, 03 Aug 2026 16:32:06 +0000",
+      "title": "Flowise Is Shutting Down",
+      "url": "https://flowiseai.com/sunset",
+      "summary": "<p>Article URL: <a href=\"https://flowiseai.com/sunset\">https://flowiseai.com/sunset</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176920\">https://news.ycombinator.com/item?id=49176920</a></p>\n<p>Points: 19</p>\n<p># Comments: 11</p>",
+      "published": "Wed, 05 Aug 2026 00:02:40 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "summary": "<p>Article URL: <a href=\"https://openai.com/index/ten-advances-in-mathematics/\">https://openai.com/index/ten-advances-in-mathematics/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49157930\">https://news.ycombinator.com/item?id=49157930</a></p>\n<p>Points: 464</p>\n<p># Comment",
-      "published": "Mon, 03 Aug 2026 16:27:12 +0000",
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "url": "https://queue.acm.org/detail.cfm?id=3807963",
+      "summary": "<p>Article URL: <a href=\"https://queue.acm.org/detail.cfm?id=3807963\">https://queue.acm.org/detail.cfm?id=3807963</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176830\">https://news.ycombinator.com/item?id=49176830</a></p>\n<p>Points: 96</p>\n<p># Comments: 58</p>",
+      "published": "Tue, 04 Aug 2026 23:50:52 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Twenty Years of Pandoc",
-      "url": "https://pandoc.org/twenty-years-of-pandoc.html",
-      "summary": "<p>Article URL: <a href=\"https://pandoc.org/twenty-years-of-pandoc.html\">https://pandoc.org/twenty-years-of-pandoc.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49156750\">https://news.ycombinator.com/item?id=49156750</a></p>\n<p>Points: 124</p>\n<p># Comments: 16</p>",
-      "published": "Mon, 03 Aug 2026 15:04:53 +0000",
+      "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
+      "url": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
+      "summary": "<p>Article URL: <a href=\"https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/\">https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176644\">https://news.ycombinator.com/item",
+      "published": "Tue, 04 Aug 2026 23:22:37 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Ask HN: Who is hiring? (August 2026)",
-      "url": "https://news.ycombinator.com/item?id=49156683",
-      "summary": "<p>Please state the location and include REMOTE for remote work, REMOTE (US)\nor similar if the country is restricted, and ONSITE when remote work is <i>not</i> an option.<p>Please only post if you personally are part of the hiring company\u2014no\nrecruiting firms or job boards. One post per company. If i",
-      "published": "Mon, 03 Aug 2026 15:00:54 +0000",
+      "title": "FIPS 140-3 is not a security guarantee, and auditors know it",
+      "url": "https://808bits.com/articles/fips-140-3-not-a-security-guarantee/",
+      "summary": "<p>Article URL: <a href=\"https://808bits.com/articles/fips-140-3-not-a-security-guarantee/\">https://808bits.com/articles/fips-140-3-not-a-security-guarantee/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176634\">https://news.ycombinator.com/item?id=49176634</a></p>\n<p>Poin",
+      "published": "Tue, 04 Aug 2026 23:21:33 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Ask HN: Who wants to be hired? (August 2026)",
-      "url": "https://news.ycombinator.com/item?id=49156682",
-      "summary": "<p>Share your information if you are looking for work. Please use this format:<p><pre><code>  Location:\n  Remote:\n  Willing to relocate:\n  Technologies:\n  R\u00e9sum\u00e9/CV:\n  Email:\n</code></pre>\nPlease only post if you are personally looking for work. Agencies, recruiters, job boards,\nand so on, are off t",
-      "published": "Mon, 03 Aug 2026 15:00:54 +0000",
+      "title": "Show HN: SIMD Viterbi Decoder in Rust",
+      "url": "https://github.com/brian-armstrong/fec",
+      "summary": "<p>I wrote libcorrect in C in 2016 and wanted to revisit it in Rust. Instead of doing just a direct conversion, I went down the rabbit hole of making Rust's std::simd work for me. I ended up with a templated, generic Viterbi decoder for convolutional codes that dispatches the decode at runtime depen",
+      "published": "Tue, 04 Aug 2026 22:37:05 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Devtools must be open source",
-      "url": "https://blog.exe.dev/devtools-must-be-open-source",
-      "summary": "<p>Article URL: <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">https://blog.exe.dev/devtools-must-be-open-source</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49156111\">https://news.ycombinator.com/item?id=49156111</a></p>\n<p>Points: 521</p>\n<p># Comments: 188</",
-      "published": "Mon, 03 Aug 2026 14:15:47 +0000",
+      "title": "Pi's Minimalism Is Its Advantage",
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+      "summary": "<p>Article URL: <a href=\"https://earendil.com/posts/pi-autoresearch-and-databricks/\">https://earendil.com/posts/pi-autoresearch-and-databricks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176038\">https://news.ycombinator.com/item?id=49176038</a></p>\n<p>Points: 142</p>\n<p",
+      "published": "Tue, 04 Aug 2026 22:22:12 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Frame selection is the whole game: notes on making LLMs watch video",
-      "url": "https://leoaido.com/how-llms-watch-video/",
-      "summary": "<p>Article URL: <a href=\"https://leoaido.com/how-llms-watch-video/\">https://leoaido.com/how-llms-watch-video/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49155555\">https://news.ycombinator.com/item?id=49155555</a></p>\n<p>Points: 16</p>\n<p># Comments: 5</p>",
-      "published": "Mon, 03 Aug 2026 13:28:10 +0000",
+      "title": "DuckDB \u2013 Data power tools for your laptop, now in Clojure (2023)",
+      "url": "https://techascent.com/blog/just-ducking-around.html",
+      "summary": "<p>Article URL: <a href=\"https://techascent.com/blog/just-ducking-around.html\">https://techascent.com/blog/just-ducking-around.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49175924\">https://news.ycombinator.com/item?id=49175924</a></p>\n<p>Points: 60</p>\n<p># Comments: ",
+      "published": "Tue, 04 Aug 2026 22:09:43 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "AirLLM 70B inference with single 4GB GPU",
-      "url": "https://github.com/lyogavin/airllm",
-      "summary": "<p>Article URL: <a href=\"https://github.com/lyogavin/airllm\">https://github.com/lyogavin/airllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49154228\">https://news.ycombinator.com/item?id=49154228</a></p>\n<p>Points: 195</p>\n<p># Comments: 75</p>",
-      "published": "Mon, 03 Aug 2026 11:15:48 +0000",
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
+      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+      "summary": "<p><a href=\"https://www.interpol.int/Media/Documents/Publications/Cybercrime/African-Cyberthreat-Assessment-Report-2026\" rel=\"nofollow\">https://www.interpol.int/Media/Documents/Publications/Cyberc...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49175826\">https://news",
+      "published": "Tue, 04 Aug 2026 22:01:41 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Oxide Computer raises $445M (SEC Form D)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+      "summary": "<p>Article URL: <a href=\"https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml\">https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49174407\">htt",
+      "published": "Tue, 04 Aug 2026 20:13:40 +0000",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Maple-Preview \u2013 ternary 20B MoE running at 120 tok/s on a iPhone",
+      "url": "https://deepgrove.ai/maple-preview",
+      "summary": "<p>Article URL: <a href=\"https://deepgrove.ai/maple-preview\">https://deepgrove.ai/maple-preview</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49173984\">https://news.ycombinator.com/item?id=49173984</a></p>\n<p>Points: 64</p>\n<p># Comments: 19</p>",
+      "published": "Tue, 04 Aug 2026 19:44:55 +0000",
       "source": "Hacker News"
     }
   ]
