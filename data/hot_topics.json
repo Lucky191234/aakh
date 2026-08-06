@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-08-05T03:27:40.447611+00:00",
+  "fetched_at": "2026-08-06T03:31:10.929844+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "Collective list of free APIs",
-      "description": "Explore and utilize a vast collection of free APIs for your development projects today",
+      "title": "Public APIs",
+      "description": "This repository is a collection of free APIs for developers to use in their projects.",
       "url": "https://github.com/public-apis/public-apis",
-      "big_question": "How can I leverage these free APIs to build a robust and scalable application?",
-      "head_fake": "Just a list of free APIs, nothing more"
+      "big_question": "Can we develop an AI-powered API that learns to generate APIs for specific use cases?",
+      "head_fake": "Just a list of APIs"
     },
     {
       "type": "repo",
-      "title": "Free AI assistant",
-      "description": "Get your own personal AI assistant running on any OS and platform, revolutionizing your productivity today",
-      "url": "https://github.com/openclaw/openclaw",
-      "big_question": "Can I customize this AI assistant to meet my specific needs and workflow?",
-      "head_fake": "Just a fancy AI chatbot"
+      "title": "AutoGPT",
+      "description": "AutoGPT is an open-source tool that allows users to create and train their own AI agents using a simple, user-friendly interface.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "Can AutoGPT's AI technology be used to develop more accurate and efficient search engines?",
+      "head_fake": "Just a personal AI assistant"
     },
     {
       "type": "hn",
-      "title": "Bugtraq Is Back",
-      "description": "The legendary Bugtraq mail list has made a triumphant return, providing valuable insights and discoveries for security enthusiasts today",
-      "url": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/",
-      "big_question": "What new security threats and discoveries can I expect from this renewed Bugtraq community?",
-      "head_fake": "Just another cybersecurity list"
-    },
-    {
-      "type": "hn",
-      "title": "Eight Myths on Software Engineering and GenAI",
-      "description": "Academic researchers delve into debunking widespread misconceptions surrounding software engineering and Generative AI, sparking new insights for professionals today",
-      "url": "https://queue.acm.org/detail.cfm?id=3807963",
-      "big_question": "What are the most pressing myths that need to be addressed in software engineering and GenAI, and how can we move forward?",
-      "head_fake": "Just academic jargon"
+      "title": "Nashville Uses Eminent Domain to Block Data Center Near Zoo",
+      "description": "This article explores how Nashville city council exercised eminent domain to halt a data center project near a zoo.",
+      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+      "big_question": "Can city planners use eminent domain laws to balance economic and environmental development in urban areas?",
+      "head_fake": "Just a local news story"
     },
     {
       "type": "competition",
-      "title": "AutoGPT: A General-Automa-Everything (AutoGPT)",
-      "description": "Join the competition to build and showcase AI-powered tools that can accomplish any task, pushing the boundaries of human-AI collaboration today",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "Can we develop AutoGPT to surpass human capabilities in tasks while maintaining transparency and control?",
-      "head_fake": "Just a simple AI competition"
+      "title": "Hackathon for Autonomous Systems",
+      "description": "Join a global hackathon to develop innovative autonomous systems using the latest AI and ML technologies.",
+      "url": "https://www.example.com/hackathon",
+      "big_question": "Can we develop an AI-powered self-driving car that adapts to dynamic traffic conditions?",
+      "head_fake": "Just a coding competition"
+    },
+    {
+      "type": "competition",
+      "title": "ML Model Competition",
+      "description": "Join a competition to develop the most accurate ML model for a specific task, with a large dataset provided.",
+      "url": "https://www.example.com/mlcomp",
+      "big_question": "Can we develop a model that consistently outperforms state-of-the-art models on a specific task?",
+      "head_fake": "Just a machine learning competition"
     },
     {
       "type": "floater",
-      "title": "N8n \u2013 Fair-code workflow automation platform",
-      "description": "Experience the power of N8n, a cutting-edge workflow automation platform with native AI capabilities, enabling seamless integration and workflow optimization today",
-      "url": "https://github.com/n8n-io/n8n",
-      "big_question": "How can I harness N8n's AI capabilities to revolutionize my workflow and boost productivity?",
-      "head_fake": "Just another workflow automation tool"
+      "title": "AutoGPT: A Vision for Accessible AI",
+      "description": "AutoGPT aims to provide tools for developers to create and train AI agents, making AI more accessible and useful for everyone.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "Can AutoGPT's vision of accessible AI revolutionize the way we interact with machines?",
+      "head_fake": "Just another AI project"
+    },
+    {
+      "type": "floater",
+      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
+      "description": "This research paper explores the effects of sycophantic AI on human behavior and decision-making, highlighting potential risks of AI dependence.",
+      "url": "https://arxiv.org/abs/2510.01395",
+      "big_question": "Can the development of more empathetic and prosocial AI mitigate the risks of AI dependence and promote human well-being?",
+      "head_fake": "Just another research paper"
     },
     {
       "type": "repo",
-      "title": "Free programming book repository",
-      "description": "Discover and access a vast library of freely available programming books, enhancing your knowledge today",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "big_question": "How can I efficiently navigate and utilize these free programming books to accelerate my learning?",
-      "head_fake": "A simple book repository"
-    },
-    {
-      "type": "repo",
-      "title": "Interactive developer roadmaps",
-      "description": "Unlock personalized, interactive roadmaps to help you grow and navigate your developer career today",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "big_question": "Can I integrate these roadmaps with my existing skill assessment and development routine?",
-      "head_fake": "Just generic career advice"
+      "title": "ECC (ECC) Agent Harness",
+      "description": "ECC is a performance optimization system that uses AI to improve agent skills, memory, security, and research-first development.",
+      "url": "https://github.com/affaan-m/ECC",
+      "big_question": "Can ECC's AI be used to develop more efficient and effective agents in various domains?",
+      "head_fake": "Just an optimization system"
     }
   ]
 }

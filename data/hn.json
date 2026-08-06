@@ -1,88 +1,74 @@
 {
-  "fetched_at": "2026-08-05T03:27:37.439157+00:00",
+  "fetched_at": "2026-08-06T03:31:08.490683+00:00",
   "stories": [
     {
-      "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
-      "url": "https://www.asiae.co.kr/en/article/2026080416131786841",
-      "summary": "<p>Article URL: <a href=\"https://www.asiae.co.kr/en/article/2026080416131786841\">https://www.asiae.co.kr/en/article/2026080416131786841</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49177554\">https://news.ycombinator.com/item?id=49177554</a></p>\n<p>Points: 13</p>\n<p># Commen",
-      "published": "Wed, 05 Aug 2026 01:34:26 +0000",
+      "title": "Nashville uses eminent domain to block data center near zoo",
+      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+      "summary": "<p>Article URL: <a href=\"https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project\">https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</a></p>\n<p>Comments URL: <a href=\"http",
+      "published": "Thu, 06 Aug 2026 02:15:14 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Bugtraq Is Back",
-      "url": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/",
-      "summary": "<p>Article URL: <a href=\"https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/\">https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/</a></p>\n<p>Comments URL: <a href=\"https://ne",
-      "published": "Wed, 05 Aug 2026 00:05:49 +0000",
+      "title": "LLMs won't break symmetric crypto",
+      "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+      "summary": "<p>Article URL: <a href=\"https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto\">https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49191365\">https://news.ycombinator.com/item?id=49191365</a></p>\n<p>Points: 43</p>\n<p># ",
+      "published": "Thu, 06 Aug 2026 01:39:06 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Flowise Is Shutting Down",
-      "url": "https://flowiseai.com/sunset",
-      "summary": "<p>Article URL: <a href=\"https://flowiseai.com/sunset\">https://flowiseai.com/sunset</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176920\">https://news.ycombinator.com/item?id=49176920</a></p>\n<p>Points: 19</p>\n<p># Comments: 11</p>",
-      "published": "Wed, 05 Aug 2026 00:02:40 +0000",
+      "title": "Prime Agent: A self-improving RLM agent",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "summary": "<p>Article URL: <a href=\"https://www.primeintellect.ai/blog/prime-agent\">https://www.primeintellect.ai/blog/prime-agent</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49189075\">https://news.ycombinator.com/item?id=49189075</a></p>\n<p>Points: 119</p>\n<p># Comments: 20</p>",
+      "published": "Wed, 05 Aug 2026 21:11:57 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Eight Myths on Software Engineering and GenAI",
-      "url": "https://queue.acm.org/detail.cfm?id=3807963",
-      "summary": "<p>Article URL: <a href=\"https://queue.acm.org/detail.cfm?id=3807963\">https://queue.acm.org/detail.cfm?id=3807963</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176830\">https://news.ycombinator.com/item?id=49176830</a></p>\n<p>Points: 96</p>\n<p># Comments: 58</p>",
-      "published": "Tue, 04 Aug 2026 23:50:52 +0000",
+      "title": "I'm switching my phone from Android to Linux",
+      "url": "https://runarcn.no/android-to-linux/",
+      "summary": "<p>Article URL: <a href=\"https://runarcn.no/android-to-linux/\">https://runarcn.no/android-to-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49188022\">https://news.ycombinator.com/item?id=49188022</a></p>\n<p>Points: 238</p>\n<p># Comments: 193</p>",
+      "published": "Wed, 05 Aug 2026 19:50:13 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
-      "url": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-      "summary": "<p>Article URL: <a href=\"https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/\">https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176644\">https://news.ycombinator.com/item",
-      "published": "Tue, 04 Aug 2026 23:22:37 +0000",
+      "title": "Muse Code and Muse Spark 1.2",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "summary": "<p>Article URL: <a href=\"https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2\">https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187575\">https://news.ycombinator.com/item?id=49187575</a></",
+      "published": "Wed, 05 Aug 2026 19:15:52 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "FIPS 140-3 is not a security guarantee, and auditors know it",
-      "url": "https://808bits.com/articles/fips-140-3-not-a-security-guarantee/",
-      "summary": "<p>Article URL: <a href=\"https://808bits.com/articles/fips-140-3-not-a-security-guarantee/\">https://808bits.com/articles/fips-140-3-not-a-security-guarantee/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176634\">https://news.ycombinator.com/item?id=49176634</a></p>\n<p>Poin",
-      "published": "Tue, 04 Aug 2026 23:21:33 +0000",
+      "title": "Born Against, or why hobby programming communities are against LLM usage",
+      "url": "https://blog.fogus.me/llm/born-against.html",
+      "summary": "<p>Article URL: <a href=\"https://blog.fogus.me/llm/born-against.html\">https://blog.fogus.me/llm/born-against.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187061\">https://news.ycombinator.com/item?id=49187061</a></p>\n<p>Points: 157</p>\n<p># Comments: 157</p>",
+      "published": "Wed, 05 Aug 2026 18:37:49 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: SIMD Viterbi Decoder in Rust",
-      "url": "https://github.com/brian-armstrong/fec",
-      "summary": "<p>I wrote libcorrect in C in 2016 and wanted to revisit it in Rust. Instead of doing just a direct conversion, I went down the rabbit hole of making Rust's std::simd work for me. I ended up with a templated, generic Viterbi decoder for convolutional codes that dispatches the decode at runtime depen",
-      "published": "Tue, 04 Aug 2026 22:37:05 +0000",
+      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+      "url": "https://arxiv.org/abs/2510.01395",
+      "summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2510.01395\">https://arxiv.org/abs/2510.01395</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49186720\">https://news.ycombinator.com/item?id=49186720</a></p>\n<p>Points: 83</p>\n<p># Comments: 57</p>",
+      "published": "Wed, 05 Aug 2026 18:17:03 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Pi's Minimalism Is Its Advantage",
-      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
-      "summary": "<p>Article URL: <a href=\"https://earendil.com/posts/pi-autoresearch-and-databricks/\">https://earendil.com/posts/pi-autoresearch-and-databricks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176038\">https://news.ycombinator.com/item?id=49176038</a></p>\n<p>Points: 142</p>\n<p",
-      "published": "Tue, 04 Aug 2026 22:22:12 +0000",
+      "title": "Launch HN: HyperProbe (YC S26) \u2013 Agents that do read-only debugging in prod",
+      "url": "https://www.hyperprobe.co",
+      "summary": "<p>Hi HN, this is Shailendra and Karan here. We are building a fast and safe way for coding agents to debug issues live in production.<p>When prod breaks, it lets Cursor, Claude, and others drop virtual breakpoints or probes safely in your running code, and extract the exact variable values that log",
+      "published": "Wed, 05 Aug 2026 16:47:15 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "DuckDB \u2013 Data power tools for your laptop, now in Clojure (2023)",
-      "url": "https://techascent.com/blog/just-ducking-around.html",
-      "summary": "<p>Article URL: <a href=\"https://techascent.com/blog/just-ducking-around.html\">https://techascent.com/blog/just-ducking-around.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49175924\">https://news.ycombinator.com/item?id=49175924</a></p>\n<p>Points: 60</p>\n<p># Comments: ",
-      "published": "Tue, 04 Aug 2026 22:09:43 +0000",
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "summary": "<p><a href=\"https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai\" rel=\"nofollow\">https://www.axios.com/2026/08/05/google-deepmind-demis-hassa...</a><p><a href=\"https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05/\" rel=\"nofollow\">https:/",
+      "published": "Wed, 05 Aug 2026 16:05:31 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
-      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
-      "summary": "<p><a href=\"https://www.interpol.int/Media/Documents/Publications/Cybercrime/African-Cyberthreat-Assessment-Report-2026\" rel=\"nofollow\">https://www.interpol.int/Media/Documents/Publications/Cyberc...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49175826\">https://news",
-      "published": "Tue, 04 Aug 2026 22:01:41 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Oxide Computer raises $445M (SEC Form D)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
-      "summary": "<p>Article URL: <a href=\"https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml\">https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49174407\">htt",
-      "published": "Tue, 04 Aug 2026 20:13:40 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: Maple-Preview \u2013 ternary 20B MoE running at 120 tok/s on a iPhone",
-      "url": "https://deepgrove.ai/maple-preview",
-      "summary": "<p>Article URL: <a href=\"https://deepgrove.ai/maple-preview\">https://deepgrove.ai/maple-preview</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49173984\">https://news.ycombinator.com/item?id=49173984</a></p>\n<p>Points: 64</p>\n<p># Comments: 19</p>",
-      "published": "Tue, 04 Aug 2026 19:44:55 +0000",
+      "title": "The Entropy of a Markov Chain",
+      "url": "https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain",
+      "summary": "<p>Article URL: <a href=\"https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain\">https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49183017\">https://news.ycombinator.com/item?id=49183017</",
+      "published": "Wed, 05 Aug 2026 14:00:10 +0000",
       "source": "Hacker News"
     }
   ]
