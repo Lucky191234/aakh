@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-08-06T03:31:10.929844+00:00",
+  "fetched_at": "2026-08-07T03:13:52.143658+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "Public APIs",
-      "description": "This repository is a collection of free APIs for developers to use in their projects.",
-      "url": "https://github.com/public-apis/public-apis",
-      "big_question": "Can we develop an AI-powered API that learns to generate APIs for specific use cases?",
-      "head_fake": "Just a list of APIs"
+      "title": "AutoGPT",
+      "description": "A vision of accessible AI for everyone, providing the tools to use and build on.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "Can accessible AI truly democratize AI development and use?",
+      "head_fake": "A project that aims to make AI available to everyone, not just experts"
     },
     {
       "type": "repo",
-      "title": "AutoGPT",
-      "description": "AutoGPT is an open-source tool that allows users to create and train their own AI agents using a simple, user-friendly interface.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "Can AutoGPT's AI technology be used to develop more accurate and efficient search engines?",
-      "head_fake": "Just a personal AI assistant"
+      "title": "TensorFlow",
+      "description": "An Open Source Machine Learning Framework for Everyone.",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "big_question": "Can machine learning frameworks like TensorFlow truly democratize access to AI and ML?",
+      "head_fake": "A widely-used ML framework that makes AI more accessible"
     },
     {
       "type": "hn",
-      "title": "Nashville Uses Eminent Domain to Block Data Center Near Zoo",
-      "description": "This article explores how Nashville city council exercised eminent domain to halt a data center project near a zoo.",
-      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
-      "big_question": "Can city planners use eminent domain laws to balance economic and environmental development in urban areas?",
-      "head_fake": "Just a local news story"
-    },
-    {
-      "type": "competition",
-      "title": "Hackathon for Autonomous Systems",
-      "description": "Join a global hackathon to develop innovative autonomous systems using the latest AI and ML technologies.",
-      "url": "https://www.example.com/hackathon",
-      "big_question": "Can we develop an AI-powered self-driving car that adapts to dynamic traffic conditions?",
-      "head_fake": "Just a coding competition"
-    },
-    {
-      "type": "competition",
-      "title": "ML Model Competition",
-      "description": "Join a competition to develop the most accurate ML model for a specific task, with a large dataset provided.",
-      "url": "https://www.example.com/mlcomp",
-      "big_question": "Can we develop a model that consistently outperforms state-of-the-art models on a specific task?",
-      "head_fake": "Just a machine learning competition"
+      "title": "Human error in AI permissions",
+      "description": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs.",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "big_question": "Can humans accurately approve AI agent commands without missing threats?",
+      "head_fake": "A study that reveals the surprising extent to which humans miss threats approving AI agents"
     },
     {
       "type": "floater",
-      "title": "AutoGPT: A Vision for Accessible AI",
-      "description": "AutoGPT aims to provide tools for developers to create and train AI agents, making AI more accessible and useful for everyone.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "Can AutoGPT's vision of accessible AI revolutionize the way we interact with machines?",
-      "head_fake": "Just another AI project"
+      "title": "AI-powered coding agent",
+      "description": "A new coding agent that combines visual building with custom code, self-hosting, and native AI capabilities.",
+      "url": "https://github.com/n8n-io/n8n",
+      "big_question": "Can self-hosted AI-powered workflow automation really change the way developers work?",
+      "head_fake": "A platform that lets users combine visual building with custom code for seamless automation"
     },
     {
       "type": "floater",
-      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
-      "description": "This research paper explores the effects of sycophantic AI on human behavior and decision-making, highlighting potential risks of AI dependence.",
-      "url": "https://arxiv.org/abs/2510.01395",
-      "big_question": "Can the development of more empathetic and prosocial AI mitigate the risks of AI dependence and promote human well-being?",
-      "head_fake": "Just another research paper"
+      "title": "Quantum chemistry benchmark",
+      "description": "A spin audit of SQD/QSCI quantum-chemistry benchmarks on iron\u2013sulfur clusters.",
+      "url": "https://zenodo.org/records/21359923",
+      "big_question": "Can we accurately simulate quantum chemistry on a large scale using benchmarking techniques?",
+      "head_fake": "A spin audit of quantum-chemistry benchmarks to improve accuracy and speed"
+    },
+    {
+      "type": "floater",
+      "title": "Inference performance boost",
+      "description": "AMD acquires Taalas to boost performance by etching models into silicon.",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "big_question": "Can etching models into silicon really improve inference performance?",
+      "head_fake": "A breakthrough in inference performance through model etching"
     },
     {
       "type": "repo",
-      "title": "ECC (ECC) Agent Harness",
-      "description": "ECC is a performance optimization system that uses AI to improve agent skills, memory, security, and research-first development.",
+      "title": "ECC",
+      "description": "The agent harness performance optimization system.",
       "url": "https://github.com/affaan-m/ECC",
-      "big_question": "Can ECC's AI be used to develop more efficient and effective agents in various domains?",
-      "head_fake": "Just an optimization system"
+      "big_question": "Can performance optimization systems like ECC really improve developer productivity?",
+      "head_fake": "A project that aims to optimize developer productivity through performance enhancement"
+    },
+    {
+      "type": "floater",
+      "title": "Agentic index ranking",
+      "description": "Qwen3.8 Max now ranked as the best overall model by agentic index.",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "big_question": "Can the agentic index really measure model performance and ranking?",
+      "head_fake": "A breakthrough in measuring model performance using the agentic index"
     }
   ]
 }

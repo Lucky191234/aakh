@@ -1,80 +1,80 @@
 {
-  "generated_at": "2026-08-06T03:31:11.003340+00:00",
-  "date_label": "Thursday, 06 August 2026",
+  "generated_at": "2026-08-07T03:13:52.227462+00:00",
+  "date_label": "Friday, 07 August 2026",
   "is_monday": false,
   "word_of_day": {
-    "word": "empirical",
-    "phonetic": "/\u026am\u02c8p\u026a\u0279\u026ak\u0259l/",
+    "word": "frugal",
+    "phonetic": "/\u02c8f\u0279u\u02d0\u0261\u0259l/",
     "part_of_speech": "adjective",
-    "definition": "Pertaining to or based on experience.",
+    "definition": "Avoiding unnecessary expenditure either of money or of anything else which is to be used or consumed; avoiding waste.",
     "example": "",
-    "date": "August 06, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/empirical"
+    "date": "August 07, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/frugal"
   },
   "hot_topics": [
     {
       "type": "repo",
-      "title": "Public APIs",
-      "description": "This repository is a collection of free APIs for developers to use in their projects.",
-      "url": "https://github.com/public-apis/public-apis",
-      "big_question": "Can we develop an AI-powered API that learns to generate APIs for specific use cases?",
-      "head_fake": "Just a list of APIs"
+      "title": "AutoGPT",
+      "description": "A vision of accessible AI for everyone, providing the tools to use and build on.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "big_question": "Can accessible AI truly democratize AI development and use?",
+      "head_fake": "A project that aims to make AI available to everyone, not just experts"
     },
     {
       "type": "repo",
-      "title": "AutoGPT",
-      "description": "AutoGPT is an open-source tool that allows users to create and train their own AI agents using a simple, user-friendly interface.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "Can AutoGPT's AI technology be used to develop more accurate and efficient search engines?",
-      "head_fake": "Just a personal AI assistant"
+      "title": "TensorFlow",
+      "description": "An Open Source Machine Learning Framework for Everyone.",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "big_question": "Can machine learning frameworks like TensorFlow truly democratize access to AI and ML?",
+      "head_fake": "A widely-used ML framework that makes AI more accessible"
     },
     {
       "type": "hn",
-      "title": "Nashville Uses Eminent Domain to Block Data Center Near Zoo",
-      "description": "This article explores how Nashville city council exercised eminent domain to halt a data center project near a zoo.",
-      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
-      "big_question": "Can city planners use eminent domain laws to balance economic and environmental development in urban areas?",
-      "head_fake": "Just a local news story"
-    },
-    {
-      "type": "competition",
-      "title": "Hackathon for Autonomous Systems",
-      "description": "Join a global hackathon to develop innovative autonomous systems using the latest AI and ML technologies.",
-      "url": "https://www.example.com/hackathon",
-      "big_question": "Can we develop an AI-powered self-driving car that adapts to dynamic traffic conditions?",
-      "head_fake": "Just a coding competition"
-    },
-    {
-      "type": "competition",
-      "title": "ML Model Competition",
-      "description": "Join a competition to develop the most accurate ML model for a specific task, with a large dataset provided.",
-      "url": "https://www.example.com/mlcomp",
-      "big_question": "Can we develop a model that consistently outperforms state-of-the-art models on a specific task?",
-      "head_fake": "Just a machine learning competition"
+      "title": "Human error in AI permissions",
+      "description": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs.",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "big_question": "Can humans accurately approve AI agent commands without missing threats?",
+      "head_fake": "A study that reveals the surprising extent to which humans miss threats approving AI agents"
     },
     {
       "type": "floater",
-      "title": "AutoGPT: A Vision for Accessible AI",
-      "description": "AutoGPT aims to provide tools for developers to create and train AI agents, making AI more accessible and useful for everyone.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "Can AutoGPT's vision of accessible AI revolutionize the way we interact with machines?",
-      "head_fake": "Just another AI project"
+      "title": "AI-powered coding agent",
+      "description": "A new coding agent that combines visual building with custom code, self-hosting, and native AI capabilities.",
+      "url": "https://github.com/n8n-io/n8n",
+      "big_question": "Can self-hosted AI-powered workflow automation really change the way developers work?",
+      "head_fake": "A platform that lets users combine visual building with custom code for seamless automation"
     },
     {
       "type": "floater",
-      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
-      "description": "This research paper explores the effects of sycophantic AI on human behavior and decision-making, highlighting potential risks of AI dependence.",
-      "url": "https://arxiv.org/abs/2510.01395",
-      "big_question": "Can the development of more empathetic and prosocial AI mitigate the risks of AI dependence and promote human well-being?",
-      "head_fake": "Just another research paper"
+      "title": "Quantum chemistry benchmark",
+      "description": "A spin audit of SQD/QSCI quantum-chemistry benchmarks on iron\u2013sulfur clusters.",
+      "url": "https://zenodo.org/records/21359923",
+      "big_question": "Can we accurately simulate quantum chemistry on a large scale using benchmarking techniques?",
+      "head_fake": "A spin audit of quantum-chemistry benchmarks to improve accuracy and speed"
+    },
+    {
+      "type": "floater",
+      "title": "Inference performance boost",
+      "description": "AMD acquires Taalas to boost performance by etching models into silicon.",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "big_question": "Can etching models into silicon really improve inference performance?",
+      "head_fake": "A breakthrough in inference performance through model etching"
     },
     {
       "type": "repo",
-      "title": "ECC (ECC) Agent Harness",
-      "description": "ECC is a performance optimization system that uses AI to improve agent skills, memory, security, and research-first development.",
+      "title": "ECC",
+      "description": "The agent harness performance optimization system.",
       "url": "https://github.com/affaan-m/ECC",
-      "big_question": "Can ECC's AI be used to develop more efficient and effective agents in various domains?",
-      "head_fake": "Just an optimization system"
+      "big_question": "Can performance optimization systems like ECC really improve developer productivity?",
+      "head_fake": "A project that aims to optimize developer productivity through performance enhancement"
+    },
+    {
+      "type": "floater",
+      "title": "Agentic index ranking",
+      "description": "Qwen3.8 Max now ranked as the best overall model by agentic index.",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "big_question": "Can the agentic index really measure model performance and ranking?",
+      "head_fake": "A breakthrough in measuring model performance using the agentic index"
     }
   ],
   "repos": [
@@ -82,7 +82,7 @@
       "name": "public-apis/public-apis",
       "description": "A collective list of free APIs",
       "url": "https://github.com/public-apis/public-apis",
-      "stars": 454558,
+      "stars": 454777,
       "language": "Python",
       "created_at": "2016-03-20T23:49:42Z",
       "pushed_at": "2026-08-05T06:58:49Z",
@@ -107,10 +107,10 @@
       "name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stars": 453558,
+      "stars": 453615,
       "language": "TypeScript",
       "created_at": "2014-12-24T17:49:19Z",
-      "pushed_at": "2026-08-05T23:43:50Z",
+      "pushed_at": "2026-08-06T19:11:02Z",
       "topics": [
         "careers",
         "certification",
@@ -134,10 +134,10 @@
       "name": "EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
-      "stars": 393822,
+      "stars": 393892,
       "language": "Python",
       "created_at": "2013-10-11T06:50:37Z",
-      "pushed_at": "2026-08-05T16:34:42Z",
+      "pushed_at": "2026-08-06T13:01:39Z",
       "topics": [
         "books",
         "education",
@@ -151,10 +151,10 @@
       "name": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": 385280,
+      "stars": 385396,
       "language": "TypeScript",
       "created_at": "2025-11-24T10:16:47Z",
-      "pushed_at": "2026-08-06T03:26:50Z",
+      "pushed_at": "2026-08-07T03:11:03Z",
       "topics": [
         "ai",
         "assistant",
@@ -170,10 +170,10 @@
       "name": "nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "url": "https://github.com/nilbuild/developer-roadmap",
-      "stars": 363738,
+      "stars": 363812,
       "language": "TypeScript",
       "created_at": "2017-03-15T13:45:52Z",
-      "pushed_at": "2026-08-05T13:05:52Z",
+      "pushed_at": "2026-08-06T16:55:47Z",
       "topics": [
         "angular-roadmap",
         "backend-roadmap",
@@ -200,7 +200,7 @@
       "name": "vinta/awesome-python",
       "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
       "url": "https://github.com/vinta/awesome-python",
-      "stars": 312417,
+      "stars": 312592,
       "language": "Python",
       "created_at": "2014-06-27T21:00:06Z",
       "pushed_at": "2026-08-05T06:11:04Z",
@@ -218,10 +218,10 @@
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 267401,
+      "stars": 268174,
       "language": "Shell",
       "created_at": "2025-10-09T19:45:18Z",
-      "pushed_at": "2026-08-06T01:23:47Z",
+      "pushed_at": "2026-08-07T00:29:59Z",
       "topics": [
         "ai",
         "brainstorming",
@@ -238,10 +238,10 @@
       "name": "react/react",
       "description": "The library for web and native user interfaces.",
       "url": "https://github.com/react/react",
-      "stars": 247048,
+      "stars": 247074,
       "language": "JavaScript",
       "created_at": "2013-05-24T16:15:54Z",
-      "pushed_at": "2026-08-05T19:11:16Z",
+      "pushed_at": "2026-08-06T12:44:05Z",
       "topics": [
         "declarative",
         "frontend",
@@ -256,10 +256,10 @@
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 241902,
+      "stars": 242027,
       "language": "C",
       "created_at": "2011-09-04T22:48:12Z",
-      "pushed_at": "2026-08-05T16:03:28Z",
+      "pushed_at": "2026-08-06T23:36:48Z",
       "topics": [],
       "trending_multiday": true
     },
@@ -267,10 +267,10 @@
       "name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 238049,
+      "stars": 238339,
       "language": "JavaScript",
       "created_at": "2026-01-18T00:51:51Z",
-      "pushed_at": "2026-08-05T22:17:10Z",
+      "pushed_at": "2026-08-06T21:42:23Z",
       "topics": [
         "ai-agents",
         "anthropic",
@@ -287,10 +287,10 @@
       "name": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": 226136,
+      "stars": 226658,
       "language": "Python",
       "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-08-06T00:26:31Z",
+      "pushed_at": "2026-08-07T03:02:53Z",
       "topics": [
         "ai",
         "ai-agent",
@@ -315,10 +315,10 @@
       "name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 205204,
+      "stars": 207292,
       "language": "Shell",
       "created_at": "2026-02-03T11:15:53Z",
-      "pushed_at": "2026-08-05T18:10:19Z",
+      "pushed_at": "2026-08-06T19:49:51Z",
       "topics": [],
       "trending_multiday": true
     },
@@ -326,10 +326,10 @@
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 199494,
+      "stars": 199633,
       "language": "TypeScript",
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-08-05T23:46:16Z",
+      "pushed_at": "2026-08-07T01:29:26Z",
       "topics": [
         "ai",
         "apis",
@@ -358,10 +358,10 @@
       "name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "url": "https://github.com/tensorflow/tensorflow",
-      "stars": 196876,
+      "stars": 196895,
       "language": "C++",
       "created_at": "2015-11-07T01:19:20Z",
-      "pushed_at": "2026-08-06T03:21:31Z",
+      "pushed_at": "2026-08-07T03:06:27Z",
       "topics": [
         "deep-learning",
         "deep-neural-networks",
@@ -375,13 +375,24 @@
       "trending_multiday": true
     },
     {
+      "name": "ultraworkers/claw-code",
+      "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex \u2014 developed and maintained with no human intervention.",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "stars": 194999,
+      "language": "Rust",
+      "created_at": "2026-03-31T08:58:08Z",
+      "pushed_at": "2026-08-06T11:18:35Z",
+      "topics": [],
+      "trending_multiday": false
+    },
+    {
       "name": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
-      "stars": 193906,
+      "stars": 194372,
       "language": "TypeScript",
       "created_at": "2025-04-30T20:08:00Z",
-      "pushed_at": "2026-08-06T03:24:27Z",
+      "pushed_at": "2026-08-07T03:10:44Z",
       "topics": [],
       "trending_multiday": true
     },
@@ -389,10 +400,10 @@
       "name": "ohmyzsh/ohmyzsh",
       "description": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
-      "stars": 189057,
+      "stars": 189074,
       "language": "Shell",
       "created_at": "2009-08-28T18:15:37Z",
-      "pushed_at": "2026-08-05T18:14:48Z",
+      "pushed_at": "2026-08-06T07:20:54Z",
       "topics": [
         "cli",
         "cli-app",
@@ -416,10 +427,10 @@
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 188412,
+      "stars": 188456,
       "language": "TypeScript",
       "created_at": "2015-09-03T20:23:38Z",
-      "pushed_at": "2026-08-06T03:20:12Z",
+      "pushed_at": "2026-08-07T03:04:02Z",
       "topics": [
         "editor",
         "electron",
@@ -433,10 +444,10 @@
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": 185837,
+      "stars": 186062,
       "language": "Python",
       "created_at": "2023-03-16T09:21:07Z",
-      "pushed_at": "2026-08-06T03:27:24Z",
+      "pushed_at": "2026-08-07T03:09:48Z",
       "topics": [
         "agentic-ai",
         "agents",
@@ -453,32 +464,13 @@
       "trending_multiday": true
     },
     {
-      "name": "yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "stars": 182705,
-      "language": "Python",
-      "created_at": "2020-10-26T04:22:55Z",
-      "pushed_at": "2026-08-04T22:58:34Z",
-      "topics": [
-        "cli",
-        "downloader",
-        "python",
-        "sponsorblock",
-        "youtube-dl",
-        "youtube-downloader",
-        "yt-dlp"
-      ],
-      "trending_multiday": true
-    },
-    {
       "name": "avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
       "url": "https://github.com/avelino/awesome-go",
-      "stars": 180238,
+      "stars": 180332,
       "language": "Go",
       "created_at": "2014-07-06T13:42:15Z",
-      "pushed_at": "2026-08-05T02:12:54Z",
+      "pushed_at": "2026-08-06T23:35:12Z",
       "topics": [
         "awesome",
         "awesome-list",
@@ -493,73 +485,66 @@
   "competitions": [],
   "hn_stories": [
     {
-      "title": "Nashville uses eminent domain to block data center near zoo",
-      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
-      "summary": "<p>Article URL: <a href=\"https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project\">https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</a></p>\n<p>Comments URL: <a href=\"http",
-      "published": "Thu, 06 Aug 2026 02:15:14 +0000",
+      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron\u2013sulfur clusters",
+      "url": "https://zenodo.org/records/21359923",
+      "summary": "<p>Author here.<p>Background, for anyone who hasn't followed this fight: IBM's iron\u2013sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selecte",
+      "published": "Thu, 06 Aug 2026 22:50:09 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "LLMs won't break symmetric crypto",
-      "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-      "summary": "<p>Article URL: <a href=\"https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto\">https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49191365\">https://news.ycombinator.com/item?id=49191365</a></p>\n<p>Points: 43</p>\n<p># ",
-      "published": "Thu, 06 Aug 2026 01:39:06 +0000",
+      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+      "url": "https://www.aleksagordic.com/blog/vllm",
+      "summary": "<p>Article URL: <a href=\"https://www.aleksagordic.com/blog/vllm\">https://www.aleksagordic.com/blog/vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202852\">https://news.ycombinator.com/item?id=49202852</a></p>\n<p>Points: 74</p>\n<p># Comments: 3</p>",
+      "published": "Thu, 06 Aug 2026 21:30:21 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Prime Agent: A self-improving RLM agent",
-      "url": "https://www.primeintellect.ai/blog/prime-agent",
-      "summary": "<p>Article URL: <a href=\"https://www.primeintellect.ai/blog/prime-agent\">https://www.primeintellect.ai/blog/prime-agent</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49189075\">https://news.ycombinator.com/item?id=49189075</a></p>\n<p>Points: 119</p>\n<p># Comments: 20</p>",
-      "published": "Wed, 05 Aug 2026 21:11:57 +0000",
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+      "summary": "<p>Article URL: <a href=\"https://www.sciencedaily.com/releases/2026/08/260803080917.htm\">https://www.sciencedaily.com/releases/2026/08/260803080917.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202716\">https://news.ycombinator.com/item?id=49202716</a></p>\n<p>Points: 64",
+      "published": "Thu, 06 Aug 2026 21:18:32 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "I'm switching my phone from Android to Linux",
-      "url": "https://runarcn.no/android-to-linux/",
-      "summary": "<p>Article URL: <a href=\"https://runarcn.no/android-to-linux/\">https://runarcn.no/android-to-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49188022\">https://news.ycombinator.com/item?id=49188022</a></p>\n<p>Points: 238</p>\n<p># Comments: 193</p>",
-      "published": "Wed, 05 Aug 2026 19:50:13 +0000",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "summary": "<p><a href=\"https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https://ir.amd.com/news-events/press-releases/detail/1296/am...</a><p><a href=\"https://chatjimmy.ai/\" rel=\"nofollow\">https://",
+      "published": "Thu, 06 Aug 2026 20:23:11 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Muse Code and Muse Spark 1.2",
-      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "summary": "<p>Article URL: <a href=\"https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2\">https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187575\">https://news.ycombinator.com/item?id=49187575</a></",
-      "published": "Wed, 05 Aug 2026 19:15:52 +0000",
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/?intelligence=agentic-index\">https://artificialanalysis.ai/?intelligence=agentic-index</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49200652\">https://news.ycombinator.com/item?id=49200652</a></p>\n<p>Points: 449</p>\n<p>#",
+      "published": "Thu, 06 Aug 2026 18:44:49 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Born Against, or why hobby programming communities are against LLM usage",
-      "url": "https://blog.fogus.me/llm/born-against.html",
-      "summary": "<p>Article URL: <a href=\"https://blog.fogus.me/llm/born-against.html\">https://blog.fogus.me/llm/born-against.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187061\">https://news.ycombinator.com/item?id=49187061</a></p>\n<p>Points: 157</p>\n<p># Comments: 157</p>",
-      "published": "Wed, 05 Aug 2026 18:37:49 +0000",
+      "title": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "summary": "<p>Article URL: <a href=\"https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/\">https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49199357\">https://news.ycombinator.com/item?id=49199357</a></p>\n<p>Points: 167</p>\n<p",
+      "published": "Thu, 06 Aug 2026 17:02:04 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
-      "url": "https://arxiv.org/abs/2510.01395",
-      "summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2510.01395\">https://arxiv.org/abs/2510.01395</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49186720\">https://news.ycombinator.com/item?id=49186720</a></p>\n<p>Points: 83</p>\n<p># Comments: 57</p>",
-      "published": "Wed, 05 Aug 2026 18:17:03 +0000",
+      "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+      "url": "https://provenmetal.com",
+      "summary": "<p>Hey HN, we\u2019re Will & Johnny from ProvenMetal (<a href=\"https://provenmetal.com\">https://provenmetal.com</a>). You send us design files or specs and we give you assembled boards domestically in days.<p>The US produced 30% of PCBs globally in 2000, now they produce 4%. Chinese manufacturers have co",
+      "published": "Thu, 06 Aug 2026 15:59:15 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Launch HN: HyperProbe (YC S26) \u2013 Agents that do read-only debugging in prod",
-      "url": "https://www.hyperprobe.co",
-      "summary": "<p>Hi HN, this is Shailendra and Karan here. We are building a fast and safe way for coding agents to debug issues live in production.<p>When prod breaks, it lets Cursor, Claude, and others drop virtual breakpoints or probes safely in your running code, and extract the exact variable values that log",
-      "published": "Wed, 05 Aug 2026 16:47:15 +0000",
+      "title": "GitHub Actions and Pages are experiencing degraded availability",
+      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+      "summary": "<p><a href=\"https://www.githubstatus.com/uptime/br0l2tvcx85d\" rel=\"nofollow\">https://www.githubstatus.com/uptime/br0l2tvcx85d</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49198302\">https://news.ycombinator.com/item?id=49198302</a></p>\n<p>Points: 342</p>\n<p># Comments",
+      "published": "Thu, 06 Aug 2026 15:49:38 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "summary": "<p><a href=\"https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai\" rel=\"nofollow\">https://www.axios.com/2026/08/05/google-deepmind-demis-hassa...</a><p><a href=\"https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05/\" rel=\"nofollow\">https:/",
-      "published": "Wed, 05 Aug 2026 16:05:31 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The Entropy of a Markov Chain",
-      "url": "https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain",
-      "summary": "<p>Article URL: <a href=\"https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain\">https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49183017\">https://news.ycombinator.com/item?id=49183017</",
-      "published": "Wed, 05 Aug 2026 14:00:10 +0000",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "summary": "<p>Article URL: <a href=\"https://scalex.dev/blog/ai-agent-permissions-stats/\">https://scalex.dev/blog/ai-agent-permissions-stats/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49195468\">https://news.ycombinator.com/item?id=49195468</a></p>\n<p>Points: 259</p>\n<p># Comments: 1",
+      "published": "Thu, 06 Aug 2026 11:58:07 +0000",
       "source": "Hacker News"
     }
   ]

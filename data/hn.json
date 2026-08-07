@@ -1,74 +1,67 @@
 {
-  "fetched_at": "2026-08-06T03:31:08.490683+00:00",
+  "fetched_at": "2026-08-07T03:13:49.650878+00:00",
   "stories": [
     {
-      "title": "Nashville uses eminent domain to block data center near zoo",
-      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
-      "summary": "<p>Article URL: <a href=\"https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project\">https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</a></p>\n<p>Comments URL: <a href=\"http",
-      "published": "Thu, 06 Aug 2026 02:15:14 +0000",
+      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron\u2013sulfur clusters",
+      "url": "https://zenodo.org/records/21359923",
+      "summary": "<p>Author here.<p>Background, for anyone who hasn't followed this fight: IBM's iron\u2013sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selecte",
+      "published": "Thu, 06 Aug 2026 22:50:09 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "LLMs won't break symmetric crypto",
-      "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-      "summary": "<p>Article URL: <a href=\"https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto\">https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49191365\">https://news.ycombinator.com/item?id=49191365</a></p>\n<p>Points: 43</p>\n<p># ",
-      "published": "Thu, 06 Aug 2026 01:39:06 +0000",
+      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+      "url": "https://www.aleksagordic.com/blog/vllm",
+      "summary": "<p>Article URL: <a href=\"https://www.aleksagordic.com/blog/vllm\">https://www.aleksagordic.com/blog/vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202852\">https://news.ycombinator.com/item?id=49202852</a></p>\n<p>Points: 74</p>\n<p># Comments: 3</p>",
+      "published": "Thu, 06 Aug 2026 21:30:21 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Prime Agent: A self-improving RLM agent",
-      "url": "https://www.primeintellect.ai/blog/prime-agent",
-      "summary": "<p>Article URL: <a href=\"https://www.primeintellect.ai/blog/prime-agent\">https://www.primeintellect.ai/blog/prime-agent</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49189075\">https://news.ycombinator.com/item?id=49189075</a></p>\n<p>Points: 119</p>\n<p># Comments: 20</p>",
-      "published": "Wed, 05 Aug 2026 21:11:57 +0000",
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+      "summary": "<p>Article URL: <a href=\"https://www.sciencedaily.com/releases/2026/08/260803080917.htm\">https://www.sciencedaily.com/releases/2026/08/260803080917.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202716\">https://news.ycombinator.com/item?id=49202716</a></p>\n<p>Points: 64",
+      "published": "Thu, 06 Aug 2026 21:18:32 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "I'm switching my phone from Android to Linux",
-      "url": "https://runarcn.no/android-to-linux/",
-      "summary": "<p>Article URL: <a href=\"https://runarcn.no/android-to-linux/\">https://runarcn.no/android-to-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49188022\">https://news.ycombinator.com/item?id=49188022</a></p>\n<p>Points: 238</p>\n<p># Comments: 193</p>",
-      "published": "Wed, 05 Aug 2026 19:50:13 +0000",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "summary": "<p><a href=\"https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https://ir.amd.com/news-events/press-releases/detail/1296/am...</a><p><a href=\"https://chatjimmy.ai/\" rel=\"nofollow\">https://",
+      "published": "Thu, 06 Aug 2026 20:23:11 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Muse Code and Muse Spark 1.2",
-      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "summary": "<p>Article URL: <a href=\"https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2\">https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187575\">https://news.ycombinator.com/item?id=49187575</a></",
-      "published": "Wed, 05 Aug 2026 19:15:52 +0000",
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/?intelligence=agentic-index\">https://artificialanalysis.ai/?intelligence=agentic-index</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49200652\">https://news.ycombinator.com/item?id=49200652</a></p>\n<p>Points: 449</p>\n<p>#",
+      "published": "Thu, 06 Aug 2026 18:44:49 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Born Against, or why hobby programming communities are against LLM usage",
-      "url": "https://blog.fogus.me/llm/born-against.html",
-      "summary": "<p>Article URL: <a href=\"https://blog.fogus.me/llm/born-against.html\">https://blog.fogus.me/llm/born-against.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187061\">https://news.ycombinator.com/item?id=49187061</a></p>\n<p>Points: 157</p>\n<p># Comments: 157</p>",
-      "published": "Wed, 05 Aug 2026 18:37:49 +0000",
+      "title": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "summary": "<p>Article URL: <a href=\"https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/\">https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49199357\">https://news.ycombinator.com/item?id=49199357</a></p>\n<p>Points: 167</p>\n<p",
+      "published": "Thu, 06 Aug 2026 17:02:04 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
-      "url": "https://arxiv.org/abs/2510.01395",
-      "summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2510.01395\">https://arxiv.org/abs/2510.01395</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49186720\">https://news.ycombinator.com/item?id=49186720</a></p>\n<p>Points: 83</p>\n<p># Comments: 57</p>",
-      "published": "Wed, 05 Aug 2026 18:17:03 +0000",
+      "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+      "url": "https://provenmetal.com",
+      "summary": "<p>Hey HN, we\u2019re Will & Johnny from ProvenMetal (<a href=\"https://provenmetal.com\">https://provenmetal.com</a>). You send us design files or specs and we give you assembled boards domestically in days.<p>The US produced 30% of PCBs globally in 2000, now they produce 4%. Chinese manufacturers have co",
+      "published": "Thu, 06 Aug 2026 15:59:15 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Launch HN: HyperProbe (YC S26) \u2013 Agents that do read-only debugging in prod",
-      "url": "https://www.hyperprobe.co",
-      "summary": "<p>Hi HN, this is Shailendra and Karan here. We are building a fast and safe way for coding agents to debug issues live in production.<p>When prod breaks, it lets Cursor, Claude, and others drop virtual breakpoints or probes safely in your running code, and extract the exact variable values that log",
-      "published": "Wed, 05 Aug 2026 16:47:15 +0000",
+      "title": "GitHub Actions and Pages are experiencing degraded availability",
+      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+      "summary": "<p><a href=\"https://www.githubstatus.com/uptime/br0l2tvcx85d\" rel=\"nofollow\">https://www.githubstatus.com/uptime/br0l2tvcx85d</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49198302\">https://news.ycombinator.com/item?id=49198302</a></p>\n<p>Points: 342</p>\n<p># Comments",
+      "published": "Thu, 06 Aug 2026 15:49:38 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "summary": "<p><a href=\"https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai\" rel=\"nofollow\">https://www.axios.com/2026/08/05/google-deepmind-demis-hassa...</a><p><a href=\"https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05/\" rel=\"nofollow\">https:/",
-      "published": "Wed, 05 Aug 2026 16:05:31 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The Entropy of a Markov Chain",
-      "url": "https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain",
-      "summary": "<p>Article URL: <a href=\"https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain\">https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49183017\">https://news.ycombinator.com/item?id=49183017</",
-      "published": "Wed, 05 Aug 2026 14:00:10 +0000",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "summary": "<p>Article URL: <a href=\"https://scalex.dev/blog/ai-agent-permissions-stats/\">https://scalex.dev/blog/ai-agent-permissions-stats/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49195468\">https://news.ycombinator.com/item?id=49195468</a></p>\n<p>Points: 259</p>\n<p># Comments: 1",
+      "published": "Thu, 06 Aug 2026 11:58:07 +0000",
       "source": "Hacker News"
     }
   ]
