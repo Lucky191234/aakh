@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-08-07T03:13:50.120090+00:00",
+  "fetched_at": "2026-08-08T02:17:20.586603+00:00",
   "word_of_day": {
-    "word": "frugal",
-    "phonetic": "/\u02c8f\u0279u\u02d0\u0261\u0259l/",
-    "part_of_speech": "adjective",
-    "definition": "Avoiding unnecessary expenditure either of money or of anything else which is to be used or consumed; avoiding waste.",
+    "word": "gratitude",
+    "phonetic": "/\u02c8\u0261\u0279\u00e6t\u026at(j)ud/",
+    "part_of_speech": "noun",
+    "definition": "The state of being grateful.",
     "example": "",
-    "date": "August 07, 2026",
-    "source_url": "https://www.merriam-webster.com/dictionary/frugal"
+    "date": "August 08, 2026",
+    "source_url": "https://www.merriam-webster.com/dictionary/gratitude"
   }
 }

@@ -1,67 +1,46 @@
 {
-  "fetched_at": "2026-08-07T03:13:49.650878+00:00",
+  "fetched_at": "2026-08-08T02:17:20.294690+00:00",
   "stories": [
     {
-      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron\u2013sulfur clusters",
-      "url": "https://zenodo.org/records/21359923",
-      "summary": "<p>Author here.<p>Background, for anyone who hasn't followed this fight: IBM's iron\u2013sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selecte",
-      "published": "Thu, 06 Aug 2026 22:50:09 +0000",
+      "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
+      "url": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+      "summary": "<p>Article URL: <a href=\"https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070\">https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief",
+      "published": "Fri, 07 Aug 2026 21:19:57 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-      "url": "https://www.aleksagordic.com/blog/vllm",
-      "summary": "<p>Article URL: <a href=\"https://www.aleksagordic.com/blog/vllm\">https://www.aleksagordic.com/blog/vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202852\">https://news.ycombinator.com/item?id=49202852</a></p>\n<p>Points: 74</p>\n<p># Comments: 3</p>",
-      "published": "Thu, 06 Aug 2026 21:30:21 +0000",
+      "title": "Managing AI Coding Costs at Scale",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "summary": "<p>Article URL: <a href=\"https://www.databricks.com/blog/managing-ai-coding-costs-scale\">https://www.databricks.com/blog/managing-ai-coding-costs-scale</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214468\">https://news.ycombinator.com/item?id=49214468</a></p>\n<p>Points: 16",
+      "published": "Fri, 07 Aug 2026 18:25:17 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
-      "summary": "<p>Article URL: <a href=\"https://www.sciencedaily.com/releases/2026/08/260803080917.htm\">https://www.sciencedaily.com/releases/2026/08/260803080917.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202716\">https://news.ycombinator.com/item?id=49202716</a></p>\n<p>Points: 64",
-      "published": "Thu, 06 Aug 2026 21:18:32 +0000",
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "summary": "<p>Article URL: <a href=\"https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code\">https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code</a><",
+      "published": "Fri, 07 Aug 2026 17:36:30 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "summary": "<p><a href=\"https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https://ir.amd.com/news-events/press-releases/detail/1296/am...</a><p><a href=\"https://chatjimmy.ai/\" rel=\"nofollow\">https://",
-      "published": "Thu, 06 Aug 2026 20:23:11 +0000",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "summary": "<p>Article URL: <a href=\"https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/\">https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49213029\">https://news.ycombinator.com/item?i",
+      "published": "Fri, 07 Aug 2026 16:39:36 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
-      "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/?intelligence=agentic-index\">https://artificialanalysis.ai/?intelligence=agentic-index</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49200652\">https://news.ycombinator.com/item?id=49200652</a></p>\n<p>Points: 449</p>\n<p>#",
-      "published": "Thu, 06 Aug 2026 18:44:49 +0000",
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "summary": "<p>Article URL: <a href=\"https://www.noemamag.com/why-is-everyone-in-tech-so-sad/\">https://www.noemamag.com/why-is-everyone-in-tech-so-sad/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49209539\">https://news.ycombinator.com/item?id=49209539</a></p>\n<p>Points: 435</p>\n<p># C",
+      "published": "Fri, 07 Aug 2026 12:42:27 +0000",
       "source": "Hacker News"
     },
     {
-      "title": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
-      "summary": "<p>Article URL: <a href=\"https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/\">https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49199357\">https://news.ycombinator.com/item?id=49199357</a></p>\n<p>Points: 167</p>\n<p",
-      "published": "Thu, 06 Aug 2026 17:02:04 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
-      "url": "https://provenmetal.com",
-      "summary": "<p>Hey HN, we\u2019re Will & Johnny from ProvenMetal (<a href=\"https://provenmetal.com\">https://provenmetal.com</a>). You send us design files or specs and we give you assembled boards domestically in days.<p>The US produced 30% of PCBs globally in 2000, now they produce 4%. Chinese manufacturers have co",
-      "published": "Thu, 06 Aug 2026 15:59:15 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "GitHub Actions and Pages are experiencing degraded availability",
-      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
-      "summary": "<p><a href=\"https://www.githubstatus.com/uptime/br0l2tvcx85d\" rel=\"nofollow\">https://www.githubstatus.com/uptime/br0l2tvcx85d</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49198302\">https://news.ycombinator.com/item?id=49198302</a></p>\n<p>Points: 342</p>\n<p># Comments",
-      "published": "Thu, 06 Aug 2026 15:49:38 +0000",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
-      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "summary": "<p>Article URL: <a href=\"https://scalex.dev/blog/ai-agent-permissions-stats/\">https://scalex.dev/blog/ai-agent-permissions-stats/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49195468\">https://news.ycombinator.com/item?id=49195468</a></p>\n<p>Points: 259</p>\n<p># Comments: 1",
-      "published": "Thu, 06 Aug 2026 11:58:07 +0000",
+      "title": "Show HN: Wyzer Programming Language",
+      "url": "https://github.com/Wyzer-Lang/wyzer",
+      "summary": "<p>So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i b",
+      "published": "Fri, 07 Aug 2026 12:28:55 +0000",
       "source": "Hacker News"
     }
   ]

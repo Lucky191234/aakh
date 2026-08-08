@@ -1,69 +1,69 @@
 {
-  "fetched_at": "2026-08-07T03:13:52.143658+00:00",
+  "fetched_at": "2026-08-08T02:17:22.710216+00:00",
   "hot_topics": [
     {
       "type": "repo",
-      "title": "AutoGPT",
-      "description": "A vision of accessible AI for everyone, providing the tools to use and build on.",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "big_question": "Can accessible AI truly democratize AI development and use?",
-      "head_fake": "A project that aims to make AI available to everyone, not just experts"
+      "title": "Your own personal AI assistant",
+      "description": "Open-source AI assistant that works across any OS or platform.",
+      "url": "https://github.com/openclaw/openclaw",
+      "big_question": "How can we balance ease of development with AI complexity?",
+      "head_fake": "Just a personal AI assistant, until you realize it's more like a personal AI manager"
     },
     {
       "type": "repo",
-      "title": "TensorFlow",
-      "description": "An Open Source Machine Learning Framework for Everyone.",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "big_question": "Can machine learning frameworks like TensorFlow truly democratize access to AI and ML?",
-      "head_fake": "A widely-used ML framework that makes AI more accessible"
+      "title": "The agent harness performance optimization system",
+      "description": "Skills, instincts, memory, security, and research-first development framework.",
+      "url": "https://github.com/affaan-m/ECC",
+      "big_question": "Can performance optimization systems also enable human creativity?",
+      "head_fake": "Just a bunch of code for performance optimization until you realize it's a whole new way of working"
     },
     {
       "type": "hn",
-      "title": "Human error in AI permissions",
-      "description": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs.",
-      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "big_question": "Can humans accurately approve AI agent commands without missing threats?",
-      "head_fake": "A study that reveals the surprising extent to which humans miss threats approving AI agents"
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "description": "OpenAI blog post on the future of critical cyber capabilities and human agency.",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "big_question": "What new forms of human agency might arise from advanced cyber capabilities?",
+      "head_fake": "Just another cybersecurity article until you realize it's about rewriting the rules of human agency"
     },
     {
       "type": "floater",
-      "title": "AI-powered coding agent",
-      "description": "A new coding agent that combines visual building with custom code, self-hosting, and native AI capabilities.",
-      "url": "https://github.com/n8n-io/n8n",
-      "big_question": "Can self-hosted AI-powered workflow automation really change the way developers work?",
-      "head_fake": "A platform that lets users combine visual building with custom code for seamless automation"
+      "title": "Water system controllers don't belong on the internet",
+      "description": "Security risks and concerns raised by water system controllers going online.",
+      "url": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+      "big_question": "What is the true cost of 'connected infrastructure' to global security?",
+      "head_fake": "Just a story about security threats until you realize it's about the fabric of modern life"
     },
     {
       "type": "floater",
-      "title": "Quantum chemistry benchmark",
-      "description": "A spin audit of SQD/QSCI quantum-chemistry benchmarks on iron\u2013sulfur clusters.",
-      "url": "https://zenodo.org/records/21359923",
-      "big_question": "Can we accurately simulate quantum chemistry on a large scale using benchmarking techniques?",
-      "head_fake": "A spin audit of quantum-chemistry benchmarks to improve accuracy and speed"
-    },
-    {
-      "type": "floater",
-      "title": "Inference performance boost",
-      "description": "AMD acquires Taalas to boost performance by etching models into silicon.",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "big_question": "Can etching models into silicon really improve inference performance?",
-      "head_fake": "A breakthrough in inference performance through model etching"
+      "title": "Managing AI Coding Costs at Scale",
+      "description": "Databricks blog post exploring AI coding costs and scaling AI development.",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "big_question": "How can we make AI development accessible to the masses without sacrificing quality?",
+      "head_fake": "Just an article on AI costs until you realize it's about building a sustainable AI future"
     },
     {
       "type": "repo",
-      "title": "ECC",
-      "description": "The agent harness performance optimization system.",
-      "url": "https://github.com/affaan-m/ECC",
-      "big_question": "Can performance optimization systems like ECC really improve developer productivity?",
-      "head_fake": "A project that aims to optimize developer productivity through performance enhancement"
+      "title": "Interactive developer roadmaps",
+      "description": "Guides and educational content for developers to grow in their careers.",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "big_question": "How much of developer career growth comes from deliberate practice vs. opportunity?",
+      "head_fake": "Just a set of interactive tools until you realize they're a whole new career framework"
     },
     {
-      "type": "floater",
-      "title": "Agentic index ranking",
-      "description": "Qwen3.8 Max now ranked as the best overall model by agentic index.",
-      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
-      "big_question": "Can the agentic index really measure model performance and ranking?",
-      "head_fake": "A breakthrough in measuring model performance using the agentic index"
+      "type": "repo",
+      "title": "An agentic skills framework & software development methodology",
+      "description": "Skills framework & software development methodology that works.",
+      "url": "https://github.com/obra/superpowers",
+      "big_question": "Can we use software development methodologies to build agentic human skills?",
+      "head_fake": "Just another development methodology until you realize it's about becoming superpowered"
+    },
+    {
+      "type": "repo",
+      "title": "Fair-code workflow automation platform with native AI capabilities",
+      "description": "Combine visual building with custom code, self-hosted.",
+      "url": "https://github.com/n8n-io/n8n",
+      "big_question": "How far can workflow automation take human productivity?",
+      "head_fake": "Just another automation tool until you realize it's a new kind of human work assistant"
     }
   ]
 }
